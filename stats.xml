@@ -7,6 +7,9 @@
   <size>
     <total><sentences>15295</sentences><tokens>259684</tokens><words>259684</words><fused>0</fused></total>
   </size>
+  <lemmas unique="3375" /><!-- ,, sum, ., in, qui, et, non, forma, quod, :, ad, autem, per, hic, is -->
+  <forms unique="12132" /><!-- ,, ., est, in, et, quod, non, :, ad, esse, autem, per, forma, ;, sed -->
+  <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="9">
     <tag name="ADP">24647</tag><!-- in, ad, per, e, secundum, a, cum, de, propter, supra -->
