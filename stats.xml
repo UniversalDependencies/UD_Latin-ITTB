@@ -11,16 +11,19 @@
   <forms unique="12132" /><!-- ,, ., est, in, et, quod, non, :, ad, esse, autem, per, forma, ;, sed -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
-  <tags unique="11">
+  <tags unique="14">
     <tag name="ADJ">12843</tag><!-- primus, naturalis, proprius, possibilis, solus, multus, infinitus, ulterior, humanus, substantialis -->
-    <tag name="ADP">24647</tag><!-- in, ad, per, e, secundum, a, cum, de, propter, supra -->
+    <tag name="ADP">24654</tag><!-- in, ad, per, e, secundum, a, cum, de, propter, supra -->
+    <tag name="ADV">17630</tag><!-- non, igitur, enim, etiam, unde, sic, ergo, nam, tamen, scilicet -->
     <tag name="AUX">1230</tag><!-- sum -->
+    <tag name="CONJ">14004</tag><!-- et, autem, sed, vel, nec, neque, aut, sive, ac, tum -->
     <tag name="DET">3368</tag><!-- omnis, suus, noster, meus, tuus, ceterus, cunctus, plerusque, reliquus, plurimus -->
     <tag name="NOUN">64171</tag><!-- forma, deus, materia, intellectus, corpus, res, sui, anima, actus, esse -->
     <tag name="NUM">1803</tag><!-- unus, _, duo -->
-    <tag name="PART">46252</tag><!-- et, non, quod, autem, sed, ut, igitur, sicut, enim, quia -->
+    <tag name="PART">1645</tag><!-- hujusmodi, item, adhuc, praeterea, non, ergo, quidem, ita, magis, tamen -->
     <tag name="PRON">22343</tag><!-- qui, hic, is, ipse, alius, aliqui, aliquis, ille, quidam, idem -->
     <tag name="PUNCT">35741</tag><!-- ,, ., :, ;, (, ), -, ? -->
+    <tag name="SCONJ">12966</tag><!-- quod, ut, sicut, quia, si, nisi, in+quantum, quam, quamvis, quando -->
     <tag name="VERB">46776</tag><!-- sum, dico, possum, habeo, intelligo, facio, moveo, oportet, ago, cognosco -->
     <tag name="X">510</tag><!-- _, 4-O--------, decuplus, quod, parvus, quam, vero^adv./etc. -->
   </tags>
@@ -64,7 +67,7 @@
     <feat name="PronType" value="Int,Rel" upos="PRON">72</feat><!-- qualiter, qualis, quale, qualem, quales, quantum, quot, quantae, quali, qualia -->
     <feat name="PronType" value="Neg" upos="PRON">355</feat><!-- nihil, nihilo, nihilum, nemo, nil -->
     <feat name="PronType" value="Prs" upos="DET,PRON">1992</feat><!-- sua, suam, suum, nobis, suae, noster, nos, suo, sui, nostra -->
-    <feat name="PronType" value="Rel" upos="PART,PRON">6629</feat><!-- quae, quod, qui, quo, quam, qua, quibus, cuius, quorum, quem -->
+    <feat name="PronType" value="Rel" upos="PRON,SCONJ">6629</feat><!-- quae, quod, qui, quo, quam, qua, quibus, cuius, quorum, quem -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">775</feat><!-- erit, poterit, sequetur, oportebit, erunt, habebit, fuerit, dicetur, ostendetur, apparebit -->
     <feat name="Tense" value="Imp" upos="AUX,VERB">1359</feat><!-- esset, posset, essent, erat, sequeretur, oporteret, haberet, cognosceret, dicebant, ponebat -->
     <feat name="Tense" value="Past" upos="AUX,VERB">6065</feat><!-- ostensum, dictum, separatae, separata, probatum, fuit, separatas, dictis, praemissis, intellecta -->
@@ -85,23 +88,23 @@
     <dep name="advcl">8536</dep>
     <dep name="advmod">4702</dep>
     <dep name="advmod:emph">2905</dep>
-    <dep name="amod">9157</dep>
+    <dep name="amod">9158</dep>
     <dep name="appos">271</dep>
     <dep name="aux">16</dep>
     <dep name="auxpass">1211</dep>
     <dep name="auxpass:reflex">225</dep>
     <dep name="case">21566</dep>
-    <dep name="cc">22589</dep>
+    <dep name="cc">22588</dep>
     <dep name="ccomp">1267</dep>
     <dep name="compound">11</dep>
-    <dep name="conj">7762</dep>
+    <dep name="conj">7761</dep>
     <dep name="cop">10373</dep>
     <dep name="csubj">4015</dep>
     <dep name="csubjpass">399</dep>
     <dep name="dep">4756</dep>
     <dep name="dobj">12524</dep>
     <dep name="iobj">848</dep>
-    <dep name="mark">14308</dep>
+    <dep name="mark">14309</dep>
     <dep name="neg">5672</dep>
     <dep name="nmod">38570</dep>
     <dep name="nsubj">17152</dep>
