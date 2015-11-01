@@ -12,13 +12,13 @@
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="14">
-    <tag name="ADJ">12843</tag><!-- primus, naturalis, proprius, possibilis, solus, multus, infinitus, ulterior, humanus, substantialis -->
+    <tag name="ADJ">13292</tag><!-- primus, naturalis, proprius, possibilis, solus, multus, infinitus, ulterior, humanus, substantialis -->
     <tag name="ADP">24654</tag><!-- in, ad, per, e, secundum, a, cum, de, propter, supra -->
     <tag name="ADV">17630</tag><!-- non, igitur, enim, etiam, unde, sic, ergo, nam, tamen, scilicet -->
     <tag name="AUX">1230</tag><!-- sum -->
     <tag name="CONJ">14004</tag><!-- et, autem, sed, vel, nec, neque, aut, sive, ac, tum -->
     <tag name="DET">3368</tag><!-- omnis, suus, noster, meus, tuus, ceterus, cunctus, plerusque, reliquus, plurimus -->
-    <tag name="NOUN">64171</tag><!-- forma, deus, materia, intellectus, corpus, res, sui, anima, actus, esse -->
+    <tag name="NOUN">63722</tag><!-- forma, deus, materia, intellectus, corpus, res, sui, anima, actus, esse -->
     <tag name="NUM">1803</tag><!-- unus, _, duo -->
     <tag name="PART">1645</tag><!-- hujusmodi, item, adhuc, praeterea, non, ergo, quidem, ita, magis, tamen -->
     <tag name="PRON">22343</tag><!-- qui, hic, is, ipse, alius, aliqui, aliquis, ille, quidam, idem -->
@@ -54,7 +54,7 @@
     <feat name="NumForm" value="Digit" upos="NUM">614</feat><!-- iii, 1, 2, i, ii, vii, viii, iv, 3, vi -->
     <feat name="NumType" value="Card" upos="NUM">1189</feat><!-- unum, una, unius, uno, unam, unus, duo, duobus, duae, duorum -->
     <feat name="NumType" value="Dist" upos="ADJ">45</feat><!-- singula, singulis, singulas, singulae, singulorum, singillatim, singulos, singulum -->
-    <feat name="NumType" value="Ord" upos="ADJ">1763</feat><!-- primum, primo, prima, prius, secundum, secundo, tertium, primam, primi, secunda -->
+    <feat name="NumType" value="Ord" upos="ADJ">1837</feat><!-- primum, primo, prima, prius, secundum, secundo, tertium, primam, primi, quartum -->
     <feat name="Person" value="1" upos="AUX,VERB">760</feat><!-- dicimus, videmus, possumus, intelligimus, respondeo, dico, cognoscimus, ostendi, volumus, dicimur -->
     <feat name="Person" value="2" upos="AUX,VERB,X">95</feat><!-- puta, fecisti, es, etc., odisti, accipite, dicas, diligis, docete, estis -->
     <feat name="Person" value="3" upos="AUX,VERB,X">31941</feat><!-- est, sit, sunt, potest, oportet, habet, dicitur, patet, dicit, esset -->
@@ -84,11 +84,11 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="31">
-    <dep name="acl">9837</dep>
-    <dep name="advcl">8536</dep>
-    <dep name="advmod">4702</dep>
+    <dep name="acl">9836</dep>
+    <dep name="advcl">8537</dep>
+    <dep name="advmod">4754</dep>
     <dep name="advmod:emph">2905</dep>
-    <dep name="amod">9158</dep>
+    <dep name="amod">9279</dep>
     <dep name="appos">271</dep>
     <dep name="aux">16</dep>
     <dep name="auxpass">1211</dep>
@@ -106,7 +106,7 @@
     <dep name="iobj">848</dep>
     <dep name="mark">14309</dep>
     <dep name="neg">5672</dep>
-    <dep name="nmod">38570</dep>
+    <dep name="nmod">38397</dep>
     <dep name="nsubj">17152</dep>
     <dep name="nsubjpass">5031</dep>
     <dep name="nummod">947</dep>

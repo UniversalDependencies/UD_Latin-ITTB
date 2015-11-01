@@ -461,7 +461,7 @@
 3	bruta	brutus	ADJ	B1|grn1|casJ|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	4	nsubj	_	_
 4	possunt	possum	VERB	N3|modA|tem1|gen9	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	0	root	_	_
 5	dici	dico	VERB	N3|modQ|tem1	Tense=Pres|VerbForm=Inf|Voice=Pass	6	cop	_	_
-6	felicia	felix	NOUN	C1|grn1|casJ|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	4	xcomp	_	_
+6	felicia	felix	ADJ	C1|grn1|casJ|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	4	xcomp	_	_
 7	,	,	PUNCT	Punc	_	9	punct	_	_
 8	nisi	nisi	SCONJ	O4	_	9	mark	_	_
 9	abusive	abusivus	NOUN	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	4	dep	_	_
@@ -1136,7 +1136,7 @@
 10	post	post	ADP	S4	AdpType=Prep	11	case	_	_
 11	resurrectionem	resurrectio	NOUN	C1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	nmod	_	_
 12	,	,	PUNCT	Punc	_	11	punct	_	_
-13	mille	mille	NOUN	G1	_	14	nmod	_	_
+13	mille	mille	ADJ	G1	_	14	amod	_	_
 14	annos	annus	NOUN	B1|grn1|casM|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	23	nsubj	_	_
 15	in	in	ADP	S4	AdpType=Prep	16	case	_	_
 16	regno	regnum	NOUN	B1|grn1|casF|gen3	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing	23	nmod	_	_
@@ -1473,7 +1473,7 @@
 2	autem	autem	CONJ	O4	_	3	cc	_	_
 3	possunt	possum	VERB	N3|modA|tem1|gen9	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	0	root	_	_
 4	etiam	etiam	ADV	O4|vgr1	_	5	advmod:emph	_	_
-5	mali	malus	NOUN	B1|grn1|casJ|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	nsubj	_	_
+5	mali	malus	ADJ	B1|grn1|casJ|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	nsubj	_	_
 6	.	.	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id a_tree-la-s98-root
@@ -1536,7 +1536,7 @@
 8	impossibile	impossibilis	ADJ	C1|grn1|casA|gen3|vgr1	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 9	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
 10	esse	sum	VERB	N3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	11	cop	_	_
-11	malum	malus	NOUN	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	xcomp	_	_
+11	malum	malus	ADJ	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	xcomp	_	_
 12	.	.	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id a_tree-la-s4-root
@@ -1545,7 +1545,7 @@
 2	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
 3	igitur	igitur	ADV	O4	_	1	cc	_	_
 4	esse	sum	VERB	N3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	5	cop	_	_
-5	malum	malus	NOUN	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	1	xcomp	_	_
+5	malum	malus	ADJ	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	1	xcomp	_	_
 6	cui	qui	PRON	F1|grn1|casC|gen3	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	7	dobj	_	_
 7	adest	assum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj	_	_
 8	summum	summus	ADJ	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
@@ -1557,7 +1557,7 @@
 1	potest	possum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	0	root	_	_
 2	autem	autem	CONJ	O4	_	1	cc	_	_
 3	aliquis	aliquis	PRON	F1|grn1|casA|gen1|varA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Ind	1	nsubjpass	_	_
-4	malus	malus	NOUN	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	nmod	_	_
+4	malus	malus	ADJ	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 5	honorem	honor	NOUN	C1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	dobj	_	_
 6	consequi	consequor	VERB	L3|modQ|tem1	Tense=Pres|VerbForm=Inf|Voice=Pass	1	xcomp	_	_
 7	.	.	PUNCT	Punc	_	1	punct	_	_
@@ -2365,7 +2365,7 @@
 10	;	;	PUNCT	Punc	_	11	punct	_	_
 11	et	et	CONJ	O4	_	24	cc	_	_
 12	quod	quod	SCONJ	O4	_	15	cc	_	_
-13	malis	malus	NOUN	B1|grn1|casL|gen1	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	14	dobj	_	_
+13	malis	malus	ADJ	B1|grn1|casL|gen1	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	14	dobj	_	_
 14	advenire	advenio	VERB	M3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	15	xcomp	_	_
 15	possunt	possum	VERB	N3|modA|tem1|gen9	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	24	acl	_	_
 16	,	,	PUNCT	Punc	_	18	punct	_	_
@@ -2401,7 +2401,7 @@
 4	consistit	consisto	VERB	L3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	in	in	ADP	S4	AdpType=Prep	6	case	_	_
 6	potentia	potentia	NOUN	A1|grn1|casF|gen2|vgr1	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	4	dobj	_	_
-7	mundana	mundanus	NOUN	A1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	6	nmod	_	_
+7	mundana	mundanus	ADJ	A1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
 8	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id a_tree-la-s69-root
@@ -2409,7 +2409,7 @@
 1	similiter	similis	NOUN	C1|grn1|casG	Case=Loc|Degree=Pos|Number=Sing	10	nmod	_	_
 2	autem	autem	CONJ	O4	_	10	cc	_	_
 3	nec	nec	CONJ	O4	_	5	advmod:emph	_	_
-4	mundana	mundanus	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	nmod	_	_
+4	mundana	mundanus	ADJ	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	potentia	potentia	NOUN	A1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	nsubj	_	_
 6	summum	summus	ADJ	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
 7	hominis	homo	NOUN	C1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	nmod	_	_
@@ -2438,7 +2438,7 @@
 30	;	;	PUNCT	Punc	_	19	punct	_	_
 31	et	et	CONJ	O4	_	19	cc	_	_
 32	plerumque	plerusque	DET	B1|grn1|casA|gen3|comH	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	34	advmod	_	_
-33	malis	malus	NOUN	B1|grn1|casL|gen1	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	34	dobj	_	_
+33	malis	malus	ADJ	B1|grn1|casL|gen1	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	34	dobj	_	_
 34	adveniat	advenio	VERB	M3|modB|tem1|gen6	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	conj	_	_
 35	;	;	PUNCT	Punc	_	10	punct	_	_
 
@@ -2487,7 +2487,7 @@
 9	neque	neque	CONJ	O4	_	10	cc	_	_
 10	bonus	bonus	ADJ	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
 11	neque	neque	CONJ	O4	_	10	cc	_	_
-12	malus	malus	NOUN	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	conj	_	_
+12	malus	malus	ADJ	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	conj	_	_
 13	:	:	PUNCT	Punc	_	10	punct	_	_
 
 # sent_id a_tree-la-s74-root
@@ -2503,7 +2503,7 @@
 9	facere	facio	VERB	N3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	7	xcomp	_	_
 10	;	;	PUNCT	Punc	_	4	punct	_	_
 11	neque	neque	CONJ	O4	_	4	cc	_	_
-12	malus	malus	NOUN	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	conj	_	_
+12	malus	malus	ADJ	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	conj	_	_
 13	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	_
 14	aliquis	aliquis	PRON	F1|grn1|casA|gen1|varA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Ind	12	nsubj	_	_
 15	ex	e	ADP	S4|vgr2	AdpType=Prep	16	case	_	_
@@ -2579,7 +2579,7 @@
 5	et	et	CONJ	O4	_	6	cc	_	_
 6	bene	bene	ADV	O4	_	9	advmod	_	_
 7	et	et	CONJ	O4	_	6	cc	_	_
-8	male	malus	NOUN	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	6	conj	_	_
+8	male	malus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	6	conj	_	_
 9	uti	utor	VERB	L3|modQ|tem1	Tense=Pres|VerbForm=Inf|Voice=Pass	4	xcomp	_	_
 10	,	,	PUNCT	Punc	_	4	punct	_	_
 11	non	non	ADV	O4	_	12	neg	_	_
@@ -2597,7 +2597,7 @@
 3	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
 4	quo	qui	PRON	F1|grn1|casF|gen3	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	7	dobj	_	_
 5	nullus	nullus	PRON	F1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_
-6	male	malus	NOUN	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	7	nmod	_	_
+6	male	malus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	7	advmod	_	_
 7	uti	utor	VERB	L3|modQ|tem1	Tense=Pres|VerbForm=Inf|Voice=Pass	8	xcomp	_	_
 8	potest	possum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	1	advcl	_	_
 9	.	.	PUNCT	Punc	_	1	punct	_	_
@@ -2609,7 +2609,7 @@
 3	aliquis	aliquis	PRON	F1|grn1|casA|gen1|varA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_
 4	bene	bene	ADV	O4	_	7	advmod	_	_
 5	et	et	CONJ	O4	_	4	cc	_	_
-6	male	malus	NOUN	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	4	conj	_	_
+6	male	malus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	4	conj	_	_
 7	uti	utor	VERB	L3|modQ|tem1	Tense=Pres|VerbForm=Inf|Voice=Pass	8	xcomp	_	_
 8	potest	possum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	0	root	_	_
 9	:	:	PUNCT	Punc	_	8	punct	_	_
@@ -2723,7 +2723,7 @@
 3	igitur	igitur	ADV	O4	_	2	cc	_	_
 4	in	in	ADP	S4	AdpType=Prep	5	case	_	_
 5	potestate	potestas	NOUN	C1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	2	nmod	_	_
-6	mundana	mundanus	NOUN	A1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	5	nmod	_	_
+6	mundana	mundanus	ADJ	A1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 7	summum	summus	ADJ	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
 8	hominis	homo	NOUN	C1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	nmod	_	_
 9	bonum	bonum	NOUN	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	nsubj	_	_
@@ -2801,7 +2801,7 @@
 3	etiam	etiam	ADV	O4|vgr1	_	4	advmod:emph	_	_
 4	bonis	bonus	ADJ	B1|grn1|casL|gen1	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	7	dobj	_	_
 5	et	et	CONJ	O4	_	4	cc	_	_
-6	malis	malus	NOUN	B1|grn1|casL|gen1	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	4	conj	_	_
+6	malis	malus	ADJ	B1|grn1|casL|gen1	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	4	conj	_	_
 7	communia	communis	ADJ	C1|grn1|casJ|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	0	root	_	_
 8	sunt	sum	VERB	N3|modA|tem1|gen9	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 9	;	;	PUNCT	Punc	_	10	punct	_	_
@@ -3832,7 +3832,7 @@
 2	enim	enim	ADV	O4	_	3	cc	_	_
 3	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	circa	circa	ADP	S4	AdpType=Prep	1	case	_	_
-5	necessaria	necessarius	NOUN	B1|grn1|casM|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	1	nmod	_	_
+5	necessaria	necessarius	ADJ	B1|grn1|casM|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	1	advmod	_	_
 6	,	,	PUNCT	Punc	_	7	punct	_	_
 7	sed	sed	CONJ	O4|vgr1	_	3	cc	_	_
 8	circa	circa	ADP	S4	AdpType=Prep	9	mark	_	_
@@ -4316,7 +4316,7 @@
 13	omnia	omnis	DET	C1|grn1|casJ|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|PronType=Ind	12	amod	_	_
 14	quae	qui	PRON	F1|grn1|casJ|gen3|vgr1	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|PronType=Rel	16	nsubj	_	_
 15	sunt	sum	VERB	N3|modA|tem1|gen9	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_
-16	necessaria	necessarius	NOUN	B1|grn1|casJ|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	12	acl	_	_
+16	necessaria	necessarius	ADJ	B1|grn1|casJ|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	12	acl	_	_
 17	ad	ad	ADP	S4	AdpType=Prep	18	case	_	_
 18	vitam	vita	NOUN	A1|grn1|casD|gen2|vgr1	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	nmod	_	_
 19	.	.	PUNCT	Punc	_	5	punct	_	_
@@ -4628,7 +4628,7 @@
 
 # sent_id a_tree-la-s6-root
 # orig_file_sentence 004#6
-1	quarto	quartus	NOUN	B1|grn1|casG	Case=Loc|Degree=Pos|Number=Sing	6	nmod	_	_
+1	quarto	quartus	ADJ	B1|grn1|casG	Case=Loc|Degree=Pos|Number=Sing|NumType=Ord	6	advmod	_	_
 2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	utrum	utrum	ADV	O4	_	6	cc	_	_
 4	formae	forma	NOUN	A1|grn1|casJ|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	nsubj	_	_
