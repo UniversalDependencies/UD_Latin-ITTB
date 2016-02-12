@@ -17,11 +17,11 @@
     <tag name="ADV">19259</tag><!-- non, igitur, enim, etiam, unde, ergo, sic, nam, tamen, ita -->
     <tag name="AUX">1230</tag><!-- sum -->
     <tag name="CONJ">14013</tag><!-- et, autem, sed, vel, nec, neque, aut, sive, ac, tum -->
-    <tag name="DET">3374</tag><!-- omnis, suus, noster, meus, tuus, ceterus, cunctus, vester, plerusque, reliquus -->
+    <tag name="DET">2684</tag><!-- suus, omnis, noster, tuus, meus, ceterus, vester, cunctus, plurimus -->
     <tag name="INTJ">4</tag><!-- amen, ecce -->
     <tag name="NOUN">54751</tag><!-- forma, deus, materia, intellectus, corpus, res, anima, actus, esse, substantia -->
     <tag name="NUM">1888</tag><!-- unus, _, duo, tres, quatuor, mille, decem, octoginta, quinque, sex -->
-    <tag name="PRON">24730</tag><!-- qui, hic, is, ipse, alius, sui, aliqui, aliquis, ille, quidam -->
+    <tag name="PRON">25420</tag><!-- qui, hic, is, ipse, alius, sui, aliqui, aliquis, ille, quidam -->
     <tag name="PUNCT">35741</tag><!-- ,, ., :, ;, (, ), -, ? -->
     <tag name="SCONJ">12968</tag><!-- quod, ut, sicut, quia, si, nisi, in+quantum, quam, quamvis, quando -->
     <tag name="VERB">46862</tag><!-- sum, dico, possum, habeo, intelligo, facio, moveo, oportet, ago, cognosco -->
@@ -58,7 +58,7 @@
     <feat name="Person" value="1" upos="AUX,VERB">760</feat><!-- dicimus, videmus, possumus, intelligimus, respondeo, dico, cognoscimus, ostendi, volumus, dicimur -->
     <feat name="Person" value="2" upos="AUX,VERB,X">95</feat><!-- puta, fecisti, es, etc., odisti, accipite, dicas, diligis, docete, estis -->
     <feat name="Person" value="3" upos="AUX,VERB,X">31941</feat><!-- est, sit, sunt, potest, oportet, habet, dicitur, patet, dicit, esset -->
-    <feat name="Poss" value="Yes" upos="DET">1657</feat><!-- sua, suam, suum, suae, noster, suo, sui, nostra, suis, nostro -->
+    <feat name="Poss" value="Yes" upos="DET,PRON">1657</feat><!-- sua, suam, suum, suae, noster, suo, sui, nostra, suis, nostro -->
     <feat name="PronType" value="Dem" upos="ADV,PRON">3806</feat><!-- hoc, illud, haec, his, illa, illius, hanc, huius, hac, illam -->
     <feat name="PronType" value="Dem,Prs" upos="PRON">4761</feat><!-- eius, ipsum, eo, ea, ipsa, id, ei, ipsius, ipso, idem -->
     <feat name="PronType" value="Ind" upos="DET,PRON">8385</feat><!-- aliquid, aliqua, omnia, alia, omne, aliud, omnis, aliquam, quaedam, omnes -->
@@ -84,35 +84,36 @@
     <feat name="Voice" value="Pass" upos="VERB">14261</feat><!-- dicitur, ostensum, dicendum, videtur, fit, sequitur, invenitur, dici, dictum, fieri -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="31">
+  <deps unique="32">
     <dep name="acl">9840</dep>
-    <dep name="advcl">8574</dep>
-    <dep name="advmod">5628</dep>
-    <dep name="advmod:emph">2905</dep>
-    <dep name="amod">12518</dep>
-    <dep name="appos">271</dep>
+    <dep name="advcl">8570</dep>
+    <dep name="advmod">5627</dep>
+    <dep name="advmod:emph">2904</dep>
+    <dep name="amod">9729</dep>
+    <dep name="appos">321</dep>
     <dep name="aux">16</dep>
     <dep name="auxpass">1211</dep>
-    <dep name="auxpass:reflex">225</dep>
-    <dep name="case">21531</dep>
-    <dep name="cc">22588</dep>
-    <dep name="ccomp">1273</dep>
+    <dep name="auxpass:reflex">224</dep>
+    <dep name="case">21488</dep>
+    <dep name="cc">22642</dep>
+    <dep name="ccomp">1272</dep>
     <dep name="compound">16</dep>
-    <dep name="conj">7761</dep>
-    <dep name="cop">10373</dep>
-    <dep name="csubj">4030</dep>
+    <dep name="conj">7760</dep>
+    <dep name="cop">10374</dep>
+    <dep name="csubj">4029</dep>
     <dep name="csubjpass">403</dep>
-    <dep name="dep">4756</dep>
-    <dep name="dobj">12518</dep>
+    <dep name="dep">4747</dep>
+    <dep name="det">2680</dep>
+    <dep name="dobj">12514</dep>
     <dep name="iobj">848</dep>
-    <dep name="mark">14344</dep>
+    <dep name="mark">14340</dep>
     <dep name="neg">5672</dep>
-    <dep name="nmod">34176</dep>
+    <dep name="nmod">34254</dep>
     <dep name="nsubj">17137</dep>
     <dep name="nsubjpass">5027</dep>
     <dep name="nummod">1009</dep>
-    <dep name="parataxis">688</dep>
-    <dep name="punct">35750</dep>
+    <dep name="parataxis">687</dep>
+    <dep name="punct">35747</dep>
     <dep name="root">15295</dep>
     <dep name="vocative">8</dep>
     <dep name="xcomp">3293</dep>
