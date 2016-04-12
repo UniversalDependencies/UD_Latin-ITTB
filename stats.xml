@@ -28,7 +28,7 @@
     <tag name="X">510</tag><!-- _, 4-O--------, decuplus, quod, parvus, quam, vero^adv./etc. -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="53">
+  <feats unique="54">
     <feat name="Abbr" value="Yes" upos="X">507</feat><!-- metaph., physic., cap., gen., sap., metaphys., dist., div., nom., trin. -->
     <feat name="AdpType" value="Prep" upos="ADP">24647</feat><!-- in, ad, per, ex, secundum, cum, de, a, ab, propter -->
     <feat name="Aspect" value="Imp" upos="AUX,VERB">1359</feat><!-- esset, posset, essent, erat, sequeretur, oporteret, haberet, cognosceret, dicebant, ponebat -->
@@ -60,6 +60,7 @@
     <feat name="Person" value="3" upos="AUX,VERB,X">31941</feat><!-- est, sit, sunt, potest, oportet, habet, dicitur, patet, dicit, esset -->
     <feat name="Poss" value="Yes" upos="DET,PRON">1657</feat><!-- sua, suam, suum, suae, noster, suo, sui, nostra, suis, nostro -->
     <feat name="PronType" value="Dem" upos="ADV,PRON">3806</feat><!-- hoc, illud, haec, his, illa, illius, hanc, huius, hac, illam -->
+    <feat name="PronType" value="Dem,Ind" upos="PRON">5</feat><!-- tot -->
     <feat name="PronType" value="Dem,Prs" upos="PRON">4761</feat><!-- eius, ipsum, eo, ea, ipsa, id, ei, ipsius, ipso, idem -->
     <feat name="PronType" value="Ind" upos="DET,PRON">8385</feat><!-- aliquid, aliqua, omnia, alia, omne, aliud, omnis, aliquam, quaedam, omnes -->
     <feat name="PronType" value="Ind,Int" upos="PRON">131</feat><!-- quid, quis, quo, cui, numquid, quae, quem, quod -->
