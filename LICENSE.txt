@@ -1,4 +1,4 @@
-The Latin / Index Thomisticus UD treebank is distributed under the same license as the original ITT, which is
+The Latin / Index Thomisticus UD treebank is distributed under the same license as the original ITTB, which is
 CreativeCommons BY-NC-SA 3.0
 http://creativecommons.org/licenses/by-nc-sa/3.0/
 http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode

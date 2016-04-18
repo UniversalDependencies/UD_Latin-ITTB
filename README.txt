@@ -1,7 +1,7 @@
 Latin data from the Index Thomisticus Treebank. It contains the complete work by Thomas Aquinas
 (1225–1274; medieval Latin), and by 61 authors related to Thomas.
 
-The UD_Latin-ITT dataset results from conversion of the Index Thomisticus Treebank.
+The UD_Latin-ITTB dataset results from conversion of the Index Thomisticus Treebank.
 The data was first converted to the Prague dependency style as a part of HamleDT;
 then it was automatically converted to Universal Dependencies (HamleDT 3.0, 2015). The first
 release of Universal Dependencies that includes this treebank is UD v1.2 in November 2015. The
