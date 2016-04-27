@@ -34,7 +34,7 @@
 # sent_id la-s3
 # orig_file_sentence 001#3
 1	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	enim	enim	ADV	O4	_	1	cc	_	_
+2	enim	enim	ADV	O4	_	1	advmod	_	_
 3	quaedam	quidam	PRON	F1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	8	nmod	_	_
 4	communis	communis	ADJ	C1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 5	et	et	CONJ	O4	_	4	cc	_	_
@@ -103,7 +103,7 @@
 # sent_id la-s5
 # orig_file_sentence 001#5
 1	videntes	video	VERB	K2|modD|tem1|grp1|casJ|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	18	advcl	_	_
-2	enim	enim	ADV	O4	_	18	cc	_	_
+2	enim	enim	ADV	O4	_	18	advmod	_	_
 3	homines	homo	NOUN	C1|grn1|casJ|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	18	nsubj	_	_
 4	res	res	NOUN	E1|grn1|casM|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	1	nsubj	_	_
 5	naturales	naturalis	ADJ	C1|grn1|casM|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
@@ -191,7 +191,7 @@
 29	nominamus	nomino	VERB	J3|modA|tem1|gen7	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
 30	;	;	PUNCT	Punc	_	33	punct	_	_
 31	nondum	nondum	ADV	O4	_	33	advmod:emph	_	_
-32	tamen	tamen	ADV	O4	_	33	cc	_	_
+32	tamen	tamen	ADV	O4	_	33	advmod	_	_
 33	scientes	scio	VERB	M2|modD|tem1|grp1|casJ|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	advcl	_	_
 34	quid	quis	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind,Int	46	ccomp	_	_
 35	sit	sum	VERB	N3|modB|tem1|gen6	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	cop	_	_
@@ -225,7 +225,7 @@
 # sent_id la-s9
 # orig_file_sentence 001#9
 1	felicis	felix	ADJ	C1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
-2	enim	enim	ADV	O4	_	4	cc	_	_
+2	enim	enim	ADV	O4	_	4	advmod	_	_
 3	operationem	operatio	NOUN	C1|grn1|casD|gen2|vgr1	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	nsubj	_	_
 4	oportet	oportet	VERB	K3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	esse	sum	VERB	N3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	4	csubj	_	_
@@ -248,7 +248,7 @@
 # sent_id la-s11
 # orig_file_sentence 001#11
 1	quidam	quidam	PRON	F1|grn1|casJ|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|PronType=Ind	9	nsubj	_	_
-2	enim	enim	ADV	O4	_	9	cc	_	_
+2	enim	enim	ADV	O4	_	9	advmod	_	_
 3	rerum	res	NOUN	E1|grn1|casK|gen2	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	7	nmod	_	_
 4	mundanarum	mundanus	ADJ	A1|grn1|casK|gen2	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
 5	non	non	ADV	O4	_	8	neg	_	_
@@ -263,7 +263,7 @@
 
 # sent_id la-s12
 # orig_file_sentence 001#12
-1	unde	unde	ADV	O4	_	6	cc	_	_
+1	unde	unde	ADV	O4	_	6	advmod	_	_
 2	corpora	corpus	NOUN	C1|grn1|casM|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	4	nsubj	_	_
 3	caelestia	caelestis	ADJ	C1|grn1|casM|gen3|vgr1	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	2	amod	_	_
 4	deos	deus	NOUN	F1|grn1|casM|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	6	xcomp	_	_
@@ -310,7 +310,7 @@
 # sent_id la-s14
 # orig_file_sentence 001#14
 1	quidam	quidam	PRON	F1|grn1|casJ|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|PronType=Ind	21	nsubj	_	_
-2	vero	verus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	21	cc	_	_
+2	vero	verus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	21	advmod	_	_
 3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	humanos	humanus	ADJ	B1|grn1|casM|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
 5	actus	actus	NOUN	D1|grn1|casM|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	nsubj	_	_
@@ -335,7 +335,7 @@
 # sent_id la-s15
 # orig_file_sentence 001#15
 1	ista	iste	PRON	F1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	4	nmod	_	_
-2	igitur	igitur	ADV	O4	_	6	cc	_	_
+2	igitur	igitur	ADV	O4	_	6	advmod	_	_
 3	dei	deus	NOUN	F1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	nmod	_	_
 4	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	nsubj	_	_
 5	non	non	ADV	O4	_	6	neg	_	_
@@ -375,7 +375,7 @@
 
 # sent_id la-s19
 # orig_file_sentence 001#19
-1	immo	immo	ADV	O4|vgr1	_	7	cc	_	_
+1	immo	immo	ADV	O4|vgr1	_	7	advmod	_	_
 2	quasi	quasi	ADV	O4	_	5	advmod:emph	_	_
 3	statim	statim	ADV	O4	_	7	advmod	_	_
 4	a	a	ADP	S4|vgr1	AdpType=Prep	5	case	_	_
@@ -387,7 +387,7 @@
 # sent_id la-s20
 # orig_file_sentence 001#20
 1	non	non	ADV	O4	_	8	neg	_	_
-2	igitur	igitur	ADV	O4	_	8	cc	_	_
+2	igitur	igitur	ADV	O4	_	8	advmod	_	_
 3	in	in	ADP	S4	AdpType=Prep	6	case	_	_
 4	hac	hic	PRON	F1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	6	nmod	_	_
 5	dei	deus	NOUN	F1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
@@ -445,7 +445,7 @@
 # sent_id la-s25
 # orig_file_sentence 001#25
 1	designatur	designo	VERB	J3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-2	enim	enim	ADV	O4	_	1	cc	_	_
+2	enim	enim	ADV	O4	_	1	advmod	_	_
 3	per	per	ADP	S4	AdpType=Prep	4	case	_	_
 4	hoc	hic	PRON	F1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	1	nmod	_	_
 5	maxime	magnus	ADJ	B1|grn3|casG	Case=Loc|Degree=Sup|Number=Sing	1	advmod	_	_
@@ -477,7 +477,7 @@
 
 # sent_id la-s26
 # orig_file_sentence 001#26
-1	unde	unde	ADV	O4	_	5	cc	_	_
+1	unde	unde	ADV	O4	_	5	advmod	_	_
 2	et	et	CONJ	O4	_	4	advmod:emph	_	_
 3	in	in	ADP	S4	AdpType=Prep	4	case	_	_
 4	psalmo	psalmus	NOUN	B1|grn1|casF|gen1	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	5	nmod	_	_
@@ -504,7 +504,7 @@
 # orig_file_sentence 001#29
 1	non	non	ADV	O4	_	4	neg	_	_
 2	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-3	igitur	igitur	ADV	O4	_	4	cc	_	_
+3	igitur	igitur	ADV	O4	_	4	advmod	_	_
 4	haec	hic	PRON	F1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
 5	dei	deus	NOUN	F1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
 6	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	nsubj	_	_
@@ -554,7 +554,7 @@
 # sent_id la-s32
 # orig_file_sentence 001#32
 1	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
-2	enim	enim	ADV	O4	_	3	cc	_	_
+2	enim	enim	ADV	O4	_	3	advmod	_	_
 3	huiusmodi	hujusmodi	ADV	O4|vgr2	_	0	root	_	_
 4	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	nsubj	_	_
 5	per	per	ADP	S4	AdpType=Prep	6	case	_	_
@@ -569,7 +569,7 @@
 # sent_id la-s33
 # orig_file_sentence 001#33
 1	propria	proprius	ADJ	B1|grn1|casJ|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	6	nsubjpass	_	_
-2	enim	enim	ADV	O4	_	6	cc	_	_
+2	enim	enim	ADV	O4	_	6	advmod	_	_
 3	in	in	ADP	S4	AdpType=Prep	4	case	_	_
 4	communibus	communis	ADJ	C1|grn1|casO|gen3	Case=Abl|Degree=Pos|Gender=Neut|Number=Plur	6	advmod	_	_
 5	potentia	potentia	NOUN	A1|grn1|casF|gen2|vgr1	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	6	nmod	_	_
@@ -607,7 +607,7 @@
 
 # sent_id la-s35
 # orig_file_sentence 001#35
-1	nam	nam	ADV	O4	_	6	cc	_	_
+1	nam	nam	ADV	O4	_	6	advmod	_	_
 2	potentia	potentia	NOUN	A1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	nsubj	_	_
 3	per	per	ADP	S4	AdpType=Prep	4	case	_	_
 4	actum	actus	NOUN	D1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	nmod	_	_
@@ -621,7 +621,7 @@
 # orig_file_sentence 001#36
 1	non	non	ADV	O4	_	10	neg	_	_
 2	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
-3	igitur	igitur	ADV	O4	_	10	cc	_	_
+3	igitur	igitur	ADV	O4	_	10	advmod	_	_
 4	praemissa	praemitto	VERB	L2|modM|tem4|grp1|casA|gen2|vgr1	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
 5	dei	deus	NOUN	F1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
 6	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	nsubj	_	_
@@ -649,7 +649,7 @@
 
 # sent_id la-s38
 # orig_file_sentence 001#38
-1	rursus	rursus	ADV	O4|vgr1	_	3	cc	_	_
+1	rursus	rursus	ADV	O4|vgr1	_	3	advmod	_	_
 2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	quaedam	quidam	PRON	F1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	7	nmod	_	_
@@ -697,7 +697,7 @@
 # sent_id la-s39
 # orig_file_sentence 001#39
 1	ostendit	ostendo	VERB	L3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	enim	enim	ADV	O4	_	1	cc	_	_
+2	enim	enim	ADV	O4	_	1	advmod	_	_
 3	demonstratio	demonstratio	NOUN	C1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	nsubj	_	_
 4	deum	deus	NOUN	F1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	nsubj	_	_
 5	esse	sum	VERB	N3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	6	cop	_	_
@@ -748,7 +748,7 @@
 # sent_id la-s41
 # orig_file_sentence 001#41
 1	sicut	sicut	SCONJ	O4|vgr1	_	3	mark	_	_
-2	enim	enim	ADV	O4	_	11	cc	_	_
+2	enim	enim	ADV	O4	_	11	advmod	_	_
 3	proprium	proprius	ADJ	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	advcl	_	_
 4	hominis	homo	NOUN	C1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	dobj	_	_
 5	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
@@ -794,7 +794,7 @@
 23	res	res	NOUN	E1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	nsubj	_	_
 24	,	,	PUNCT	Punc	_	21	punct	_	_
 25	et	et	CONJ	O4	_	21	cc	_	_
-26	quomodo	quomodo	ADV	O4	_	29	cc	_	_
+26	quomodo	quomodo	ADV	O4	_	29	advmod	_	_
 27	ab	a	ADP	S4|vgr2	AdpType=Prep	28	case	_	_
 28	aliis	alius	PRON	F1|grn1|casO|gen3|vgr1	Case=Abl|Degree=Pos|Gender=Neut|Number=Plur|PronType=Ind	29	dobj	_	_
 29	separatur	separo	VERB	J3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	21	conj	_	_
@@ -818,7 +818,7 @@
 14	aliis	alius	PRON	F1|grn1|casO|gen3|vgr1	Case=Abl|Degree=Pos|Gender=Neut|Number=Plur|PronType=Ind	15	dobj	_	_
 15	discreta	discerno	VERB	L2|modM|tem4|grp1|casA|gen2	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	csubj	_	_
 16	,	,	PUNCT	Punc	_	10	punct	_	_
-17	tamen	tamen	ADV	O4	_	21	cc	_	_
+17	tamen	tamen	ADV	O4	_	21	advmod	_	_
 18	quid	quis	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind,Int	21	csubj	_	_
 19	sit	sum	VERB	N3|modB|tem1|gen6	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	_
 20	remanet	remaneo	VERB	K3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	_	_
@@ -857,7 +857,7 @@
 # sent_id la-s46
 # orig_file_sentence 001#46
 1	ea	is	PRON	F1|grn1|casJ|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|PronType=Dem,Prs	8	nsubj	_	_
-2	enim	enim	ADV	O4	_	8	cc	_	_
+2	enim	enim	ADV	O4	_	8	advmod	_	_
 3	quae	qui	PRON	F1|grn1|casJ|gen3|vgr1	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|PronType=Rel	6	nsubj	_	_
 4	sunt	sum	VERB	N3|modA|tem1|gen9	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 5	alicuius	aliqui	PRON	F1|grn1|casB|gen2|vgr2	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	6	nmod	_	_
@@ -917,7 +917,7 @@
 # sent_id la-s49
 # orig_file_sentence 001#49
 1	felicitas	felicitas	NOUN	C1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	nsubj	_	_
-2	igitur	igitur	ADV	O4	_	6	cc	_	_
+2	igitur	igitur	ADV	O4	_	6	advmod	_	_
 3	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 4	quoddam	quidam	PRON	F1|grn1|casA|gen3|varA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	6	nmod	_	_
 5	commune	communis	ADJ	C1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
@@ -967,7 +967,7 @@
 # orig_file_sentence 001#51
 1	non	non	ADV	O4	_	10	neg	_	_
 2	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
-3	igitur	igitur	ADV	O4	_	10	cc	_	_
+3	igitur	igitur	ADV	O4	_	10	advmod	_	_
 4	talis	talis	PRON	C1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	6	nmod	_	_
 5	dei	deus	NOUN	F1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
 6	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	nsubj	_	_
@@ -1002,7 +1002,7 @@
 # sent_id la-s54
 # orig_file_sentence 001#54
 1	felicitas	felicitas	NOUN	C1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	nsubj	_	_
-2	igitur	igitur	ADV	O4	_	10	cc	_	_
+2	igitur	igitur	ADV	O4	_	10	advmod	_	_
 3	,	,	PUNCT	Punc	_	7	punct	_	_
 4	quae	qui	PRON	F1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Rel	7	nsubj	_	_
 5	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
@@ -1032,7 +1032,7 @@
 8	deo	deus	NOUN	F1|grn1|casF|gen1	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	3	nmod	_	_
 9	habita	habeo	VERB	K2|modM|tem4|grp1|casA|gen2	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	_
 10	remanet	remaneo	VERB	K3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
-11	adhuc	adhuc	ADV	O4	_	10	cc	_	_
+11	adhuc	adhuc	ADV	O4	_	10	advmod	_	_
 12	in	in	ADP	S4	AdpType=Prep	13	case	_	_
 13	potentia	potentia	NOUN	A1|grn1|casF|gen2|vgr1	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	10	nmod	_	_
 14	ad	ad	ADP	S4	AdpType=Prep	19	mark	_	_
@@ -1051,7 +1051,7 @@
 # sent_id la-s56
 # orig_file_sentence 001#56
 1	posteriores	posterus	ADJ	C1|grn2|casJ|gen1	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	3	nsubjpass	_	_
-2	enim	enim	ADV	O4	_	3	cc	_	_
+2	enim	enim	ADV	O4	_	3	advmod	_	_
 3	conati	conor	VERB	J2|modM|tem4|grp1|casJ|gen1	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 4	sunt	sum	AUX	N3|modA|tem1|gen9	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	auxpass	_	_
 5	aliquid	aliquis	PRON	F1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	10	dobj	_	_
@@ -1072,7 +1072,7 @@
 # orig_file_sentence 001#57
 1	non	non	ADV	O4	_	8	neg	_	_
 2	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
-3	igitur	igitur	ADV	O4	_	8	cc	_	_
+3	igitur	igitur	ADV	O4	_	8	advmod	_	_
 4	talis	talis	PRON	C1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	5	nmod	_	_
 5	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	nsubj	_	_
 6	ultima	ulterior	ADJ	A1|grn3|casA|gen2	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	5	amod	_	_
@@ -1096,7 +1096,7 @@
 # sent_id la-s60
 # orig_file_sentence 001#60
 1	nemo	nemo	PRON	C1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Neg	8	nsubj	_	_
-2	enim	enim	ADV	O4	_	8	cc	_	_
+2	enim	enim	ADV	O4	_	8	advmod	_	_
 3	simul	simul	ADV	O4	_	4	advmod	_	_
 4	miser	miser	ADJ	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	xcomp	_	_
 5	et	et	CONJ	O4	_	4	cc	_	_
@@ -1121,7 +1121,7 @@
 # orig_file_sentence 001#62
 1	hoc	hic	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	enim	enim	ADV	O4	_	2	cc	_	_
+3	enim	enim	ADV	O4	_	2	advmod	_	_
 4	quod	qui	PRON	F1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	7	dobj	_	_
 5	omnes	omnis	PRON	C1|grn1|casJ|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|PronType=Ind	7	nsubj	_	_
 6	naturaliter	naturalis	ADJ	C1|grn1|casG	Case=Loc|Degree=Pos|Number=Sing	7	advmod	_	_
@@ -1184,7 +1184,7 @@
 3	aliqui	aliquis	PRON	F1|grn1|casJ|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|PronType=Ind	4	nsubj	_	_
 4	fuerunt	sum	VERB	N3|modA|tem4|gen9	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	advcl	_	_
 5	qui	qui	PRON	F1|grn1|casJ|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|PronType=Rel	10	nsubj	_	_
-6	sic	sic	ADV	O4	_	10	cc	_	_
+6	sic	sic	ADV	O4	_	10	advmod	_	_
 7	de	de	ADP	S4	AdpType=Prep	8	case	_	_
 8	divinis	divinus	ADJ	B1|grn1|casO|gen3|vgr1	Case=Abl|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	_
 9	veritatem	veritas	NOUN	C1|grn1|casD|gen2|vgr1	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	dobj	_	_
@@ -1220,7 +1220,7 @@
 # sent_id la-s67
 # orig_file_sentence 001#67
 1	non	non	ADV	O4	_	3	neg	_	_
-2	igitur	igitur	ADV	O4	_	3	cc	_	_
+2	igitur	igitur	ADV	O4	_	3	advmod	_	_
 3	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	in	in	ADP	S4	AdpType=Prep	6	case	_	_
 5	hac	hic	PRON	F1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	6	nmod	_	_
@@ -1258,7 +1258,7 @@
 
 # sent_id la-s71
 # orig_file_sentence 001#71
-1	unde	unde	ADV	O4	_	5	cc	_	_
+1	unde	unde	ADV	O4	_	5	advmod	_	_
 2	scire	scio	VERB	M3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	5	ccomp	_	_
 3	aliter	alius	PRON	F1|grn1|casG	Case=Loc|Degree=Pos|Number=Sing|PronType=Ind	2	nmod	_	_
 4	non	non	ADV	O4	_	5	neg	_	_
@@ -1309,7 +1309,7 @@
 # orig_file_sentence 001#73
 1	non	non	ADV	O4	_	2	neg	_	_
 2	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	igitur	igitur	ADV	O4	_	2	cc	_	_
+3	igitur	igitur	ADV	O4	_	2	advmod	_	_
 4	in	in	ADP	S4	AdpType=Prep	6	case	_	_
 5	tali	talis	PRON	C1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	6	nmod	_	_
 6	cognitione	cognitio	NOUN	C1|grn1|casF|gen2|comH|vgr1	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	2	nmod	_	_
@@ -1351,7 +1351,7 @@
 # sent_id la-s77
 # orig_file_sentence 001#77
 1	illa	ille	PRON	F1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	3	nmod	_	_
-2	igitur	igitur	ADV	O4	_	8	cc	_	_
+2	igitur	igitur	ADV	O4	_	8	advmod	_	_
 3	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	nsubj	_	_
 4	dei	deus	NOUN	F1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	nmod	_	_
 5	essentialiter	essentialis	ADJ	C1|grn1|casG	Case=Loc|Degree=Pos|Number=Sing	8	advmod	_	_
@@ -1386,7 +1386,7 @@
 13	potuerunt	possum	VERB	N3|modA|tem4|gen9	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbType=Mod|Voice=Act	5	acl	_	_
 14	:	:	PUNCT	Punc	_	23	punct	_	_
 15	quia	quia	SCONJ	O4	_	23	mark	_	_
-16	adhuc	adhuc	ADV	O4	_	23	cc	_	_
+16	adhuc	adhuc	ADV	O4	_	23	advmod	_	_
 17	,	,	PUNCT	Punc	_	20	punct	_	_
 18	illa	ille	PRON	F1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	19	nmod	_	_
 19	cognitione	cognitio	NOUN	C1|grn1|casF|gen2|comH|vgr1	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	20	nsubjpass	_	_
@@ -1408,7 +1408,7 @@
 # orig_file_sentence 001#79
 1	non	non	ADV	O4	_	2	neg	_	_
 2	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	igitur	igitur	ADV	O4	_	2	cc	_	_
+3	igitur	igitur	ADV	O4	_	2	advmod	_	_
 4	in	in	ADP	S4	AdpType=Prep	6	case	_	_
 5	tali	talis	PRON	C1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	6	nmod	_	_
 6	cognitione	cognitio	NOUN	C1|grn1|casF|gen2|comH|vgr1	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	2	nmod	_	_
@@ -1439,7 +1439,7 @@
 # orig_file_sentence 001#82
 1	ad	ad	ADP	S4	AdpType=Prep	2	case	_	_
 2	hoc	hic	PRON	F1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	4	dobj	_	_
-3	enim	enim	ADV	O4	_	4	cc	_	_
+3	enim	enim	ADV	O4	_	4	advmod	_	_
 4	tendit	tendo	VERB	L3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	per	per	ADP	S4	AdpType=Prep	6	case	_	_
 6	motum	motus	NOUN	D1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	nmod	_	_
@@ -1472,7 +1472,7 @@
 # sent_id la-s84
 # orig_file_sentence 001#84
 1	aliquid	aliquis	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	3	nsubj	_	_
-2	enim	enim	ADV	O4	_	3	cc	_	_
+2	enim	enim	ADV	O4	_	3	advmod	_	_
 3	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	existens	existo	VERB	L2|modD|tem1|grp1|casA|gen3|vgr1	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	acl	_	_
 5	in	in	ADP	S4	AdpType=Prep	6	case	_	_
@@ -1488,7 +1488,7 @@
 
 # sent_id la-s85
 # orig_file_sentence 001#85
-1	unde	unde	ADV	O4	_	4	cc	_	_
+1	unde	unde	ADV	O4	_	4	advmod	_	_
 2	huius	hic	PRON	F1|grn1|casB|gen1|vgr2	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	3	nmod	_	_
 3	finis	finis	NOUN	C1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -1536,7 +1536,7 @@
 
 # sent_id la-s87
 # orig_file_sentence 001#87
-1	unde	unde	ADV	O4	_	5	cc	_	_
+1	unde	unde	ADV	O4	_	5	advmod	_	_
 2	per	per	ADP	S4	AdpType=Prep	4	case	_	_
 3	suum	suus	DET	B1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	_
 4	motum	motus	NOUN	D1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	nmod	_	_
@@ -1631,7 +1631,7 @@
 # sent_id la-s91
 # orig_file_sentence 001#91
 1	hoc	hic	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	3	nsubjpass	_	_
-2	igitur	igitur	ADV	O4	_	3	cc	_	_
+2	igitur	igitur	ADV	O4	_	3	advmod	_	_
 3	requiritur	requiro	VERB	L3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	ad	ad	ADP	S4	AdpType=Prep	7	case	_	_
 5	eius	is	PRON	F1|grn1|casB|gen1|vgr2	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem,Prs	7	nmod	_	_
@@ -1664,7 +1664,7 @@
 17	ea	is	PRON	F1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem,Prs	18	nsubjpass	_	_
 18	habita	habeo	VERB	K2|modM|tem4|grp1|casF|gen2	Aspect=Perf|Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	advcl	_	_
 19	,	,	PUNCT	Punc	_	18	punct	_	_
-20	adhuc	adhuc	ADV	O4	_	22	cc	_	_
+20	adhuc	adhuc	ADV	O4	_	22	advmod	_	_
 21	multa	multus	ADJ	B1|grn1|casM|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	22	dobj	_	_
 22	ignoramus	ignoro	VERB	J3|modA|tem1|gen7	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
 23	.	.	PUNCT	Punc	_	4	punct	_	_
@@ -1673,7 +1673,7 @@
 # orig_file_sentence 001#93
 1	non	non	ADV	O4	_	7	neg	_	_
 2	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
-3	igitur	igitur	ADV	O4	_	7	cc	_	_
+3	igitur	igitur	ADV	O4	_	7	advmod	_	_
 4	talis	talis	PRON	C1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	5	nmod	_	_
 5	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	nsubj	_	_
 6	dei	deus	NOUN	F1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	nmod	_	_
@@ -1716,7 +1716,7 @@
 13	praedicta	praedico	VERB	N2|modM|tem4|grp1|casF|gen2|vgr1	Aspect=Perf|Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	_
 14	,	,	PUNCT	Punc	_	22	punct	_	_
 15	qua	qui	PRON	F1|grn1|casF|gen2|varA	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|PronType=Rel	22	nmod	_	_
-16	scilicet	scilicet	ADV	O4	_	22	cc	_	_
+16	scilicet	scilicet	ADV	O4	_	22	advmod	_	_
 17	deus	deus	NOUN	F1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	nsubjpass	_	_
 18	ab	a	ADP	S4|vgr2	AdpType=Prep	19	case	_	_
 19	hominibus	homo	NOUN	C1|grn1|casO|gen1	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur	22	dobj	_	_
@@ -1728,7 +1728,7 @@
 # sent_id la-s96
 # orig_file_sentence 001#96
 1	quae	qui	PRON	F1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Rel	14	nsubj	_	_
-2	quidem	quidem	ADV	O4	_	14	cc	_	_
+2	quidem	quidem	ADV	O4	_	14	advmod	_	_
 3	quantum	quantum	ADV	O4	_	5	advmod:emph	_	_
 4	ad	ad	ADP	S4	AdpType=Prep	5	case	_	_
 5	hoc	hic	PRON	F1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	14	nmod	_	_
@@ -1791,7 +1791,7 @@
 # sent_id la-s98
 # orig_file_sentence 001#98
 1	felicitas	felicitas	NOUN	C1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	nsubj	_	_
-2	enim	enim	ADV	O4	_	6	cc	_	_
+2	enim	enim	ADV	O4	_	6	advmod	_	_
 3	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 4	perfecta	perfectus	NOUN	B1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	nmod	_	_
 5	intellectus	intellectus	NOUN	D1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
@@ -1834,7 +1834,7 @@
 # sent_id la-s100
 # orig_file_sentence 001#100
 1	non	non	ADV	O4	_	4	neg	_	_
-2	enim	enim	ADV	O4	_	4	cc	_	_
+2	enim	enim	ADV	O4	_	4	advmod	_	_
 3	intellectus	intellectus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	capit	capio	VERB	L3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	illud	ille	PRON	F1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	4	dobj	_	_
@@ -1847,7 +1847,7 @@
 # orig_file_sentence 002#1
 1	non	non	ADV	O4	_	2	neg	_	_
 2	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	igitur	igitur	ADV	O4	_	2	cc	_	_
+3	igitur	igitur	ADV	O4	_	2	advmod	_	_
 4	neque	neque	CONJ	O4	_	6	advmod:emph	_	_
 5	in	in	ADP	S4	AdpType=Prep	8	case	_	_
 6	hac	hic	PRON	F1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	8	nmod	_	_
@@ -1893,7 +1893,7 @@
 # sent_id la-s5
 # orig_file_sentence 002#5
 1	intellectus	intellectus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	enim	enim	ADV	O4	_	3	cc	_	_
+2	enim	enim	ADV	O4	_	3	advmod	_	_
 3	assentit	assentio	VERB	M3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	per	per	ADP	S4	AdpType=Prep	5	case	_	_
 5	fidem	fides	NOUN	E1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	nmod	_	_
@@ -1919,7 +1919,7 @@
 # orig_file_sentence 002#6
 1	non	non	ADV	O4	_	2	neg	_	_
 2	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	igitur	igitur	ADV	O4	_	2	cc	_	_
+3	igitur	igitur	ADV	O4	_	2	advmod	_	_
 4	in	in	ADP	S4	AdpType=Prep	6	case	_	_
 5	hac	hic	PRON	F1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	6	nmod	_	_
 6	cognitione	cognitio	NOUN	C1|grn1|casF|gen2|comH|vgr1	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	2	nmod	_	_
@@ -1955,7 +1955,7 @@
 
 # sent_id la-s9
 # orig_file_sentence 002#9
-1	unde	unde	ADV	O4	_	4	cc	_	_
+1	unde	unde	ADV	O4	_	4	advmod	_	_
 2	fides	fides	NOUN	E1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	nsubj	_	_
 3	magis	magis	ADV	O4	_	7	advmod	_	_
 4	habet	habeo	VERB	K3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -2015,13 +2015,13 @@
 # sent_id la-s12
 # orig_file_sentence 002#12
 1	quod	quod	SCONJ	O4	_	14	cc	_	_
-2	et	et	CONJ	O4	_	6	cc	_	_
-3	si	si	SCONJ	O4	_	6	mark	_	_
+2	et	et	CONJ	O4	_	6	mark	_	_
+3	si	si	SCONJ	O4	_	2	mwe	_	_
 4	ipse	ipse	PRON	F1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem,Prs	6	nsubj	_	_
 5	solum	solus	ADJ	B1|grn1|casG	Case=Loc|Degree=Pos|Number=Sing	6	advmod	_	_
 6	cognoscit	cognosco	VERB	L3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl	_	_
 7	ea	is	PRON	F1|grn1|casM|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|PronType=Dem,Prs	6	dobj	_	_
-8	quasi	quasi	ADV	O4	_	11	cc	_	_
+8	quasi	quasi	ADV	O4	_	11	advmod	_	_
 9	ab	a	ADP	S4|vgr2	AdpType=Prep	10	case	_	_
 10	alio	alius	PRON	F1|grn1|casF|gen1	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing|PronType=Ind	11	dobj	_	_
 11	audiens	audio	VERB	M2|modD|tem1|grp1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	advcl	_	_
@@ -2049,7 +2049,7 @@
 # sent_id la-s14
 # orig_file_sentence 002#14
 1	non	non	ADV	O4	_	3	neg	_	_
-2	enim	enim	ADV	O4	_	3	cc	_	_
+2	enim	enim	ADV	O4	_	3	advmod	_	_
 3	inveniretur	invenio	VERB	M3|modK|tem2|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	aliquod	aliqui	PRON	F1|grn1|casA|gen3|varA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	5	nmod	_	_
 5	primum	primus	ADJ	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	3	nsubjpass	_	_
@@ -2089,7 +2089,7 @@
 # sent_id la-s16
 # orig_file_sentence 002#16
 1	et	et	CONJ	O4	_	15	cc	_	_
-2	tamen	tamen	ADV	O4	_	15	cc	_	_
+2	tamen	tamen	ADV	O4	_	15	advmod	_	_
 3	,	,	PUNCT	Punc	_	6	punct	_	_
 4	si	si	SCONJ	O4	_	6	mark	_	_
 5	esset	sum	VERB	N3|modB|tem2|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	6	cop	_	_
@@ -2109,7 +2109,7 @@
 # sent_id la-s17
 # orig_file_sentence 002#17
 1	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	igitur	igitur	ADV	O4	_	1	cc	_	_
+2	igitur	igitur	ADV	O4	_	1	advmod	_	_
 3	aliqua	aliqui	PRON	F1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	5	nmod	_	_
 4	hominis	homo	NOUN	C1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	nmod	_	_
 5	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	nsubj	_	_
@@ -2151,7 +2151,7 @@
 # sent_id la-s19
 # orig_file_sentence 002#19
 1	cum	cum	ADP	S4|vgr1	AdpType=Prep	9	mark	_	_
-2	igitur	igitur	ADV	O4	_	11	cc	_	_
+2	igitur	igitur	ADV	O4	_	11	advmod	_	_
 3	in	in	ADP	S4	AdpType=Prep	6	case	_	_
 4	summa	summus	ADJ	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
 5	dei	deus	NOUN	F1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
@@ -2218,7 +2218,7 @@
 # orig_file_sentence 002#24
 1	non	non	ADV	O4	_	2	neg	_	_
 2	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	igitur	igitur	ADV	O4	_	2	cc	_	_
+3	igitur	igitur	ADV	O4	_	2	advmod	_	_
 4	in	in	ADP	S4	AdpType=Prep	5	case	_	_
 5	cognitione	cognitio	NOUN	C1|grn1|casF|gen2|comH|vgr1	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	2	nmod	_	_
 6	fidei	fides	NOUN	E1|grn1|casB|gen2	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	nmod	_	_
@@ -2278,7 +2278,7 @@
 
 # sent_id la-s28
 # orig_file_sentence 002#28
-1	unde	unde	ADV	O4	_	4	cc	_	_
+1	unde	unde	ADV	O4	_	4	advmod	_	_
 2	et	et	CONJ	O4	_	4	cc	_	_
 3	apostolus	apostolus	NOUN	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	dicit	dico	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -2300,7 +2300,7 @@
 # sent_id la-s29
 # orig_file_sentence 002#29
 1	fit	facio	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	cop	_	_
-2	tamen	tamen	ADV	O4	_	6	cc	_	_
+2	tamen	tamen	ADV	O4	_	6	advmod	_	_
 3	per	per	ADP	S4	AdpType=Prep	4	case	_	_
 4	fidem	fides	NOUN	E1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	nmod	_	_
 5	deus	deus	NOUN	F1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	nsubjpass	_	_
@@ -2335,7 +2335,7 @@
 # orig_file_sentence 002#31
 1	non	non	ADV	O4	_	4	neg	_	_
 2	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-3	ergo	ergo	ADV	O4	_	4	cc	_	_
+3	ergo	ergo	ADV	O4	_	4	advmod	_	_
 4	possibile	possibilis	ADJ	C1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 5	quod	quod	SCONJ	O4	_	12	mark	_	_
 6	in	in	ADP	S4	AdpType=Prep	7	case	_	_
@@ -2349,7 +2349,7 @@
 
 # sent_id la-s32
 # orig_file_sentence 002#32
-1	utrum	utrum	ADV	O4	_	6	cc	_	_
+1	utrum	utrum	ADV	O4	_	6	advmod	_	_
 2	in	in	ADP	S4	AdpType=Prep	4	case	_	_
 3	hac	hic	PRON	F1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	4	nmod	_	_
 4	vita	vita	NOUN	A1|grn1|casF|gen2|vgr1	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	7	nmod	_	_
@@ -2371,7 +2371,7 @@
 1	habet	habeo	VERB	K3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	autem	autem	CONJ	O4	_	1	cc	_	_
 3	et	et	CONJ	O4	_	5	advmod:emph	_	_
-4	adhuc	adhuc	ADV	O4	_	1	cc	_	_
+4	adhuc	adhuc	ADV	O4	_	1	advmod	_	_
 5	aliam	alius	PRON	F1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	6	nmod	_	_
 6	cognitionem	cognitio	NOUN	C1|grn1|casD|gen2|vgr1	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	1	dobj	_	_
 7	de	de	ADP	S4	AdpType=Prep	8	case	_	_
@@ -2384,7 +2384,7 @@
 # orig_file_sentence 002#34
 1	dictum	dico	VERB	N2|modM|tem4|grp1|casA|gen3	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 2	est	sum	AUX	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	auxpass	_	_
-3	enim	enim	ADV	O4	_	1	cc	_	_
+3	enim	enim	ADV	O4	_	1	advmod	_	_
 4	in	in	ADP	S4	AdpType=Prep	6	case	_	_
 5	secundo	secundus	ADJ	B1|grn1|casF|gen1	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
 6	libro	liber^volumen	NOUN	B1|grn1|casF|gen1	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	1	nmod	_	_
@@ -2443,7 +2443,7 @@
 
 # sent_id la-s36
 # orig_file_sentence 002#36
-1	unde	unde	ADV	O4	_	17	cc	_	_
+1	unde	unde	ADV	O4	_	17	advmod	_	_
 2	,	,	PUNCT	Punc	_	6	punct	_	_
 3	cum	cum	ADP	S4|vgr1	AdpType=Prep	6	mark	_	_
 4	deus	deus	NOUN	F1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -2482,7 +2482,7 @@
 # sent_id la-s37
 # orig_file_sentence 002#37
 1	res	res	NOUN	E1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	nsubjpass	_	_
-2	enim	enim	ADV	O4	_	8	cc	_	_
+2	enim	enim	ADV	O4	_	8	advmod	_	_
 3	illa	ille	PRON	F1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	1	nmod	_	_
 4	per	per	ADP	S4	AdpType=Prep	5	case	_	_
 5	intellectum	intellectus	NOUN	D1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	nmod	_	_
@@ -2511,7 +2511,7 @@
 # sent_id la-s38
 # orig_file_sentence 002#38
 1	quicumque	quicumque	PRON	F1|grn1|casA|gen1|vgr2	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Ind,Rel	3	nmod	_	_
-2	ergo	ergo	ADV	O4	_	13	cc	_	_
+2	ergo	ergo	ADV	O4	_	13	advmod	_	_
 3	intellectus	intellectus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	apprehendit	apprehendo	VERB	L3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	csubj	_	_
 5	substantiam	substantia	NOUN	A1|grn1|casD|gen2|vgr1	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	dobj	_	_
@@ -2536,7 +2536,7 @@
 # sent_id la-s39
 # orig_file_sentence 002#39
 1	quia	quia	SCONJ	O4	_	4	mark	_	_
-2	ergo	ergo	ADV	O4	_	20	cc	_	_
+2	ergo	ergo	ADV	O4	_	20	advmod	_	_
 3	quidam	quidam	PRON	F1|grn1|casJ|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|PronType=Ind	4	nsubj	_	_
 4	posuerunt	pono	VERB	L3|modA|tem4|gen9	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	advcl	_	_
 5	ultimam	ulterior	ADJ	A1|grn3|casD|gen2	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	6	amod	_	_
@@ -2555,7 +2555,7 @@
 18	,	,	PUNCT	Punc	_	4	punct	_	_
 19	considerandum	considero	VERB	N2|modO|grp1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Gdv|Voice=Pass	20	ccomp	_	_
 20	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-21	utrum	utrum	ADV	O4	_	26	cc	_	_
+21	utrum	utrum	ADV	O4	_	26	advmod	_	_
 22	homo	homo	NOUN	C1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	nsubj	_	_
 23	in	in	ADP	S4	AdpType=Prep	25	case	_	_
 24	hac	hic	PRON	F1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	25	nmod	_	_
@@ -2577,7 +2577,7 @@
 # sent_id la-s41
 # orig_file_sentence 002#41
 1	intellectus	intellectus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	nsubj	_	_
-2	enim	enim	ADV	O4	_	10	cc	_	_
+2	enim	enim	ADV	O4	_	10	advmod	_	_
 3	noster	noster	DET	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	1	det	_	_
 4	,	,	PUNCT	Punc	_	6	punct	_	_
 5	secundum	secundum	ADP	S4	AdpType=Prep	6	case	_	_
@@ -2590,7 +2590,7 @@
 12	phantasmate	phantasma	NOUN	C1|grn1|casF|gen3	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing	10	nmod	_	_
 13	,	,	PUNCT	Punc	_	17	punct	_	_
 14	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	17	nsubjpass	_	_
-15	ita	ita	ADV	O4	_	17	cc	_	_
+15	ita	ita	ADV	O4	_	17	advmod	_	_
 16	se	sui	PRON	F1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	17	auxpass:reflex	_	_
 17	habet	habeo	VERB	K3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl	_	_
 18	ad	ad	ADP	S4	AdpType=Prep	19	case	_	_
@@ -2621,7 +2621,7 @@
 # sent_id la-s42
 # orig_file_sentence 002#42
 1	si	si	SCONJ	O4	_	11	mark	_	_
-2	igitur	igitur	ADV	O4	_	20	cc	_	_
+2	igitur	igitur	ADV	O4	_	20	advmod	_	_
 3	per	per	ADP	S4	AdpType=Prep	4	case	_	_
 4	cognitionem	cognitio	NOUN	C1|grn1|casD|gen2|vgr1	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	nmod	_	_
 5	intellectivam	intellectivus	ADJ	A1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
@@ -2739,7 +2739,7 @@
 # sent_id la-s46
 # orig_file_sentence 002#46
 1	avempace	avempace	NOUN	G1|vgr1	_	3	nsubj	_	_
-2	namque	nam	ADV	O4|comQ	_	3	cc	_	_
+2	namque	nam	ADV	O4|comQ	_	3	advmod	_	_
 3	posuit	pono	VERB	L3|modA|tem4|gen6	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	quod	quod	SCONJ	O4	_	9	mark	_	_
 5	per	per	ADP	S4	AdpType=Prep	6	case	_	_
@@ -2766,7 +2766,7 @@
 # sent_id la-s47
 # orig_file_sentence 002#47
 1	possumus	possum	VERB	N3|modA|tem1|gen7	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	0	root	_	_
-2	enim	enim	ADV	O4	_	1	cc	_	_
+2	enim	enim	ADV	O4	_	1	advmod	_	_
 3	actione	actio	NOUN	C1|grn1|casF|gen2|comH	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	1	nmod	_	_
 4	intellectus	intellectus	NOUN	D1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	nmod	_	_
 5	extrahere	extraho	VERB	L3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	1	xcomp	_	_
@@ -2785,7 +2785,7 @@
 # sent_id la-s48
 # orig_file_sentence 002#48
 1	est	sum	AUX	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	auxpass	_	_
-2	enim	enim	ADV	O4	_	4	cc	_	_
+2	enim	enim	ADV	O4	_	4	advmod	_	_
 3	intellectus	intellectus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubjpass	_	_
 4	natus	nascor	VERB	L2|modM|tem4|grp1|casA|gen1	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 5	cognoscere	cognosco	VERB	L3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	4	advcl	_	_
@@ -2870,7 +2870,7 @@
 # sent_id la-s52
 # orig_file_sentence 002#52
 1	potest	possum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	0	root	_	_
-2	igitur	igitur	ADV	O4	_	1	cc	_	_
+2	igitur	igitur	ADV	O4	_	1	advmod	_	_
 3	intellectus	intellectus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	noster	noster	DET	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det	_	_
 5	pervenire	pervenio	VERB	M3|modH|tem1|vgr1	Tense=Pres|VerbForm=Inf|Voice=Act	1	xcomp	_	_
@@ -2898,7 +2898,7 @@
 # sent_id la-s54
 # orig_file_sentence 002#54
 1	potest	possum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	0	root	_	_
-2	igitur	igitur	ADV	O4	_	1	cc	_	_
+2	igitur	igitur	ADV	O4	_	1	advmod	_	_
 3	intellectus	intellectus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	noster	noster	DET	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det	_	_
 5	,	,	PUNCT	Punc	_	7	punct	_	_
@@ -2934,14 +2934,14 @@
 # sent_id la-s56
 # orig_file_sentence 002#56
 1	ponit	pono	VERB	L3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	enim	enim	ADV	O4	_	1	cc	_	_
+2	enim	enim	ADV	O4	_	1	advmod	_	_
 3	quod	quod	SCONJ	O4	_	17	cc	_	_
 4	intellectum	intelligo	VERB	L2|modM|tem4|grp1|casA|gen3	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	csubjpass	_	_
 5	unius	unus	NUM	F1|grn1|casB|gen2|vgr2	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|NumType=Card	6	nummod	_	_
 6	rei	res	NOUN	E1|grn1|casB|gen2	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	nmod	_	_
 7	,	,	PUNCT	Punc	_	10	punct	_	_
 8	ut	ut	SCONJ	O4|vgr1	_	10	mark	_	_
-9	puta	puto	VERB	J3|modC|tem1|gen5	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	10	cc	_	_
+9	puta	puto	VERB	J3|modC|tem1|gen5	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	mwe	_	_
 10	equi	equus	NOUN	B1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
 11	,	,	PUNCT	Punc	_	10	punct	_	_
 12	apud	apud	ADP	S4|vgr1	AdpType=Prep	13	case	_	_
@@ -2969,7 +2969,7 @@
 # sent_id la-s57
 # orig_file_sentence 002#57
 1	oportet	oportet	VERB	K3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	igitur	igitur	ADV	O4	_	1	cc	_	_
+2	igitur	igitur	ADV	O4	_	1	advmod	_	_
 3	quod	quod	SCONJ	O4	_	14	mark	_	_
 4	intellectum	intelligo	VERB	L2|modM|tem4|grp1|casA|gen3	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	csubj	_	_
 5	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	7	nsubjpass	_	_
@@ -3040,7 +3040,7 @@
 # sent_id la-s59
 # orig_file_sentence 002#59
 1	intellectus	intellectus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubjpass	_	_
-2	igitur	igitur	ADV	O4	_	4	cc	_	_
+2	igitur	igitur	ADV	O4	_	4	advmod	_	_
 3	noster	noster	DET	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	1	det	_	_
 4	natus	nascor	VERB	L2|modM|tem4|grp1|casA|gen1	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 5	est	sum	AUX	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	auxpass	_	_
@@ -3067,7 +3067,7 @@
 # sent_id la-s61
 # orig_file_sentence 002#61
 1	est	sum	AUX	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	auxpass	_	_
-2	igitur	igitur	ADV	O4	_	5	cc	_	_
+2	igitur	igitur	ADV	O4	_	5	advmod	_	_
 3	intellectus	intellectus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	nsubjpass	_	_
 4	noster	noster	DET	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det	_	_
 5	natus	nascor	VERB	L2|modM|tem4|grp1|casA|gen1	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -3092,7 +3092,7 @@
 # sent_id la-s63
 # orig_file_sentence 002#63
 1	cum	cum	ADP	S4|vgr1	AdpType=Prep	9	mark	_	_
-2	enim	enim	ADV	O4	_	11	cc	_	_
+2	enim	enim	ADV	O4	_	11	advmod	_	_
 3	intellectum	intelligo	VERB	L2|modM|tem4|grp1|casA|gen3	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	csubj	_	_
 4	,	,	PUNCT	Punc	_	6	punct	_	_
 5	inquantum	in+quantum	SCONJ	O4|grn8|comZ	_	6	mark	_	_
@@ -3144,7 +3144,7 @@
 # sent_id la-s65
 # orig_file_sentence 002#65
 1	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-2	igitur	igitur	ADV	O4	_	4	cc	_	_
+2	igitur	igitur	ADV	O4	_	4	advmod	_	_
 3	omnino	omnino	ADV	O4	_	4	advmod:emph	_	_
 4	dissimilis	dissimilis	ADJ	C1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
 5	quidditati	quidditas	NOUN	C1|grn1|casC|gen2	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	dobj	_	_
@@ -3162,7 +3162,7 @@
 # orig_file_sentence 002#66
 1	non	non	ADV	O4	_	4	neg	_	_
 2	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-3	igitur	igitur	ADV	O4	_	4	cc	_	_
+3	igitur	igitur	ADV	O4	_	4	advmod	_	_
 4	possibile	possibilis	ADJ	C1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 5	quod	quod	SCONJ	O4	_	16	mark	_	_
 6	per	per	ADP	S4	AdpType=Prep	7	case	_	_
@@ -3226,7 +3226,7 @@
 # sent_id la-s69
 # orig_file_sentence 002#69
 1	non	non	ADV	O4	_	4	neg	_	_
-2	enim	enim	ADV	O4	_	4	cc	_	_
+2	enim	enim	ADV	O4	_	4	advmod	_	_
 3	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	eadem	idem	PRON	F1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem,Prs	0	root	_	_
 5	ratio	ratio	NOUN	C1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	nsubj	_	_
@@ -3292,7 +3292,7 @@
 # sent_id la-s71
 # orig_file_sentence 002#71
 1	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-2	igitur	igitur	ADV	O4	_	4	cc	_	_
+2	igitur	igitur	ADV	O4	_	4	advmod	_	_
 3	omnino	omnino	ADV	O4	_	4	advmod:emph	_	_
 4	dissimilis	dissimilis	ADJ	C1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
 5	quidditas	quidditas	NOUN	C1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	nsubj	_	_
@@ -3311,7 +3311,7 @@
 # sent_id la-s72
 # orig_file_sentence 002#72
 1	non	non	ADV	O4	_	13	neg	_	_
-2	igitur	igitur	ADV	O4	_	13	cc	_	_
+2	igitur	igitur	ADV	O4	_	13	advmod	_	_
 3	per	per	ADP	S4	AdpType=Prep	4	case	_	_
 4	hoc	hic	PRON	F1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	13	nmod	_	_
 5	quod	quod	SCONJ	O4	_	8	mark	_	_
@@ -3376,7 +3376,7 @@
 # sent_id la-s75
 # orig_file_sentence 002#75
 1	remanet	remaneo	VERB	K3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	igitur	igitur	ADV	O4	_	1	cc	_	_
+2	igitur	igitur	ADV	O4	_	1	advmod	_	_
 3	quod	quod	SCONJ	O4	_	7	mark	_	_
 4	non	non	ADV	O4	_	7	neg	_	_
 5	erunt	sum	VERB	N3|modA|tem3|gen9	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	cop	_	_
@@ -3409,7 +3409,7 @@
 # sent_id la-s77
 # orig_file_sentence 002#77
 1	non	non	ADV	O4	_	11	neg	_	_
-2	igitur	igitur	ADV	O4	_	11	cc	_	_
+2	igitur	igitur	ADV	O4	_	11	advmod	_	_
 3	per	per	ADP	S4	AdpType=Prep	5	case	_	_
 4	has	hic	PRON	F1|grn1|casM|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|PronType=Dem	5	nmod	_	_
 5	quidditates	quidditas	NOUN	C1|grn1|casM|gen2|vgr1	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	nmod	_	_
@@ -3445,7 +3445,7 @@
 # orig_file_sentence 002#79
 1	non	non	ADV	O4	_	2	neg	_	_
 2	poterit	possum	VERB	N3|modA|tem3|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|VerbType=Mod|Voice=Act	0	root	_	_
-3	igitur	igitur	ADV	O4	_	2	cc	_	_
+3	igitur	igitur	ADV	O4	_	2	advmod	_	_
 4	intelligi	intelligo	VERB	L3|modQ|tem1	Tense=Pres|VerbForm=Inf|Voice=Pass	2	xcomp	_	_
 5	substantia	substantia	NOUN	A1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	nsubj	_	_
 6	separata	separo	VERB	J2|modM|tem4|grp1|casA|gen2	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	_
@@ -3496,7 +3496,7 @@
 # sent_id la-s83
 # orig_file_sentence 002#83
 1	caecus	caecus	ADJ	B1|grn1|casA|gen1|vgr1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	nsubj	_	_
-2	enim	enim	ADV	O4	_	14	cc	_	_
+2	enim	enim	ADV	O4	_	14	advmod	_	_
 3	natus	nascor	VERB	L2|modM|tem4|grp1|casA|gen1	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	acl	_	_
 4	,	,	PUNCT	Punc	_	6	punct	_	_
 5	per	per	ADP	S4	AdpType=Prep	6	case	_	_
@@ -3519,7 +3519,7 @@
 # sent_id la-s84
 # orig_file_sentence 002#84
 1	multo	multus	ADJ	B1|grn1|casG	Case=Loc|Degree=Pos|Number=Sing	3	advmod:emph	_	_
-2	igitur	igitur	ADV	O4	_	13	cc	_	_
+2	igitur	igitur	ADV	O4	_	13	advmod	_	_
 3	minus	parvus	X	5	Abbr=Yes	13	advmod	_	_
 4	per	per	ADP	S4	AdpType=Prep	5	case	_	_
 5	hoc	hic	PRON	F1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	13	nmod	_	_
@@ -3577,7 +3577,7 @@
 
 # sent_id la-s87
 # orig_file_sentence 002#87
-1	nam	nam	ADV	O4	_	4	cc	_	_
+1	nam	nam	ADV	O4	_	4	advmod	_	_
 2	per	per	ADP	S4	AdpType=Prep	3	case	_	_
 3	effectum	effectus	NOUN	D1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	nmod	_	_
 4	scitur	scio	VERB	M3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
@@ -3625,7 +3625,7 @@
 
 # sent_id la-s89
 # orig_file_sentence 002#89
-1	sic	sic	ADV	O4	_	5	cc	_	_
+1	sic	sic	ADV	O4	_	5	advmod	_	_
 2	autem	autem	CONJ	O4	_	5	cc	_	_
 3	non	non	ADV	O4	_	5	neg	_	_
 4	se	sui	PRON	F1|grn1|casM|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|PronType=Prs|Reflex=Yes	5	auxpass:reflex	_	_
@@ -3657,8 +3657,8 @@
 
 # sent_id la-s91
 # orig_file_sentence 002#91
-1	tunc	tunc	ADV	O4	_	8	cc	_	_
-2	enim	enim	ADV	O4	_	8	cc	_	_
+1	tunc	tunc	ADV	O4	_	8	advmod	_	_
+2	enim	enim	ADV	O4	_	8	advmod	_	_
 3	per	per	ADP	S4	AdpType=Prep	4	case	_	_
 4	effectum	effectus	NOUN	D1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	nmod	_	_
 5	tota	totus	PRON	F1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	6	nmod	_	_
@@ -3690,7 +3690,7 @@
 
 # sent_id la-s94
 # orig_file_sentence 002#94
-1	nam	nam	ADV	O4	_	5	cc	_	_
+1	nam	nam	ADV	O4	_	5	advmod	_	_
 2	virtutes	virtus	NOUN	C1|grn1|casJ|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	nsubj	_	_
 3	substantiarum	substantia	NOUN	A1|grn1|casK|gen2	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	2	nmod	_	_
 4	separatarum	separo	VERB	J2|modM|tem4|grp1|casK|gen2	Aspect=Perf|Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	_
@@ -3713,7 +3713,7 @@
 # orig_file_sentence 002#95
 1	non	non	ADV	O4	_	4	neg	_	_
 2	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-3	igitur	igitur	ADV	O4	_	4	cc	_	_
+3	igitur	igitur	ADV	O4	_	4	advmod	_	_
 4	possibile	possibilis	ADJ	C1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 5	quod	quod	SCONJ	O4	_	10	mark	_	_
 6	per	per	ADP	S4	AdpType=Prep	8	case	_	_
@@ -3755,7 +3755,7 @@
 # sent_id la-s98
 # orig_file_sentence 002#98
 1	si	si	SCONJ	O4	_	13	mark	_	_
-2	igitur	igitur	ADV	O4	_	19	cc	_	_
+2	igitur	igitur	ADV	O4	_	19	advmod	_	_
 3	per	per	ADP	S4	AdpType=Prep	4	case	_	_
 4	hoc	hic	PRON	F1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	13	nmod	_	_
 5	quod	quod	SCONJ	O4	_	6	mark	_	_
@@ -3796,7 +3796,7 @@
 # orig_file_sentence 002#100
 1	non	non	ADV	O4	_	2	neg	_	_
 2	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	enim	enim	ADV	O4	_	2	cc	_	_
+3	enim	enim	ADV	O4	_	2	advmod	_	_
 4	aliqua	aliqui	PRON	F1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	6	nmod	_	_
 5	speculativa	speculativus	ADJ	A1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
 6	scientia	scientia	NOUN	A1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	nsubj	_	_
@@ -3819,7 +3819,7 @@
 # orig_file_sentence 003#1
 1	non	non	ADV	O4	_	4	neg	_	_
 2	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-3	igitur	igitur	ADV	O4	_	4	cc	_	_
+3	igitur	igitur	ADV	O4	_	4	advmod	_	_
 4	possibile	possibilis	ADJ	C1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 5	quod	quod	SCONJ	O4	_	13	mark	_	_
 6	per	per	ADP	S4	AdpType=Prep	7	case	_	_
@@ -3850,7 +3850,7 @@
 10	speculativam	speculativus	ADJ	A1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
 11	scientiam	scientia	NOUN	A1|grn1|casD|gen2|vgr1	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	nsubj	_	_
 12	quamvis	quamvis	SCONJ	O4|vgr1	_	16	mark	_	_
-13	adhuc	adhuc	ADV	O4	_	16	cc	_	_
+13	adhuc	adhuc	ADV	O4	_	16	advmod	_	_
 14	non	non	ADV	O4	_	16	neg	_	_
 15	sit	sum	AUX	N3|modB|tem1|gen6	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	auxpass	_	_
 16	inventa	invenio	VERB	M2|modM|tem4|grp1|casA|gen2|vgr1	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	_
@@ -3878,7 +3878,7 @@
 # sent_id la-s3
 # orig_file_sentence 003#3
 1	omnia	omnis	DET	C1|grn1|casJ|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|PronType=Ind	4	det	_	_
-2	enim	enim	ADV	O4	_	7	cc	_	_
+2	enim	enim	ADV	O4	_	7	advmod	_	_
 3	propria	proprius	ADJ	B1|grn1|casJ|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	_
 4	principia	principium	NOUN	B1|grn1|casJ|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	7	nsubj	_	_
 5	cuiuscumque	quicumque	PRON	F1|grn1|casB|gen2|vgr3	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind,Rel	6	nmod	_	_
@@ -3929,7 +3929,7 @@
 # orig_file_sentence 003#5
 1	non	non	ADV	O4	_	4	neg	_	_
 2	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-3	ergo	ergo	ADV	O4	_	4	cc	_	_
+3	ergo	ergo	ADV	O4	_	4	advmod	_	_
 4	possibile	possibilis	ADJ	C1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 5	aliquam	aliqui	PRON	F1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	6	nmod	_	_
 6	scientiam	scientia	NOUN	A1|grn1|casD|gen2|vgr1	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -3963,7 +3963,7 @@
 # sent_id la-s7
 # orig_file_sentence 003#7
 1	quia	quia	SCONJ	O4	_	4	mark	_	_
-2	vero	verus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	39	cc	_	_
+2	vero	verus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	39	advmod	_	_
 3	alexander	alexander	NOUN	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	posuit	pono	VERB	L3|modA|tem4|gen6	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	39	advcl	_	_
 5	quod	quod	SCONJ	O4	_	9	mark	_	_
@@ -3974,7 +3974,7 @@
 10	et	et	CONJ	O4	_	9	cc	_	_
 11	corruptibilis	corruptibilis	ADJ	C1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	conj	_	_
 12	,	,	PUNCT	Punc	_	15	punct	_	_
-13	utpote	utpote	ADV	O4	_	15	cc	_	_
+13	utpote	utpote	ADV	O4	_	15	mark	_	_
 14	quaedam	quidam	PRON	F1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	15	nmod	_	_
 15	praeparatio	praeparatio	NOUN	C1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	xcomp	_	_
 16	naturae	natura	NOUN	A1|grn1|casB|gen2|vgr1	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	nmod	_	_
@@ -3991,7 +3991,7 @@
 27	;	;	PUNCT	Punc	_	30	punct	_	_
 28	non	non	ADV	O4	_	30	neg	_	_
 29	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	cop	_	_
-30	autem	autem	CONJ	O4	_	9	cc	_	_
+30	autem	autem	CONJ	O4	_	9	advmod	_	_
 31	possibile	possibilis	ADJ	C1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	30	parataxis	_	_
 32	ut	ut	SCONJ	O4|vgr1	_	37	mark	_	_
 33	talis	talis	PRON	C1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	34	nmod	_	_
@@ -4017,7 +4017,7 @@
 # sent_id la-s8
 # orig_file_sentence 003#8
 1	posuit	pono	VERB	L3|modA|tem4|gen6	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-2	tamen	tamen	ADV	O4	_	1	cc	_	_
+2	tamen	tamen	ADV	O4	_	1	advmod	_	_
 3	quod	quod	SCONJ	O4	_	11	mark	_	_
 4	nos	ego	PRON	F1|grn1|casJ|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|PronType=Prs	11	nsubj	_	_
 5	,	,	PUNCT	Punc	_	7	punct	_	_
@@ -4035,7 +4035,7 @@
 # sent_id la-s9
 # orig_file_sentence 003#9
 1	quod	qui	PRON	F1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	3	dobj	_	_
-2	quidem	quidem	ADV	O4	_	4	cc	_	_
+2	quidem	quidem	ADV	O4	_	4	advmod	_	_
 3	ostendere	ostendo	VERB	L3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	4	xcomp	_	_
 4	nitebatur	nitor	VERB	L3|modJ|tem2|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Pass	0	root	_	_
 5	hoc	hic	PRON	F1|grn1|casF|gen1	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	6	nmod	_	_
@@ -4088,7 +4088,7 @@
 
 # sent_id la-s12
 # orig_file_sentence 003#12
-1	unde	unde	ADV	O4	_	10	cc	_	_
+1	unde	unde	ADV	O4	_	10	advmod	_	_
 2	animal	animal	NOUN	C1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	nsubj	_	_
 3	,	,	PUNCT	Punc	_	8	punct	_	_
 4	cum	cum	ADP	S4|vgr1	AdpType=Prep	8	mark	_	_
@@ -4164,7 +4164,7 @@
 # sent_id la-s16
 # orig_file_sentence 003#16
 1	haec	hic	PRON	F1|grn1|casM|gen3|vgr1	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|PronType=Dem	6	dobj	_	_
-2	enim	enim	ADV	O4	_	5	cc	_	_
+2	enim	enim	ADV	O4	_	5	advmod	_	_
 3	duo	duo	NUM	F1|grn1|casM|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|NumType=Card	1	nummod	_	_
 4	homo	homo	NOUN	C1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	nsubj	_	_
 5	potest	possum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	0	root	_	_
@@ -4177,7 +4177,7 @@
 # sent_id la-s17
 # orig_file_sentence 003#17
 1	quando	quando	SCONJ	O4	_	3	mark	_	_
-2	igitur	igitur	ADV	O4	_	9	cc	_	_
+2	igitur	igitur	ADV	O4	_	9	advmod	_	_
 3	complebitur	compleo	VERB	K3|modJ|tem3|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Pass	9	advcl	_	_
 4	generatio	generatio	NOUN	C1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	nsubjpass	_	_
 5	intellectus	intellectus	NOUN	D1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	nmod	_	_
@@ -4212,7 +4212,7 @@
 # sent_id la-s19
 # orig_file_sentence 003#19
 1	et	et	CONJ	O4	_	3	cc	_	_
-2	sic	sic	ADV	O4	_	3	cc	_	_
+2	sic	sic	ADV	O4	_	3	advmod	_	_
 3	necesse	necesse	ADJ	G1	_	0	root	_	_
 4	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 5	quod	quod	SCONJ	O4	_	9	mark	_	_
@@ -4237,7 +4237,7 @@
 # sent_id la-s20
 # orig_file_sentence 003#20
 1	complebitur	compleo	VERB	K3|modJ|tem3|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Pass	0	root	_	_
-2	igitur	igitur	ADV	O4	_	1	cc	_	_
+2	igitur	igitur	ADV	O4	_	1	advmod	_	_
 3	quandoque	quandoque	ADV	O4|comH	_	1	advmod	_	_
 4	utraque	uterque	PRON	F1|grn1|casA|gen2|comH	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	1	nsubjpass	_	_
 5	operationum	operatio	NOUN	C1|grn1|casK|gen2|vgr1	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	4	nmod	_	_
@@ -4331,8 +4331,8 @@
 
 # sent_id la-s22
 # orig_file_sentence 003#22
-1	ita	ita	ADV	O4	_	5	cc	_	_
-2	quod	quod	SCONJ	O4	_	5	mark	_	_
+1	ita	ita	ADV	O4	_	5	mark	_	_
+2	quod	quod	SCONJ	O4	_	1	mwe	_	_
 3	per	per	ADP	S4	AdpType=Prep	4	case	_	_
 4	eum	is	PRON	F1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem,Prs	5	nmod	_	_
 5	intelligemus	intelligo	VERB	L3|modA|tem3|gen7	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -4465,7 +4465,7 @@
 
 # sent_id la-s26
 # orig_file_sentence 003#26
-1	unde	unde	ADV	O4	_	25	cc	_	_
+1	unde	unde	ADV	O4	_	25	advmod	_	_
 2	,	,	PUNCT	Punc	_	8	punct	_	_
 3	quando	quando	SCONJ	O4	_	8	mark	_	_
 4	intellectus	intellectus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -4518,7 +4518,7 @@
 # sent_id la-s28
 # orig_file_sentence 003#28
 1	et	et	CONJ	O4	_	23	cc	_	_
-2	sic	sic	ADV	O4	_	23	cc	_	_
+2	sic	sic	ADV	O4	_	23	advmod	_	_
 3	,	,	PUNCT	Punc	_	9	punct	_	_
 4	licet	licet	SCONJ	O4	_	9	mark	_	_
 5	in	in	ADP	S4	AdpType=Prep	6	case	_	_
@@ -4537,7 +4537,7 @@
 18	;	;	PUNCT	Punc	_	9	punct	_	_
 19	per	per	ADP	S4	AdpType=Prep	20	case	_	_
 20	eas	is	PRON	F1|grn1|casM|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|PronType=Dem,Prs	23	nmod	_	_
-21	tamen	tamen	ADV	O4	_	23	cc	_	_
+21	tamen	tamen	ADV	O4	_	23	advmod	_	_
 22	homo	homo	NOUN	C1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	nsubjpass	_	_
 23	disponitur	dispono	VERB	L3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 24	ad	ad	ADP	S4	AdpType=Prep	27	mark	_	_
@@ -4587,7 +4587,7 @@
 # sent_id la-s31
 # orig_file_sentence 003#31
 1	secundum	secundum	ADP	S4	AdpType=Prep	5	case	_	_
-2	vero	verus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	7	cc	_	_
+2	vero	verus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	7	advmod	_	_
 3	hanc	hic	PRON	F1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	5	nmod	_	_
 4	secundam	secundus	ADJ	A1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
 5	opinionem	opinio	NOUN	C1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	nmod	_	_
@@ -4599,13 +4599,13 @@
 
 # sent_id la-s32
 # orig_file_sentence 003#32
-1	nam	nam	ADV	O4	_	10	cc	_	_
+1	nam	nam	ADV	O4	_	10	advmod	_	_
 2	propter	propter	ADP	S4	AdpType=Prep	3	case	_	_
 3	hoc	hic	PRON	F1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	10	nmod	_	_
 4	quod	quod	SCONJ	O4	_	6	mark	_	_
 5	nobiscum	ego	PRON	F1|grn1|casO|gen1|comC	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur|PronType=Prs	6	nmod	_	_
 6	continuatur	continuo	VERB	J3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	acl	_	_
-7	ut	ut	SCONJ	O4|vgr1	_	8	cc	_	_
+7	ut	ut	SCONJ	O4|vgr1	_	8	mark	_	_
 8	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	xcomp	_	_
 9	,	,	PUNCT	Punc	_	6	punct	_	_
 10	intelligimus	intelligo	VERB	L3|modA|tem1|gen7	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -4627,7 +4627,7 @@
 # sent_id la-s34
 # orig_file_sentence 003#34
 1	intellectus	intellectus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	nsubjpass	_	_
-2	enim	enim	ADV	O4	_	10	cc	_	_
+2	enim	enim	ADV	O4	_	10	advmod	_	_
 3	in	in	ADP	S4	AdpType=Prep	4	case	_	_
 4	habitu	habitus	NOUN	D1|grn1|casF|gen1	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	1	nmod	_	_
 5	,	,	PUNCT	Punc	_	7	punct	_	_
@@ -4664,7 +4664,7 @@
 # orig_file_sentence 003#36
 1	propter	propter	ADP	S4	AdpType=Prep	2	case	_	_
 2	hoc	hic	PRON	F1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	4	nmod	_	_
-3	enim	enim	ADV	O4	_	4	cc	_	_
+3	enim	enim	ADV	O4	_	4	advmod	_	_
 4	ponit	pono	VERB	L3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	intellectum	intellectus	NOUN	D1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	nsubj	_	_
 6	possibilem	possibilis	ADJ	C1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
@@ -4672,7 +4672,7 @@
 8	qui	qui	PRON	F1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Rel	9	nsubjpass	_	_
 9	unitur	unio	VERB	M3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	acl	_	_
 10	nobis	ego	PRON	F1|grn1|casL|gen1	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|PronType=Prs	9	dobj	_	_
-11	ut	ut	SCONJ	O4|vgr1	_	12	cc	_	_
+11	ut	ut	SCONJ	O4|vgr1	_	12	mark	_	_
 12	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	xcomp	_	_
 13	,	,	PUNCT	Punc	_	9	punct	_	_
 14	esse	sum	VERB	N3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	4	xcomp	_	_
@@ -4681,7 +4681,7 @@
 17	corruptibilem	corruptibilis	ADJ	C1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	conj	_	_
 18	,	,	PUNCT	Punc	_	14	punct	_	_
 19	intellectum	intellectus	NOUN	D1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	28	nsubj	_	_
-20	vero	verus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	28	cc	_	_
+20	vero	verus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	28	advmod	_	_
 21	agentem	ago	VERB	L2|modD|tem1|grp1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	19	acl	_	_
 22	,	,	PUNCT	Punc	_	25	punct	_	_
 23	qui	qui	PRON	F1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Rel	25	nsubj	_	_
@@ -4696,7 +4696,7 @@
 # sent_id la-s37
 # orig_file_sentence 003#37
 1	cum	cum	ADP	S4|vgr1	AdpType=Prep	9	mark	_	_
-2	igitur	igitur	ADV	O4	_	16	cc	_	_
+2	igitur	igitur	ADV	O4	_	16	advmod	_	_
 3	intellectus	intellectus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	nsubjpass	_	_
 4	agens	ago	VERB	L2|modD|tem1|grp1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	acl	_	_
 5	,	,	PUNCT	Punc	_	7	punct	_	_
@@ -4749,7 +4749,7 @@
 # sent_id la-s40
 # orig_file_sentence 003#40
 1	non	non	ADV	O4	_	3	neg	_	_
-2	enim	enim	ADV	O4	_	3	cc	_	_
+2	enim	enim	ADV	O4	_	3	advmod	_	_
 3	recipit	recipio	VERB	L3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	aliquid	aliquis	PRON	F1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	3	dobj	_	_
 5	intellectus	intellectus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	nsubj	_	_
@@ -4770,7 +4770,7 @@
 # sent_id la-s41
 # orig_file_sentence 003#41
 1	si	si	SCONJ	O4	_	4	mark	_	_
-2	igitur	igitur	ADV	O4	_	14	cc	_	_
+2	igitur	igitur	ADV	O4	_	14	advmod	_	_
 3	non	non	ADV	O4	_	4	neg	_	_
 4	potest	possum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	14	advcl	_	_
 5	intellectus	intellectus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -4853,7 +4853,7 @@
 # sent_id la-s47
 # orig_file_sentence 003#47
 1	qua	qui	PRON	F1|grn1|casF|gen2|varA	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|PronType=Rel	3	nmod	_	_
-2	quidem	quidem	ADV	O4	_	3	cc	_	_
+2	quidem	quidem	ADV	O4	_	3	advmod	_	_
 3	dicimur	dico	VERB	N3|modJ|tem1|gen7	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	intelligere	intelligo	VERB	L3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	3	ccomp	_	_
 5	,	,	PUNCT	Punc	_	6	punct	_	_
@@ -4899,7 +4899,7 @@
 # sent_id la-s49
 # orig_file_sentence 003#49
 1	si	si	SCONJ	O4	_	8	mark	_	_
-2	igitur	igitur	ADV	O4	_	12	cc	_	_
+2	igitur	igitur	ADV	O4	_	12	advmod	_	_
 3	homo	homo	NOUN	C1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	nsubj	_	_
 4	quandoque	quandoque	ADV	O4|comH	_	8	advmod	_	_
 5	per	per	ADP	S4	AdpType=Prep	6	case	_	_
@@ -4989,12 +4989,12 @@
 
 # sent_id la-s53
 # orig_file_sentence 003#53
-1	unde	unde	ADV	O4	_	3	cc	_	_
+1	unde	unde	ADV	O4	_	3	advmod	_	_
 2	non	non	ADV	O4	_	3	neg	_	_
 3	potest	possum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	0	root	_	_
 4	esse	sum	VERB	N3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	3	xcomp	_	_
 5	quod	quod	SCONJ	O4	_	7	mark	_	_
-6	sic	sic	ADV	O4	_	7	cc	_	_
+6	sic	sic	ADV	O4	_	7	advmod	_	_
 7	intelligamus	intelligo	VERB	L3|modB|tem1|gen7	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	csubj	_	_
 8	substantias	substantia	NOUN	A1|grn1|casM|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	dobj	_	_
 9	separatas	separo	VERB	J2|modM|tem4|grp1|casM|gen2	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	_
@@ -5053,7 +5053,7 @@
 # sent_id la-s56
 # orig_file_sentence 003#56
 1	impossibile	impossibilis	ADJ	C1|grn1|casA|gen3|vgr1	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
-2	enim	enim	ADV	O4	_	1	cc	_	_
+2	enim	enim	ADV	O4	_	1	advmod	_	_
 3	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
 4	,	,	PUNCT	Punc	_	11	punct	_	_
 5	si	si	SCONJ	O4	_	11	mark	_	_
@@ -5075,7 +5075,7 @@
 # sent_id la-s57
 # orig_file_sentence 003#57
 1	erit	sum	VERB	N3|modA|tem3|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	cop	_	_
-2	igitur	igitur	ADV	O4	_	5	cc	_	_
+2	igitur	igitur	ADV	O4	_	5	advmod	_	_
 3	intellectus	intellectus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	agens	ago	VERB	L2|modD|tem1|grp1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	acl	_	_
 5	unum	unus	NUM	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|NumType=Card	0	root	_	_
@@ -5107,8 +5107,8 @@
 
 # sent_id la-s59
 # orig_file_sentence 003#59
-1	sic	sic	ADV	O4	_	7	cc	_	_
-2	enim	enim	ADV	O4	_	7	cc	_	_
+1	sic	sic	ADV	O4	_	7	advmod	_	_
+2	enim	enim	ADV	O4	_	7	advmod	_	_
 3	ex	e	ADP	S4|vgr2	AdpType=Prep	4	case	_	_
 4	colore	color	NOUN	C1|grn1|casF|gen1	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	7	nmod	_	_
 5	et	et	CONJ	O4	_	4	cc	_	_
@@ -5123,7 +5123,7 @@
 # sent_id la-s60
 # orig_file_sentence 003#60
 1	relinquitur	relinquo	VERB	L3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-2	igitur	igitur	ADV	O4	_	1	cc	_	_
+2	igitur	igitur	ADV	O4	_	1	advmod	_	_
 3	quod	quod	SCONJ	O4	_	9	mark	_	_
 4	intellectus	intellectus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	nsubj	_	_
 5	agens	ago	VERB	L2|modD|tem1|grp1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	acl	_	_
@@ -5139,7 +5139,7 @@
 # sent_id la-s61
 # orig_file_sentence 003#61
 1	erit	sum	VERB	N3|modA|tem3|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	cop	_	_
-2	igitur	igitur	ADV	O4	_	4	cc	_	_
+2	igitur	igitur	ADV	O4	_	4	advmod	_	_
 3	vel	vel	CONJ	O4|vgr1	_	4	cc	_	_
 4	anima	anima	NOUN	F1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
 5	humana	humanus	ADJ	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
@@ -5162,7 +5162,7 @@
 # sent_id la-s62
 # orig_file_sentence 003#62
 1	non	non	ADV	O4	_	6	neg	_	_
-2	igitur	igitur	ADV	O4	_	6	cc	_	_
+2	igitur	igitur	ADV	O4	_	6	advmod	_	_
 3	secundum	secundum	ADP	S4	AdpType=Prep	4	case	_	_
 4	opinionem	opinio	NOUN	C1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	nmod	_	_
 5	alexandri	alexander	NOUN	B1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	nmod	_	_
@@ -5191,8 +5191,8 @@
 7	istius	iste	PRON	F1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	8	nmod	_	_
 8	hominis	homo	NOUN	C1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
 9	,	,	PUNCT	Punc	_	15	punct	_	_
-10	ita	ita	ADV	O4	_	15	cc	_	_
-11	quod	quod	SCONJ	O4	_	15	mark	_	_
+10	ita	ita	ADV	O4	_	15	mark	_	_
+11	quod	quod	SCONJ	O4	_	10	mwe	_	_
 12	per	per	ADP	S4	AdpType=Prep	13	case	_	_
 13	ipsum	ipse	PRON	F1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem,Prs	14	nmod	_	_
 14	intelligere	intelligo	VERB	L3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	15	xcomp	_	_
@@ -5214,7 +5214,7 @@
 # sent_id la-s65
 # orig_file_sentence 003#65
 1	sequetur	sequor	VERB	L3|modJ|tem3|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Pass	0	root	_	_
-2	ergo	ergo	ADV	O4	_	1	cc	_	_
+2	ergo	ergo	ADV	O4	_	1	advmod	_	_
 3	quod	quod	SCONJ	O4	_	10	mark	_	_
 4	duo	duo	NUM	F1|grn1|casJ|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|NumType=Card	5	nummod	_	_
 5	homines	homo	NOUN	C1|grn1|casJ|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	nsubj	_	_
@@ -5234,8 +5234,8 @@
 1	hoc	hic	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	autem	autem	CONJ	O4	_	3	cc	_	_
 3	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	ita	ita	ADV	O4	_	10	cc	_	_
-5	quod	quod	SCONJ	O4	_	10	mark	_	_
+4	ita	ita	ADV	O4	_	10	mark	_	_
+5	quod	quod	SCONJ	O4	_	4	mwe	_	_
 6	ipsum	ipse	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem,Prs	7	nmod	_	_
 7	intelligere	intelligo	VERB	L3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	10	csubj	_	_
 8	intellectus	intellectus	NOUN	D1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	nmod	_	_
@@ -5255,7 +5255,7 @@
 # sent_id la-s67
 # orig_file_sentence 003#67
 1	erit	sum	VERB	N3|modA|tem3|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	cop	_	_
-2	ergo	ergo	ADV	O4	_	3	cc	_	_
+2	ergo	ergo	ADV	O4	_	3	advmod	_	_
 3	idem	idem	PRON	F1|grn1|casA|gen3|vgr1	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem,Prs	0	root	_	_
 4	intelligere	intelligo	VERB	L3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	3	csubj	_	_
 5	duorum	duo	NUM	F1|grn1|casK|gen3	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|NumType=Card	6	nummod	_	_
@@ -5315,7 +5315,7 @@
 # sent_id la-s71
 # orig_file_sentence 003#71
 1	cum	cum	ADP	S4|vgr1	AdpType=Prep	3	mark	_	_
-2	enim	enim	ADV	O4	_	7	cc	_	_
+2	enim	enim	ADV	O4	_	7	advmod	_	_
 3	perficitur	perficio	VERB	L3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	advcl	_	_
 4	generatio	generatio	NOUN	C1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	nsubjpass	_	_
 5	aeris	aer	NOUN	C1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	nmod	_	_
@@ -5328,7 +5328,7 @@
 12	sursum	sursum	ADV	O4	_	8	advmod	_	_
 13	,	,	PUNCT	Punc	_	14	punct	_	_
 14	non	non	ADV	O4	_	7	neg	_	_
-15	tamen	tamen	ADV	O4	_	17	cc	_	_
+15	tamen	tamen	ADV	O4	_	17	advmod	_	_
 16	ut	ut	SCONJ	O4|vgr1	_	14	mark	_	_
 17	moveatur	moveo	VERB	K3|modK|tem1|gen6	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	advcl	_	_
 18	ad	ad	ADP	S4	AdpType=Prep	19	case	_	_
@@ -5370,7 +5370,7 @@
 30	separatae	separo	VERB	J2|modM|tem4|grp1|casJ|gen2	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	29	acl	_	_
 31	,	,	PUNCT	Punc	_	34	punct	_	_
 32	ut	ut	SCONJ	O4|vgr1	_	34	mark	_	_
-33	scilicet	scilicet	ADV	O4	_	34	cc	_	_
+33	scilicet	scilicet	ADV	O4	_	32	mwe	_	_
 34	intelligat	intelligo	VERB	L3|modB|tem1|gen6	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	appos	_	_
 35	substantias	substantia	NOUN	A1|grn1|casM|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	34	dobj	_	_
 36	separatas	separo	VERB	J2|modM|tem4|grp1|casM|gen2	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	35	acl	_	_
@@ -5378,7 +5378,7 @@
 
 # sent_id la-s73
 # orig_file_sentence 003#73
-1	unde	unde	ADV	O4	_	8	cc	_	_
+1	unde	unde	ADV	O4	_	8	advmod	_	_
 2	ex	e	ADP	S4|vgr2	AdpType=Prep	3	case	_	_
 3	generatione	generatio	NOUN	C1|grn1|casF|gen2|comH|vgr1	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	8	nmod	_	_
 4	intellectus	intellectus	NOUN	D1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	nmod	_	_
@@ -5414,7 +5414,7 @@
 # sent_id la-s75
 # orig_file_sentence 003#75
 1	si	si	SCONJ	O4	_	7	mark	_	_
-2	igitur	igitur	ADV	O4	_	13	cc	_	_
+2	igitur	igitur	ADV	O4	_	13	advmod	_	_
 3	intelligere	intelligo	VERB	L3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	7	csubj	_	_
 4	substantias	substantia	NOUN	A1|grn1|casM|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	3	dobj	_	_
 5	separatas	separo	VERB	J2|modM|tem4|grp1|casM|gen2	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	_
@@ -5447,7 +5447,7 @@
 # sent_id la-s77
 # orig_file_sentence 003#77
 1	sequeretur	sequor	VERB	L3|modK|tem2|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Pass	0	root	_	_
-2	enim	enim	ADV	O4	_	1	cc	_	_
+2	enim	enim	ADV	O4	_	1	advmod	_	_
 3	quod	quod	SCONJ	O4	_	7	mark	_	_
 4	intelligere	intelligo	VERB	L3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	7	csubj	_	_
 5	substantias	substantia	NOUN	A1|grn1|casM|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	dobj	_	_
@@ -5505,7 +5505,7 @@
 # sent_id la-s79
 # orig_file_sentence 003#79
 1	si	si	SCONJ	O4	_	6	mark	_	_
-2	igitur	igitur	ADV	O4	_	11	cc	_	_
+2	igitur	igitur	ADV	O4	_	11	advmod	_	_
 3	ad	ad	ADP	S4	AdpType=Prep	4	case	_	_
 4	completionem	completio	NOUN	C1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	dobj	_	_
 5	generationis	generatio	NOUN	C1|grn1|casB|gen2	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	nmod	_	_
@@ -5572,7 +5572,7 @@
 # orig_file_sentence 003#82
 1	non	non	ADV	O4	_	4	neg	_	_
 2	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-3	igitur	igitur	ADV	O4	_	4	cc	_	_
+3	igitur	igitur	ADV	O4	_	4	advmod	_	_
 4	complementum	complementum	NOUN	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 5	operationis	operatio	NOUN	C1|grn1|casB|gen2|vgr1	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	nmod	_	_
 6	intellectus	intellectus	NOUN	D1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	nmod	_	_
@@ -5602,7 +5602,7 @@
 # sent_id la-s84
 # orig_file_sentence 003#84
 1	quia	quia	SCONJ	O4	_	5	mark	_	_
-2	vero	verus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	24	cc	_	_
+2	vero	verus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	24	advmod	_	_
 3	maxima	magnus	ADJ	A1|grn3|casA|gen2	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	4	amod	_	_
 4	difficultas	difficultas	NOUN	C1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	nsubj	_	_
 5	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	advcl	_	_
@@ -5658,7 +5658,7 @@
 # sent_id la-s85
 # orig_file_sentence 003#85
 1	ostendit	ostendo	VERB	L3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	enim	enim	ADV	O4	_	1	cc	_	_
+2	enim	enim	ADV	O4	_	1	advmod	_	_
 3	primo	primus	ADJ	B1|grn1|casG	Case=Loc|Degree=Pos|Number=Sing|NumType=Ord	1	advmod	_	_
 4	,	,	PUNCT	Punc	_	6	punct	_	_
 5	quod	quod	SCONJ	O4	_	6	mark	_	_
@@ -5692,7 +5692,7 @@
 # sent_id la-s86
 # orig_file_sentence 003#86
 1	intellectus	intellectus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	nsubj	_	_
-2	enim	enim	ADV	O4	_	11	cc	_	_
+2	enim	enim	ADV	O4	_	11	advmod	_	_
 3	in	in	ADP	S4	AdpType=Prep	4	case	_	_
 4	habitu	habitus	NOUN	D1|grn1|casF|gen1	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	1	nmod	_	_
 5	,	,	PUNCT	Punc	_	7	punct	_	_
@@ -5722,7 +5722,7 @@
 # sent_id la-s87
 # orig_file_sentence 003#87
 1	utrumque	uterque	PRON	F1|grn1|casD|gen3|comH|vgr2	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	7	nsubj	_	_
-2	enim	enim	ADV	O4	_	3	cc	_	_
+2	enim	enim	ADV	O4	_	3	advmod	_	_
 3	experimur	experior	VERB	M3|modJ|tem1|gen7	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	in	in	ADP	S4	AdpType=Prep	6	case	_	_
 5	nostra	noster	DET	A1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
@@ -5823,7 +5823,7 @@
 
 # sent_id la-s91
 # orig_file_sentence 003#91
-1	unde	unde	ADV	O4	_	13	cc	_	_
+1	unde	unde	ADV	O4	_	13	advmod	_	_
 2	et	et	CONJ	O4	_	3	advmod:emph	_	_
 3	habitus	habitus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	nsubjpass	_	_
 4	horum	hic	PRON	F1|grn1|casK|gen3	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|PronType=Dem	5	nmod	_	_
@@ -5925,7 +5925,7 @@
 # sent_id la-s96
 # orig_file_sentence 003#96
 1	oportet	oportet	VERB	K3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	igitur	igitur	ADV	O4	_	1	cc	_	_
+2	igitur	igitur	ADV	O4	_	1	advmod	_	_
 3	quod	quod	SCONJ	O4	_	6	mark	_	_
 4	intellectus	intellectus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	nsubjpass	_	_
 5	agens	ago	VERB	L2|modD|tem1|grp1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	acl	_	_
@@ -5952,11 +5952,11 @@
 # sent_id la-s97
 # orig_file_sentence 003#97
 1	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	4	nsubj	_	_
-2	quidem	quidem	ADV	O4	_	7	cc	_	_
+2	quidem	quidem	ADV	O4	_	7	advmod	_	_
 3	qualiter	qualis	PRON	C1|grn1|casG	Case=Loc|Degree=Pos|Number=Sing|PronType=Int,Rel	4	nmod	_	_
 4	possit	possum	VERB	N3|modB|tem1|gen6	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	7	ccomp	_	_
 5	esse	sum	VERB	N3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	4	xcomp	_	_
-6	sic	sic	ADV	O4	_	7	cc	_	_
+6	sic	sic	ADV	O4	_	7	advmod	_	_
 7	ostendit	ostendo	VERB	L3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 8	.	.	PUNCT	Punc	_	7	punct	_	_
 
@@ -5994,14 +5994,14 @@
 # sent_id la-s99
 # orig_file_sentence 003#99
 1	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
-2	igitur	igitur	ADV	O4	_	3	cc	_	_
+2	igitur	igitur	ADV	O4	_	3	advmod	_	_
 3	subiectum	subjectum	NOUN	B1|grn1|casA|gen3|vgr2	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 4	utrorumque	uterque	PRON	F1|grn1|casK|gen3|comH	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|PronType=Ind	3	nmod	_	_
 5	.	.	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id la-s100
 # orig_file_sentence 003#100
-1	ergo	ergo	ADV	O4	_	5	cc	_	_
+1	ergo	ergo	ADV	O4	_	5	advmod	_	_
 2	eorum	is	PRON	F1|grn1|casK|gen3	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|PronType=Dem,Prs	3	nmod	_	_
 3	materia	materia	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	nsubj	_	_
 4	non	non	ADV	O4	_	5	neg	_	_
@@ -6085,7 +6085,7 @@
 # sent_id la-s4
 # orig_file_sentence 004#4
 1	non	non	ADV	O4	_	3	neg	_	_
-2	enim	enim	ADV	O4	_	3	cc	_	_
+2	enim	enim	ADV	O4	_	3	advmod	_	_
 3	ponit	pono	VERB	L3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	successionem	successio	NOUN	C1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	dobj	_	_
 5	temporis	tempus	NOUN	C1|grn1|casB|gen3	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	nmod	_	_
@@ -6094,7 +6094,7 @@
 8	operibus	opus	NOUN	C1|grn1|casO|gen3	Case=Abl|Degree=Pos|Gender=Neut|Number=Plur	3	nmod	_	_
 9	,	,	PUNCT	Punc	_	3	punct	_	_
 10	et	et	CONJ	O4	_	3	cc	_	_
-11	ideo	ideo	ADV	O4	_	13	cc	_	_
+11	ideo	ideo	ADV	O4	_	13	advmod	_	_
 12	non	non	ADV	O4	_	13	neg	_	_
 13	oportet	oportet	VERB	K3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
 14	dicere	dico	VERB	N3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	13	csubj	_	_
@@ -6132,7 +6132,7 @@
 
 # sent_id la-s6
 # orig_file_sentence 004#6
-1	praeterea	praeterea	ADV	O4|vgr1	_	5	cc	_	_
+1	praeterea	praeterea	ADV	O4|vgr1	_	5	advmod	_	_
 2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	nobilioris	nobilis	ADJ	C1|grn2|casB|gen3	Case=Gen|Degree=Cmp|Gender=Neut|Number=Sing	4	amod	_	_
 4	corporis	corpus	NOUN	C1|grn1|casB|gen3	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	nmod	_	_
@@ -6143,7 +6143,7 @@
 
 # sent_id la-s7
 # orig_file_sentence 004#7
-1	ergo	ergo	ADV	O4	_	2	cc	_	_
+1	ergo	ergo	ADV	O4	_	2	advmod	_	_
 2	habent	habeo	VERB	K3|modA|tem1|gen9	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	nobiliorem	nobilis	ADJ	C1|grn2|casD|gen2	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	4	amod	_	_
 4	formam	forma	NOUN	A1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	dobj	_	_
@@ -6214,7 +6214,7 @@
 26	animam	anima	NOUN	F1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	conj	_	_
 27	,	,	PUNCT	Punc	_	13	punct	_	_
 28	non	non	ADV	O4	_	31	neg	_	_
-29	enim	enim	ADV	O4	_	31	cc	_	_
+29	enim	enim	ADV	O4	_	31	advmod	_	_
 30	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	31	nsubj	_	_
 31	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	_
 32	propter	propter	ADP	S4	AdpType=Prep	28	case	_	_
@@ -6238,14 +6238,14 @@
 9	quod	quod	SCONJ	O4	_	10	mark	_	_
 10	uniatur	unio	VERB	M3|modK|tem1|gen6	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	csubj	_	_
 11	ei	is	PRON	F1|grn1|casC|gen1	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem,Prs	10	iobj	_	_
-12	ut	ut	SCONJ	O4|vgr1	_	13	cc	_	_
+12	ut	ut	SCONJ	O4|vgr1	_	13	mark	_	_
 13	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	xcomp	_	_
 14	;	;	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id la-s11
 # orig_file_sentence 004#11
 1	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	nsubj	_	_
-2	ergo	ergo	ADV	O4	_	16	cc	_	_
+2	ergo	ergo	ADV	O4	_	16	advmod	_	_
 3	caelestis	caelestis	ADJ	C1|grn1|casB|gen3	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
 4	corporis	corpus	NOUN	C1|grn1|casB|gen3	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	1	nmod	_	_
 5	,	,	PUNCT	Punc	_	10	punct	_	_
@@ -6258,7 +6258,7 @@
 12	animalis	animal	NOUN	C1|grn1|casB|gen3	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	nmod	_	_
 13	,	,	PUNCT	Punc	_	10	punct	_	_
 14	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_
-15	tamen	tamen	ADV	O4	_	16	cc	_	_
+15	tamen	tamen	ADV	O4	_	16	advmod	_	_
 16	nobilior	nobilis	ADJ	C1|grn2|casA|gen2	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	0	root	_	_
 17	quantum	quantum	ADV	O4	_	19	advmod:emph	_	_
 18	ad	ad	ADP	S4	AdpType=Prep	19	case	_	_
@@ -6266,7 +6266,7 @@
 20	formae	forma	NOUN	A1|grn1|casB|gen2|vgr1	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	nmod	_	_
 21	,	,	PUNCT	Punc	_	16	punct	_	_
 22	perficit	perficio	VERB	L3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	_
-23	enim	enim	ADV	O4	_	22	cc	_	_
+23	enim	enim	ADV	O4	_	22	advmod	_	_
 24	totaliter	totalis	ADJ	C1|grn1|casG	Case=Loc|Degree=Pos|Number=Sing	22	advmod	_	_
 25	suam	suus	DET	A1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	26	det	_	_
 26	materiam	materia	NOUN	A1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	dobj	_	_
@@ -6319,7 +6319,7 @@
 # sent_id la-s13
 # orig_file_sentence 004#13
 1	quae	qui	PRON	F1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Rel	3	nmod	_	_
-2	quidem	quidem	ADV	O4	_	5	cc	_	_
+2	quidem	quidem	ADV	O4	_	5	advmod	_	_
 3	perfectio	perfectio	NOUN	C1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	nsubj	_	_
 4	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 5	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
@@ -6499,7 +6499,7 @@
 # sent_id la-s19
 # orig_file_sentence 004#19
 1	secundum	secundum	ADP	S4	AdpType=Prep	3	case	_	_
-2	vero	verus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	14	cc	_	_
+2	vero	verus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	14	advmod	_	_
 3	alios	alius	PRON	F1|grn1|casM|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|PronType=Ind	14	nmod	_	_
 4	,	,	PUNCT	Punc	_	6	punct	_	_
 5	qui	qui	PRON	F1|grn1|casJ|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|PronType=Rel	6	nsubj	_	_
@@ -6520,7 +6520,7 @@
 # orig_file_sentence 004#20
 1	quinto	quintus	ADJ	B1|grn1|casG	Case=Loc|Degree=Pos|Number=Sing|NumType=Ord	5	advmod	_	_
 2	,	,	PUNCT	Punc	_	1	punct	_	_
-3	utrum	utrum	ADV	O4	_	5	cc	_	_
+3	utrum	utrum	ADV	O4	_	5	advmod	_	_
 4	sit	sum	VERB	N3|modB|tem1|gen6	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 5	composita	compono	VERB	L2|modM|tem4|grp1|casA|gen2	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 6	ex	e	ADP	S4|vgr2	AdpType=Prep	7	case	_	_
@@ -6564,10 +6564,10 @@
 10	non	non	ADV	O4	_	12	neg	_	_
 11	sit	sum	VERB	N3|modB|tem1|gen6	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	_
 12	inhaerens	inhaerens	ADJ	C1|grn1|casA|gen3|vgr1	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	advcl	_	_
-13	ut	ut	SCONJ	O4|vgr1	_	14	cc	_	_
+13	ut	ut	SCONJ	O4|vgr1	_	14	mark	_	_
 14	accidens	accidens	NOUN	C1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	xcomp	_	_
 15	vel	vel	CONJ	O4|vgr1	_	14	cc	_	_
-16	ut	ut	SCONJ	O4|vgr1	_	17	cc	_	_
+16	ut	ut	SCONJ	O4|vgr1	_	17	mark	_	_
 17	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	conj	_	_
 18	materialis	materialis	ADJ	C1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
 19	,	,	PUNCT	Punc	_	23	punct	_	_
@@ -6595,7 +6595,7 @@
 14	animalibus	animal	NOUN	C1|grn1|casO|gen3	Case=Abl|Degree=Pos|Gender=Neut|Number=Plur	9	dobj	_	_
 15	,	,	PUNCT	Punc	_	9	punct	_	_
 16	specie	species	NOUN	E1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	18	nmod	_	_
-17	tamen	tamen	ADV	O4	_	18	cc	_	_
+17	tamen	tamen	ADV	O4	_	18	advmod	_	_
 18	differt	differo	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	dep	_	_
 19	,	,	PUNCT	Punc	_	18	punct	_	_
 20	differentia	differentia	NOUN	A1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	nsubjpass	_	_
@@ -6623,7 +6623,7 @@
 # sent_id la-s25
 # orig_file_sentence 004#25
 1	quod	qui	PRON	F1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	3	dobj	_	_
-2	ideo	ideo	ADV	O4	_	3	cc	_	_
+2	ideo	ideo	ADV	O4	_	3	advmod	_	_
 3	dico	dico	VERB	N3|modA|tem1|gen4	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	,	,	PUNCT	Punc	_	7	punct	_	_
 5	quia	quia	SCONJ	O4	_	7	mark	_	_
@@ -6637,7 +6637,7 @@
 13	speciei	species	NOUN	E1|grn1|casB|gen2	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	nmod	_	_
 14	,	,	PUNCT	Punc	_	10	punct	_	_
 15	materiam	materia	NOUN	A1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	nsubj	_	_
-16	vero	verus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	18	cc	_	_
+16	vero	verus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	18	advmod	_	_
 17	esse	sum	VERB	N3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	18	cop	_	_
 18	partem	pars	NOUN	C1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	conj	_	_
 19	individui	individuus	NOUN	B1|grn1|casB|gen1|vgr1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	nmod	_	_
@@ -6680,7 +6680,7 @@
 
 # sent_id la-s28
 # orig_file_sentence 004#28
-1	praeterea	praeterea	ADV	O4|vgr1	_	14	cc	_	_
+1	praeterea	praeterea	ADV	O4|vgr1	_	14	advmod	_	_
 2	,	,	PUNCT	Punc	_	5	punct	_	_
 3	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	5	nsubj	_	_
 4	non	non	ADV	O4	_	5	neg	_	_
@@ -6702,7 +6702,7 @@
 # sent_id la-s29
 # orig_file_sentence 004#29
 1	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	enim	enim	ADV	O4	_	1	cc	_	_
+2	enim	enim	ADV	O4	_	1	advmod	_	_
 3	de	de	ADP	S4	AdpType=Prep	4	case	_	_
 4	ratione	ratio	NOUN	C1|grn1|casF|gen2|comH|vgr1	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	1	nmod	_	_
 5	animae	anima	NOUN	F1|grn1|casB|gen2|vgr1	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	nmod	_	_
@@ -6717,7 +6717,7 @@
 # sent_id la-s30
 # orig_file_sentence 004#30
 1	aut	aut	CONJ	O4	_	6	cc	_	_
-2	igitur	igitur	ADV	O4	_	4	cc	_	_
+2	igitur	igitur	ADV	O4	_	4	advmod	_	_
 3	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
 5	secundum	secundum	ADP	S4	AdpType=Prep	6	case	_	_
@@ -6799,7 +6799,7 @@
 
 # sent_id la-s33
 # orig_file_sentence 004#33
-1	sic	sic	ADV	O4	_	3	cc	_	_
+1	sic	sic	ADV	O4	_	3	advmod	_	_
 2	autem	autem	CONJ	O4	_	0	root	_	_
 3	cognoscitur	cognosco	VERB	L3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	parataxis	_	_
 4	unumquodque	unusquisque	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	3	nsubjpass	_	_
@@ -6832,7 +6832,7 @@
 # sent_id la-s34
 # orig_file_sentence 004#34
 1	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	igitur	igitur	ADV	O4	_	1	cc	_	_
+2	igitur	igitur	ADV	O4	_	1	advmod	_	_
 3	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	nsubj	_	_
 4	lapidis	lapis	NOUN	C1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	nmod	_	_
 5	absolute	absolutus	ADJ	B1|grn1|casG	Case=Loc|Degree=Pos|Number=Sing	1	advmod	_	_
@@ -6850,7 +6850,7 @@
 # sent_id la-s35
 # orig_file_sentence 004#35
 1	anima	anima	NOUN	F1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	nsubj	_	_
-2	igitur	igitur	ADV	O4	_	5	cc	_	_
+2	igitur	igitur	ADV	O4	_	5	advmod	_	_
 3	intellectiva	intellectivus	ADJ	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	_
 4	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 5	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
@@ -6884,11 +6884,11 @@
 14	reciperentur	recipio	VERB	L3|modK|tem2|gen9	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin|Voice=Pass	44	parataxis	_	_
 15	in	in	ADP	S4	AdpType=Prep	16	case	_	_
 16	ea	is	PRON	F1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem,Prs	14	nmod	_	_
-17	ut	ut	SCONJ	O4|vgr1	_	18	cc	_	_
+17	ut	ut	SCONJ	O4|vgr1	_	18	mark	_	_
 18	individuales	individualis	ADJ	C1|grn1|casJ|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	12	xcomp	_	_
 19	,	,	PUNCT	Punc	_	14	punct	_	_
 20	et	et	CONJ	O4	_	14	cc	_	_
-21	sic	sic	ADV	O4	_	23	cc	_	_
+21	sic	sic	ADV	O4	_	23	advmod	_	_
 22	non	non	ADV	O4	_	23	neg	_	_
 23	cognosceret	cognosco	VERB	L3|modB|tem2|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	14	conj	_	_
 24	nisi	nisi	SCONJ	O4	_	25	mark	_	_
@@ -6909,7 +6909,7 @@
 39	corporali	corporalis	ADJ	C1|grn1|casF|gen3	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing	38	amod	_	_
 40	,	,	PUNCT	Punc	_	44	punct	_	_
 41	materia	materia	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	44	nsubj	_	_
-42	enim	enim	ADV	O4	_	44	cc	_	_
+42	enim	enim	ADV	O4	_	44	advmod	_	_
 43	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	44	cop	_	_
 44	principium	principium	NOUN	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 45	individuationis	individuatio	NOUN	C1|grn1|casB|gen2	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	44	nmod	_	_
@@ -6919,7 +6919,7 @@
 # sent_id la-s37
 # orig_file_sentence 004#37
 1	relinquitur	relinquo	VERB	L3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-2	ergo	ergo	ADV	O4	_	1	cc	_	_
+2	ergo	ergo	ADV	O4	_	1	advmod	_	_
 3	quod	quod	SCONJ	O4	_	15	mark	_	_
 4	anima	anima	NOUN	F1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	nsubj	_	_
 5	intellectiva	intellectivus	ADJ	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
@@ -6978,7 +6978,7 @@
 
 # sent_id la-s39
 # orig_file_sentence 004#39
-1	unde	unde	ADV	O4	_	10	cc	_	_
+1	unde	unde	ADV	O4	_	10	advmod	_	_
 2	talis	talis	PRON	C1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	3	nmod	_	_
 3	potentia	potentia	NOUN	A1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	nsubj	_	_
 4	in	in	ADP	S4	AdpType=Prep	5	case	_	_
@@ -7013,7 +7013,7 @@
 11	et	et	CONJ	O4	_	7	cc	_	_
 12	agens	agens	NOUN	C1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	conj	_	_
 13	,	,	PUNCT	Punc	_	7	punct	_	_
-14	unde	unde	ADV	O4	_	27	cc	_	_
+14	unde	unde	ADV	O4	_	27	advmod	_	_
 15	agens	agens	NOUN	C1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	27	nsubj	_	_
 16	,	,	PUNCT	Punc	_	18	punct	_	_
 17	inquantum	in+quantum	SCONJ	O4|grn8|comZ	_	18	mark	_	_
@@ -7059,7 +7059,7 @@
 
 # sent_id la-s42
 # orig_file_sentence 004#42
-1	unde	unde	ADV	O4	_	7	cc	_	_
+1	unde	unde	ADV	O4	_	7	advmod	_	_
 2	post	post	ADP	S4	AdpType=Prep	3	case	_	_
 3	verba	verbum	NOUN	B1|grn1|casM|gen3|vgr1	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	7	nmod	_	_
 4	praemissa	praemitto	VERB	L2|modM|tem4|grp1|casM|gen3|vgr1	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	_
@@ -7089,7 +7089,7 @@
 28	actum	actus	NOUN	D1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	dobj	_	_
 29	,	,	PUNCT	Punc	_	7	punct	_	_
 30	quaecumque	quicumque	PRON	F1|grn1|casJ|gen3|vgr2	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|PronType=Ind,Rel	33	nsubj	_	_
-31	vero	verus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	38	cc	_	_
+31	vero	verus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	38	advmod	_	_
 32	non	non	ADV	O4	_	33	neg	_	_
 33	habent	habeo	VERB	K3|modA|tem1|gen9	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	36	acl	_	_
 34	materiam	materia	NOUN	A1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	33	dobj	_	_
@@ -7126,7 +7126,7 @@
 19	,	,	PUNCT	Punc	_	18	punct	_	_
 20	vel	vel	CONJ	O4|vgr1	_	18	cc	_	_
 21	quidquid	quisquis	PRON	F1|grn1|casA|gen3|vgr1	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind,Rel	23	nsubjpass	_	_
-22	sic	sic	ADV	O4	_	23	cc	_	_
+22	sic	sic	ADV	O4	_	23	advmod	_	_
 23	diceretur	dico	VERB	N3|modK|tem2|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Pass	18	conj	_	_
 24	,	,	PUNCT	Punc	_	25	punct	_	_
 25	participat	participo	VERB	J3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
@@ -7148,7 +7148,7 @@
 # orig_file_sentence 004#44
 1	in	in	ADP	S4	AdpType=Prep	2	case	_	_
 2	substantiis	substantia	NOUN	A1|grn1|casO|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	5	nmod	_	_
-3	vero	verus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	5	cc	_	_
+3	vero	verus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	5	advmod	_	_
 4	intellectualibus	intellectualis	ADJ	C1|grn1|casO|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_
 5	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	compositio	compositio	NOUN	C1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -7191,7 +7191,7 @@
 15	se	sui	PRON	F1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	9	dep	_	_
 16	,	,	PUNCT	Punc	_	9	punct	_	_
 17	quae	qui	PRON	F1|grn1|casJ|gen3|vgr1	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|PronType=Rel	20	nsubj	_	_
-18	vero	verus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	28	cc	_	_
+18	vero	verus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	28	advmod	_	_
 19	non	non	ADV	O4	_	20	neg	_	_
 20	subsistunt	subsisto	VERB	L3|modA|tem1|gen9	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	csubjpass	_	_
 21	,	,	PUNCT	Punc	_	23	punct	_	_
@@ -7215,7 +7215,7 @@
 # sent_id la-s46
 # orig_file_sentence 004#46
 1	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	5	nsubj	_	_
-2	quidem	quidem	ADV	O4	_	5	cc	_	_
+2	quidem	quidem	ADV	O4	_	5	advmod	_	_
 3	omnino	omnino	ADV	O4	_	5	advmod:emph	_	_
 4	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 5	impossibile	impossibilis	ADJ	C1|grn1|casA|gen3|vgr1	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
@@ -7292,7 +7292,7 @@
 
 # sent_id la-s50
 # orig_file_sentence 004#50
-1	unde	unde	ADV	O4	_	2	cc	_	_
+1	unde	unde	ADV	O4	_	2	advmod	_	_
 2	impossibile	impossibilis	ADJ	C1|grn1|casA|gen3|vgr1	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 3	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 4	quod	quod	SCONJ	O4	_	5	mark	_	_
@@ -7319,7 +7319,7 @@
 13	quidam	quidam	PRON	F1|grn1|casJ|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|PronType=Ind	14	nsubj	_	_
 14	dicunt	dico	VERB	N3|modA|tem1|gen9	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
 15	,	,	PUNCT	Punc	_	1	punct	_	_
-16	adhuc	adhuc	ADV	O4	_	17	cc	_	_
+16	adhuc	adhuc	ADV	O4	_	17	advmod	_	_
 17	oporteret	oportet	VERB	K3|modB|tem2|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	_
 18	ponere	pono	VERB	L3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	17	csubj	_	_
 19	eam	is	PRON	F1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem,Prs	18	dobj	_	_
@@ -7359,7 +7359,7 @@
 # sent_id la-s53
 # orig_file_sentence 004#53
 1	non	non	ADV	O4	_	3	neg	_	_
-2	enim	enim	ADV	O4	_	3	cc	_	_
+2	enim	enim	ADV	O4	_	3	advmod	_	_
 3	potest	possum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	0	root	_	_
 4	intelligi	intelligo	VERB	L3|modQ|tem1	Tense=Pres|VerbForm=Inf|Voice=Pass	3	xcomp	_	_
 5	quod	quod	SCONJ	O4	_	9	mark	_	_
@@ -7406,7 +7406,7 @@
 # sent_id la-s55
 # orig_file_sentence 004#55
 1	si	si	SCONJ	O4	_	5	mark	_	_
-2	enim	enim	ADV	O4	_	10	cc	_	_
+2	enim	enim	ADV	O4	_	10	advmod	_	_
 3	materia	materia	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	nsubjpass	_	_
 4	huius	hic	PRON	F1|grn1|casB|gen3|vgr2	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	3	nmod	_	_
 5	distinguitur	distinguo	VERB	L3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	advcl	_	_
@@ -7417,15 +7417,15 @@
 10	necesse	necesse	ADJ	G1	_	0	root	_	_
 11	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
 12	quod	quod	SCONJ	O4	_	16	mark	_	_
-13	vel	vel	CONJ	O4|vgr1	_	24	cc	_	_
+13	vel	vel	CONJ	O4|vgr1	_	24	mark	_	_
 14	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	nsubj	_	_
 15	sit	sum	VERB	N3|modB|tem1|gen6	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_
 16	principium	principium	NOUN	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	csubj	_	_
 17	distinctionis	distinctio	NOUN	C1|grn1|casB|gen2	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	nmod	_	_
 18	materiae	materia	NOUN	A1|grn1|casB|gen2|vgr1	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	nmod	_	_
 19	,	,	PUNCT	Punc	_	24	punct	_	_
-20	ut	ut	SCONJ	O4|vgr1	_	24	mark	_	_
-21	scilicet	scilicet	ADV	O4	_	24	cc	_	_
+20	ut	ut	SCONJ	O4|vgr1	_	13	mwe	_	_
+21	scilicet	scilicet	ADV	O4	_	13	mwe	_	_
 22	materiae	materia	NOUN	A1|grn1|casJ|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	24	nsubj	_	_
 23	sint	sum	VERB	N3|modB|tem1|gen9	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	cop	_	_
 24	diversae	diversus	ADJ	A1|grn1|casJ|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	16	appos	_	_
@@ -7436,9 +7436,9 @@
 29	formas	forma	NOUN	A1|grn1|casM|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	26	nmod	_	_
 30	,	,	PUNCT	Punc	_	10	punct	_	_
 31	et	et	CONJ	O4	_	10	cc	_	_
-32	tunc	tunc	ADV	O4	_	33	cc	_	_
+32	tunc	tunc	ADV	O4	_	33	advmod	_	_
 33	sequitur	sequor	VERB	L3|modJ|tem1|gen6|vgr1	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	conj	_	_
-34	adhuc	adhuc	ADV	O4	_	33	cc	_	_
+34	adhuc	adhuc	ADV	O4	_	33	advmod	_	_
 35	diversitas	diversitas	NOUN	C1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	33	nsubj	_	_
 36	secundum	secundum	ADP	S4	AdpType=Prep	37	case	_	_
 37	speciem	species	NOUN	E1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	35	nmod	_	_
@@ -7461,12 +7461,12 @@
 # orig_file_sentence 004#57
 1	primo	primus	ADJ	B1|grn1|casG	Case=Loc|Degree=Pos|Number=Sing|NumType=Ord	6	advmod	_	_
 2	,	,	PUNCT	Punc	_	1	punct	_	_
-3	utrum	utrum	ADV	O4	_	6	cc	_	_
+3	utrum	utrum	ADV	O4	_	6	advmod	_	_
 4	intellectivum	intellectivus	ADJ	B1|grn1|casA|gen3|vgr1	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
 5	principium	principium	NOUN	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	nsubjpass	_	_
 6	uniatur	unio	VERB	M3|modK|tem1|gen6	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 7	corpori	corpus	NOUN	C1|grn1|casC|gen3	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	6	dobj	_	_
-8	ut	ut	SCONJ	O4|vgr1	_	9	cc	_	_
+8	ut	ut	SCONJ	O4|vgr1	_	9	mark	_	_
 9	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	xcomp	_	_
 10	.	.	PUNCT	Punc	_	6	punct	_	_
 
@@ -7474,7 +7474,7 @@
 # orig_file_sentence 004#58
 1	tertio	tertius	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing|NumType=Ord	12	advmod	_	_
 2	,	,	PUNCT	Punc	_	1	punct	_	_
-3	utrum	utrum	ADV	O4	_	12	cc	_	_
+3	utrum	utrum	ADV	O4	_	12	advmod	_	_
 4	in	in	ADP	S4	AdpType=Prep	5	case	_	_
 5	corpore	corpus	NOUN	C1|grn1|casF|gen3	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing	12	nmod	_	_
 6	cuius	qui	PRON	F1|grn1|casB|gen3|vgr2	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	7	nmod	_	_
@@ -7493,7 +7493,7 @@
 # orig_file_sentence 004#59
 1	quarto	quartus	ADJ	B1|grn1|casG	Case=Loc|Degree=Pos|Number=Sing|NumType=Ord	4	advmod	_	_
 2	,	,	PUNCT	Punc	_	1	punct	_	_
-3	utrum	utrum	ADV	O4	_	4	cc	_	_
+3	utrum	utrum	ADV	O4	_	4	advmod	_	_
 4	sit	sum	VERB	N3|modB|tem1|gen6	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	in	in	ADP	S4	AdpType=Prep	6	case	_	_
 6	eo	is	PRON	F1|grn1|casF|gen3	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem,Prs	4	nmod	_	_
@@ -7527,23 +7527,23 @@
 5	non	non	ADV	O4	_	6	neg	_	_
 6	uniatur	unio	VERB	M3|modK|tem1|gen6	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	1	advcl	_	_
 7	corpori	corpus	NOUN	C1|grn1|casC|gen3	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	6	dobj	_	_
-8	ut	ut	SCONJ	O4|vgr1	_	9	cc	_	_
+8	ut	ut	SCONJ	O4|vgr1	_	9	mark	_	_
 9	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	xcomp	_	_
 10	.	.	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id la-s62
 # orig_file_sentence 004#62
 1	non	non	ADV	O4	_	3	neg	_	_
-2	ergo	ergo	ADV	O4	_	3	cc	_	_
+2	ergo	ergo	ADV	O4	_	3	advmod	_	_
 3	unitur	unio	VERB	M3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	corpori	corpus	NOUN	C1|grn1|casC|gen3	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	3	iobj	_	_
-5	ut	ut	SCONJ	O4|vgr1	_	6	cc	_	_
+5	ut	ut	SCONJ	O4|vgr1	_	6	mark	_	_
 6	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	xcomp	_	_
 7	.	.	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id la-s63
 # orig_file_sentence 004#63
-1	praeterea	praeterea	ADV	O4|vgr1	_	5	cc	_	_
+1	praeterea	praeterea	ADV	O4|vgr1	_	5	advmod	_	_
 2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	omnis	omnis	DET	C1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	4	det	_	_
 4	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	nsubjpass	_	_
@@ -7568,11 +7568,11 @@
 # sent_id la-s64
 # orig_file_sentence 004#64
 1	si	si	SCONJ	O4	_	4	mark	_	_
-2	ergo	ergo	ADV	O4	_	16	cc	_	_
+2	ergo	ergo	ADV	O4	_	16	advmod	_	_
 3	intellectus	intellectus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubjpass	_	_
 4	uniretur	unio	VERB	M3|modK|tem2|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Pass	16	advcl	_	_
 5	corpori	corpus	NOUN	C1|grn1|casC|gen3	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	4	dobj	_	_
-6	ut	ut	SCONJ	O4|vgr1	_	7	cc	_	_
+6	ut	ut	SCONJ	O4|vgr1	_	7	mark	_	_
 7	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	xcomp	_	_
 8	,	,	PUNCT	Punc	_	12	punct	_	_
 9	cum	cum	ADP	S4|vgr1	AdpType=Prep	12	mark	_	_
@@ -7593,17 +7593,17 @@
 # sent_id la-s65
 # orig_file_sentence 004#65
 1	non	non	ADV	O4	_	4	neg	_	_
-2	ergo	ergo	ADV	O4	_	4	cc	_	_
+2	ergo	ergo	ADV	O4	_	4	advmod	_	_
 3	intellectus	intellectus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubjpass	_	_
 4	unitur	unio	VERB	M3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 5	corpori	corpus	NOUN	C1|grn1|casC|gen3	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	4	dobj	_	_
-6	ut	ut	SCONJ	O4|vgr1	_	7	cc	_	_
+6	ut	ut	SCONJ	O4|vgr1	_	7	mark	_	_
 7	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	xcomp	_	_
 8	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id la-s66
 # orig_file_sentence 004#66
-1	praeterea	praeterea	ADV	O4|vgr1	_	11	cc	_	_
+1	praeterea	praeterea	ADV	O4|vgr1	_	11	advmod	_	_
 2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	quaecumque	quicumque	PRON	F1|grn1|casA|gen2|vgr2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind,Rel	4	nmod	_	_
 4	potentia	potentia	NOUN	A1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -7649,7 +7649,7 @@
 16	et	et	CONJ	O4	_	15	cc	_	_
 17	universaliter	universalis	ADJ	C1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	15	conj	_	_
 18	,	,	PUNCT	Punc	_	23	punct	_	_
-19	alioquin	alioqui	ADV	O4|vgr2	_	23	cc	_	_
+19	alioquin	alioqui	ADV	O4|vgr2	_	23	advmod	_	_
 20	intellectus	intellectus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	nsubj	_	_
 21	non	non	ADV	O4	_	24	neg	_	_
 22	esset	sum	VERB	N3|modB|tem2|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	23	cop	_	_
@@ -7669,7 +7669,7 @@
 
 # sent_id la-s68
 # orig_file_sentence 004#68
-1	ergo	ergo	ADV	O4	_	7	cc	_	_
+1	ergo	ergo	ADV	O4	_	7	advmod	_	_
 2	nec	nec	CONJ	O4	_	3	advmod:emph	_	_
 3	substantia	substantia	NOUN	A1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	nsubj	_	_
 4	intellectus	intellectus	NOUN	D1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	nmod	_	_
@@ -7680,7 +7680,7 @@
 
 # sent_id la-s69
 # orig_file_sentence 004#69
-1	praeterea	praeterea	ADV	O4|vgr1	_	11	cc	_	_
+1	praeterea	praeterea	ADV	O4|vgr1	_	11	advmod	_	_
 2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	id	is	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem,Prs	11	nsubjpass	_	_
 4	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	7	nsubj	_	_
@@ -7692,7 +7692,7 @@
 10	non	non	ADV	O4	_	11	neg	_	_
 11	unitur	unio	VERB	M3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 12	corpori	corpus	NOUN	C1|grn1|casC|gen3	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	11	dobj	_	_
-13	ut	ut	SCONJ	O4|vgr1	_	14	cc	_	_
+13	ut	ut	SCONJ	O4|vgr1	_	14	mark	_	_
 14	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	xcomp	_	_
 15	,	,	PUNCT	Punc	_	18	punct	_	_
 16	quia	quia	SCONJ	O4	_	18	mark	_	_
@@ -7706,7 +7706,7 @@
 # sent_id la-s70
 # orig_file_sentence 004#70
 1	et	et	CONJ	O4	_	9	cc	_	_
-2	sic	sic	ADV	O4	_	9	cc	_	_
+2	sic	sic	ADV	O4	_	9	advmod	_	_
 3	ipsum	ipse	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem,Prs	4	nmod	_	_
 4	esse	esse	NOUN	G1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
 5	formae	forma	NOUN	A1|grn1|casB|gen2|vgr1	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	nmod	_	_
@@ -7721,10 +7721,10 @@
 # sent_id la-s71
 # orig_file_sentence 004#71
 1	non	non	ADV	O4	_	3	neg	_	_
-2	ergo	ergo	ADV	O4	_	3	cc	_	_
+2	ergo	ergo	ADV	O4	_	3	advmod	_	_
 3	unitur	unio	VERB	M3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	corpori	corpus	NOUN	C1|grn1|casC|gen3	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	3	iobj	_	_
-5	ut	ut	SCONJ	O4|vgr1	_	6	cc	_	_
+5	ut	ut	SCONJ	O4|vgr1	_	6	mark	_	_
 6	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	xcomp	_	_
 7	.	.	PUNCT	Punc	_	3	punct	_	_
 
@@ -7739,7 +7739,7 @@
 7	materiae	materia	NOUN	A1|grn1|casC|gen2|vgr1	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	dobj	_	_
 8	,	,	PUNCT	Punc	_	5	punct	_	_
 9	non	non	ADV	O4	_	20	neg	_	_
-10	enim	enim	ADV	O4	_	20	cc	_	_
+10	enim	enim	ADV	O4	_	20	advmod	_	_
 11	per	per	ADP	S4	AdpType=Prep	9	case	_	_
 12	accidens	accidens	NOUN	C1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	nmod	_	_
 13	aliquod	aliqui	PRON	F1|grn1|casD|gen3|varA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	12	nmod	_	_
@@ -7772,7 +7772,7 @@
 # sent_id la-s74
 # orig_file_sentence 004#74
 1	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	nsubj	_	_
-2	ergo	ergo	ADV	O4	_	4	cc	_	_
+2	ergo	ergo	ADV	O4	_	4	advmod	_	_
 3	non	non	ADV	O4	_	4	neg	_	_
 4	potest	possum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	0	root	_	_
 5	esse	sum	VERB	N3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	4	xcomp	_	_
@@ -7783,20 +7783,20 @@
 
 # sent_id la-s75
 # orig_file_sentence 004#75
-1	ergo	ergo	ADV	O4	_	5	cc	_	_
+1	ergo	ergo	ADV	O4	_	5	advmod	_	_
 2	intellectivum	intellectivus	ADJ	B1|grn1|casA|gen3|vgr1	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
 3	principium	principium	NOUN	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	nsubjpass	_	_
 4	non	non	ADV	O4	_	5	neg	_	_
 5	unitur	unio	VERB	M3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 6	corpori	corpus	NOUN	C1|grn1|casC|gen3	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	5	dobj	_	_
-7	ut	ut	SCONJ	O4|vgr1	_	8	cc	_	_
+7	ut	ut	SCONJ	O4|vgr1	_	8	mark	_	_
 8	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	xcomp	_	_
 9	.	.	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id la-s76
 # orig_file_sentence 004#76
 1	sed	sed	CONJ	O4|vgr1	_	0	root	_	_
-2	contra	contra	ADP	S4	AdpType=Prep	12	cc	_	_
+2	contra	contra	ADP	S4	AdpType=Prep	12	advmod	_	_
 3	,	,	PUNCT	Punc	_	5	punct	_	_
 4	secundum	secundum	ADP	S4	AdpType=Prep	5	case	_	_
 5	philosophum	philosophus	NOUN	B1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	nmod	_	_
@@ -7815,7 +7815,7 @@
 # sent_id la-s77
 # orig_file_sentence 004#77
 1	intellectivum	intellectivus	ADJ	B1|grn1|casA|gen3|vgr1	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
-2	ergo	ergo	ADV	O4	_	5	cc	_	_
+2	ergo	ergo	ADV	O4	_	5	advmod	_	_
 3	principium	principium	NOUN	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	nsubj	_	_
 4	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 5	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
@@ -7848,7 +7848,7 @@
 # sent_id la-s79
 # orig_file_sentence 004#79
 1	illud	ille	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	_
-2	enim	enim	ADV	O4	_	9	cc	_	_
+2	enim	enim	ADV	O4	_	9	advmod	_	_
 3	quo	qui	PRON	F1|grn1|casF|gen3	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	6	nmod	_	_
 4	primo	primus	ADJ	B1|grn1|casF|gen3	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	3	xcomp	_	_
 5	aliquid	aliquis	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	6	nsubjpass	_	_
@@ -7896,7 +7896,7 @@
 # sent_id la-s81
 # orig_file_sentence 004#81
 1	hoc	hic	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	3	nmod	_	_
-2	ergo	ergo	ADV	O4	_	16	cc	_	_
+2	ergo	ergo	ADV	O4	_	16	advmod	_	_
 3	principium	principium	NOUN	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	nsubj	_	_
 4	quo	qui	PRON	F1|grn1|casF|gen3	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	6	nmod	_	_
 5	primo	primus	ADJ	B1|grn1|casF|gen3	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	4	xcomp	_	_
@@ -7945,7 +7945,7 @@
 27	actio	actio	NOUN	C1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	acl	_	_
 28	,	,	PUNCT	Punc	_	0	root	_	_
 29	experitur	experior	VERB	M3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	28	parataxis	_	_
-30	enim	enim	ADV	O4	_	29	cc	_	_
+30	enim	enim	ADV	O4	_	29	advmod	_	_
 31	unusquisque	unusquisque	PRON	F1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Ind	29	nsubjpass	_	_
 32	seipsum	seipse	PRON	F1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	33	nsubj	_	_
 33	esse	sum	VERB	N3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	29	xcomp	_	_
@@ -7997,7 +7997,7 @@
 # sent_id la-s85
 # orig_file_sentence 004#85
 1	relinquitur	relinquo	VERB	L3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-2	ergo	ergo	ADV	O4	_	1	cc	_	_
+2	ergo	ergo	ADV	O4	_	1	advmod	_	_
 3	solus	solus	ADJ	F1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
 4	modus	modus	NOUN	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	nsubjpass	_	_
 5	quem	qui	PRON	F1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Rel	7	dobj	_	_
@@ -8019,8 +8019,8 @@
 
 # sent_id la-s86
 # orig_file_sentence 004#86
-1	sic	sic	ADV	O4	_	7	cc	_	_
-2	ergo	ergo	ADV	O4	_	7	cc	_	_
+1	sic	sic	ADV	O4	_	7	advmod	_	_
+2	ergo	ergo	ADV	O4	_	7	advmod	_	_
 3	ex	e	ADP	S4|vgr2	AdpType=Prep	5	case	_	_
 4	ipsa	ipse	PRON	F1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem,Prs	5	nmod	_	_
 5	operatione	operatio	NOUN	C1|grn1|casF|gen2|comH|vgr1	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	7	nmod	_	_
@@ -8031,7 +8031,7 @@
 10	principium	principium	NOUN	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	nsubjpass	_	_
 11	unitur	unio	VERB	M3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	csubj	_	_
 12	corpori	corpus	NOUN	C1|grn1|casC|gen3	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	11	dobj	_	_
-13	ut	ut	SCONJ	O4|vgr1	_	14	cc	_	_
+13	ut	ut	SCONJ	O4|vgr1	_	14	mark	_	_
 14	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	xcomp	_	_
 15	.	.	PUNCT	Punc	_	7	punct	_	_
 
@@ -8049,7 +8049,7 @@
 # sent_id la-s88
 # orig_file_sentence 004#88
 1	relinquitur	relinquo	VERB	L3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-2	ergo	ergo	ADV	O4	_	1	cc	_	_
+2	ergo	ergo	ADV	O4	_	1	advmod	_	_
 3	quod	quod	SCONJ	O4	_	9	mark	_	_
 4	intellectivum	intellectivus	ADJ	B1|grn1|casA|gen3|vgr1	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
 5	principium	principium	NOUN	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	nsubj	_	_
@@ -8094,7 +8094,7 @@
 
 # sent_id la-s90
 # orig_file_sentence 004#90
-1	unde	unde	ADV	O4	_	2	cc	_	_
+1	unde	unde	ADV	O4	_	2	advmod	_	_
 2	videmus	video	VERB	K3|modA|tem1|gen7|vgr1	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	quod	quod	SCONJ	O4	_	7	mark	_	_
 4	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -8189,13 +8189,13 @@
 # sent_id la-s94
 # orig_file_sentence 004#94
 1	cum	cum	ADP	S4|vgr1	AdpType=Prep	5	mark	_	_
-2	enim	enim	ADV	O4	_	26	cc	_	_
+2	enim	enim	ADV	O4	_	26	advmod	_	_
 3	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	nsubj	_	_
 4	sit	sum	VERB	N3|modB|tem1|gen6	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 5	actus	actus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	advcl	_	_
 6	,	,	PUNCT	Punc	_	5	punct	_	_
 7	materia	materia	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	nsubj	_	_
-8	vero	verus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	10	cc	_	_
+8	vero	verus	ADJ	B1|grn1|casG|vgr1	Case=Loc|Degree=Pos|Number=Sing	10	advmod	_	_
 9	sit	sum	VERB	N3|modB|tem1|gen6	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
 10	ens	ens	NOUN	C1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	conj	_	_
 11	in	in	ADP	S4	AdpType=Prep	12	case	_	_

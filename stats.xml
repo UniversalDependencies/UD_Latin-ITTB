@@ -85,10 +85,10 @@
     <feat name="Voice" value="Pass" upos="VERB">14261</feat><!-- dicitur, ostensum, dicendum, videtur, fit, sequitur, invenitur, dici, dictum, fieri -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="32">
+  <deps unique="33">
     <dep name="acl">9828</dep>
-    <dep name="advcl">8433</dep>
-    <dep name="advmod">5777</dep>
+    <dep name="advcl">8434</dep>
+    <dep name="advmod">13070</dep>
     <dep name="advmod:emph">2907</dep>
     <dep name="amod">9727</dep>
     <dep name="appos">377</dep>
@@ -96,24 +96,25 @@
     <dep name="auxpass">1211</dep>
     <dep name="auxpass:reflex">224</dep>
     <dep name="case">21487</dep>
-    <dep name="cc">21974</dep>
+    <dep name="cc">14094</dep>
     <dep name="ccomp">2134</dep>
     <dep name="compound">14</dep>
     <dep name="conj">9514</dep>
     <dep name="cop">9467</dep>
     <dep name="csubj">3859</dep>
     <dep name="csubjpass">519</dep>
-    <dep name="dep">3885</dep>
+    <dep name="dep">3886</dep>
     <dep name="det">2680</dep>
     <dep name="dobj">12422</dep>
     <dep name="iobj">871</dep>
-    <dep name="mark">15095</dep>
-    <dep name="neg">5539</dep>
+    <dep name="mark">15521</dep>
+    <dep name="mwe">161</dep>
+    <dep name="neg">5538</dep>
     <dep name="nmod">33565</dep>
     <dep name="nsubj">16956</dep>
     <dep name="nsubjpass">5207</dep>
     <dep name="nummod">1009</dep>
-    <dep name="parataxis">650</dep>
+    <dep name="parataxis">649</dep>
     <dep name="punct">35742</dep>
     <dep name="root">15295</dep>
     <dep name="vocative">8</dep>
