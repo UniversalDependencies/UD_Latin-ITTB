@@ -95,8 +95,8 @@
     <dep name="aux">16</dep>
     <dep name="auxpass">1211</dep>
     <dep name="auxpass:reflex">224</dep>
-    <dep name="case">21487</dep>
-    <dep name="cc">14094</dep>
+    <dep name="case">21549</dep>
+    <dep name="cc">14001</dep>
     <dep name="ccomp">2134</dep>
     <dep name="compound">14</dep>
     <dep name="conj">9514</dep>
@@ -107,8 +107,8 @@
     <dep name="det">2680</dep>
     <dep name="dobj">12422</dep>
     <dep name="iobj">871</dep>
-    <dep name="mark">15521</dep>
-    <dep name="mwe">161</dep>
+    <dep name="mark">15525</dep>
+    <dep name="mwe">188</dep>
     <dep name="neg">5538</dep>
     <dep name="nmod">33565</dep>
     <dep name="nsubj">16956</dep>
