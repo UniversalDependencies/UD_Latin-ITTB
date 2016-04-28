@@ -13,7 +13,7 @@
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="14">
     <tag name="ADJ">19700</tag><!-- primus, divinus, naturalis, proprius, verus, possibilis, intelligibilis, solus, multus, diversus -->
-    <tag name="ADP">24654</tag><!-- in, ad, per, e, secundum, a, cum, de, propter, supra -->
+    <tag name="ADP">23533</tag><!-- in, ad, per, e, secundum, a, de, propter, supra, cum -->
     <tag name="ADV">19259</tag><!-- non, igitur, enim, etiam, unde, ergo, sic, nam, tamen, ita -->
     <tag name="AUX">1230</tag><!-- sum -->
     <tag name="CONJ">14013</tag><!-- et, autem, sed, vel, nec, neque, aut, sive, ac, tum -->
@@ -23,14 +23,14 @@
     <tag name="NUM">1888</tag><!-- unus, _, duo, tres, quatuor, mille, decem, octoginta, quinque, sex -->
     <tag name="PRON">25420</tag><!-- qui, hic, is, ipse, alius, sui, aliqui, aliquis, ille, quidam -->
     <tag name="PUNCT">35741</tag><!-- ,, ., :, ;, (, ), -, ? -->
-    <tag name="SCONJ">12968</tag><!-- quod, ut, sicut, quia, si, nisi, in+quantum, quam, quamvis, quando -->
+    <tag name="SCONJ">14089</tag><!-- quod, ut, sicut, quia, cum, si, nisi, in+quantum, quam, quamvis -->
     <tag name="VERB">46862</tag><!-- sum, dico, possum, habeo, intelligo, facio, moveo, oportet, ago, cognosco -->
     <tag name="X">510</tag><!-- _, 4-O--------, decuplus, quod, parvus, quam, vero^adv./etc. -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="54">
     <feat name="Abbr" value="Yes" upos="X">507</feat><!-- metaph., physic., cap., gen., sap., metaphys., dist., div., nom., trin. -->
-    <feat name="AdpType" value="Prep" upos="ADP">24647</feat><!-- in, ad, per, ex, secundum, cum, de, a, ab, propter -->
+    <feat name="AdpType" value="Prep" upos="ADP">23526</feat><!-- in, ad, per, ex, secundum, de, a, ab, propter, supra -->
     <feat name="Aspect" value="Imp" upos="AUX,VERB">1359</feat><!-- esset, posset, essent, erat, sequeretur, oporteret, haberet, cognosceret, dicebant, ponebat -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">6176</feat><!-- ostensum, dictum, separatae, separata, probatum, fuit, separatas, dictis, praemissis, intellecta -->
     <feat name="Case" value="Abl" upos="ADJ,DET,NOUN,NUM,PRON,VERB,X">20049</feat><!-- forma, actu, materia, potentia, quo, hoc, deo, modo, eo, intellectu -->
@@ -87,16 +87,16 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="33">
     <dep name="acl">9828</dep>
-    <dep name="advcl">8434</dep>
-    <dep name="advmod">13070</dep>
+    <dep name="advcl">8435</dep>
+    <dep name="advmod">12906</dep>
     <dep name="advmod:emph">2907</dep>
     <dep name="amod">9727</dep>
     <dep name="appos">377</dep>
     <dep name="aux">16</dep>
     <dep name="auxpass">1211</dep>
     <dep name="auxpass:reflex">224</dep>
-    <dep name="case">21549</dep>
-    <dep name="cc">14001</dep>
+    <dep name="case">21553</dep>
+    <dep name="cc">14043</dep>
     <dep name="ccomp">2134</dep>
     <dep name="compound">14</dep>
     <dep name="conj">9514</dep>
@@ -107,14 +107,14 @@
     <dep name="det">2680</dep>
     <dep name="dobj">12422</dep>
     <dep name="iobj">871</dep>
-    <dep name="mark">15525</dep>
+    <dep name="mark">15643</dep>
     <dep name="mwe">188</dep>
     <dep name="neg">5538</dep>
     <dep name="nmod">33565</dep>
     <dep name="nsubj">16956</dep>
     <dep name="nsubjpass">5207</dep>
     <dep name="nummod">1009</dep>
-    <dep name="parataxis">649</dep>
+    <dep name="parataxis">648</dep>
     <dep name="punct">35742</dep>
     <dep name="root">15295</dep>
     <dep name="vocative">8</dep>
