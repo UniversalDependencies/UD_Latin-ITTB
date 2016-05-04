@@ -7,7 +7,7 @@
 5	consistit	consisto	VERB	L3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	in	in	ADP	S4|stRL	AdpType=Prep	7	case	_	_
 7	cognitione	cognitio	NOUN	C1|grn1|casF|gen2|comH|vgr1|stAC	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	5	dobj	_	_
-8	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	nmod	_	_
+8	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	nmod	_	_
 9	quae	qui	PRON	F1|grn1|casA|gen2|vgr1|stPV	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Rel	11	nsubjpass	_	_
 10	communiter	communis	ADJ	C1|grn1|casG|stAN	Case=Loc|Degree=Pos|Number=Sing	11	advmod	_	_
 11	habetur	habeo	VERB	K3|modJ|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	acl	_	_
@@ -22,7 +22,7 @@
 3	relinquitur	relinquo	VERB	L3|modJ|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	in	in	ADP	S4|stRL	AdpType=Prep	7	case	_	_
 5	quali	qualis	PRON	C1|grn1|casF|gen2|stPV	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|PronType=Int,Rel	7	nmod	_	_
-6	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	nmod	_	_
+6	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	nmod	_	_
 7	cognitione	cognitio	NOUN	C1|grn1|casF|gen2|comH|vgr1|stAC	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	12	dobj	_	_
 8	ultima	ulterior	ADJ	A1|grn3|casA|gen2|stAN	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	9	amod	_	_
 9	felicitas	felicitas	NOUN	C1|grn1|casA|gen2|stAM	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	nsubj	_	_
@@ -39,7 +39,7 @@
 4	communis	communis	ADJ	C1|grn1|casA|gen2|stAN	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 5	et	et	CONJ	O4|stRL	_	4	cc	_	_
 6	confusa	confundo	VERB	L2|modM|tem4|grp1|casA|gen2|stAV	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
-7	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	nmod	_	_
+7	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	nmod	_	_
 8	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1|stAC	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	nsubj	_	_
 9	,	,	PUNCT	Punc	_	14	punct	_	_
 10	quae	qui	PRON	F1|grn1|casA|gen2|vgr1|stPV	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Rel	14	nsubj	_	_
@@ -57,7 +57,7 @@
 4	per	per	ADP	S4|stRL	AdpType=Prep	5	case	_	_
 5	hoc	hic	PRON	F1|grn1|casD|gen3|stPV	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	3	nmod	_	_
 6	quod	quod	SCONJ	O4|stRL	_	12	mark	_	_
-7	deum	deus	NOUN	F1|grn1|casD|gen1|stNP	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	deum	deus	PROPN	F1|grn1|casD|gen1|stNP	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	nsubj	_	_
 8	esse	sum	VERB	N3|modH|tem1|stAV	Tense=Pres|VerbForm=Inf|Voice=Act	12	csubj	_	_
 9	sit	sum	VERB	N3|modB|tem1|gen6|stAV	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	_
 10	per	per	ADP	S4|stRL	AdpType=Prep	11	case	_	_
@@ -94,7 +94,7 @@
 41	homo	homo	NOUN	C1|grn1|casA|gen1|stRS	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	47	nsubj	_	_
 42	in	in	ADP	S4|stRL	AdpType=Prep	45	case	_	_
 43	aliqualem	aliqualis	ADJ	C1|grn1|casD|gen2|stAN	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	45	amod	_	_
-44	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	45	nmod	_	_
+44	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	45	nmod	_	_
 45	cognitionem	cognitio	NOUN	C1|grn1|casD|gen2|vgr1|stAC	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	46	dobj	_	_
 46	pervenire	pervenio	VERB	M3|modH|tem1|vgr1|stAV	Tense=Pres|VerbForm=Inf|Voice=Act	47	xcomp	_	_
 47	potest	possum	VERB	N3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	5	conj	_	_
@@ -216,7 +216,7 @@
 4	possibile	possibilis	ADJ	C1|grn1|casA|gen3|stAN	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 5	hanc	hic	PRON	F1|grn1|casD|gen2|stPV	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	6	nmod	_	_
 6	cognitionem	cognitio	NOUN	C1|grn1|casD|gen2|vgr1|stAC	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	nsubj	_	_
-7	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
+7	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
 8	ad	ad	ADP	S4|stRL	AdpType=Prep	9	case	_	_
 9	felicitatem	felicitas	NOUN	C1|grn1|casD|gen2|stAM	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	dobj	_	_
 10	sufficere	sufficio	VERB	L3|modH|tem1|stAV	Tense=Pres|VerbForm=Inf|Voice=Act	4	csubj	_	_
@@ -336,7 +336,7 @@
 # orig_file_sentence 001#15
 1	ista	iste	PRON	F1|grn1|casA|gen2|stPD	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	4	nmod	_	_
 2	igitur	igitur	ADV	O4|stRL	_	6	advmod	_	_
-3	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	nmod	_	_
+3	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	nmod	_	_
 4	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1|stAC	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	nsubj	_	_
 5	non	non	ADV	O4|stRL	_	6	neg	_	_
 6	sufficit	sufficio	VERB	L3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -390,7 +390,7 @@
 2	igitur	igitur	ADV	O4|stRL	_	8	advmod	_	_
 3	in	in	ADP	S4|stRL	AdpType=Prep	6	case	_	_
 4	hac	hic	PRON	F1|grn1|casF|gen2|stPV	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	6	nmod	_	_
-5	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
+5	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
 6	cognitione	cognitio	NOUN	C1|grn1|casF|gen2|comH|vgr1|stAC	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	8	dobj	_	_
 7	felicitas	felicitas	NOUN	C1|grn1|casA|gen2|stAM	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	nsubj	_	_
 8	consistit	consisto	VERB	L3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -432,7 +432,7 @@
 3	autem	autem	CONJ	O4|stRL	_	12	cc	_	_
 4	quod	quod	SCONJ	O4|stRL	_	9	mark	_	_
 5	praedicta	praedico	VERB	N2	Aspect=Perf|Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
-6	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	nmod	_	_
+6	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	nmod	_	_
 7	cognitione	cognitio	NOUN	C1|grn1|casF|gen2|comH|vgr1|stAC	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	9	dobj	_	_
 8	aliquis	aliquis	PRON	F1|grn1|casA|gen1|varA|stPV	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Ind	9	nsubj	_	_
 9	caret	careo	VERB	K3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl	_	_
@@ -455,7 +455,7 @@
 9	quod	quod	SCONJ	O4|stRL	_	15	mark	_	_
 10	tam	tam	ADV	O4|stRL	_	11	cc	_	_
 11	manifesta	manifestus	ADJ	B1|grn1|casM|gen3|stAC	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	13	amod	_	_
-12	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	nmod	_	_
+12	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	nmod	_	_
 13	signa	signum	NOUN	B1|grn1|casM|gen3|stAE	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	15	dobj	_	_
 14	non	non	ADV	O4|stRL	_	15	neg	_	_
 15	percipit	percipio	VERB	L3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	_
@@ -480,7 +480,7 @@
 1	unde	unde	ADV	O4|stRL	_	5	advmod	_	_
 2	et	et	CONJ	O4|stRL	_	4	advmod:emph	_	_
 3	in	in	ADP	S4|stRL	AdpType=Prep	4	case	_	_
-4	psalmo	psalmus	NOUN	B1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	5	nmod	_	_
+4	psalmo	psalmus	PROPN	B1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	5	nmod	_	_
 5	dicitur	dico	VERB	N3|modJ|tem1|gen6|stAE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 6	:	:	PUNCT	Punc	_	5	punct	_	_
 
@@ -497,7 +497,7 @@
 # orig_file_sentence 001#28
 1	non	non	ADV	O4|stRL	_	2	neg	_	_
 2	est	sum	VERB	N3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	deus	deus	NOUN	F1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	nsubj	_	_
+3	deus	deus	PROPN	F1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	nsubj	_	_
 4	.	.	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id ittb-scg-s11529
@@ -506,7 +506,7 @@
 2	est	sum	VERB	N3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	igitur	igitur	ADV	O4|stRL	_	4	advmod	_	_
 4	haec	hic	PRON	F1|grn1|casA|gen2|vgr1|stPV	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
-5	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
+5	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
 6	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1|stAC	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	nsubj	_	_
 7	quae	qui	PRON	F1|grn1|casA|gen2|vgr1|stPV	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Rel	10	nsubj	_	_
 8	ad	ad	ADP	S4|stRL	AdpType=Prep	9	case	_	_
@@ -623,7 +623,7 @@
 2	est	sum	VERB	N3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
 3	igitur	igitur	ADV	O4|stRL	_	10	advmod	_	_
 4	praemissa	praemitto	VERB	L2	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
-5	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
+5	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
 6	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1|stAC	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	nsubj	_	_
 7	ad	ad	ADP	S4|stRL	AdpType=Prep	8	case	_	_
 8	felicitatem	felicitas	NOUN	C1|grn1|casD|gen2|stAM	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	dobj	_	_
@@ -640,7 +640,7 @@
 5	consistit	consisto	VERB	L3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	in	in	ADP	S4|stRL	AdpType=Prep	7	case	_	_
 7	cognitione	cognitio	NOUN	C1|grn1|casF|gen2|comH|vgr1|stAC	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	5	dobj	_	_
-8	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	nmod	_	_
+8	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	nmod	_	_
 9	quae	qui	PRON	F1|grn1|casA|gen2|vgr1|stPV	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Rel	10	nsubjpass	_	_
 10	habetur	habeo	VERB	K3|modJ|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	acl	_	_
 11	per	per	ADP	S4|stRL	AdpType=Prep	12	case	_	_
@@ -654,7 +654,7 @@
 3	est	sum	VERB	N3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	quaedam	quidam	PRON	F1|grn1|casA|gen2|vgr1|stPV	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	7	nmod	_	_
 5	alia	alius	PRON	F1|grn1|casA|gen2|stPV	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	7	nmod	_	_
-6	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	nmod	_	_
+6	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	nmod	_	_
 7	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1|stAC	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	nsubj	_	_
 8	,	,	PUNCT	Punc	_	9	punct	_	_
 9	altior	altus	NOUN	C1|grn2|casA|gen2|stAN	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	7	nmod	_	_
@@ -663,7 +663,7 @@
 12	,	,	PUNCT	Punc	_	9	punct	_	_
 13	quae	qui	PRON	F1|grn1|casA|gen2|vgr1|stPV	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Rel	18	nsubjpass	_	_
 14	de	de	ADP	S4|stRL	AdpType=Prep	15	case	_	_
-15	deo	deus	NOUN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	18	nmod	_	_
+15	deo	deus	PROPN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	18	nmod	_	_
 16	per	per	ADP	S4|stRL	AdpType=Prep	17	case	_	_
 17	demonstrationem	demonstratio	NOUN	C1|grn1|casD|gen2|stAE	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	nmod	_	_
 18	habetur	habeo	VERB	K3|modJ|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	acl	_	_
@@ -699,7 +699,7 @@
 1	ostendit	ostendo	VERB	L3|modA|tem1|gen6|stAE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	enim	enim	ADV	O4|stRL	_	1	advmod	_	_
 3	demonstratio	demonstratio	NOUN	C1|grn1|casA|gen2|stAE	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	nsubj	_	_
-4	deum	deus	NOUN	F1|grn1|casD|gen1|stNP	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	deum	deus	PROPN	F1|grn1|casD|gen1|stNP	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	nsubj	_	_
 5	esse	sum	VERB	N3|modH|tem1|stAV	Tense=Pres|VerbForm=Inf|Voice=Act	6	cop	_	_
 6	immobilem	immobilis	ADJ	C1|grn1|casD|gen1|stAN	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	1	xcomp	_	_
 7	,	,	PUNCT	Punc	_	6	punct	_	_
@@ -721,7 +721,7 @@
 23	libro	liber^volumen	NOUN	B1|grn1|casF|gen1|stRS	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	27	nmod	_	_
 24	primo	primus	ADJ	B1|grn1|casF|gen1	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	23	amod	_	_
 25	de	de	ADP	S4|stRL	AdpType=Prep	26	case	_	_
-26	deo	deus	NOUN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	27	nmod	_	_
+26	deo	deus	PROPN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	27	nmod	_	_
 27	ostendimus	ostendo	VERB	L3|modA|tem1|gen7|stAE	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl	_	_
 28	.	.	PUNCT	Punc	_	1	punct	_	_
 
@@ -834,7 +834,7 @@
 5	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1|stAC	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	nsubj	_	_
 6	quae	qui	PRON	F1|grn1|casA|gen2|vgr1|stPV	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Rel	9	nsubjpass	_	_
 7	de	de	ADP	S4|stRL	AdpType=Prep	8	case	_	_
-8	deo	deus	NOUN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	9	nmod	_	_
+8	deo	deus	PROPN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	9	nmod	_	_
 9	habetur	habeo	VERB	K3|modJ|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	acl	_	_
 10	per	per	ADP	S4|stRL	AdpType=Prep	11	case	_	_
 11	demonstrationes	demonstratio	NOUN	C1|grn1|casM|gen2|vgr1|stAE	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	nmod	_	_
@@ -943,7 +943,7 @@
 3	autem	autem	CONJ	O4|stRL	_	12	cc	_	_
 4	cognitionem	cognitio	NOUN	C1|grn1|casD|gen2|vgr1|stAC	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	nsubjpass	_	_
 5	de	de	ADP	S4|stRL	AdpType=Prep	6	case	_	_
-6	deo	deus	NOUN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	4	nmod	_	_
+6	deo	deus	PROPN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	4	nmod	_	_
 7	habendam	habeo	VERB	K2|modO|grp1|casD|gen2|stAV	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Gdv|Voice=Pass	12	ccomp	_	_
 8	per	per	ADP	S4|stRL	AdpType=Prep	9	case	_	_
 9	viam	via	NOUN	A1|grn1|casD|gen2|vgr1|stRS	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	nmod	_	_
@@ -969,7 +969,7 @@
 2	est	sum	VERB	N3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
 3	igitur	igitur	ADV	O4|stRL	_	10	advmod	_	_
 4	talis	talis	PRON	C1|grn1|casA|gen2|stPV	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	6	nmod	_	_
-5	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
+5	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
 6	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1|stAC	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	nsubj	_	_
 7	essentialiter	essentialis	ADJ	C1|grn1|casG|stAN	Case=Loc|Degree=Pos|Number=Sing	10	advmod	_	_
 8	ipsa	ipse	PRON	F1|grn1|casA|gen2|stPV	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem,Prs	10	nmod	_	_
@@ -1029,7 +1029,7 @@
 5	viam	via	NOUN	A1|grn1|casD|gen2|vgr1|stRS	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	nmod	_	_
 6	demonstrationis	demonstratio	NOUN	C1|grn1|casB|gen2|stAE	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	nmod	_	_
 7	de	de	ADP	S4|stRL	AdpType=Prep	8	case	_	_
-8	deo	deus	NOUN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	3	nmod	_	_
+8	deo	deus	PROPN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	3	nmod	_	_
 9	habita	habeo	VERB	K2|modM|tem4|grp1|casA|gen2|stAV	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	_
 10	remanet	remaneo	VERB	K3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
 11	adhuc	adhuc	ADV	O4|stRL	_	10	advmod	_	_
@@ -1039,7 +1039,7 @@
 15	aliquod	aliquis	PRON	F1|grn1|casD|gen3|varA|stPV	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	19	dobj	_	_
 16	ulterius	ulterior	ADJ	C1|grn2|casD|gen3|stAN	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	15	amod	_	_
 17	de	de	ADP	S4|stRL	AdpType=Prep	18	case	_	_
-18	deo	deus	NOUN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	15	nmod	_	_
+18	deo	deus	PROPN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	15	nmod	_	_
 19	cognoscendum	cognosco	VERB	L2|modE|grp1|casD|stAC	Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|Voice=Act	10	advcl	_	_
 20	,	,	PUNCT	Punc	_	10	punct	_	_
 21	vel	vel	CONJ	O4|vgr1|stRL	_	10	cc	_	_
@@ -1135,7 +1135,7 @@
 3	cognitioni	cognitio	NOUN	C1|grn1|casC|gen2|stAC	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	dobj	_	_
 4	quae	qui	PRON	F1|grn1|casA|gen2|vgr1|stPV	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Rel	7	nsubjpass	_	_
 5	de	de	ADP	S4|stRL	AdpType=Prep	6	case	_	_
-6	deo	deus	NOUN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	7	nmod	_	_
+6	deo	deus	PROPN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	7	nmod	_	_
 7	habetur	habeo	VERB	K3|modJ|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	acl	_	_
 8	,	,	PUNCT	Punc	_	7	punct	_	_
 9	multiplex	multiplex	ADJ	C1|grn1|casA|gen1|stAN	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
@@ -1154,7 +1154,7 @@
 6	aliqua	aliquis	PRON	F1|grn1|casM|gen3|stPV	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|PronType=Ind	13	dobj	_	_
 7	vera	verus	ADJ	A1|grn1|casM|gen3|vgr1|stAC	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	6	amod	_	_
 8	de	de	ADP	S4|stRL	AdpType=Prep	9	case	_	_
-9	deo	deus	NOUN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
+9	deo	deus	PROPN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
 10	per	per	ADP	S4|stRL	AdpType=Prep	11	case	_	_
 11	viam	via	NOUN	A1|grn1|casD|gen2|vgr1|stRS	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	nmod	_	_
 12	demonstrationis	demonstratio	NOUN	C1|grn1|casB|gen2|stAE	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	nmod	_	_
@@ -1226,7 +1226,7 @@
 5	hac	hic	PRON	F1|grn1|casF|gen2|stPV	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	6	nmod	_	_
 6	cognitione	cognitio	NOUN	C1|grn1|casF|gen2|comH|vgr1|stAC	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	3	nmod	_	_
 7	de	de	ADP	S4|stRL	AdpType=Prep	8	case	_	_
-8	deo	deus	NOUN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
+8	deo	deus	PROPN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
 9	ultima	ulterior	ADJ	A1|grn3|casA|gen2|stAN	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	11	amod	_	_
 10	hominis	homo	NOUN	C1|grn1|casB|gen1|stRS	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	nmod	_	_
 11	felicitas	felicitas	NOUN	C1|grn1|casA|gen2|stAM	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -1353,7 +1353,7 @@
 1	illa	ille	PRON	F1|grn1|casA|gen2|stPD	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	3	nmod	_	_
 2	igitur	igitur	ADV	O4|stRL	_	8	advmod	_	_
 3	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1|stAC	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	nsubj	_	_
-4	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	nmod	_	_
+4	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	nmod	_	_
 5	essentialiter	essentialis	ADJ	C1|grn1|casG|stAN	Case=Loc|Degree=Pos|Number=Sing	8	advmod	_	_
 6	est	sum	VERB	N3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
 7	ipsa	ipse	PRON	F1|grn1|casA|gen2|stPV	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem,Prs	8	nmod	_	_
@@ -1381,7 +1381,7 @@
 8	per	per	ADP	S4|stRL	AdpType=Prep	9	case	_	_
 9	demonstrationes	demonstratio	NOUN	C1|grn1|casM|gen2|vgr1|stAE	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	nmod	_	_
 10	de	de	ADP	S4|stRL	AdpType=Prep	11	case	_	_
-11	deo	deus	NOUN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	12	nmod	_	_
+11	deo	deus	PROPN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	12	nmod	_	_
 12	habere	habeo	VERB	K3|modH|tem1|stAV	Tense=Pres|VerbForm=Inf|Voice=Act	13	xcomp	_	_
 13	potuerunt	possum	VERB	N3|modA|tem4|gen9|stAV	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbType=Mod|Voice=Act	5	acl	_	_
 14	:	:	PUNCT	Punc	_	23	punct	_	_
@@ -1412,7 +1412,7 @@
 4	in	in	ADP	S4|stRL	AdpType=Prep	6	case	_	_
 5	tali	talis	PRON	C1|grn1|casF|gen2|stPV	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	6	nmod	_	_
 6	cognitione	cognitio	NOUN	C1|grn1|casF|gen2|comH|vgr1|stAC	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	2	nmod	_	_
-7	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
+7	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
 8	felicitas	felicitas	NOUN	C1|grn1|casA|gen2|stAM	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	nsubj	_	_
 9	.	.	PUNCT	Punc	_	2	punct	_	_
 
@@ -1653,7 +1653,7 @@
 6	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1|stAC	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	nsubj	_	_
 7	quae	qui	PRON	F1|grn1|casA|gen2|vgr1|stPV	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Rel	13	nsubj	_	_
 8	de	de	ADP	S4|stRL	AdpType=Prep	9	case	_	_
-9	deo	deus	NOUN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	12	nmod	_	_
+9	deo	deus	PROPN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	12	nmod	_	_
 10	per	per	ADP	S4|stRL	AdpType=Prep	11	case	_	_
 11	demonstrationem	demonstratio	NOUN	C1|grn1|casD|gen2|stAE	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	nmod	_	_
 12	haberi	habeo	VERB	K3|modQ|tem1|stAV	Tense=Pres|VerbForm=Inf|Voice=Pass	13	xcomp	_	_
@@ -1676,7 +1676,7 @@
 3	igitur	igitur	ADV	O4|stRL	_	7	advmod	_	_
 4	talis	talis	PRON	C1|grn1|casA|gen2|stPV	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	5	nmod	_	_
 5	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1|stAC	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	nsubj	_	_
-6	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	nmod	_	_
+6	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	nmod	_	_
 7	sufficiens	sufficiens	ADJ	C1|grn1|casA|gen2|stAV	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
 8	ad	ad	ADP	S4|stRL	AdpType=Prep	10	case	_	_
 9	ultimam	ulterior	ADJ	A1|grn3|casD|gen2|stAN	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	10	amod	_	_
@@ -1692,7 +1692,7 @@
 5	consistit	consisto	VERB	L3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	in	in	ADP	S4|stRL	AdpType=Prep	7	case	_	_
 7	cognitione	cognitio	NOUN	C1|grn1|casF|gen2|comH|vgr1|stAC	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	5	dobj	_	_
-8	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	nmod	_	_
+8	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	nmod	_	_
 9	quae	qui	PRON	F1|grn1|casA|gen2|vgr1|stPV	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Rel	10	nsubj	_	_
 10	est	sum	VERB	N3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl	_	_
 11	per	per	ADP	S4|stRL	AdpType=Prep	12	case	_	_
@@ -1705,7 +1705,7 @@
 2	autem	autem	CONJ	O4|stRL	_	1	cc	_	_
 3	et	et	CONJ	O4|stRL	_	6	advmod:emph	_	_
 4	alia	alius	PRON	F1|grn1|casA|gen2|stPV	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	6	nmod	_	_
-5	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
+5	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
 6	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1|stAC	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	nsubj	_	_
 7	,	,	PUNCT	Punc	_	11	punct	_	_
 8	quantum	quantum	ADV	O4|stRL	_	10	advmod:emph	_	_
@@ -1717,7 +1717,7 @@
 14	,	,	PUNCT	Punc	_	22	punct	_	_
 15	qua	qui	PRON	F1|grn1|casF|gen2|varA|stPV	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|PronType=Rel	22	nmod	_	_
 16	scilicet	scilicet	ADV	O4|stRL	_	22	advmod	_	_
-17	deus	deus	NOUN	F1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	nsubjpass	_	_
+17	deus	deus	PROPN	F1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	nsubjpass	_	_
 18	ab	a	ADP	S4|vgr2|stRL	AdpType=Prep	19	case	_	_
 19	hominibus	homo	NOUN	C1|grn1|casO|gen1|stRS	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur	22	dobj	_	_
 20	per	per	ADP	S4|stRL	AdpType=Prep	21	case	_	_
@@ -1735,7 +1735,7 @@
 6	cognitionem	cognitio	NOUN	C1|grn1|casD|gen2|vgr1|stAC	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	dobj	_	_
 7	quae	qui	PRON	F1|grn1|casA|gen2|vgr1|stPV	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Rel	12	nsubjpass	_	_
 8	de	de	ADP	S4|stRL	AdpType=Prep	9	case	_	_
-9	deo	deus	NOUN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	12	nmod	_	_
+9	deo	deus	PROPN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	12	nmod	_	_
 10	per	per	ADP	S4|stRL	AdpType=Prep	11	case	_	_
 11	demonstrationem	demonstratio	NOUN	C1|grn1|casD|gen2|stAE	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	nmod	_	_
 12	habetur	habeo	VERB	K3|modJ|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	acl	_	_
@@ -1745,7 +1745,7 @@
 16	quia	quia	SCONJ	O4|stRL	_	22	mark	_	_
 17	quaedam	quidam	PRON	F1|grn1|casM|gen3|vgr1|stPV	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|PronType=Ind	22	dobj	_	_
 18	de	de	ADP	S4|stRL	AdpType=Prep	19	case	_	_
-19	deo	deus	NOUN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	17	nmod	_	_
+19	deo	deus	PROPN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	17	nmod	_	_
 20	per	per	ADP	S4|stRL	AdpType=Prep	21	case	_	_
 21	fidem	fides	NOUN	E1|grn1|casD|gen2|stAM	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	nmod	_	_
 22	cognoscimus	cognosco	VERB	L3|modA|tem1|gen7|stAC	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl	_	_
@@ -1780,7 +1780,7 @@
 5	neque	neque	CONJ	O4|stRL	_	7	advmod:emph	_	_
 6	in	in	ADP	S4|stRL	AdpType=Prep	9	case	_	_
 7	hac	hic	PRON	F1|grn1|casF|gen2|stPV	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	9	nmod	_	_
-8	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	nmod	_	_
+8	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	nmod	_	_
 9	cognitione	cognitio	NOUN	C1|grn1|casF|gen2|comH|vgr1|stAC	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	13	dobj	_	_
 10	ultimam	ulterior	ADJ	A1|grn3|casD|gen2|stAN	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	12	amod	_	_
 11	hominis	homo	NOUN	C1|grn1|casB|gen1|stRS	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	nmod	_	_
@@ -1851,7 +1851,7 @@
 4	neque	neque	CONJ	O4|stRL	_	6	advmod:emph	_	_
 5	in	in	ADP	S4|stRL	AdpType=Prep	8	case	_	_
 6	hac	hic	PRON	F1|grn1|casF|gen2|stPV	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	8	nmod	_	_
-7	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	nmod	_	_
+7	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	nmod	_	_
 8	cognitione	cognitio	NOUN	C1|grn1|casF|gen2|comH|vgr1|stAC	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	2	nmod	_	_
 9	ultima	ulterior	ADJ	A1|grn3|casA|gen2|stAN	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	11	amod	_	_
 10	hominis	homo	NOUN	C1|grn1|casB|gen1|stRS	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	nmod	_	_
@@ -2114,7 +2114,7 @@
 4	hominis	homo	NOUN	C1|grn1|casB|gen1|stRS	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	nmod	_	_
 5	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1|stAC	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	nsubj	_	_
 6	de	de	ADP	S4|stRL	AdpType=Prep	7	case	_	_
-7	deo	deus	NOUN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	5	nmod	_	_
+7	deo	deus	PROPN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	5	nmod	_	_
 8	altior	altus	NOUN	C1|grn2|casA|gen2|stAN	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	5	nmod	_	_
 9	cognitione	cognitio	NOUN	C1|grn1|casF|gen2|comH|vgr1|stAC	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	8	nmod	_	_
 10	fidei	fides	NOUN	E1|grn1|casB|gen2|stAM	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	nmod	_	_
@@ -2154,7 +2154,7 @@
 2	igitur	igitur	ADV	O4|stRL	_	11	advmod	_	_
 3	in	in	ADP	S4|stRL	AdpType=Prep	6	case	_	_
 4	summa	summus	ADJ	A1|grn1|casA|gen2|stAN	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
-5	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
+5	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
 6	cognitione	cognitio	NOUN	C1|grn1|casF|gen2|comH|vgr1|stAC	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	9	dobj	_	_
 7	felicitas	felicitas	NOUN	C1|grn1|casA|gen2|stAM	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	nsubj	_	_
 8	hominis	homo	NOUN	C1|grn1|casB|gen1|stRS	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	nmod	_	_
@@ -2236,7 +2236,7 @@
 # orig_file_sentence 002#26
 1	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1|stAC	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	nsubjpass	_	_
 2	de	de	ADP	S4|stRL	AdpType=Prep	3	case	_	_
-3	deo	deus	NOUN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	1	nmod	_	_
+3	deo	deus	PROPN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	1	nmod	_	_
 4	dicta	dico	VERB	N2|modM|tem4|grp1|casA|gen2|stAE	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	cop	_	_
 5	est	sum	AUX	N3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	auxpass	_	_
 6	finis	finis	NOUN	C1|grn1|casA|gen1|stRS	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
@@ -2246,7 +2246,7 @@
 10	rerum	res	NOUN	E1|grn1|casK|gen2|stRS	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	9	nmod	_	_
 11	,	,	PUNCT	Punc	_	13	punct	_	_
 12	scilicet	scilicet	ADV	O4|stRL	_	13	cc	_	_
-13	deo	deus	NOUN	F1|grn1|casC|gen1|stNP	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	9	appos	_	_
+13	deo	deus	PROPN	F1|grn1|casC|gen1|stNP	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	9	appos	_	_
 14	,	,	PUNCT	Punc	_	13	punct	_	_
 15	coniungit	conjungo	VERB	L3|modA|tem1|gen6|vgr2|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
 16	.	.	PUNCT	Punc	_	6	punct	_	_
@@ -2303,14 +2303,14 @@
 2	tamen	tamen	ADV	O4|stRL	_	6	advmod	_	_
 3	per	per	ADP	S4|stRL	AdpType=Prep	4	case	_	_
 4	fidem	fides	NOUN	E1|grn1|casD|gen2|stAM	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	nmod	_	_
-5	deus	deus	NOUN	F1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	nsubjpass	_	_
+5	deus	deus	PROPN	F1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	nsubjpass	_	_
 6	praesens	praesum	VERB	N2	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
 7	affectui	affectus	NOUN	D1|grn1|casC|gen1|stAM	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	6	dobj	_	_
 8	,	,	PUNCT	Punc	_	13	punct	_	_
 9	cum	cum	SCONJ	S4|vgr1|stRL	_	13	mark	_	_
 10	voluntarie	voluntarius	ADJ	B1|grn1|casG|vgr1|stAM	Case=Loc|Degree=Pos|Number=Sing	13	advmod	_	_
 11	credens	credo	VERB	L2|modD|tem1|grp1|casA|gen1|stAC	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	13	csubj	_	_
-12	deo	deus	NOUN	F1|grn1|casC|gen1|stNP	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	13	dobj	_	_
+12	deo	deus	PROPN	F1|grn1|casC|gen1|stNP	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	13	dobj	_	_
 13	assentiat	assentio	VERB	M3|modB|tem1|gen6|stAE	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
 14	:	:	PUNCT	Punc	_	6	punct	_	_
 
@@ -2375,7 +2375,7 @@
 5	aliam	alius	PRON	F1|grn1|casD|gen2|stPV	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	6	nmod	_	_
 6	cognitionem	cognitio	NOUN	C1|grn1|casD|gen2|vgr1|stAC	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	1	dobj	_	_
 7	de	de	ADP	S4|stRL	AdpType=Prep	8	case	_	_
-8	deo	deus	NOUN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
+8	deo	deus	PROPN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
 9	intellectualis	intellectualis	ADJ	C1|grn1|casA|gen2|stAC	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
 10	substantia	substantia	NOUN	A1|grn1|casA|gen2|vgr1|stRS	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	nsubj	_	_
 11	.	.	PUNCT	Punc	_	1	punct	_	_
@@ -2446,7 +2446,7 @@
 1	unde	unde	ADV	O4|stRL	_	17	advmod	_	_
 2	,	,	PUNCT	Punc	_	6	punct	_	_
 3	cum	cum	SCONJ	S4|vgr1|stRL	_	6	mark	_	_
-4	deus	deus	NOUN	F1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	deus	deus	PROPN	F1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	nsubj	_	_
 5	sit	sum	VERB	N3|modB|tem1|gen6|stAV	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 6	causa	causa	NOUN	A1|grn1|casA|gen2|vgr1|stAN	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	advcl	_	_
 7	omnium	omnis	DET	C1|grn1|casK|gen2|stPV	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
@@ -2476,7 +2476,7 @@
 31	visionis	visio	NOUN	C1|grn1|casB|gen2|vgr1|stAC	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	nmod	_	_
 32	cuiusdam	quidam	PRON	F1|grn1|casB|gen2|vgr2|stPV	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	31	nmod	_	_
 33	ipsum	ipse	PRON	F1|grn1|casD|gen1|stPV	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem,Prs	34	nmod	_	_
-34	deum	deus	NOUN	F1|grn1|casD|gen1|stNP	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	28	dobj	_	_
+34	deum	deus	PROPN	F1|grn1|casD|gen1|stNP	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	28	dobj	_	_
 35	:	:	PUNCT	Punc	_	17	punct	_	_
 
 # sent_id ittb-scg-s11637
@@ -2523,7 +2523,7 @@
 11	est	sum	VERB	N3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
 12	,	,	PUNCT	Punc	_	7	punct	_	_
 13	videt	video	VERB	K3|modA|tem1|gen6|vgr1|stAC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-14	deum	deus	NOUN	F1|grn1|casD|gen1|stNP	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	dobj	_	_
+14	deum	deus	PROPN	F1|grn1|casD|gen1|stNP	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	dobj	_	_
 15	altiori	altus	NOUN	C1|grn2|casF|gen1|stAN	Case=Abl|Degree=Cmp|Gender=Masc|Number=Sing	16	nmod	_	_
 16	modo	modus	NOUN	B1|grn1|casF|gen1|stRL	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	13	nmod	_	_
 17	quam	quam	SCONJ	O4|stRL	_	21	mark	_	_
@@ -2675,7 +2675,7 @@
 19	se	sui	PRON	F1|grn1|casD|gen2|stPV	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|PronType=Prs|Reflex=Yes	18	dobj	_	_
 20	,	,	PUNCT	Punc	_	18	punct	_	_
 21	intelligit	intelligo	VERB	L3|modA|tem1|gen6|stAC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl	_	_
-22	deum	deus	NOUN	F1|grn1|casD|gen1|stNP	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	dobj	_	_
+22	deum	deus	PROPN	F1|grn1|casD|gen1|stNP	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	dobj	_	_
 23	.	.	PUNCT	Punc	_	10	punct	_	_
 
 # sent_id ittb-scg-s11644
@@ -2738,7 +2738,7 @@
 
 # sent_id ittb-scg-s11646
 # orig_file_sentence 002#46
-1	avempace	avempace	NOUN	G1|vgr1|stNP	_	3	nsubj	_	_
+1	avempace	avempace	PROPN	G1|vgr1|stNP	_	3	nsubj	_	_
 2	namque	nam	ADV	O4|comQ|stRL	_	3	advmod	_	_
 3	posuit	pono	VERB	L3|modA|tem4|gen6|stAV	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	quod	quod	SCONJ	O4|stRL	_	9	mark	_	_
@@ -3285,7 +3285,7 @@
 29	quod	qui	PRON	F1|grn1|casA|gen3|stRL	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	33	nsubjpass	_	_
 30	est	sum	AUX	N3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	auxpass	_	_
 31	ab	a	ADP	S4|vgr2|stRL	AdpType=Prep	32	case	_	_
-32	aristotele	aristoteles	NOUN	C1|grn1|casF|gen1|vgr1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	33	dobj	_	_
+32	aristotele	aristoteles	PROPN	C1|grn1|casF|gen1|vgr1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	33	dobj	_	_
 33	improbatum	improbo	VERB	J2|modM|tem4|grp1|casA|gen3|stAE	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	24	acl	_	_
 34	.	.	PUNCT	Punc	_	9	punct	_	_
 
@@ -3957,14 +3957,14 @@
 9	separatas	separo	VERB	J2|modM|tem4|grp1|casM|gen2|stAV	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	_
 10	sicut	sicut	SCONJ	O4|vgr1|stRL	_	11	mark	_	_
 11	ponit	pono	VERB	L3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
-12	alexander	alexander	NOUN	B1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	nsubj	_	_
+12	alexander	alexander	PROPN	B1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	nsubj	_	_
 13	.	.	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id ittb-scg-s11707
 # orig_file_sentence 003#7
 1	quia	quia	SCONJ	O4|stRL	_	4	mark	_	_
 2	vero	verus	ADJ	B1|grn1|casG|vgr1|stRL	Case=Loc|Degree=Pos|Number=Sing	39	advmod	_	_
-3	alexander	alexander	NOUN	B1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	alexander	alexander	PROPN	B1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	posuit	pono	VERB	L3|modA|tem4|gen6|stAV	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	39	advcl	_	_
 5	quod	quod	SCONJ	O4|stRL	_	9	mark	_	_
 6	intellectus	intellectus	NOUN	D1|grn1|casA|gen1|stAC	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -4507,7 +4507,7 @@
 7	de	de	ADP	S4|stRL	AdpType=Prep	8	case	_	_
 8	quo	qui	PRON	F1|grn1|casF|gen1|stPV	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing|PronType=Rel	9	iobj	_	_
 9	dicunt	dico	VERB	N3|modA|tem1|gen9|stAE	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	_
-10	aristotelem	aristoteles	NOUN	C1|grn1|casD|gen1|vgr1|stNP	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	nsubj	_	_
+10	aristotelem	aristoteles	PROPN	C1|grn1|casD|gen1|vgr1|stNP	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	nsubj	_	_
 11	dicere	dico	VERB	N3|modH|tem1|stAE	Tense=Pres|VerbForm=Inf|Voice=Act	9	xcomp	_	_
 12	quod	quod	SCONJ	O4|stRL	_	13	mark	_	_
 13	sit	sum	VERB	N3|modB|tem1|gen6|stAV	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp	_	_
@@ -4637,7 +4637,7 @@
 9	,	,	PUNCT	Punc	_	7	punct	_	_
 10	ponitur	pono	VERB	L3|modJ|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 11	ab	a	ADP	S4|vgr2|stRL	AdpType=Prep	12	case	_	_
-12	alexandro	alexander	NOUN	B1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	10	iobj	_	_
+12	alexandro	alexander	PROPN	B1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	10	iobj	_	_
 13	esse	sum	VERB	N3|modH|tem1|stAV	Tense=Pres|VerbForm=Inf|Voice=Act	14	cop	_	_
 14	generabilis	generabilis	ADJ	C1|grn1|casA|gen1|stAN	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	ccomp	_	_
 15	et	et	CONJ	O4|stRL	_	14	cc	_	_
@@ -4701,7 +4701,7 @@
 4	agens	ago	VERB	L2|modD|tem1|grp1|casA|gen1|stAV	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	acl	_	_
 5	,	,	PUNCT	Punc	_	7	punct	_	_
 6	secundum	secundum	ADP	S4|stRL	AdpType=Prep	7	case	_	_
-7	alexandrum	alexander	NOUN	B1|grn1|casD|gen1|stNP	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	nmod	_	_
+7	alexandrum	alexander	PROPN	B1|grn1|casD|gen1|stNP	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	nmod	_	_
 8	,	,	PUNCT	Punc	_	7	punct	_	_
 9	ponatur	pono	VERB	L3|modK|tem1|gen6|stAV	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	16	advcl	_	_
 10	esse	sum	VERB	N3|modH|tem1|stAV	Tense=Pres|VerbForm=Inf|Voice=Act	9	ccomp	_	_
@@ -4929,7 +4929,7 @@
 8	quia	quia	SCONJ	O4|stRL	_	10	mark	_	_
 9	non	non	ADV	O4|stRL	_	10	neg	_	_
 10	concedit	concedo	VERB	L3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
-11	alexander	alexander	NOUN	B1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	nsubj	_	_
+11	alexander	alexander	PROPN	B1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	nsubj	_	_
 12	quod	quod	SCONJ	O4|stRL	_	13	mark	_	_
 13	intelligat	intelligo	VERB	L3|modB|tem1|gen6|stAC	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	_	_
 14	intellectum	intellectus	NOUN	D1|grn1|casD|gen1|stAC	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	dobj	_	_
@@ -4972,7 +4972,7 @@
 1	non	non	ADV	O4|stRL	_	3	neg	_	_
 2	autem	autem	CONJ	O4|stRL	_	3	cc	_	_
 3	concedit	concedo	VERB	L3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	alexander	alexander	NOUN	B1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	nsubj	_	_
+4	alexander	alexander	PROPN	B1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	nsubj	_	_
 5	quod	quod	SCONJ	O4|stRL	_	14	mark	_	_
 6	intellectus	intellectus	NOUN	D1|grn1|casA|gen1|stAC	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	nsubj	_	_
 7	possibilis	possibilis	ADJ	C1|grn1|casA|gen1|stAN	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
@@ -5155,7 +5155,7 @@
 15	separata	separo	VERB	J2|modM|tem4|grp1|casA|gen2|stAV	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	acl	_	_
 16	,	,	PUNCT	Punc	_	19	punct	_	_
 17	sicut	sicut	SCONJ	O4|vgr1|stRL	_	19	mark	_	_
-18	alexander	alexander	NOUN	B1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	nsubj	_	_
+18	alexander	alexander	PROPN	B1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	nsubj	_	_
 19	ponit	pono	VERB	L3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
 20	.	.	PUNCT	Punc	_	4	punct	_	_
 
@@ -5165,7 +5165,7 @@
 2	igitur	igitur	ADV	O4|stRL	_	6	advmod	_	_
 3	secundum	secundum	ADP	S4|stRL	AdpType=Prep	4	case	_	_
 4	opinionem	opinio	NOUN	C1|grn1|casD|gen2|stAC	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	nmod	_	_
-5	alexandri	alexander	NOUN	B1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	nmod	_	_
+5	alexandri	alexander	PROPN	B1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	nmod	_	_
 6	potest	possum	VERB	N3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	0	root	_	_
 7	poni	pono	VERB	L3|modQ|tem1|stAV	Tense=Pres|VerbForm=Inf|Voice=Pass	6	xcomp	_	_
 8	quod	quod	SCONJ	O4|stRL	_	10	mark	_	_
@@ -5439,7 +5439,7 @@
 # sent_id ittb-scg-s11776
 # orig_file_sentence 003#76
 1	quod	qui	PRON	F1|grn1|casD|gen3|stRL	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	4	dobj	_	_
-2	alexander	alexander	NOUN	B1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	alexander	alexander	PROPN	B1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	non	non	ADV	O4|stRL	_	4	neg	_	_
 4	ponit	pono	VERB	L3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	:	:	PUNCT	Punc	_	4	punct	_	_
@@ -5596,7 +5596,7 @@
 9	separatas	separo	VERB	J2|modM|tem4|grp1|casM|gen2|stAV	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	_
 10	sicut	sicut	SCONJ	O4|vgr1|stRL	_	11	mark	_	_
 11	ponit	pono	VERB	L3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
-12	averroes	averroes	NOUN	C1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	nsubj	_	_
+12	averroes	averroes	PROPN	C1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	nsubj	_	_
 13	.	.	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id ittb-scg-s11784
@@ -5608,7 +5608,7 @@
 5	est	sum	VERB	N3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	advcl	_	_
 6	in	in	ADP	S4|stRL	AdpType=Prep	7	case	_	_
 7	opinione	opinio	NOUN	C1|grn1|casF|gen2|comH|stAC	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	5	nmod	_	_
-8	alexandri	alexander	NOUN	B1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	nmod	_	_
+8	alexandri	alexander	PROPN	B1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	nmod	_	_
 9	ex	e	ADP	S4|vgr2|stRL	AdpType=Prep	10	case	_	_
 10	hoc	hic	PRON	F1|grn1|casF|gen3|stPV	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	5	nmod	_	_
 11	quod	quod	SCONJ	O4|stRL	_	12	mark	_	_
@@ -5620,7 +5620,7 @@
 17	totaliter	totalis	ADJ	C1|grn1|casG|stAN	Case=Loc|Degree=Pos|Number=Sing	18	advmod	_	_
 18	corruptibilem	corruptibilis	ADJ	C1|grn1|casD|gen1|stAN	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	dobj	_	_
 19	,	,	PUNCT	Punc	_	5	punct	_	_
-20	averroes	averroes	NOUN	C1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	nsubj	_	_
+20	averroes	averroes	PROPN	C1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	nsubj	_	_
 21	faciliorem	facilis	ADJ	C1|grn2|casD|gen2|stAN	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	22	amod	_	_
 22	viam	via	NOUN	A1|grn1|casD|gen2|vgr1|stRS	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	dobj	_	_
 23	se	sui	PRON	F1|grn1|casD|gen1|stPV	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	25	nsubj	_	_
@@ -5829,11 +5829,11 @@
 4	horum	hic	PRON	F1|grn1|casK|gen3|stPV	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|PronType=Dem	5	nmod	_	_
 5	intelligibilium	intelligibilis	ADJ	C1|grn1|casK|gen3|stAC	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	3	amod	_	_
 6	ab	a	ADP	S4|vgr2|stRL	AdpType=Prep	7	case	_	_
-7	aristotele	aristoteles	NOUN	C1|grn1|casF|gen1|vgr1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	13	dobj	_	_
+7	aristotele	aristoteles	PROPN	C1|grn1|casF|gen1|vgr1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	13	dobj	_	_
 8	,	,	PUNCT	Punc	_	10	punct	_	_
 9	in	in	ADP	S4|stRL	AdpType=Prep	10	case	_	_
 10	vi	_	NUM	G5|vgr1	NumForm=Digit	13	advmod	_	_
-11	ethicorum	ethici	NOUN	B1|grn1|casK|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	nmod	_	_
+11	ethicorum	ethici	PROPN	B1|grn1|casK|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	nmod	_	_
 12	,	,	PUNCT	Punc	_	10	punct	_	_
 13	intellectus	intellectus	NOUN	D1|grn1|casA|gen1|stAC	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
 14	dicitur	dico	VERB	N3|modJ|tem1|gen6|stAE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	cop	_	_
@@ -6044,7 +6044,7 @@
 20	informi	informis	ADJ	C1|grn1|casC|gen2|stAN	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
 21	,	,	PUNCT	Punc	_	24	punct	_	_
 22	ut	ut	SCONJ	O4|vgr1|stRL	_	24	mark	_	_
-23	augustinus	augustinus	NOUN	B1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	nsubj	_	_
+23	augustinus	augustinus	PROPN	B1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	nsubj	_	_
 24	vult	volo	VERB	N3|modA|tem1|gen6|vgr1|stAM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	11	advcl	_	_
 25	;	;	PUNCT	Punc	_	11	punct	_	_
 26	sive	sive	CONJ	O4|vgr1|stRL	_	11	cc	_	_
@@ -6165,7 +6165,7 @@
 12	quia	quia	SCONJ	O4|stRL	_	28	mark	_	_
 13	,	,	PUNCT	Punc	_	16	punct	_	_
 14	ut	ut	SCONJ	O4|vgr1|stRL	_	16	mark	_	_
-15	augustinus	augustinus	NOUN	B1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	nsubj	_	_
+15	augustinus	augustinus	PROPN	B1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	nsubj	_	_
 16	dicit	dico	VERB	N3|modA|tem1|gen6|stAE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	advcl	_	_
 17	in	in	ADP	S4|stRL	AdpType=Prep	18	case	_	_
 18	libro	liber^volumen	NOUN	B1|grn1|casF|gen1|stRS	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	16	nmod	_	_
@@ -6354,7 +6354,7 @@
 2	quidem	quidem	ADV	O4|stRL	_	13	cc	_	_
 3	,	,	PUNCT	Punc	_	1	punct	_	_
 4	quia	quia	SCONJ	O4|stRL	_	13	mark	_	_
-5	augustinus	augustinus	NOUN	B1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	nsubj	_	_
+5	augustinus	augustinus	PROPN	B1|grn1|casA|gen1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	nsubj	_	_
 6	per	per	ADP	S4|stRL	AdpType=Prep	7	case	_	_
 7	terram	terra	NOUN	A1|grn1|casD|gen2|stRS	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	nmod	_	_
 8	et	et	CONJ	O4|stRL	_	7	cc	_	_
@@ -6493,7 +6493,7 @@
 26	est	sum	VERB	N3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 27	per	per	ADP	S4|stRL	AdpType=Prep	28	case	_	_
 28	verbum	verbum	NOUN	B1|grn1|casD|gen3|vgr1|stAE	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	nmod	_	_
-29	dei	deus	NOUN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	nmod	_	_
+29	dei	deus	PROPN	F1|grn1|casB|gen1|stNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	nmod	_	_
 30	.	.	PUNCT	Punc	_	26	punct	_	_
 
 # sent_id ittb-forma-s3420
@@ -7135,7 +7135,7 @@
 28	,	,	PUNCT	Punc	_	30	punct	_	_
 29	ut	ut	SCONJ	O4|vgr1|stRL	_	30	mark	_	_
 30	dicit	dico	VERB	N3|modA|tem1|gen6|stAE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	advcl	_	_
-31	dionysius	dionysius	NOUN	B1|grn1|casA|gen1|vgr1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	30	nsubj	_	_
+31	dionysius	dionysius	PROPN	B1|grn1|casA|gen1|vgr1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	30	nsubj	_	_
 32	,	,	PUNCT	Punc	_	34	punct	_	_
 33	v	_	NUM	G5	NumForm=Digit	34	nummod	_	_
 34	cap.	_	X	5|stPS	Abbr=Yes	30	advmod	_	_
@@ -7959,7 +7959,7 @@
 2	quia	quia	SCONJ	O4|stRL	_	7	mark	_	_
 3	,	,	PUNCT	Punc	_	7	punct	_	_
 4	cum	cum	SCONJ	S4|vgr1|stRL	_	7	mark	_	_
-5	socrates	socrates	NOUN	C1|grn1|casA|gen1|vgr1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	nsubj	_	_
+5	socrates	socrates	PROPN	C1|grn1|casA|gen1|vgr1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	nsubj	_	_
 6	sit	sum	VERB	N3|modB|tem1|gen6|stAV	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 7	quoddam	quidam	PRON	F1|grn1|casA|gen3|varA|stPV	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	1	dep	_	_
 8	individuum	individuus	NOUN	B1|grn1|casA|gen3|stAN	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	nmod	_	_
@@ -8001,7 +8001,7 @@
 3	solus	solus	ADJ	F1|grn1|casA|gen1|stAN	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
 4	modus	modus	NOUN	B1|grn1|casA|gen1|stAN	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	nsubjpass	_	_
 5	quem	qui	PRON	F1|grn1|casD|gen1|stPV	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Rel	7	dobj	_	_
-6	aristoteles	aristoteles	NOUN	C1|grn1|casA|gen1|vgr1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	aristoteles	aristoteles	PROPN	C1|grn1|casA|gen1|vgr1|stNP	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	nsubj	_	_
 7	ponit	pono	VERB	L3|modA|tem1|gen6|stAV	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	_
 8	,	,	PUNCT	Punc	_	12	punct	_	_
 9	quod	quod	SCONJ	O4|stRL	_	12	mark	_	_
