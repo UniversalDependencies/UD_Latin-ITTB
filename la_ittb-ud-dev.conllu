@@ -6251,7 +6251,7 @@
 # sent_id ittb-scg-s316
 # orig_file_sentence 004#16
 1	nam	nam	ADV	O4|stRL	_	13	advmod	_	_
-2	quod	qui	SCONJ	O4|stRL	PronType=Rel	3	mark	_	_
+2	quod	quod	SCONJ	O4|stRL	_	3	mark	_	_
 3	possit	possum	VERB	N3|modB|tem1|gen6|stAV	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	13	csubj	_	_
 4	cogitari	cogito	VERB	J3|modQ|tem1|stAC	Tense=Pres|VerbForm=Inf|Voice=Pass	3	xcomp	_	_
 5	non	non	ADV	O4|stRL	_	6	neg	_	_

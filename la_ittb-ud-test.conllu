@@ -980,11 +980,11 @@
 8	demonstrationibus	demonstratio	NOUN	C1|grn1|casO|gen2|stAE	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	5	nmod	_	_
 9	primum	primus	ADJ	B1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	10	amod	_	_
 10	motum	moveo	VERB	K2|modM|tem4|grp1|casD|gen3|stAV	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	csubjpass	_	_
-11	,	,	PUNCT	Punc	_	14	punct	_	_
-12	scilicet	scilicet	ADV	O4|stRL	_	14	cc	_	_
-13	corpus	corpus	NOUN	C1|grn1|casD|gen3|stRS	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	cop	_	_
-14	caeleste	caelestis	ADJ	C1|grn1|casD|gen3|vgr1|stAN	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	appos	_	_
-15	,	,	PUNCT	Punc	_	14	punct	_	_
+11	,	,	PUNCT	Punc	_	13	punct	_	_
+12	scilicet	scilicet	ADV	O4|stRL	_	13	cc	_	_
+13	corpus	corpus	NOUN	C1|grn1|casD|gen3|stRS	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	appos	_	_
+14	caeleste	caelestis	ADJ	C1|grn1|casD|gen3|vgr1|stAN	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+15	,	,	PUNCT	Punc	_	13	punct	_	_
 16	esse	sum	AUX	N3|modH|tem1|stAV	Tense=Pres|VerbForm=Inf|Voice=Act	17	auxpass	_	_
 17	motum	moveo	VERB	K2|modM|tem4|grp1|casD|gen3|stAV	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	csubjpass	_	_
 18	ex	e	ADP	S4|vgr2|stRL	AdpType=Prep	19	case	_	_
@@ -3103,7 +3103,7 @@
 
 # sent_id ittb-scg-s699
 # orig_file_sentence 002#99
-1	quod	qui	SCONJ	O4|stRL	PronType=Rel	5	mark	_	_
+1	quod	quod	SCONJ	O4|stRL	_	5	mark	_	_
 2	in	in	ADP	S4|stRL	AdpType=Prep	3	case	_	_
 3	deo	deus	PROPN	F1|grn1|casF|gen1|stNP	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	5	nmod	_	_
 4	non	non	ADV	O4|stRL	_	5	neg	_	_
@@ -5581,14 +5581,14 @@
 16	in	in	ADP	S4|stRL	AdpType=Prep	17	case	_	_
 17	quo	qui	PRON	F1|grn1|casF|gen3|stPV	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	18	nmod	_	_
 18	movebat	moveo	VERB	K3|modA|tem2|gen6|stAV	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	15	acl	_	_
-19	prima	primus	ADJ	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	23	amod	_	_
-20	pars	pars	NOUN	C1|grn1|casA|gen2|stRS	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	cop	_	_
-21	accepta	accipio	VERB	L2|modM|tem4|grp1|casA|gen2|stAV	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	acl	_	_
+19	prima	primus	ADJ	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	20	amod	_	_
+20	pars	pars	NOUN	C1|grn1|casA|gen2|stRS	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	nsubj	_	_
+21	accepta	accipio	VERB	L2|modM|tem4|grp1|casA|gen2|stAV	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	acl	_	_
 22	infinitae	infinitus	ADJ	A1|grn1|casB|gen2|stAN	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
-23	potentiae	potentia	NOUN	A1|grn1|casB|gen2|vgr1|stAN	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	nsubj	_	_
+23	potentiae	potentia	NOUN	A1|grn1|casB|gen2|vgr1|stAN	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	nmod	_	_
 24	,	,	PUNCT	Punc	_	26	punct	_	_
 25	scilicet	scilicet	ADV	O4|stRL	_	26	cc	_	_
-26	ab	_	X	5|stPS	Abbr=Yes	23	appos	_	_
+26	ab	_	X	5|stPS	Abbr=Yes	20	appos	_	_
 27	.	.	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id ittb-scg-s874
