@@ -12,10 +12,12 @@ behavior of words, and distinguishes nominal inflection, participles, and verbal
 
 In HamleDT 3.0, all nominally inflected words were tagged NOUN. In UD 1.2, they are further
 divided according to their lemma. A lexicon was obtained from the latin lemmatizer LEMLAT, and
-words not covered by the lexicon were manually disambiguated by Berta Gonzales and Marco
+words not covered by the lexicon were manually disambiguated by Berta Gonzáles and Marco
 Passarotti. Thus the nominally inflected words were retagged as NOUN, ADJ, PRON, DET or NUM.
 Furthermore, the uninflected words, previously tagged PART, are now retagged as ADV, ADP, CONJ,
 INTJ.
+
+
 
 References:
 
@@ -34,11 +36,19 @@ http://ufal.mff.cuni.cz/interset ... Interset was used to convert POS tags and f
 }
 
 
+
 Changelog
 
 2016-05-15 v1.3
   * Fixed adverbs that were attached as nmod; correct: advmod.
   * Improved conversion of AuxY.
+  * PROPN are now distinguished from NOUN.
+  * Larger data: almost 2000 newly annotated sentences.
+  * Manual fixes of annotation errors in the old data.
+  * An exceptional one-time change of the train/dev/test data split was
+    necessary to overcome past bad design and to reflect the evolution of the
+    treebank. Beware: UD 1.2 dev/test data have become UD 1.3 train data and
+    vice versa, the data split is thus not backwards compatible!
 
 
 
