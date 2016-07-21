@@ -26,7 +26,7 @@
     <tag name="PUNCT">40003</tag><!-- ,, ., :, ;, (, ), ?, - -->
     <tag name="SCONJ">15763</tag><!-- quod, ut, sicut, quia, cum, si, nisi, in+quantum, quam, quamvis -->
     <tag name="VERB">52515</tag><!-- sum, dico, possum, habeo, intelligo, facio, oportet, moveo, cognosco, ago -->
-    <tag name="X">606</tag><!-- _, 4-O--------, decuplus, modus, quod, parvus, quam, vero^adv./etc. -->
+    <tag name="X">606</tag><!-- _, 4-O––––, decuplus, modus, quod, parvus, quam, vero^adv./etc. -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="54">
