@@ -15,7 +15,7 @@
     <tag name="ADJ">22484</tag><!-- divinus, primus, naturalis, verus, proprius, possibilis, solus, multus, intelligibilis, ulterior -->
     <tag name="ADP">26414</tag><!-- in, ad, per, e, secundum, a, de, propter, supra, cum -->
     <tag name="ADV">21474</tag><!-- non, igitur, enim, etiam, unde, ergo, sic, nam, tamen, ita -->
-    <tag name="AUX">11840</tag><!-- sum, dico, video, facio, invenio, pono, pateo, existo, efficio, intelligo -->
+    <tag name="AUX">11723</tag><!-- sum, dico, facio, video, invenio, pono, existo, efficio, significo, remaneo -->
     <tag name="CCONJ">15492</tag><!-- et, autem, sed, vel, nec, neque, aut, sive, ac, tum -->
     <tag name="DET">3138</tag><!-- suus, omnis, noster, tuus, meus, ceterus, vester, cunctus, plurimus, reliquus -->
     <tag name="INTJ">5</tag><!-- ecce, amen -->
@@ -25,7 +25,7 @@
     <tag name="PROPN">3700</tag><!-- deus, aristoteles, angelus, baptisma, scriptura, plato, psalmus, dionysius, augustinus, boetius -->
     <tag name="PUNCT">40003</tag><!-- ,, ., :, ;, (, ), ?, - -->
     <tag name="SCONJ">15763</tag><!-- quod, ut, sicut, quia, cum, si, nisi, in+quantum, quam, quamvis -->
-    <tag name="VERB">42072</tag><!-- sum, dico, possum, habeo, intelligo, facio, oportet, moveo, cognosco, ago -->
+    <tag name="VERB">42189</tag><!-- sum, dico, possum, habeo, intelligo, oportet, facio, moveo, cognosco, ago -->
     <tag name="X">606</tag><!-- _, 4-O––––, decuplus, modus, quod, parvus, quam, vero^adv./etc. -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
@@ -81,7 +81,7 @@
     <feat name="VerbForm" value="Ger" upos="AUX,VERB">985</feat><!-- essendi, intelligendo, cognoscendo, agendo, intelligendum, recipiendum, intelligendi, movendo, loquendo, cognoscendum -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">6133</feat><!-- esse, intelligere, dici, habere, fieri, facere, velle, dicere, moveri, agere -->
     <feat name="VerbForm" value="Part" upos="AUX,VERB">9037</feat><!-- ostensum, movens, separatae, dictum, agens, probatum, separata, separatas, dictis, consequens -->
-    <feat name="VerbType" value="Mod" upos="VERB">3055</feat><!-- potest, possit, possunt, vult, velle, posset, intendit, debet, poterit, possumus -->
+    <feat name="VerbType" value="Mod" upos="VERB">3057</feat><!-- potest, possit, possunt, vult, velle, posset, intendit, debet, poterit, possumus -->
     <feat name="Voice" value="Act" upos="AUX,VERB">37830</feat><!-- est, esse, sit, sunt, potest, oportet, habet, patet, dicit, esset -->
     <feat name="Voice" value="Pass" upos="AUX,VERB">15983</feat><!-- dicitur, ostensum, dicendum, videtur, fit, sequitur, invenitur, separatae, dici, movetur -->
   </feats>
