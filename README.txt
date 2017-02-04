@@ -39,6 +39,8 @@ http://ufal.mff.cuni.cz/interset ... Interset was used to convert POS tags and f
 
 Changelog
 
+2017-03-01 v2.0
+  * Converted to UD v2 guidelines.
 2016-05-15 v1.3
   * Fixed adverbs that were attached as nmod; correct: advmod.
   * Improved conversion of AuxY.
