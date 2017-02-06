@@ -41,6 +41,8 @@ Changelog
 
 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
+  * Reconsidered PRON vs. DET distinction.
+  * Improved advmod vs. obl distinction.
 2016-05-15 v1.3
   * Fixed adverbs that were attached as nmod; correct: advmod.
   * Improved conversion of AuxY.

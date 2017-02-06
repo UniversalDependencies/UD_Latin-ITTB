@@ -17,11 +17,11 @@
     <tag name="ADV">21474</tag><!-- non, igitur, enim, etiam, unde, ergo, sic, nam, tamen, ita -->
     <tag name="AUX">11723</tag><!-- sum, dico, facio, video, invenio, pono, existo, efficio, significo, remaneo -->
     <tag name="CCONJ">15492</tag><!-- et, autem, sed, vel, nec, neque, aut, sive, ac, tum -->
-    <tag name="DET">3138</tag><!-- suus, omnis, noster, tuus, meus, ceterus, vester, cunctus, plurimus, reliquus -->
+    <tag name="DET">3979</tag><!-- omnis, suus, noster, tuus, meus, ceterus, cunctus, vester, reliquus, plerusque -->
     <tag name="INTJ">5</tag><!-- ecce, amen -->
     <tag name="NOUN">57365</tag><!-- forma, intellectus, res, materia, corpus, anima, substantia, actus, esse, potentia -->
     <tag name="NUM">2099</tag><!-- unus, _, duo, tres, quatuor, mille, decem, octoginta, quinque, sex -->
-    <tag name="PRON">28840</tag><!-- qui, hic, is, ipse, alius, sui, aliqui, aliquis, ille, omnis -->
+    <tag name="PRON">27999</tag><!-- qui, hic, is, ipse, alius, sui, aliqui, aliquis, ille, quidam -->
     <tag name="PROPN">3700</tag><!-- deus, aristoteles, angelus, baptisma, scriptura, plato, psalmus, dionysius, augustinus, boetius -->
     <tag name="PUNCT">40003</tag><!-- ,, ., :, ;, (, ), ?, - -->
     <tag name="SCONJ">15763</tag><!-- quod, ut, sicut, quia, cum, si, nisi, in+quantum, quam, quamvis -->
@@ -59,7 +59,7 @@
     <feat name="Person" value="1" upos="AUX,VERB">895</feat><!-- dicimus, videmus, possumus, intelligimus, respondeo, dico, cognoscimus, ostendi, volumus, dicimur -->
     <feat name="Person" value="2" upos="AUX,VERB,X">127</feat><!-- puta, fecisti, es, etc., odisti, accipite, comedite, comprehendes, dicas, diligis -->
     <feat name="Person" value="3" upos="AUX,VERB,X">35903</feat><!-- est, sit, sunt, potest, oportet, habet, dicitur, patet, dicit, esset -->
-    <feat name="Poss" value="Yes" upos="DET,PRON">1920</feat><!-- suam, sua, suum, suae, suo, noster, sui, nostra, suis, nostrae -->
+    <feat name="Poss" value="Yes" upos="DET">1920</feat><!-- suam, sua, suum, suae, suo, noster, sui, nostra, suis, nostrae -->
     <feat name="PronType" value="Dem" upos="ADV,PRON">4427</feat><!-- hoc, illud, haec, his, illa, illius, hac, hanc, huius, illam -->
     <feat name="PronType" value="Dem,Ind" upos="PRON">5</feat><!-- tot -->
     <feat name="PronType" value="Dem,Prs" upos="PRON">5395</feat><!-- eius, ipsum, eo, ea, ipsa, id, ei, ipsius, eorum, ipso -->
@@ -89,7 +89,7 @@
   <deps unique="34">
     <dep name="acl">10993</dep>
     <dep name="advcl">9410</dep>
-    <dep name="advmod">20691</dep>
+    <dep name="advmod">16922</dep>
     <dep name="advmod:emph">3307</dep>
     <dep name="amod">11155</dep>
     <dep name="appos">419</dep>
@@ -104,17 +104,17 @@
     <dep name="csubj">4391</dep>
     <dep name="csubj:pass">588</dep>
     <dep name="dep">4225</dep>
-    <dep name="det">3134</dep>
+    <dep name="det">3265</dep>
     <dep name="expl:pass">257</dep>
     <dep name="fixed">220</dep>
     <dep name="iobj">996</dep>
     <dep name="mark">17479</dep>
-    <dep name="nmod">20918</dep>
+    <dep name="nmod">20787</dep>
     <dep name="nsubj">18921</dep>
     <dep name="nsubj:pass">5858</dep>
     <dep name="nummod">1118</dep>
     <dep name="obj">14170</dep>
-    <dep name="obl">16995</dep>
+    <dep name="obl">20764</dep>
     <dep name="orphan">861</dep>
     <dep name="parataxis">705</dep>
     <dep name="punct">40002</dep>
