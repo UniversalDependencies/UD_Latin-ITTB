@@ -1,5 +1,10 @@
+# Summary
+
 Latin data from the Index Thomisticus Treebank. It contains the complete work by Thomas Aquinas
 (1225–1274; medieval Latin), and by 61 authors related to Thomas.
+
+
+# Introduction
 
 The UD_Latin-ITTB dataset results from conversion of the Index Thomisticus Treebank.
 The data was first converted to the Prague dependency style as a part of HamleDT;
@@ -18,14 +23,14 @@ Furthermore, the uninflected words, previously tagged PART, are now retagged as 
 INTJ.
 
 
+# Acknowledgments
 
-References:
+* http://itreebank.marginalia.it/ ... Index Thomisticus Treebank
+* http://ufal.mff.cuni.cz/hamledt ... HamleDT
+* http://ufal.mff.cuni.cz/treex ... Treex is the software used for conversion
+* http://ufal.mff.cuni.cz/interset ... Interset was used to convert POS tags and features
 
-http://itreebank.marginalia.it/ ... Index Thomisticus Treebank
-http://ufal.mff.cuni.cz/hamledt ... HamleDT
-http://ufal.mff.cuni.cz/treex ... Treex is the software used for conversion
-http://ufal.mff.cuni.cz/interset ... Interset was used to convert POS tags and features
-
+<pre>
 @article{lait,
   author    = {Passarotti, Marco and Dell’Orletta, Felice},
   title     = {Improvements in parsing the index thomisticus treebank. Revision, combination and a feature model for medieval Latin},
@@ -34,10 +39,11 @@ http://ufal.mff.cuni.cz/interset ... Interset was used to convert POS tags and f
   pages     = {61--024},
   year      = {2010}
 }
+</pre>
 
 
 
-Changelog
+# Changelog
 
 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
@@ -56,12 +62,19 @@ Changelog
 
 
 
+<pre>
 === Machine-readable metadata =================================================
-Documentation status: stub
-Data source: automatic
 Data available since: UD v1.2
 License: CC BY-NC-SA 3.0
+Includes text: yes
 Genre: nonfiction
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: converted from manual
 Contributors: Passarotti, Marco; Zeman, Daniel; Gonzáles Saavedra, Berta
+Contributing: elsewhere
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
+</pre>
