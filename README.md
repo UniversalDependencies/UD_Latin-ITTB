@@ -73,7 +73,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Passarotti, Marco; Zeman, Daniel; Gonzáles Saavedra, Berta
+Contributors: Passarotti, Marco; Zeman, Daniel; Gonzáles Saavedra, Berta; Cecchini, Flavio Massimiliano
 Contributing: elsewhere
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
