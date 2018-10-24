@@ -1,24 +1,24 @@
 # Summary
 
-Latin data from the Index Thomisticus Treebank. It contains the complete work by Thomas Aquinas
-(1225–1274; medieval Latin), and by 61 authors related to Thomas.
+Latin data from the _Index Thomisticus_ Treebank. The treebank data are taken from the _Index Thomisticus_ corpus by Roberto Busa SJ, which contains the complete work by Thomas Aquinas (1225–1274; Medieval Latin), and by 61 authors related to Thomas.
 
 
-# Introduction
+# Releases
 
-The UD_Latin-ITTB dataset results from conversion of the Index Thomisticus Treebank.
-The data was first converted to the Prague dependency style as a part of HamleDT;
-then it was automatically converted to Universal Dependencies (HamleDT 3.0, 2015). The first
-release of Universal Dependencies that includes this treebank is UD v1.2 in November 2015. The
-conversion of dependency relations and morphological features is almost identical to HamleDT
-3.0. On the other hand, part of speech tags have been significantly improved. The original ITT
-categories were based on a “tripartity” classification, which is based purely on inflectional
-behavior of words, and distinguishes nominal inflection, participles, and verbal inflection.
+The UD_Latin-IT-TB dataset results from the conversion of the _Index Thomisticus_ Treebank.
+The data were first converted to the Prague dependency style as a part of HamleDT;
+then they were automatically converted to Universal Dependencies (HamleDT 3.0, 2015).
 
-In HamleDT 3.0, all nominally inflected words were tagged NOUN. In UD 1.2, they are further
-divided according to their lemma. A lexicon was obtained from the latin lemmatizer LEMLAT, and
-words not covered by the lexicon were manually disambiguated by Berta Gonzáles and Marco
-Passarotti. Thus the nominally inflected words were retagged as NOUN, ADJ, PRON, DET or NUM.
+The first release of Universal Dependencies that includes this treebank was UD v1.2 in November 2015. The
+conversion of dependency relations and morphological features was almost identical to HamleDT
+3.0.
+On the other hand, part of speech tags were significantly improved. The original IT-TB
+categories are based on a “tripartite” classification, which is based purely on the inflectional
+behavior of words, and distinguishes nominal inflection (including participles), no inflection and verbal inflection.
+
+In HamleDT 3.0, all nominally inflected words were tagged NOUN. In UD v1.2, they were further
+divided according to their lemma. A lexicon was obtained from the latin lemmatizer LEMLAT (https://github.com/CIRCSE/LEMLAT3), and words not covered by the lexicon were manually disambiguated by Berta González Saavedra and Marco
+C. Passarotti. Thus the nominally inflected words were retagged as NOUN, ADJ, PRON, DET or NUM.
 Furthermore, the uninflected words, previously tagged PART, are now retagged as ADV, ADP, CONJ,
 INTJ.
 
