@@ -686,9 +686,9 @@
 2	namque	nam	ADV	O4|comQ	_	1	advmod	_	_
 3	apostolus	apostolus	NOUN	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	Punc	_	6	punct	_	_
-5	i	_	NUM	G5|vgr1	NumForm=Digit	6	nummod	_	_
-6	cor.	_	X	5	Abbr=Yes	1	advmod	_	_
-7	2-10	_	NUM	G5	NumForm=Digit	6	nummod	_	SpaceAfter=No
+5	i	num._rom.	NUM	G5|vgr1	NumForm=Digit	6	nummod	_	_
+6	cor.	vox_breviata	X	5	Abbr=Yes	1	advmod	_	_
+7	2-10	num._arab.	NUM	G5	NumForm=Digit	6	nummod	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	12	punct	_	_
 9	quod	quod	SCONJ	O4	_	12	mark	_	_
 10	spiritus	spiritus	NOUN	D1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	nsubj	_	_
@@ -1641,11 +1641,11 @@
 6	tradit	trado	VERB	L3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	Punc	_	10	punct	_	_
 8	in	in	ADP	S4	AdpType=Prep	10	case	_	_
-9	vii	_	NUM	G5	NumForm=Digit	10	nummod	_	_
-10	cap.	_	X	5	Abbr=Yes	6	advmod	_	_
+9	vii	num._rom.	NUM	G5	NumForm=Digit	10	nummod	_	_
+10	cap.	breviata_loci_notatio	X	5	Abbr=Yes	6	advmod	_	_
 11	de	de	ADP	S4	AdpType=Prep	12	case	_	_
-12	div.	_	X	5	Abbr=Yes	10	nmod	_	_
-13	nom.	_	X	5	Abbr=Yes	12	nmod	_	SpaceAfter=No
+12	div.	vox_breviata	X	5	Abbr=Yes	10	nmod	_	_
+13	nom.	vox_breviata	X	5	Abbr=Yes	12	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	Punc	_	15	punct	_	_
 15	dicens	dico	VERB	N2|modD|tem1|grp1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	advcl	_	SpaceAfter=No
 16	:	:	PUNCT	Punc	_	6	punct	_	_
@@ -2406,8 +2406,8 @@
 16	ut	ut	SCONJ	O4|vgr1	_	17	mark	_	_
 17	probatur	probo	VERB	J3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	advcl	_	_
 18	in	in	ADP	S4	AdpType=Prep	19	case	_	_
-19	iv	_	NUM	G5|vgr1	NumForm=Digit	17	obl	_	_
-20	metaph.	_	X	5	Abbr=Yes	19	nmod	_	SpaceAfter=No
+19	iv	num._rom.	NUM	G5|vgr1	NumForm=Digit	17	obl	_	_
+20	metaph.	vox_breviata	X	5	Abbr=Yes	19	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	Punc	_	12	punct	_	_
 
 # sent_id = ittb-scg-s2260
@@ -2799,12 +2799,12 @@
 5	philosophus	philosophus	NOUN	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	8	punct	_	_
 7	in	in	ADP	S4	AdpType=Prep	8	case	_	_
-8	i	_	NUM	G5|vgr1	NumForm=Digit	4	obl	_	_
+8	i	num._rom.	NUM	G5|vgr1	NumForm=Digit	4	obl	_	_
 9	de	de	ADP	S4	AdpType=Prep	10	case	_	_
 10	anima	anima	NOUN	F1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	8	nmod	_	_
 11	et	et	CCONJ	O4	_	13	cc	_	_
 12	in	in	ADP	S4	AdpType=Prep	13	case	_	_
-13	iii	_	NUM	G5|vgr1	NumForm=Digit	8	conj	_	_
+13	iii	num._rom.	NUM	G5|vgr1	NumForm=Digit	8	conj	_	_
 14	metaphysicae	metaphysicus	ADJ	A1|grn1|casB|gen2|vgr1	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	Punc	_	4	punct	_	_
 
@@ -2822,8 +2822,8 @@
 # text = dicitur namque gen. 1-31:
 1	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	namque	nam	ADV	O4|comQ	_	1	advmod	_	_
-3	gen.	_	X	5	Abbr=Yes	1	advmod	_	_
-4	1-31	_	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
+3	gen.	vox_breviata	X	5	Abbr=Yes	1	advmod	_	_
+4	1-31	num._arab.	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
 5	:	:	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = ittb-scg-s2288
@@ -2843,8 +2843,8 @@
 # sent_id = ittb-scg-s2289
 # text = et heb. 4-13:
 1	et	et	CCONJ	O4	_	2	cc	_	_
-2	heb.	_	X	5	Abbr=Yes	0	root	_	_
-3	4-13	_	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
+2	heb.	vox_breviata	X	5	Abbr=Yes	0	root	_	_
+3	4-13	num._arab.	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
 4	:	:	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = ittb-scg-s2290
@@ -4226,8 +4226,8 @@
 4	dicit	dico	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	7	punct	_	_
 6	in	in	ADP	S4	AdpType=Prep	7	case	_	_
-7	viii	_	NUM	G5|vgr1	NumForm=Digit	4	obl	_	_
-8	metaph.	_	X	5	Abbr=Yes	7	nmod	_	SpaceAfter=No
+7	viii	num._rom.	NUM	G5|vgr1	NumForm=Digit	4	obl	_	_
+8	metaph.	vox_breviata	X	5	Abbr=Yes	7	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	Punc	_	4	punct	_	_
 10	formae	forma	NOUN	A1|grn1|casJ|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	20	nsubj	_	_
 11	et	et	CCONJ	O4	_	12	cc	_	_
@@ -4471,7 +4471,7 @@
 12	huiusmodi	hujusmodi	ADV	O4|vgr2	_	10	advmod	_	SpaceAfter=No
 13	,	,	PUNCT	Punc	_	16	punct	_	_
 14	et	et	CCONJ	O4	_	16	cc	_	_
-15	singularum	_	NOUN	A1|grn1|casK|gen2	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	16	nmod	_	_
+15	singularum	num._distrib.	NOUN	A1|grn1|casK|gen2	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	16	nmod	_	_
 16	specierum	species	NOUN	E1|grn1|casK|gen2	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	9	conj	_	_
 17	eius	is	PRON	F1|grn1|casB|gen3|vgr2	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem,Prs	16	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	Punc	_	22	punct	_	_
@@ -5534,8 +5534,8 @@
 # text = dicitur enim iac. 1-17, quod apud deum non est transmutatio nec vicissitudinis obumbratio.
 1	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	enim	enim	ADV	O4	_	1	advmod	_	_
-3	iac.	_	X	5	Abbr=Yes	1	advmod	_	_
-4	1-17	_	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
+3	iac.	vox_breviata	X	5	Abbr=Yes	1	advmod	_	_
+4	1-17	num._arab.	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	10	punct	_	_
 6	quod	quod	SCONJ	O4	_	10	mark	_	_
 7	apud	apud	ADP	S4|vgr1	AdpType=Prep	8	case	_	_
@@ -6005,8 +6005,8 @@
 2	etiam	etiam	ADV	O4|vgr1	_	3	advmod:emph	_	_
 3	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	7	nsubj:pass	_	_
-5	eccli.	_	X	5	Abbr=Yes	7	advmod	_	_
-6	23-28	_	NUM	G5	NumForm=Digit	5	nummod	_	_
+5	eccli.	vox_breviata	X	5	Abbr=Yes	7	advmod	_	_
+6	23-28	num._arab.	NUM	G5	NumForm=Digit	5	nummod	_	_
 7	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	csubj	_	SpaceAfter=No
 8	:	:	PUNCT	Punc	_	3	punct	_	_
 
@@ -6910,8 +6910,8 @@
 # text = dicitur enim hebr. 4-13:
 1	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	enim	enim	ADV	O4	_	1	advmod	_	_
-3	hebr.	_	X	5	Abbr=Yes	1	advmod	_	_
-4	4-13	_	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
+3	hebr.	vox_breviata	X	5	Abbr=Yes	1	advmod	_	_
+4	4-13	num._arab.	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
 5	:	:	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = ittb-scg-s2515
@@ -7499,7 +7499,7 @@
 1	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	enim	enim	ADV	O4	_	1	advmod	_	_
 3	isaiae	isaia	PROPN	A1|grn1|casB|gen1|vgr1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	nmod	_	_
-4	55-8	_	NUM	G5	NumForm=Digit	1	obl	_	_
+4	55-8	num._arab.	NUM	G5	NumForm=Digit	1	obl	_	_
 5	non	non	PART	O4	_	7	orphan	_	_
 6	enim	enim	PART	O4	_	7	orphan	_	_
 7	cogitationes	cogitatio	NOUN	C1|grn1|casJ|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	orphan	_	_
@@ -7540,11 +7540,11 @@
 2	etiam	etiam	ADV	O4|vgr1	_	3	advmod:emph	_	_
 3	dicit	dico	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Punc	_	6	punct	_	_
-5	vii	_	NUM	G5	NumForm=Digit	6	nummod	_	_
-6	cap.	_	X	5	Abbr=Yes	3	advmod	_	_
+5	vii	num._rom.	NUM	G5	NumForm=Digit	6	nummod	_	_
+6	cap.	breviata_loci_notatio	X	5	Abbr=Yes	3	advmod	_	_
 7	de	de	ADP	S4	AdpType=Prep	8	case	_	_
-8	div.	_	X	5	Abbr=Yes	6	nmod	_	_
-9	nom.	_	X	5	Abbr=Yes	8	nmod	_	SpaceAfter=No
+8	div.	vox_breviata	X	5	Abbr=Yes	6	nmod	_	_
+9	nom.	vox_breviata	X	5	Abbr=Yes	8	nmod	_	SpaceAfter=No
 10	:	:	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id = ittb-scg-s2558
@@ -7935,7 +7935,7 @@
 33	ut	ut	SCONJ	O4|vgr1	_	34	mark	_	_
 34	patet	pateo	VERB	K3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	advcl	_	_
 35	in	in	ADP	S4	AdpType=Prep	36	case	_	_
-36	iii	_	NUM	G5|vgr1	NumForm=Digit	34	obl	_	_
+36	iii	num._rom.	NUM	G5|vgr1	NumForm=Digit	34	obl	_	_
 37	de	de	ADP	S4	AdpType=Prep	38	case	_	_
 38	anima	anima	NOUN	F1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
 39	;	;	PUNCT	Punc	_	43	punct	_	_
@@ -8233,7 +8233,7 @@
 10	philosophum	philosophus	NOUN	B1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 11	,	,	PUNCT	Punc	_	13	punct	_	_
 12	in	in	ADP	S4	AdpType=Prep	13	case	_	_
-13	vi	_	NUM	G5|vgr1	NumForm=Digit	8	obl	_	_
+13	vi	num._rom.	NUM	G5|vgr1	NumForm=Digit	8	obl	_	_
 14	ethicorum	ethici	NOUN	B1|grn1|casK|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	Punc	_	4	punct	_	_
 
@@ -8589,8 +8589,8 @@
 7	se	se	PRON	F1|grn1|casF|gen1	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	8	obl:arg	_	_
 8	dicentis	dico	VERB	N2|modD|tem1|grp1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	acl	_	SpaceAfter=No
 9	,	,	PUNCT	Punc	_	10	punct	_	_
-10	ioan.	_	X	5	Abbr=Yes	8	advmod	_	_
-11	14-6	_	NUM	G5	NumForm=Digit	10	nummod	_	SpaceAfter=No
+10	ioan.	vox_breviata	X	5	Abbr=Yes	8	advmod	_	_
+11	14-6	num._arab.	NUM	G5	NumForm=Digit	10	nummod	_	SpaceAfter=No
 12	:	:	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id = ittb-scg-s2607
@@ -9257,8 +9257,8 @@
 2	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	4	nsubj:pass	_	_
 4	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	csubj	_	_
-5	rom.	_	X	5	Abbr=Yes	4	advmod	_	_
-6	3-4	_	NUM	G5	NumForm=Digit	5	nummod	_	SpaceAfter=No
+5	rom.	vox_breviata	X	5	Abbr=Yes	4	advmod	_	_
+6	3-4	num._arab.	NUM	G5	NumForm=Digit	5	nummod	_	SpaceAfter=No
 7	:	:	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = ittb-scg-s2652
@@ -9272,8 +9272,8 @@
 # sent_id = ittb-scg-s2653
 # text = et num. 23-19:
 1	et	et	CCONJ	O4	_	2	cc	_	_
-2	num.	_	X	5	Abbr=Yes	0	root	_	_
-3	23-19	_	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
+2	num.	vox_breviata	X	5	Abbr=Yes	0	root	_	_
+3	23-19	num._arab.	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
 4	:	:	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = ittb-scg-s2654
@@ -9291,9 +9291,9 @@
 # sent_id = ittb-scg-s2655
 # text = et i ioan. 1-5:
 1	et	et	CCONJ	O4	_	2	cc	_	_
-2	i	_	NUM	G5|vgr1	NumForm=Digit	0	root	_	_
-3	ioan.	_	X	5	Abbr=Yes	2	nmod	_	_
-4	1-5	_	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
+2	i	num._rom.	NUM	G5|vgr1	NumForm=Digit	0	root	_	_
+3	ioan.	vox_breviata	X	5	Abbr=Yes	2	nmod	_	_
+4	1-5	num._arab.	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
 5	:	:	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = ittb-scg-s2656
@@ -9363,8 +9363,8 @@
 17	philosophum	philosophus	NOUN	B1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
 18	,	,	PUNCT	Punc	_	20	punct	_	_
 19	in	in	ADP	S4	AdpType=Prep	20	case	_	_
-20	ii	_	NUM	G5|vgr1	NumForm=Digit	15	obl	_	_
-21	metaph.	_	X	5	Abbr=Yes	20	nmod	_	SpaceAfter=No
+20	ii	num._rom.	NUM	G5|vgr1	NumForm=Digit	15	obl	_	_
+21	metaph.	vox_breviata	X	5	Abbr=Yes	20	nmod	_	SpaceAfter=No
 22	:	:	PUNCT	Punc	_	9	punct	_	_
 
 # sent_id = ittb-scg-s2660
@@ -9496,7 +9496,7 @@
 7	ut	ut	SCONJ	O4|vgr1	_	8	mark	_	_
 8	patet	pateo	VERB	K3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
 9	in	in	ADP	S4	AdpType=Prep	10	case	_	_
-10	v	_	NUM	G5	NumForm=Digit	8	obl	_	_
+10	v	num._rom.	NUM	G5	NumForm=Digit	8	obl	_	_
 11	metaphysicae	metaphysicus	ADJ	A1|grn1|casB|gen2|vgr1	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	Punc	_	3	punct	_	_
 
@@ -9663,7 +9663,7 @@
 29	tradit	trado	VERB	L3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	advcl	_	SpaceAfter=No
 30	,	,	PUNCT	Punc	_	32	punct	_	_
 31	in	in	ADP	S4	AdpType=Prep	32	case	_	_
-32	x	_	NUM	G5	NumForm=Digit	29	obl	_	_
+32	x	num._rom.	NUM	G5	NumForm=Digit	29	obl	_	_
 33	metaphysicae	metaphysicus	ADJ	A1|grn1|casB|gen2|vgr1	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
 34	.	.	PUNCT	Punc	_	11	punct	_	_
 
@@ -10605,7 +10605,7 @@
 15	ut	ut	SCONJ	O4|vgr1	_	16	mark	_	_
 16	probatur	probo	VERB	J3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	advcl	_	_
 17	in	in	ADP	S4	AdpType=Prep	18	case	_	_
-18	vii	_	NUM	G5	NumForm=Digit	16	obl	_	_
+18	vii	num._rom.	NUM	G5	NumForm=Digit	16	obl	_	_
 19	metaphysicae	metaphysicus	ADJ	A1|grn1|casB|gen2|vgr1	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	Punc	_	5	punct	_	_
 
@@ -10698,7 +10698,7 @@
 31	ut	ut	SCONJ	O4|vgr1	_	32	mark	_	_
 32	patet	pateo	VERB	K3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	advcl	_	_
 33	in	in	ADP	S4	AdpType=Prep	34	case	_	_
-34	vii	_	NUM	G5	NumForm=Digit	32	obl	_	_
+34	vii	num._rom.	NUM	G5	NumForm=Digit	32	obl	_	_
 35	metaphysicae	metaphysicus	ADJ	A1|grn1|casB|gen2|vgr1	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	Punc	_	4	punct	_	_
 
@@ -11736,8 +11736,8 @@
 # text = dicitur enim hebr. 4-13:
 1	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	enim	enim	ADV	O4	_	1	advmod	_	_
-3	hebr.	_	X	5	Abbr=Yes	1	advmod	_	_
-4	4-13	_	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
+3	hebr.	vox_breviata	X	5	Abbr=Yes	1	advmod	_	_
+4	4-13	num._arab.	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
 5	:	:	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = ittb-scg-s2797
@@ -11758,8 +11758,8 @@
 2	etiam	etiam	ADV	O4|vgr1	_	4	advmod:emph	_	_
 3	contrarius	contrarius	ADJ	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	_
 4	excluditur	excludo	VERB	L3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-5	eccli.	_	X	5	Abbr=Yes	4	advmod	_	_
-6	16-16	_	NUM	G5	NumForm=Digit	5	nummod	_	SpaceAfter=No
+5	eccli.	vox_breviata	X	5	Abbr=Yes	4	advmod	_	_
+6	16-16	num._arab.	NUM	G5	NumForm=Digit	5	nummod	_	SpaceAfter=No
 7	:	:	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = ittb-scg-s2799
@@ -12933,8 +12933,8 @@
 # text = dicitur enim eccli. 23-29:
 1	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	enim	enim	ADV	O4	_	1	advmod	_	_
-3	eccli.	_	X	5	Abbr=Yes	1	advmod	_	_
-4	23-29	_	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
+3	eccli.	vox_breviata	X	5	Abbr=Yes	1	advmod	_	_
+4	23-29	num._arab.	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
 5	:	:	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = ittb-scg-s2863
@@ -12964,8 +12964,8 @@
 # sent_id = ittb-scg-s2865
 # text = et ier. 1-5:
 1	et	et	CCONJ	O4	_	2	cc	_	_
-2	ier.	_	X	5	Abbr=Yes	0	root	_	_
-3	1-5	_	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
+2	ier.	vox_breviata	X	5	Abbr=Yes	0	root	_	_
+3	1-5	num._arab.	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
 4	:	:	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = ittb-scg-s2866
@@ -14274,8 +14274,8 @@
 # text = dicitur enim sap. 8-8, de divina sapientia:
 1	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	enim	enim	ADV	O4	_	1	advmod	_	_
-3	sap.	_	X	5	Abbr=Yes	1	advmod	_	_
-4	8-8	_	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
+3	sap.	vox_breviata	X	5	Abbr=Yes	1	advmod	_	_
+4	8-8	num._arab.	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	8	punct	_	_
 6	de	de	ADP	S4	AdpType=Prep	8	case	_	_
 7	divina	divinus	ADJ	A1|grn1|casF|gen2|vgr1	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
@@ -14301,8 +14301,8 @@
 # sent_id = ittb-scg-s2928
 # text = et eccli. 39-24 non est quicquam absconditum ab oculis eius:
 1	et	et	CCONJ	O4	_	5	cc	_	_
-2	eccli.	_	X	5	Abbr=Yes	5	advmod	_	_
-3	39-24	_	NUM	G5	NumForm=Digit	2	nummod	_	_
+2	eccli.	vox_breviata	X	5	Abbr=Yes	5	advmod	_	_
+3	39-24	num._arab.	NUM	G5	NumForm=Digit	2	nummod	_	_
 4	non	non	ADV	O4	_	5	advmod	_	_
 5	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	quicquam	quisquam	PRON	F1|grn1|casA|gen3|vgr2	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	5	nsubj	_	_
@@ -14326,7 +14326,7 @@
 # text = et isaiae 48-5:
 1	et	et	CCONJ	O4	_	2	cc	_	_
 2	isaiae	isaia	NOUN	A1|grn1|casB|gen1|vgr1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
-3	48-5	_	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
+3	48-5	num._arab.	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
 4	:	:	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = ittb-scg-s2931
@@ -14878,8 +14878,8 @@
 
 # sent_id = ittb-scg-s2963
 # text = prov. 15-11:
-1	prov.	_	X	5	Abbr=Yes	0	root	_	_
-2	15-11	_	NUM	G5	NumForm=Digit	1	nummod	_	SpaceAfter=No
+1	prov.	vox_breviata	X	5	Abbr=Yes	0	root	_	_
+2	15-11	num._arab.	NUM	G5	NumForm=Digit	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = ittb-scg-s2964
@@ -14902,8 +14902,8 @@
 
 # sent_id = ittb-scg-s2966
 # text = ioan. 2-25:
-1	ioan.	_	X	5	Abbr=Yes	0	root	_	_
-2	2-25	_	NUM	G5	NumForm=Digit	1	nummod	_	SpaceAfter=No
+1	ioan.	vox_breviata	X	5	Abbr=Yes	0	root	_	_
+2	2-25	num._arab.	NUM	G5	NumForm=Digit	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = ittb-scg-s2967
@@ -15201,7 +15201,7 @@
 15	philosophus	philosophus	NOUN	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	nsubj	_	_
 16	probat	probo	VERB	J3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
 17	in	in	ADP	S4	AdpType=Prep	18	case	_	_
-18	iii	_	NUM	G5|vgr1	NumForm=Digit	16	obl	_	_
+18	iii	num._rom.	NUM	G5|vgr1	NumForm=Digit	16	obl	_	_
 19	physicorum	physicus	NOUN	B1|grn1|casK|gen1|vgr1	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	Punc	_	5	punct	_	_
 
@@ -15430,7 +15430,7 @@
 16	philosophum	philosophus	NOUN	B1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
 17	,	,	PUNCT	Punc	_	19	punct	_	_
 18	in	in	ADP	S4	AdpType=Prep	19	case	_	_
-19	iii	_	NUM	G5|vgr1	NumForm=Digit	14	obl	_	_
+19	iii	num._rom.	NUM	G5|vgr1	NumForm=Digit	14	obl	_	_
 20	de	de	ADP	S4	AdpType=Prep	21	case	_	_
 21	anima	anima	NOUN	F1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
 22	:	:	PUNCT	Punc	_	7	punct	_	_
@@ -16076,7 +16076,7 @@
 7	divino	divinus	ADJ	B1|grn1|casF|gen1|vgr1	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 8	quantum	quantum	ADV	O4	_	10	advmod:emph	_	_
 9	ad	ad	ADP	S4	AdpType=Prep	10	case	_	_
-10	quatuor	_	NOUN	G1|gen3|vgr1	Gender=Neut	1	obl	_	SpaceAfter=No
+10	quatuor	num._card.	NOUN	G1|gen3|vgr1	Gender=Neut	1	obl	_	SpaceAfter=No
 11	,	,	PUNCT	Punc	_	15	punct	_	_
 12	quae	qui	PRON	F1|grn1|casJ|gen3|vgr1	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|PronType=Rel	15	nsubj	_	_
 13	hanc	hic	PRON	F1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
@@ -16816,7 +16816,7 @@
 28	patet	pateo	VERB	K3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	SpaceAfter=No
 29	,	,	PUNCT	Punc	_	31	punct	_	_
 30	in	in	ADP	S4	AdpType=Prep	31	case	_	_
-31	xi	_	NUM	G5|vgr1	NumForm=Digit	28	obl	_	_
+31	xi	num._rom.	NUM	G5|vgr1	NumForm=Digit	28	obl	_	_
 32	metaphysicae	metaphysicus	ADJ	A1|grn1|casB|gen2|vgr1	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
 33	.	.	PUNCT	Punc	_	4	punct	_	_
 
@@ -17148,8 +17148,8 @@
 3	consonat	consono	VERB	J3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	5	nsubj:pass	_	_
 5	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	csubj	_	_
-6	sap.	_	X	5	Abbr=Yes	5	advmod	_	_
-7	7	_	NUM	G5	NumForm=Digit	6	nummod	_	_
+6	sap.	vox_breviata	X	5	Abbr=Yes	5	advmod	_	_
+7	7	num._arab.	NUM	G5	NumForm=Digit	6	nummod	_	_
 8	de	de	ADP	S4	AdpType=Prep	10	case	_	_
 9	divina	divinus	ADJ	A1|grn1|casF|gen2|vgr1	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
 10	sapientia	sapientia	NOUN	A1|grn1|casF|gen2|vgr1	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	5	obl:arg	_	SpaceAfter=No
@@ -17310,7 +17310,7 @@
 8	dictis	dictum	NOUN	B1|grn1|casL|gen3	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	7	obj	_	_
 9	philosophi	philosophus	NOUN	B1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	nmod	_	_
 10	in	in	ADP	S4	AdpType=Prep	11	case	_	_
-11	xi	_	NUM	G5|vgr1	NumForm=Digit	8	nmod	_	_
+11	xi	num._rom.	NUM	G5|vgr1	NumForm=Digit	8	nmod	_	_
 12	metaphysicae	metaphysicus	ADJ	A1|grn1|casB|gen2|vgr1	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	Punc	_	1	punct	_	_
 
@@ -17718,8 +17718,8 @@
 9	,	,	PUNCT	Punc	_	14	punct	_	_
 10	ut	ut	SCONJ	O4|vgr1	_	14	mark	_	_
 11	in	in	ADP	S4	AdpType=Prep	12	case	_	_
-12	iv	_	NUM	G5|vgr1	NumForm=Digit	14	obl	_	_
-13	metaphys.	_	X	5	Abbr=Yes	12	nmod	_	_
+12	iv	num._rom.	NUM	G5|vgr1	NumForm=Digit	14	obl	_	_
+13	metaphys.	vox_breviata	X	5	Abbr=Yes	12	nmod	_	_
 14	ostenditur	ostendo	VERB	L3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	advcl	_	SpaceAfter=No
 15	.	.	PUNCT	Punc	_	3	punct	_	_
 
@@ -17801,7 +17801,7 @@
 16	ut	ut	SCONJ	O4|vgr1	_	17	mark	_	_
 17	patet	pateo	VERB	K3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
 18	in	in	ADP	S4	AdpType=Prep	19	case	_	_
-19	x	_	NUM	G5	NumForm=Digit	17	obl	_	_
+19	x	num._rom.	NUM	G5	NumForm=Digit	17	obl	_	_
 20	metaphysicae	metaphysicus	ADJ	A1|grn1|casB|gen2|vgr1	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	Punc	_	7	punct	_	_
 
@@ -18110,8 +18110,8 @@
 3	consonat	consono	VERB	J3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	5	nsubj:pass	_	_
 5	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	csubj	_	_
-6	sap.	_	X	5	Abbr=Yes	5	advmod	_	_
-7	8	_	NUM	G5	NumForm=Digit	6	nummod	_	SpaceAfter=No
+6	sap.	vox_breviata	X	5	Abbr=Yes	5	advmod	_	_
+7	8	num._arab.	NUM	G5	NumForm=Digit	6	nummod	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	13	punct	_	_
 9	quod	quod	SCONJ	O4	_	13	mark	_	_
 10	dei	deus	PROPN	F1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	nmod	_	_
@@ -18123,8 +18123,8 @@
 
 # sent_id = ittb-scg-s3159
 # text = prov. 15-11 dicitur:
-1	prov.	_	X	5	Abbr=Yes	3	advmod	_	_
-2	15-11	_	NUM	G5	NumForm=Digit	1	nummod	_	_
+1	prov.	vox_breviata	X	5	Abbr=Yes	3	advmod	_	_
+2	15-11	num._arab.	NUM	G5	NumForm=Digit	1	nummod	_	_
 3	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 4	:	:	PUNCT	Punc	_	3	punct	_	_
 
@@ -18159,7 +18159,7 @@
 # text = et iob 11-11 dicitur:
 1	et	et	CCONJ	O4	_	4	cc	_	_
 2	iob	iob	PROPN	G1|vgr1	_	4	obl	_	_
-3	11-11	_	NUM	G5	NumForm=Digit	2	nummod	_	_
+3	11-11	num._arab.	NUM	G5	NumForm=Digit	2	nummod	_	_
 4	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 5	:	:	PUNCT	Punc	_	4	punct	_	_
 
@@ -18447,7 +18447,7 @@
 7	philosophus	philosophus	NOUN	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	nsubj	_	_
 8	ponit	pono	VERB	L3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 9	in	in	ADP	S4	AdpType=Prep	10	case	_	_
-10	iii	_	NUM	G5|vgr1	NumForm=Digit	8	obl	_	_
+10	iii	num._rom.	NUM	G5|vgr1	NumForm=Digit	8	obl	_	_
 11	de	de	ADP	S4	AdpType=Prep	12	case	_	_
 12	anima	anima	NOUN	F1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	Punc	_	14	punct	_	_
@@ -19849,8 +19849,8 @@
 # sent_id = ittb-scg-s3258
 # text = et rom. 9-19:
 1	et	et	CCONJ	O4	_	2	cc	_	_
-2	rom.	_	X	5	Abbr=Yes	0	root	_	_
-3	9-19	_	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
+2	rom.	vox_breviata	X	5	Abbr=Yes	0	root	_	_
+3	9-19	num._arab.	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
 4	:	:	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = ittb-scg-s3259
@@ -20537,7 +20537,7 @@
 11	philosophum	philosophus	NOUN	B1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 12	,	,	PUNCT	Punc	_	14	punct	_	_
 13	in	in	ADP	S4	AdpType=Prep	14	case	_	_
-14	i	_	NUM	G5|vgr1	NumForm=Digit	9	obl	_	_
+14	i	num._rom.	NUM	G5|vgr1	NumForm=Digit	9	obl	_	_
 15	caeli	caelum	NOUN	B1|grn1|casB|gen3|vgr1	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	nmod	_	_
 16	et	et	CCONJ	O4	_	17	cc	_	_
 17	mundi	mundus	NOUN	B1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
@@ -21162,8 +21162,8 @@
 # text = dicitur enim sap. 11-25:
 1	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	enim	enim	ADV	O4	_	1	advmod	_	_
-3	sap.	_	X	5	Abbr=Yes	1	advmod	_	_
-4	11-25	_	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
+3	sap.	vox_breviata	X	5	Abbr=Yes	1	advmod	_	_
+4	11-25	num._arab.	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
 5	:	:	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = ittb-scg-s3341
@@ -22145,7 +22145,7 @@
 16	dicit	dico	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	SpaceAfter=No
 17	,	,	PUNCT	Punc	_	19	punct	_	_
 18	in	in	ADP	S4	AdpType=Prep	19	case	_	_
-19	vi	_	NUM	G5|vgr1	NumForm=Digit	16	obl	_	_
+19	vi	num._rom.	NUM	G5|vgr1	NumForm=Digit	16	obl	_	_
 20	metaphysicae	metaphysicus	ADJ	A1|grn1|casB|gen2|vgr1	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	Punc	_	10	punct	_	_
 
@@ -22378,8 +22378,8 @@
 2	philosophum	philosophus	NOUN	B1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	in	in	ADP	S4	AdpType=Prep	5	case	_	_
-5	xi	_	NUM	G5|vgr1	NumForm=Digit	11	obl	_	_
-6	metaph.	_	X	5	Abbr=Yes	5	nmod	_	SpaceAfter=No
+5	xi	num._rom.	NUM	G5|vgr1	NumForm=Digit	11	obl	_	_
+6	metaph.	vox_breviata	X	5	Abbr=Yes	5	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	Punc	_	5	punct	_	_
 8	duplex	duplex	ADJ	C1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
 9	bonum	bonum	NOUN	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	nsubj:pass	_	_
@@ -22665,7 +22665,7 @@
 7	quae	qui	PRON	F1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Rel	18	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	10	punct	_	_
 9	genesis	genesis	PROPN	C1|grn1|casB|gen2	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	nmod	_	_
-10	1	_	NUM	G5	NumForm=Digit	18	obl	_	SpaceAfter=No
+10	1	num._arab.	NUM	G5	NumForm=Digit	18	obl	_	SpaceAfter=No
 11	,	,	PUNCT	Punc	_	10	punct	_	_
 12	ad	ad	ADP	S4	AdpType=Prep	14	case	_	_
 13	singula	singulus	ADJ	B1|grn1|casM|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|NumType=Dist	14	nmod	_	_
@@ -25316,8 +25316,8 @@
 43	philosophus	philosophus	NOUN	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	44	nsubj	_	_
 44	tradit	trado	VERB	L3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	advcl	_	_
 45	in	in	ADP	S4	AdpType=Prep	46	case	_	_
-46	v	_	NUM	G5	NumForm=Digit	44	obl	_	_
-47	metaph.	_	X	5	Abbr=Yes	46	nmod	_	SpaceAfter=No
+46	v	num._rom.	NUM	G5	NumForm=Digit	44	obl	_	_
+47	metaph.	vox_breviata	X	5	Abbr=Yes	46	nmod	_	SpaceAfter=No
 48	:	:	PUNCT	Punc	_	56	punct	_	_
 49	sicut	sicut	SCONJ	O4|vgr1	_	56	mark	_	_
 50	triangulum	triangulus	ADJ	B1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	51	nsubj	_	_
@@ -25365,9 +25365,9 @@
 3	sacra	sacer	ADJ	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 4	profitetur	profiteor	VERB	K3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	7	punct	_	_
-6	i	_	NUM	G5|vgr1	NumForm=Digit	7	nummod	_	_
-7	reg.	_	X	5	Abbr=Yes	4	advmod	_	_
-8	15-29	_	NUM	G5	NumForm=Digit	7	nummod	_	SpaceAfter=No
+6	i	num._rom.	NUM	G5|vgr1	NumForm=Digit	7	nummod	_	_
+7	reg.	vox_breviata	X	5	Abbr=Yes	4	advmod	_	_
+8	15-29	num._arab.	NUM	G5	NumForm=Digit	7	nummod	_	SpaceAfter=No
 9	:	:	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = ittb-scg-s3561
@@ -26712,7 +26712,7 @@
 8	ut	ut	SCONJ	O4|vgr1	_	9	mark	_	_
 9	patet	pateo	VERB	K3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
 10	in	in	ADP	S4	AdpType=Prep	11	case	_	_
-11	xi	_	NUM	G5|vgr1	NumForm=Digit	9	obl	_	_
+11	xi	num._rom.	NUM	G5|vgr1	NumForm=Digit	9	obl	_	_
 12	metaphysicae	metaphysicus	ADJ	A1|grn1|casB|gen2|vgr1	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	Punc	_	6	punct	_	_
 
@@ -27622,8 +27622,8 @@
 # sent_id = ittb-scg-s3685
 # text = et eccli. 1-10 dicitur quod deus effudit sapientiam suam super omnia opera sua.
 1	et	et	CCONJ	O4	_	4	cc	_	_
-2	eccli.	_	X	5	Abbr=Yes	4	advmod	_	_
-3	1-10	_	NUM	G5	NumForm=Digit	2	nummod	_	_
+2	eccli.	vox_breviata	X	5	Abbr=Yes	4	advmod	_	_
+3	1-10	num._arab.	NUM	G5	NumForm=Digit	2	nummod	_	_
 4	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 5	quod	quod	SCONJ	O4	_	7	mark	_	_
 6	deus	deus	PROPN	F1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -27804,8 +27804,8 @@
 2	philosophum	philosophus	NOUN	B1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	5	punct	_	_
 4	in	in	ADP	S4	AdpType=Prep	5	case	_	_
-5	iii	_	NUM	G5|vgr1	NumForm=Digit	10	obl	_	_
-6	ethic.	_	X	5	Abbr=Yes	5	nmod	_	SpaceAfter=No
+5	iii	num._rom.	NUM	G5|vgr1	NumForm=Digit	10	obl	_	_
+6	ethic.	vox_breviata	X	5	Abbr=Yes	5	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	Punc	_	5	punct	_	_
 8	voluntas	voluntas	NOUN	C1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	nsubj	_	_
 9	est	sum	AUX	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
@@ -28012,7 +28012,7 @@
 15	ut	ut	SCONJ	O4|vgr1	_	16	mark	_	_
 16	probatur	probo	VERB	J3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	advcl	_	_
 17	in	in	ADP	S4	AdpType=Prep	18	case	_	_
-18	vii	_	NUM	G5	NumForm=Digit	16	obl	_	_
+18	vii	num._rom.	NUM	G5	NumForm=Digit	16	obl	_	_
 19	physicorum	physicus	NOUN	B1|grn1|casK|gen1|vgr1	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	Punc	_	6	punct	_	_
 
@@ -29394,8 +29394,8 @@
 9	per	per	ADP	S4	AdpType=Prep	10	case	_	_
 10	philosophum	philosophus	NOUN	B1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 11	,	,	PUNCT	Punc	_	12	punct	_	_
-12	x	_	NUM	G5	NumForm=Digit	8	obl	_	_
-13	ethic.	_	X	5	Abbr=Yes	12	nmod	_	SpaceAfter=No
+12	x	num._rom.	NUM	G5	NumForm=Digit	8	obl	_	_
+13	ethic.	vox_breviata	X	5	Abbr=Yes	12	nmod	_	SpaceAfter=No
 14	:	:	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = ittb-scg-s3786
@@ -30775,8 +30775,8 @@
 
 # sent_id = ittb-scg-s3859
 # text = prov. 9: delectabar singulos dies ludens coram eo, dicit divina sapientia, quae deus est, ut ostensum est.
-1	prov.	_	X	5	Abbr=Yes	11	advmod	_	_
-2	9	_	NUM	G5	NumForm=Digit	1	nummod	_	SpaceAfter=No
+1	prov.	vox_breviata	X	5	Abbr=Yes	11	advmod	_	_
+2	9	num._arab.	NUM	G5	NumForm=Digit	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	Punc	_	1	punct	_	_
 4	delectabar	delecto	VERB	J3|modJ|tem2|gen4	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin|Voice=Pass	11	ccomp	_	_
 5	singulos	singulus	ADJ	B1|grn1|casM|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|NumType=Dist	6	amod	_	_
@@ -30800,8 +30800,8 @@
 
 # sent_id = ittb-scg-s3860
 # text = luc. 15-10: gaudium est in caelo super uno peccatore poenitentiam agente.
-1	luc.	_	X	5	Abbr=Yes	5	orphan	_	_
-2	15-10	_	NUM	G5	NumForm=Digit	1	nummod	_	SpaceAfter=No
+1	luc.	vox_breviata	X	5	Abbr=Yes	5	orphan	_	_
+2	15-10	num._arab.	NUM	G5	NumForm=Digit	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	Punc	_	1	punct	_	_
 4	gaudium	gaudium	NOUN	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	nsubj	_	_
 5	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -30821,8 +30821,8 @@
 3	dicit	dico	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Punc	_	6	punct	_	_
 5	in	in	ADP	S4	AdpType=Prep	6	case	_	_
-6	vii	_	NUM	G5	NumForm=Digit	3	obl	_	_
-7	ethic.	_	X	5	Abbr=Yes	6	nmod	_	SpaceAfter=No
+6	vii	num._rom.	NUM	G5	NumForm=Digit	3	obl	_	_
+7	ethic.	vox_breviata	X	5	Abbr=Yes	6	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	12	punct	_	_
 9	quod	quod	SCONJ	O4	_	12	mark	_	_
 10	deus	deus	PROPN	F1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	nsubj	_	_
@@ -30842,8 +30842,8 @@
 4	scriptura	scriptura	NOUN	A1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	nsubj	_	_
 5	commemorat	commemoro	VERB	J3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	7	punct	_	_
-7	deut.	_	X	5	Abbr=Yes	5	advmod	_	_
-8	33-3	_	NUM	G5	NumForm=Digit	7	nummod	_	SpaceAfter=No
+7	deut.	vox_breviata	X	5	Abbr=Yes	5	advmod	_	_
+8	33-3	num._arab.	NUM	G5	NumForm=Digit	7	nummod	_	SpaceAfter=No
 9	:	:	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = ittb-scg-s3863
@@ -30854,8 +30854,8 @@
 
 # sent_id = ittb-scg-s3864
 # text = ierem. 31-3: caritate perpetua dilexi;
-1	ierem.	_	X	5	Abbr=Yes	6	orphan	_	_
-2	31-3	_	NUM	G5	NumForm=Digit	1	nummod	_	SpaceAfter=No
+1	ierem.	vox_breviata	X	5	Abbr=Yes	6	orphan	_	_
+2	31-3	num._arab.	NUM	G5	NumForm=Digit	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	Punc	_	1	punct	_	_
 4	caritate	caritas	NOUN	C1|grn1|casF|gen2|vgr1	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	6	obl	_	_
 5	perpetua	perpetuus	ADJ	A1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
@@ -30864,8 +30864,8 @@
 
 # sent_id = ittb-scg-s3865
 # text = ioan. 16-27: ipse enim pater amat vos.
-1	ioan.	_	X	5	Abbr=Yes	7	orphan	_	_
-2	16-27	_	NUM	G5	NumForm=Digit	1	nummod	_	SpaceAfter=No
+1	ioan.	vox_breviata	X	5	Abbr=Yes	7	orphan	_	_
+2	16-27	num._arab.	NUM	G5	NumForm=Digit	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	Punc	_	1	punct	_	_
 4	ipse	ipse	PRON	F1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem,Prs	6	det	_	_
 5	enim	enim	ADV	O4	_	7	advmod	_	_
@@ -30893,11 +30893,11 @@
 3	dionysii	dionysius	PROPN	B1|grn1|casB|gen1|vgr1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	nmod	_	_
 4	verbum	verbum	NOUN	B1|grn1|casA|gen3|vgr1	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	7	punct	_	_
-6	iv	_	NUM	G5|vgr1	NumForm=Digit	7	nummod	_	_
-7	cap.	_	X	5	Abbr=Yes	2	advmod	_	_
+6	iv	num._rom.	NUM	G5|vgr1	NumForm=Digit	7	nummod	_	_
+7	cap.	breviata_loci_notatio	X	5	Abbr=Yes	2	advmod	_	_
 8	de	de	ADP	S4	AdpType=Prep	9	case	_	_
-9	div.	_	X	5	Abbr=Yes	7	nmod	_	_
-10	nom.	_	X	5	Abbr=Yes	9	nmod	_	SpaceAfter=No
+9	div.	vox_breviata	X	5	Abbr=Yes	7	nmod	_	_
+10	nom.	vox_breviata	X	5	Abbr=Yes	9	nmod	_	SpaceAfter=No
 11	;	;	PUNCT	Punc	_	12	punct	_	_
 12	dicentis	dico	VERB	N2|modD|tem1|grp1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	acl	_	_
 13	quod	quod	SCONJ	O4	_	17	mark	_	_
@@ -31111,8 +31111,8 @@
 # sent_id = ittb-scg-s3878
 # text = unde gen. 6-7: poenitet me fecisse hominem.
 1	unde	unde	PART	O4	_	5	orphan	_	_
-2	gen.	_	X	5	Abbr=Yes	5	orphan	_	_
-3	6-7	_	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
+2	gen.	vox_breviata	X	5	Abbr=Yes	5	orphan	_	_
+3	6-7	num._arab.	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
 4	:	:	PUNCT	Punc	_	2	punct	_	_
 5	poenitet	paeniteo	VERB	K3|modA|tem1|gen6|vgr1	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	me	ego	PRON	F1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Prs	7	nsubj	_	_
@@ -31135,9 +31135,9 @@
 11	hoc	hic	PRON	F1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	9	obl	_	_
 12	quod	quod	SCONJ	O4	_	13	mark	_	_
 13	habetur	habeo	VERB	K3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	acl	_	_
-14	i	_	NUM	G5|vgr1	NumForm=Digit	15	nummod	_	_
-15	reg.	_	X	5	Abbr=Yes	13	advmod	_	_
-16	15-29	_	NUM	G5	NumForm=Digit	15	nummod	_	SpaceAfter=No
+14	i	num._rom.	NUM	G5|vgr1	NumForm=Digit	15	nummod	_	_
+15	reg.	vox_breviata	X	5	Abbr=Yes	13	advmod	_	_
+16	15-29	num._arab.	NUM	G5	NumForm=Digit	15	nummod	_	SpaceAfter=No
 17	:	:	PUNCT	Punc	_	9	punct	_	_
 
 # sent_id = ittb-scg-s3880
@@ -31252,7 +31252,7 @@
 2	hoc	hic	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
 3	patet	pateo	VERB	K3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	isaiae	isaia	PROPN	A1|grn1|casC|gen1|vgr1	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	3	obl	_	_
-5	59-15	_	NUM	G5	NumForm=Digit	4	nummod	_	_
+5	59-15	num._arab.	NUM	G5	NumForm=Digit	4	nummod	_	_
 6	vidit	video	VERB	K3|modA|tem4|gen6|vgr1	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	acl	_	_
 7	deus	deus	PROPN	F1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	11	punct	_	_
@@ -31925,7 +31925,7 @@
 22	ut	ut	SCONJ	O4|vgr1	_	23	mark	_	_
 23	probatur	probo	VERB	J3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	20	advcl	_	_
 24	in	in	ADP	S4	AdpType=Prep	25	case	_	_
-25	vii	_	NUM	G5	NumForm=Digit	23	obl	_	_
+25	vii	num._rom.	NUM	G5	NumForm=Digit	23	obl	_	_
 26	physicorum	physicus	NOUN	B1|grn1|casK|gen1|vgr1	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	Punc	_	8	punct	_	_
 
@@ -32151,9 +32151,9 @@
 1	ut	ut	SCONJ	O4|vgr1	_	2	mark	_	_
 2	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	illud	ille	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
-4	i	_	NUM	G5|vgr1	NumForm=Digit	5	nummod	_	_
-5	reg.	_	X	5	Abbr=Yes	2	advmod	_	_
-6	2-2	_	NUM	G5|vgr3	NumForm=Digit	5	nummod	_	SpaceAfter=No
+4	i	num._rom.	NUM	G5|vgr1	NumForm=Digit	5	nummod	_	_
+5	reg.	vox_breviata	X	5	Abbr=Yes	2	advmod	_	_
+6	2-2	num._arab.	NUM	G5|vgr3	NumForm=Digit	5	nummod	_	SpaceAfter=No
 7	:	:	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = ittb-scg-s3940
@@ -32169,8 +32169,8 @@
 # sent_id = ittb-scg-s3941
 # text = et mich. 6:
 1	et	et	CCONJ	O4	_	2	cc	_	_
-2	mich.	_	X	5	Abbr=Yes	0	root	_	_
-3	6	_	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
+2	mich.	vox_breviata	X	5	Abbr=Yes	0	root	_	_
+3	6	num._arab.	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
 4	:	:	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = ittb-scg-s3942
@@ -32372,8 +32372,8 @@
 3	dicit	dico	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Punc	_	6	punct	_	_
 5	in	in	ADP	S4	AdpType=Prep	6	case	_	_
-6	vi	_	NUM	G5|vgr1	NumForm=Digit	3	obl	_	_
-7	ethic.	_	X	5	Abbr=Yes	6	nmod	_	SpaceAfter=No
+6	vi	num._rom.	NUM	G5|vgr1	NumForm=Digit	3	obl	_	_
+7	ethic.	vox_breviata	X	5	Abbr=Yes	6	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	13	punct	_	_
 9	quod	quod	SCONJ	O4	_	13	mark	_	_
 10	ars	ars	NOUN	C1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	nsubj	_	_
@@ -32398,8 +32398,8 @@
 1	et	et	CCONJ	O4	_	3	cc	_	_
 2	ideo	ideo	ADV	O4	_	3	advmod	_	_
 3	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-4	sap.	_	X	5	Abbr=Yes	3	advmod	_	_
-5	7-21	_	NUM	G5	NumForm=Digit	4	nummod	_	SpaceAfter=No
+4	sap.	vox_breviata	X	5	Abbr=Yes	3	advmod	_	_
+5	7-21	num._arab.	NUM	G5	NumForm=Digit	4	nummod	_	SpaceAfter=No
 6	:	:	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id = ittb-scg-s3956
@@ -32458,8 +32458,8 @@
 12	philosophum	philosophus	NOUN	B1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
 13	,	,	PUNCT	Punc	_	15	punct	_	_
 14	in	in	ADP	S4	AdpType=Prep	15	case	_	_
-15	vi	_	NUM	G5|vgr1	NumForm=Digit	21	obl	_	_
-16	ethic.	_	X	5	Abbr=Yes	15	nmod	_	SpaceAfter=No
+15	vi	num._rom.	NUM	G5|vgr1	NumForm=Digit	21	obl	_	_
+16	ethic.	vox_breviata	X	5	Abbr=Yes	15	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	Punc	_	15	punct	_	_
 18	prudentia	prudentia	NOUN	A1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	nsubj	_	_
 19	est	sum	AUX	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	_	_
@@ -32485,7 +32485,7 @@
 4	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	5	nsubj:pass	_	_
 5	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	ccomp	_	_
 6	iob	iob	PROPN	G1|vgr1	_	5	obl	_	_
-7	26	_	NUM	G5	NumForm=Digit	6	nummod	_	SpaceAfter=No
+7	26	num._arab.	NUM	G5	NumForm=Digit	6	nummod	_	SpaceAfter=No
 8	:	:	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id = ittb-scg-s3962
@@ -32672,7 +32672,7 @@
 26	philosophum	philosophus	NOUN	B1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
 27	,	,	PUNCT	Punc	_	29	punct	_	_
 28	in	in	ADP	S4	AdpType=Prep	29	case	_	_
-29	iv	_	NUM	G5|vgr1	NumForm=Digit	26	obl	_	_
+29	iv	num._rom.	NUM	G5|vgr1	NumForm=Digit	26	obl	_	_
 30	ethicorum	ethici	NOUN	B1|grn1|casK|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	Punc	_	20	punct	_	_
 
@@ -32747,8 +32747,8 @@
 # sent_id = ittb-scg-s3977
 # text = et iac. 1-5:
 1	et	et	CCONJ	O4	_	2	cc	_	_
-2	iac.	_	X	5	Abbr=Yes	0	root	_	_
-3	1-5	_	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
+2	iac.	vox_breviata	X	5	Abbr=Yes	0	root	_	_
+3	1-5	num._arab.	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
 4	:	:	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = ittb-scg-s3978
@@ -32816,8 +32816,8 @@
 9	per	per	ADP	S4	AdpType=Prep	10	case	_	_
 10	philosophum	philosophus	NOUN	B1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	obl	_	_
 11	in	in	ADP	S4	AdpType=Prep	12	case	_	_
-12	iv	_	NUM	G5|vgr1	NumForm=Digit	14	obl	_	_
-13	ethic.	_	X	5	Abbr=Yes	12	nmod	_	_
+12	iv	num._rom.	NUM	G5|vgr1	NumForm=Digit	14	obl	_	_
+13	ethic.	vox_breviata	X	5	Abbr=Yes	12	nmod	_	_
 14	patet	pateo	VERB	K3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	SpaceAfter=No
 15	,	,	PUNCT	Punc	_	25	punct	_	_
 16	ut	ut	SCONJ	O4|vgr1	_	25	mark	_	_
@@ -32847,8 +32847,8 @@
 # sent_id = ittb-scg-s3983
 # text = unde rom. 3-4:
 1	unde	unde	PART	O4	_	0	root	_	_
-2	rom.	_	X	5	Abbr=Yes	1	orphan	_	_
-3	3-4	_	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
+2	rom.	vox_breviata	X	5	Abbr=Yes	1	orphan	_	_
+3	3-4	num._arab.	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
 4	:	:	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = ittb-scg-s3984
@@ -32960,8 +32960,8 @@
 8	ut	ut	SCONJ	O4|vgr1	_	9	mark	_	_
 9	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	advcl	_	_
 10	in	in	ADP	S4	AdpType=Prep	11	case	_	_
-11	vi	_	NUM	G5|vgr1	NumForm=Digit	9	obl	_	_
-12	ethic.	_	X	5	Abbr=Yes	11	nmod	_	SpaceAfter=No
+11	vi	num._rom.	NUM	G5|vgr1	NumForm=Digit	9	obl	_	_
+12	ethic.	vox_breviata	X	5	Abbr=Yes	11	nmod	_	SpaceAfter=No
 13	;	;	PUNCT	Punc	_	19	punct	_	_
 14	divina	divinus	ADJ	A1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
 15	autem	autem	CCONJ	O4	_	19	cc	_	_
@@ -32987,7 +32987,7 @@
 # text = unde iob 26-3:
 1	unde	unde	PART	O4	_	0	root	_	_
 2	iob	iob	NOUN	G1|vgr1	_	1	orphan	_	_
-3	26-3	_	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
+3	26-3	num._arab.	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
 4	:	:	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = ittb-scg-s3992
@@ -33011,7 +33011,7 @@
 # text = et isaiae 40-14:
 1	et	et	CCONJ	O4	_	2	cc	_	_
 2	isaiae	isaia	NOUN	A1|grn1|casB|gen1|vgr1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
-3	40-14	_	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
+3	40-14	num._arab.	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
 4	:	:	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = ittb-scg-s3995
@@ -33093,7 +33093,7 @@
 14	ut	ut	SCONJ	O4|vgr1	_	15	mark	_	_
 15	patet	pateo	VERB	K3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
 16	isaiae	isaia	PROPN	A1|grn1|casC|gen1|vgr1	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	15	obl	_	_
-17	25-1	_	NUM	G5	NumForm=Digit	16	nummod	_	SpaceAfter=No
+17	25-1	num._arab.	NUM	G5	NumForm=Digit	16	nummod	_	SpaceAfter=No
 18	,	,	PUNCT	Punc	_	21	punct	_	_
 19	secundum	secundum	ADP	S4	AdpType=Prep	21	case	_	_
 20	aliam	alius	PRON	F1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	21	det	_	_
@@ -33154,8 +33154,8 @@
 # sent_id = ittb-scg-s4005
 # text = unde rom. 11-35:
 1	unde	unde	PART	O4	_	0	root	_	_
-2	rom.	_	X	5	Abbr=Yes	1	orphan	_	_
-3	11-35	_	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
+2	rom.	vox_breviata	X	5	Abbr=Yes	1	orphan	_	_
+3	11-35	num._arab.	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
 4	:	:	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = ittb-scg-s4006
@@ -33174,7 +33174,7 @@
 # text = et iob 41-1:
 1	et	et	CCONJ	O4	_	2	cc	_	_
 2	iob	iob	NOUN	G1|vgr1	_	0	root	_	_
-3	41-1	_	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
+3	41-1	num._arab.	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
 4	:	:	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = ittb-scg-s4008
@@ -33226,11 +33226,11 @@
 2	dionysius	dionysius	PROPN	B1|grn1|casA|gen1|vgr1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	dicit	dico	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Punc	_	6	punct	_	_
-5	viii	_	NUM	G5|vgr1	NumForm=Digit	6	nummod	_	_
-6	cap.	_	X	5	Abbr=Yes	3	advmod	_	_
+5	viii	num._rom.	NUM	G5|vgr1	NumForm=Digit	6	nummod	_	_
+6	cap.	breviata_loci_notatio	X	5	Abbr=Yes	3	advmod	_	_
 7	de	de	ADP	S4	AdpType=Prep	8	case	_	_
-8	div.	_	X	5	Abbr=Yes	6	nmod	_	_
-9	nom.	_	X	5	Abbr=Yes	8	nmod	_	_
+8	div.	vox_breviata	X	5	Abbr=Yes	6	nmod	_	_
+9	nom.	vox_breviata	X	5	Abbr=Yes	8	nmod	_	_
 10	quod	quod	SCONJ	O4	_	12	mark	_	_
 11	iustitia	iustitia	NOUN	A1|grn1|casF|gen2|vgr1	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	12	obl	_	_
 12	laudatur	laudo	VERB	J3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	ccomp	_	_
@@ -33246,8 +33246,8 @@
 # text = secundum illud matth. 25-15:
 1	secundum	secundum	ADP	S4	AdpType=Prep	2	case	_	_
 2	illud	ille	NOUN	F1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
-3	matth.	_	X	5	Abbr=Yes	2	nmod	_	_
-4	25-15	_	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
+3	matth.	vox_breviata	X	5	Abbr=Yes	2	nmod	_	_
+4	25-15	num._arab.	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
 5	:	:	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = ittb-scg-s4013
@@ -33609,7 +33609,7 @@
 # text = unde iob 9-4:
 1	unde	unde	PART	O4	_	0	root	_	_
 2	iob	iob	NOUN	G1|vgr1	_	1	orphan	_	_
-3	9-4	_	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
+3	9-4	num._arab.	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
 4	:	:	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = ittb-scg-s4030
@@ -33622,8 +33622,8 @@
 # sent_id = ittb-scg-s4031
 # text = et eccli. 1-1:
 1	et	et	CCONJ	O4	_	2	cc	_	_
-2	eccli.	_	X	5	Abbr=Yes	0	root	_	_
-3	1-1	_	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
+2	eccli.	vox_breviata	X	5	Abbr=Yes	0	root	_	_
+3	1-1	num._arab.	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
 4	:	:	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = ittb-scg-s4032
@@ -33730,9 +33730,9 @@
 # sent_id = ittb-scg-s4037
 # text = unde i reg. 2-3:
 1	unde	unde	PART	O4	_	0	root	_	_
-2	i	_	NUM	G5|vgr1	NumForm=Digit	3	nummod	_	_
-3	reg.	_	X	5	Abbr=Yes	1	orphan	_	_
-4	2-3	_	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
+2	i	num._rom.	NUM	G5|vgr1	NumForm=Digit	3	nummod	_	_
+3	reg.	vox_breviata	X	5	Abbr=Yes	1	orphan	_	_
+4	2-3	num._arab.	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
 5	:	:	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = ittb-scg-s4038
@@ -33784,7 +33784,7 @@
 # text = unde iob 12-13:
 1	unde	unde	PART	O4	_	0	root	_	_
 2	iob	iob	NOUN	G1|vgr1	_	1	orphan	_	_
-3	12-13	_	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
+3	12-13	num._arab.	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
 4	:	:	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = ittb-scg-s4042
@@ -34106,8 +34106,8 @@
 3	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	5	nsubj:pass	_	_
 5	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	ccomp	_	_
-6	deut.	_	X	5	Abbr=Yes	5	advmod	_	_
-7	32-4	_	NUM	G5	NumForm=Digit	6	nummod	_	SpaceAfter=No
+6	deut.	vox_breviata	X	5	Abbr=Yes	5	advmod	_	_
+7	32-4	num._arab.	NUM	G5	NumForm=Digit	6	nummod	_	SpaceAfter=No
 8	:	:	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id = ittb-scg-s4064
@@ -34122,8 +34122,8 @@
 # sent_id = ittb-scg-s4065
 # text = et hab. 1-13:
 1	et	et	CCONJ	O4	_	2	cc	_	_
-2	hab.	_	X	5	Abbr=Yes	0	root	_	_
-3	1-13	_	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
+2	hab.	vox_breviata	X	5	Abbr=Yes	0	root	_	_
+3	1-13	num._arab.	NUM	G5	NumForm=Digit	2	nummod	_	SpaceAfter=No
 4	:	:	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = ittb-scg-s4066
@@ -34616,8 +34616,8 @@
 3	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	5	nsubj:pass	_	_
 5	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	ccomp	_	_
-6	sap.	_	X	5	Abbr=Yes	5	advmod	_	_
-7	11-25	_	NUM	G5	NumForm=Digit	6	nummod	_	SpaceAfter=No
+6	sap.	vox_breviata	X	5	Abbr=Yes	5	advmod	_	_
+7	11-25	num._arab.	NUM	G5	NumForm=Digit	6	nummod	_	SpaceAfter=No
 8	:	:	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id = ittb-scg-s4095
@@ -34700,8 +34700,8 @@
 # text = secundum illud zach. 8-17:
 1	secundum	secundum	ADP	S4	AdpType=Prep	2	case	_	_
 2	illud	ille	NOUN	F1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
-3	zach.	_	X	5	Abbr=Yes	2	advmod	_	_
-4	8-17	_	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
+3	zach.	vox_breviata	X	5	Abbr=Yes	2	advmod	_	_
+4	8-17	num._arab.	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
 5	:	:	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = ittb-scg-s4101
@@ -34831,8 +34831,8 @@
 # text = secundum illud mal. 1-3:
 1	secundum	secundum	ADP	S4	AdpType=Prep	2	case	_	_
 2	illud	ille	NOUN	F1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
-3	mal.	_	X	5	Abbr=Yes	2	nmod	_	_
-4	1-3	_	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
+3	mal.	vox_breviata	X	5	Abbr=Yes	2	nmod	_	_
+4	1-3	num._arab.	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
 5	:	:	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = ittb-scg-s4108
@@ -35205,8 +35205,8 @@
 # text = dicitur enim deut. 32-40, ex ore domini:
 1	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	enim	enim	ADV	O4	_	1	advmod	_	_
-3	deut.	_	X	5	Abbr=Yes	1	advmod	_	_
-4	32-40	_	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
+3	deut.	vox_breviata	X	5	Abbr=Yes	1	advmod	_	_
+4	32-40	num._arab.	NUM	G5	NumForm=Digit	3	nummod	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	7	punct	_	_
 6	ex	ex	ADP	S4|vgr2	AdpType=Prep	7	case	_	_
 7	ore	os	NOUN	C1|grn1|casF|gen3	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing	1	obl	_	_
@@ -35306,7 +35306,7 @@
 12	philosophum	philosophus	NOUN	B1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
 13	,	,	PUNCT	Punc	_	15	punct	_	_
 14	in	in	ADP	S4	AdpType=Prep	15	case	_	_
-15	ii	_	NUM	G5|vgr1	NumForm=Digit	10	obl	_	_
+15	ii	num._rom.	NUM	G5|vgr1	NumForm=Digit	10	obl	_	_
 16	de	de	ADP	S4	AdpType=Prep	17	case	_	_
 17	anima	anima	NOUN	F1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
 18	:	:	PUNCT	Punc	_	6	punct	_	_
@@ -35393,7 +35393,7 @@
 10	philosophum	philosophus	NOUN	B1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 11	,	,	PUNCT	Punc	_	13	punct	_	_
 12	in	in	ADP	S4	AdpType=Prep	13	case	_	_
-13	ii	_	NUM	G5|vgr1	NumForm=Digit	8	obl	_	_
+13	ii	num._rom.	NUM	G5|vgr1	NumForm=Digit	8	obl	_	_
 14	de	de	ADP	S4	AdpType=Prep	15	case	_	_
 15	anima	anima	NOUN	F1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
 16	:	:	PUNCT	Punc	_	3	punct	_	_
@@ -35582,8 +35582,8 @@
 3	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	5	nsubj:pass	_	_
 5	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	acl:relcl	_	_
-6	ioan.	_	X	5	Abbr=Yes	5	advmod	_	_
-7	14-6	_	NUM	G5	NumForm=Digit	6	nummod	_	SpaceAfter=No
+6	ioan.	vox_breviata	X	5	Abbr=Yes	5	advmod	_	_
+7	14-6	num._arab.	NUM	G5	NumForm=Digit	6	nummod	_	SpaceAfter=No
 8	:	:	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id = ittb-scg-s4162
@@ -35952,8 +35952,8 @@
 2	est	sum	VERB	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Rel	4	nsubj:pass	_	_
 4	dicitur	dico	VERB	N3|modJ|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	csubj	_	_
-5	deut.	_	X	5	Abbr=Yes	4	advmod	_	_
-6	32-40	_	NUM	G5	NumForm=Digit	5	nummod	_	SpaceAfter=No
+5	deut.	vox_breviata	X	5	Abbr=Yes	4	advmod	_	_
+6	32-40	num._arab.	NUM	G5	NumForm=Digit	5	nummod	_	SpaceAfter=No
 7	,	,	PUNCT	Punc	_	9	punct	_	_
 8	ex	ex	ADP	S4|vgr2	AdpType=Prep	9	case	_	_
 9	ore	os	NOUN	C1|grn1|casF|gen3	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing	4	obl	_	_
@@ -35970,9 +35970,9 @@
 
 # sent_id = ittb-scg-s4190
 # text = i ioan. ult.:
-1	i	_	NUM	G5|vgr1	NumForm=Digit	0	root	_	_
-2	ioan.	_	X	5	Abbr=Yes	1	nmod	_	_
-3	ult.	_	X	5	Abbr=Yes	2	nmod	_	SpaceAfter=No
+1	i	num._rom.	NUM	G5|vgr1	NumForm=Digit	0	root	_	_
+2	ioan.	vox_breviata	X	5	Abbr=Yes	1	nmod	_	_
+3	ult.	breviata_loci_notatio	X	5	Abbr=Yes	2	nmod	_	SpaceAfter=No
 4	:	:	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = ittb-scg-s4191
@@ -36142,4 +36142,3 @@
 6	operationem	operatio	NOUN	C1|grn1|casD|gen2|vgr1	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	obl	_	_
 7	perficiuntur	perficio	VERB	L3|modJ|tem1|gen9	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 8	;	;	PUNCT	Punc	_	7	punct	_	_
-
