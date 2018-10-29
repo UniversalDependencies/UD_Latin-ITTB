@@ -36142,3 +36142,4 @@
 6	operationem	operatio	NOUN	C1|grn1|casD|gen2|vgr1	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	obl	_	_
 7	perficiuntur	perficio	VERB	L3|modJ|tem1|gen9	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 8	;	;	PUNCT	Punc	_	7	punct	_	_
+
