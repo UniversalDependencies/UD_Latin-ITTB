@@ -58,6 +58,8 @@ The release of UD v2.3 sees a major update and revision of the conversion script
     * pronouns in an attributive function receive _deprel_ det;
     * possessive pronouns in an attributive function receive PoS ADJ and _deprel_ amod;
     * some lemmas were harmonised to a common standard.
+  * Manual corrections of annotation errors in the original data (mostly regarding co-ordinations and appositions)
+  * New split of dev/test/train data: dev and test contain the first 2101+2101 sentences in the _Summa contra gentiles_, while train all the remaining ones, including the concordances of _forma_.
     
 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
