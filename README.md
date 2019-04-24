@@ -9,7 +9,7 @@ The UD_Latin-ITTB dataset results from the automated conversion of the _Index Th
 
 Its first version was part of HamleDT and as such made use of the PDT style, which was later automatically converted to the UD style as part of HamleDT 3.0 in 2015. That same year in November UD v1.2 was released, including for the first time the IT-TB, with almost identical dependency relations and morphological features as those in HamleDT 3.0, all the while improving its part-of-speech tagging. 
 
-The original part-of-speech classification of the _Index Thomisticus_ is tripartite, in that solely the pure inflectional behaviour of words is taken into account, thus distinguishing only between nominal inflection (adjectives, nouns, pronouns, numerals, with a subclass for verbal nominal inflection, such as participles), verbal inflection and absence of inflection (adverbs, prepositions, conjunctions,...). In HamleDT 3.0, all nominally inflecting words had been tagged NOUN. In UD v1.2 a first differentiation was implemented: separated lexicons for adjectives (corresponding to PoS ADJ or NUM), nouns (NOUN) and pronouns (PRON and DET) were obtained by means of the Latin lemmatiser LEMLAT, and unrecognized words were manually disambiguated by Berta González Saavedra and Marco Passarotti. This way, tagging nominally inflecting words became possible, also for later versions, and at the same time invariable words, previously generically treated as PART, were reanalyzed as ADV, ADP, CONJ or INTJ.
+The original part-of-speech classification of the _Index Thomisticus_ is tripartite, in that solely the pure inflectional behaviour of words is taken into account, thus distinguishing only between nominal inflection (adjectives, nouns, pronouns, numerals, with a subclass for verbal nominal inflection, such as participles), verbal inflection and absence of inflection (adverbs, prepositions, conjunctions,...). In HamleDT 3.0, all nominally inflecting words had been tagged NOUN. In UD v1.2 a first differentiation was implemented: separated lexicons for adjectives (corresponding to PoS ADJ or NUM), nouns (NOUN) and pronouns (PRON and DET) were obtained by means of the Latin lemmatiser LEMLAT, and unrecognized words were manually disambiguated by Berta González Saavedra and Marco Passarotti. This way, tagging nominally inflecting words became possible, also for later versions, and at the same time invariable words, previously generically treated as PART, were reanalyzed as ADV, ADP, CCONJ, SCONJ or INTJ.
 
 The release of UD v2.3 sees a major update and revision of the conversion scripts for the _Index Thomisticus_ Treebank into the UD style, significantly improving the overall conversion quality, both in terms of _deprel_'s and subtree structures, as of part-of-speech tagging and lemmatisation. Guidelines for a common annotation style of the three current Latin UD treebanks have also been put into effect.   
 
@@ -19,7 +19,7 @@ The release of UD v2.3 sees a major update and revision of the conversion script
 * http://itreebank.marginalia.it/ ... Index Thomisticus Treebank
 * http://ufal.mff.cuni.cz/hamledt ... HamleDT
 * http://ufal.mff.cuni.cz/treex ... Treex is the software used for conversion
-* http://ufal.mff.cuni.cz/interset ... Interset was used to convert POS tags and features
+* http://ufal.mff.cuni.cz/interset ... Interset is used to convert PoS tags and features
 
 <pre>
 @article{lait-ud,
@@ -42,11 +42,21 @@ The release of UD v2.3 sees a major update and revision of the conversion script
 
 # Changelog
 
+2019-5-15 v2.4
+  * The new UD validation script has prompted further improvements to the conversion routine:
+    * parts of speech PART and DET (for the lemma _plerusque_), that continued to appear in the conversion, have been changed to ADV and ADJ respectively;
+    * small improvements to the treatment of nested co-ordinations and relative clauses;
+    * correct treatment of justaxposed nominals as either _flat_ or _appos_, especially in the case of ambiguity between NOUN and ADJ;
+    * new coherent treatment of abbreviations, symbols and numbers, now receiving a part of speech instead of X;
+    * other minor adjustments regarding more esoteric aspects of morphosyntactic annotation and technicalities;    
+    * finally, various morphological and syntactical annotation errors in the original annotation of the _Index Thomisticus_ have been detected and corrected.
+  * Note: as of now, unfortunately the conllu files do not pass the UD validation script. Future work will be needed to smooth the conversion, but the present version still maintains its validity.
+
 2018-11-01 v2.3
   * Book three of _Summa contra gentiles_ now completely annotated with more than 3500 new sentences and 60000 additional tokens
   * Generic major update of the conversion script:
     * ellipsis and ExD _afun_'s are now addressed; where heuristics might fail, warnings are issued;
-    * PDT-style apposition subtrees are completely restructured for UD conversion; new relation subtype appos and composite _deprel_ advmod:cc for appositive adverbial modifiers (_scilicet_);
+    * PDT-style apposition subtrees are completely restructured for UD conversion; new relation subtype _appos_ and composite _deprel_ advmod:cc for appositive adverbial modifiers (_scilicet_);
     * tagging of proper nouns with PROPN by means of a hard-coded lexicon;
     * correct treatment of xcomp and ccomp;
     * INTJ PoS removed;
@@ -59,7 +69,7 @@ The release of UD v2.3 sees a major update and revision of the conversion script
     * possessive pronouns in an attributive function receive PoS ADJ and _deprel_ amod;
     * some lemmas were harmonised to a common standard.
   * Manual corrections of annotation errors in the original data (mostly regarding co-ordinations and appositions)
-  * New split of dev/test/train data: dev and test contain the first 2101+2101 sentences in the _Summa contra gentiles_, while train all the remaining ones, including the concordances of _forma_.
+  * New split of dev/test/train data: dev and test contain the first 2101+2101 sentences in the _Summa contra gentiles_, while train all the remaining ones, including the concordances of the word _forma_ in the work of Thomas Aquinas.
     
 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
