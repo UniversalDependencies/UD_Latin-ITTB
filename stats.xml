@@ -5,69 +5,71 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>21011</sentences><tokens>353036</tokens><words>353036</words><fused>0</fused></total>
+    <total><sentences>21011</sentences><tokens>353035</tokens><words>353035</words><fused>0</fused></total>
+    <train><sentences>16809</sentences><tokens>293305</tokens><words>293305</words><fused>0</fused></train>
+    <dev><sentences>2101</sentences><tokens>29888</tokens><words>29888</words><fused>0</fused></dev>
+    <test><sentences>2101</sentences><tokens>29842</tokens><words>29842</words><fused>0</fused></test>
   </size>
-  <lemmas unique="4541" /><!-- ,, sum, ., in, qui, et, non, quod, forma, :, ad, autem, per, hic, is -->
+  <lemmas unique="4636" /><!-- ,, sum, ., in, qui, et, non, quod, forma, :, ad, autem, per, hic, is -->
   <forms unique="16353" /><!-- ,, ., est, in, quod, et, non, :, ad, autem, per, esse, ;, quae, ex -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
-  <tags unique="15">
-    <tag name="ADJ">25036</tag><!-- suus, divinus, primus, naturalis, proprius, possibilis, multus, humanus, intelligibilis, intellectualis -->
-    <tag name="ADP">31986</tag><!-- in, ad, per, ex, ab, secundum, de, propter, supra, sub -->
-    <tag name="ADV">28104</tag><!-- non, igitur, enim, etiam, unde, ergo, sic, nam, tamen, magis -->
-    <tag name="AUX">13144</tag><!-- sum, dico, facio, video, invenio, pono, remaneo, intellego, conspicio, efficio -->
+  <tags unique="14">
+    <tag name="ADJ">25258</tag><!-- suus, divinus, primus, naturalis, proprius, possibilis, multus, humanus, intelligibilis, intellectualis -->
+    <tag name="ADP">31364</tag><!-- in, ad, per, ex, ab, secundum, de, propter, sub, cum -->
+    <tag name="ADV">31478</tag><!-- non, igitur, enim, etiam, unde, ergo, sic, tamen, supra, nam -->
+    <tag name="AUX">12971</tag><!-- sum, ago, dico, video -->
     <tag name="CCONJ">18692</tag><!-- et, autem, sed, vel, nec, neque, aut, sive, atque, quam -->
-    <tag name="DET">19</tag><!-- plerusque, ly -->
-    <tag name="NOUN">71536</tag><!-- forma, intellectus, res, corpus, materia, homo, anima, actus, substantia, esse -->
+    <tag name="DET">8</tag><!-- ly -->
+    <tag name="NOUN">72048</tag><!-- forma, intellectus, res, corpus, materia, homo, anima, actus, substantia, esse -->
     <tag name="NUM">2487</tag><!-- unus, num._arab., num._rom., duo, tres, quatuor, mille, decem, quinque, octoginta -->
-    <tag name="PART">2263</tag><!-- adhuc, item, scilicet, praeterea, non, ergo, hujusmodi, quidem, ita, magis -->
-    <tag name="PRON">35480</tag><!-- qui, hic, is, omnis, ipse, aliqui, se, alius, aliquis, ille -->
-    <tag name="PROPN">3785</tag><!-- deus, aristoteles, plato, augustinus, dionysius, boetius, commentator, avicenna, isaia, gregorius -->
-    <tag name="PUNCT">48538</tag><!-- ,, ., :, ;, ?, (, ), - -->
-    <tag name="SCONJ">18927</tag><!-- quod, ut, sicut, si, quia, cum, nisi, quam, in+quantum, quamvis -->
-    <tag name="VERB">52247</tag><!-- sum, dico, possum, habeo, facio, intellego, oportet, moveo, ago, cognosco -->
-    <tag name="X">792</tag><!-- vox_breviata, b​r​e​v​i​a​t​a​_​l​o​c​i​_​n​o​t​a​t​i​o, non_latina_vox, 4-O––––, decuplus, l​i​t​t​e​r​a​e​_​v​e​l​_​s​y​m​b​o​l​u​m, modus, quod, 4-O––––_, bonum -->
+    <tag name="PRON">35475</tag><!-- qui, hic, is, omnis, ipse, aliqui, se, alius, aliquis, ille -->
+    <tag name="PROPN">3783</tag><!-- deus, aristoteles, plato, augustinus, dionysius, boetius, commentator, avicenna, isaia, gregorius -->
+    <tag name="PUNCT">48537</tag><!-- ,, ., :, ;, ?, (, ), - -->
+    <tag name="SCONJ">18491</tag><!-- quod, ut, sicut, si, quia, cum, nisi, in+quantum, quam, quamvis -->
+    <tag name="VERB">52375</tag><!-- sum, dico, possum, habeo, facio, intellego, oportet, moveo, ago, cognosco -->
+    <tag name="X">68</tag><!-- vox_breviata, b​r​e​v​i​a​t​a​_​l​o​c​i​_​n​o​t​a​t​i​o, decuplus, 4-O––––, modus, quod, bonum, parvus, quam, vero -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="56">
-    <feat name="Abbr" value="Yes" upos="X">788</feat><!-- metaph., matth., rom., gen., cap., sap., physic., cor., ioan., metaphys. -->
-    <feat name="AdpType" value="Prep" upos="ADP">31981</feat><!-- in, ad, per, ex, secundum, de, a, ab, propter, supra -->
+    <feat name="Abbr" value="Yes" upos="ADV,NOUN,X">786</feat><!-- metaph., matth., rom., gen., cap., sap., physic., cor., ioan., metaphys. -->
+    <feat name="AdpType" value="Prep" upos="ADP">31359</feat><!-- in, ad, per, ex, secundum, de, a, ab, propter, sub -->
     <feat name="Aspect" value="Imp" upos="AUX,VERB">1929</feat><!-- esset, posset, essent, erat, sequeretur, dicebant, oporteret, haberet, cognosceret, fieret -->
-    <feat name="Aspect" value="Perf" upos="AUX,VERB">8379</feat><!-- ostensum, dictum, separatae, fuit, probatum, separata, dictis, separatas, praemissis, fuerit -->
-    <feat name="Case" value="Abl" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB,X">27240</feat><!-- actu, forma, deo, hoc, quo, materia, modo, potentia, eo, rebus -->
-    <feat name="Case" value="Acc" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">36811</feat><!-- formam, se, hoc, esse, finem, aliquid, suam, quod, quam, deum -->
-    <feat name="Case" value="Dat" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">5328</feat><!-- ei, sibi, deo, corpori, homini, alicui, cui, eis, nobis, formae -->
-    <feat name="Case" value="Gen" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">22191</feat><!-- eius, formae, dei, rerum, corporis, hominis, intellectus, eorum, rei, naturae -->
-    <feat name="Case" value="Loc" upos="NOUN,VERB">823</feat><!-- amplius, vero, similiter, secundo, primo, solum, tertio, praecipue, forte, minus -->
-    <feat name="Case" value="Nom" upos="ADJ,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">57452</feat><!-- quae, quod, forma, deus, qui, intellectus, hoc, ostensum, anima, aliquid -->
+    <feat name="Aspect" value="Perf" upos="AUX,VERB">8372</feat><!-- ostensum, dictum, separatae, fuit, probatum, separata, dictis, separatas, praemissis, fuerit -->
+    <feat name="Case" value="Abl" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB,X">27279</feat><!-- actu, forma, deo, hoc, quo, materia, modo, potentia, eo, rebus -->
+    <feat name="Case" value="Acc" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">36866</feat><!-- formam, se, hoc, esse, finem, aliquid, suam, quod, quam, deum -->
+    <feat name="Case" value="Dat" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">5331</feat><!-- ei, sibi, deo, corpori, homini, alicui, cui, eis, nobis, formae -->
+    <feat name="Case" value="Gen" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">22220</feat><!-- eius, formae, dei, rerum, corporis, hominis, intellectus, eorum, rei, naturae -->
+    <feat name="Case" value="Loc" upos="NOUN,VERB">824</feat><!-- amplius, vero, similiter, secundo, primo, solum, tertio, praecipue, forte, minus -->
+    <feat name="Case" value="Nom" upos="ADJ,CCONJ,NOUN,NUM,PRON,PROPN,VERB,X">57324</feat><!-- quae, quod, forma, deus, qui, intellectus, hoc, ostensum, anima, aliquid -->
     <feat name="Case" value="Voc" upos="ADJ,NOUN,VERB">31</feat><!-- domine, deus, praecipue, israel, maxime, altitudo, expresse, immediate, male, maledicti -->
     <feat name="Degree" value="Abs" upos="ADJ,ADV">1037</feat><!-- ultimum, maxime, ultimus, ultima, ultimo, ultimam, optimum, perfectissimum, infima, perfectissima -->
-    <feat name="Degree" value="Cmp" upos="ADJ,ADV,NOUN,VERB,X">3075</feat><!-- amplius, prius, minus, plures, inferioribus, plura, pluribus, ulterius, superioribus, melius -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">148483</feat><!-- quae, quod, forma, hoc, se, intellectus, formam, deus, qui, formae -->
-    <feat name="Degree" value="Sup" upos="NOUN,PRON,VERB,X">45</feat><!-- maxime, optimum, ultimo, infimum, notissima, plurimum, remotissima, ultimum, altissima, convenientissimum -->
-    <feat name="Gender" value="Fem" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB,X">64844</feat><!-- forma, quae, formam, formae, materia, anima, potentia, causa, divina, substantia -->
-    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">35390</feat><!-- intellectus, deus, qui, deo, actu, finem, dei, homo, modo, actus -->
-    <feat name="Gender" value="Neut" upos="ADJ,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">47558</feat><!-- quod, hoc, quae, esse, aliquid, bonum, ostensum, omnia, se, corpus -->
-    <feat name="Mood" value="Imp" upos="AUX,VERB">135</feat><!-- puta, nolite, discedite, ordinate, vade, accipite, audi, comedite, considera, da -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV,NOUN,VERB">3075</feat><!-- amplius, prius, minus, plures, inferioribus, plura, pluribus, ulterius, superioribus, melius -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV,AUX,CCONJ,NOUN,NUM,PRON,PROPN,VERB,X">148482</feat><!-- quae, quod, forma, hoc, se, intellectus, formam, deus, qui, formae -->
+    <feat name="Degree" value="Sup" upos="NOUN,PRON,VERB">45</feat><!-- maxime, optimum, ultimo, infimum, notissima, plurimum, remotissima, ultimum, altissima, convenientissimum -->
+    <feat name="Gender" value="Fem" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB,X">64845</feat><!-- forma, quae, formam, formae, materia, anima, potentia, causa, divina, substantia -->
+    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">35390</feat><!-- intellectus, deus, qui, deo, actu, finem, dei, homo, modo, actus -->
+    <feat name="Gender" value="Neut" upos="ADJ,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">47556</feat><!-- quod, hoc, quae, esse, aliquid, bonum, ostensum, omnia, se, corpus -->
+    <feat name="Mood" value="Imp" upos="AUX,VERB">97</feat><!-- nolite, discedite, ordinate, vade, accipite, audi, comedite, considera, da, dispone -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">36855</feat><!-- est, sunt, potest, oportet, habet, dicitur, patet, dicit, videtur, fit -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">7989</feat><!-- sit, esset, sint, possit, habeat, posset, fiat, essent, dicatur, cognoscat -->
-    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">39928</feat><!-- sunt, quae, omnia, rerum, rebus, ea, formae, quibus, qui, his -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">154936</feat><!-- est, quod, forma, hoc, sit, potest, esse, intellectus, formam, deus -->
+    <feat name="Number" value="Plur" upos="ADJ,ADV,AUX,NOUN,NUM,PRON,PROPN,VERB,X">40007</feat><!-- sunt, quae, omnia, rerum, rebus, ea, formae, quibus, qui, his -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,CCONJ,NOUN,NUM,PRON,PROPN,VERB,X">154818</feat><!-- est, quod, forma, hoc, sit, potest, esse, intellectus, formam, deus -->
     <feat name="NumForm" value="Digit" upos="NUM">1009</feat><!-- i, iii, ii, 1, 2, vii, viii, iv, vi, 3 -->
     <feat name="NumType" value="Card" upos="NUM">1478</feat><!-- unum, una, uno, unius, unus, unam, duo, duobus, tres, duae -->
-    <feat name="NumType" value="Dist" upos="ADJ">63</feat><!-- singula, singulis, singulas, singulae, singulorum, singulos, singulum -->
-    <feat name="NumType" value="Ord" upos="ADJ">1444</feat><!-- prima, primum, primo, prius, primam, primi, secunda, primae, secundo, primus -->
+    <feat name="NumType" value="Dist" upos="ADJ">65</feat><!-- singula, singulis, singulas, singulae, singulorum, singulos, singularum, singulum -->
+    <feat name="NumType" value="Ord" upos="ADJ">1445</feat><!-- prima, primum, primo, prius, primam, primi, secunda, primae, secundo, primus -->
     <feat name="Person" value="1" upos="AUX,VERB,X">1110</feat><!-- dicimus, videmus, possumus, intelligimus, dico, respondeo, cognoscimus, ostendi, volumus, dicimur -->
-    <feat name="Person" value="2" upos="AUX,VERB,X">300</feat><!-- puta, fecisti, es, nolite, etc., facies, occides, odisti, dicas, diligis -->
-    <feat name="Person" value="3" upos="AUX,VERB,X">43578</feat><!-- est, sunt, sit, potest, oportet, habet, dicitur, patet, dicit, esset -->
+    <feat name="Person" value="2" upos="ADV,AUX,VERB,X">262</feat><!-- fecisti, es, nolite, etc., facies, occides, odisti, dicas, diligis, discedite -->
+    <feat name="Person" value="3" upos="AUX,NOUN,VERB">43578</feat><!-- est, sunt, sit, potest, oportet, habet, dicitur, patet, dicit, esset -->
     <feat name="Poss" value="Yes" upos="ADJ">2354</feat><!-- suam, sua, suum, suae, suo, sui, noster, nostra, suis, nostrae -->
     <feat name="PronType" value="Art" upos="DET">8</feat><!-- ly -->
     <feat name="PronType" value="Dem" upos="PRON">5273</feat><!-- hoc, illud, haec, his, illa, illius, hanc, huius, hac, hunc -->
     <feat name="PronType" value="Dem,Ind" upos="PRON">5</feat><!-- tot -->
     <feat name="PronType" value="Dem,Prs" upos="PRON">6209</feat><!-- eius, ea, ipsum, eo, ei, ipsa, eorum, id, ipsius, eis -->
-    <feat name="PronType" value="Ind" upos="DET,PRON">11051</feat><!-- aliquid, omnia, aliqua, alia, omnis, omne, omnes, aliquam, quaedam, aliud -->
-    <feat name="PronType" value="Ind,Int" upos="PRON">263</feat><!-- quid, quis, quod, quo, nunquid, quem, quibus, cui, cuius, numquid -->
-    <feat name="PronType" value="Ind,Rel" upos="PRON">342</feat><!-- quicquid, quaecumque, quocumque, quicumque, quidquid, cuiuscumque, quodcumque, quacumque, quamcumque, utrumlibet -->
+    <feat name="PronType" value="Ind" upos="ADJ,PRON">11048</feat><!-- aliquid, omnia, aliqua, alia, omnis, omne, omnes, aliquam, quaedam, aliud -->
+    <feat name="PronType" value="Ind,Int" upos="PRON">262</feat><!-- quid, quis, quod, quo, nunquid, quem, quibus, cui, cuius, numquid -->
+    <feat name="PronType" value="Ind,Rel" upos="PRON">341</feat><!-- quicquid, quaecumque, quocumque, quicumque, quidquid, cuiuscumque, quodcumque, quacumque, quamcumque, utrumlibet -->
     <feat name="PronType" value="Int,Rel" upos="PRON">58</feat><!-- qualis, quale, qualem, quales, quantum, quot, quanta, quantae, quali, qualia -->
     <feat name="PronType" value="Neg" upos="PRON">446</feat><!-- nihil, nihilo, nemo, nihilum, nemini, nil, neminem -->
     <feat name="PronType" value="Prs" upos="PRON">2742</feat><!-- se, sibi, nobis, seipsum, nos, sui, seipsam, seipsa, seipso, me -->
@@ -75,63 +77,63 @@
     <feat name="Reflex" value="Yes" upos="PRON">2160</feat><!-- se, sibi, seipsum, sui, seipsam, seipsa, seipso, seipsis, seipsas, semetipsum -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">1152</feat><!-- erit, poterit, sequetur, fuerit, erunt, oportebit, dicetur, habebit, ostendetur, remanebit -->
     <feat name="Tense" value="Imp" upos="AUX,VERB">1929</feat><!-- esset, posset, essent, erat, sequeretur, dicebant, oporteret, haberet, cognosceret, fieret -->
-    <feat name="Tense" value="Past" upos="AUX,VERB">8188</feat><!-- ostensum, dictum, separatae, fuit, probatum, separata, dictis, separatas, praemissis, praedicta -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">8181</feat><!-- ostensum, dictum, separatae, fuit, probatum, separata, dictis, separatas, praemissis, praedicta -->
     <feat name="Tense" value="Pqp" upos="AUX,VERB">95</feat><!-- fuisset, fecerat, dixerat, fuerat, accepisset, dixisset, fuissent, fuerant, habuisset, patrarat -->
-    <feat name="Tense" value="Pres" upos="AUX,NUM,VERB">51785</feat><!-- est, esse, sunt, sit, potest, oportet, habet, dicitur, patet, dicit -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">44979</feat><!-- est, sunt, sit, potest, oportet, habet, dicitur, patet, dicit, esset -->
+    <feat name="Tense" value="Pres" upos="AUX,NUM,VERB">51747</feat><!-- est, esse, sunt, sit, potest, oportet, habet, dicitur, patet, dicit -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">44941</feat><!-- est, sunt, sit, potest, oportet, habet, dicitur, patet, dicit, esset -->
     <feat name="VerbForm" value="Gdv" upos="VERB">944</feat><!-- dicendum, considerandum, sciendum, ostendendum, intelligendum, consideranda, ponenda, intelligendas, inquirendum, exhibendus -->
     <feat name="VerbForm" value="Ger" upos="AUX,VERB">1281</feat><!-- essendi, agendo, cognoscendo, intelligendo, vivendi, agendum, intelligendum, recipiendum, intelligendi, movendo -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">7517</feat><!-- esse, intelligere, fieri, habere, dici, facere, velle, dicere, agere, moveri -->
-    <feat name="VerbForm" value="Part" upos="AUX,VERB">10653</feat><!-- ostensum, dictum, movens, separatae, agens, probatum, separata, dictis, consequens, separatas -->
-    <feat name="VerbType" value="Mod" upos="VERB">3622</feat><!-- potest, possunt, possit, vult, velle, posset, debet, velit, possumus, poterit -->
-    <feat name="Voice" value="Act" upos="AUX,VERB">45590</feat><!-- est, esse, sunt, sit, potest, oportet, habet, patet, dicit, esset -->
-    <feat name="Voice" value="Pass" upos="AUX,VERB">19784</feat><!-- dicitur, ostensum, dicendum, videtur, fit, sequitur, invenitur, dictum, fieri, dici -->
+    <feat name="VerbForm" value="Part" upos="VERB">10646</feat><!-- ostensum, dictum, movens, separatae, agens, probatum, separata, dictis, consequens, separatas -->
+    <feat name="VerbType" value="Mod" upos="VERB">3623</feat><!-- potest, possunt, possit, vult, velle, posset, debet, velit, possumus, poterit -->
+    <feat name="Voice" value="Act" upos="AUX,VERB">45552</feat><!-- est, esse, sunt, sit, potest, oportet, habet, patet, dicit, esset -->
+    <feat name="Voice" value="Pass" upos="AUX,VERB">19777</feat><!-- dicitur, ostensum, dicendum, videtur, fit, sequitur, invenitur, dictum, fieri, dici -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="44">
-    <dep name="acl">6679</dep>
-    <dep name="acl:appos">71</dep>
-    <dep name="acl:relcl">6634</dep>
-    <dep name="advcl">13824</dep>
-    <dep name="advcl:appos">32</dep>
+    <dep name="acl">6612</dep>
+    <dep name="acl:appos">80</dep>
+    <dep name="acl:relcl">6679</dep>
+    <dep name="advcl">13809</dep>
+    <dep name="advcl:appos">24</dep>
     <dep name="advcl:arg">154</dep>
-    <dep name="advmod">25733</dep>
-    <dep name="advmod:appos">14</dep>
-    <dep name="advmod:cc">371</dep>
-    <dep name="advmod:emph">4062</dep>
-    <dep name="amod">15157</dep>
+    <dep name="advmod">25295</dep>
+    <dep name="advmod:appos">5</dep>
+    <dep name="advmod:cc">369</dep>
+    <dep name="advmod:emph">4061</dep>
+    <dep name="amod">15437</dep>
     <dep name="amod:advmod">147</dep>
-    <dep name="appos">409</dep>
-    <dep name="aux">13</dep>
-    <dep name="aux:pass">1940</dep>
-    <dep name="case">29068</dep>
-    <dep name="cc">18067</dep>
-    <dep name="ccomp">2548</dep>
+    <dep name="appos">267</dep>
+    <dep name="aux">11</dep>
+    <dep name="aux:pass">1941</dep>
+    <dep name="case">29076</dep>
+    <dep name="cc">16962</dep>
+    <dep name="ccomp">2537</dep>
     <dep name="compound">17</dep>
-    <dep name="conj">12416</dep>
-    <dep name="cop">11210</dep>
-    <dep name="csubj">4925</dep>
-    <dep name="csubj:pass">1504</dep>
-    <dep name="det">9407</dep>
+    <dep name="conj">12573</dep>
+    <dep name="cop">11032</dep>
+    <dep name="csubj">4918</dep>
+    <dep name="csubj:pass">1505</dep>
+    <dep name="det">9501</dep>
     <dep name="expl:pass">294</dep>
-    <dep name="fixed">811</dep>
+    <dep name="fixed">819</dep>
     <dep name="flat">33</dep>
-    <dep name="iobj">552</dep>
-    <dep name="mark">20158</dep>
-    <dep name="nmod">18505</dep>
+    <dep name="iobj">549</dep>
+    <dep name="mark">21286</dep>
+    <dep name="nmod">18320</dep>
     <dep name="nmod:advmod">277</dep>
-    <dep name="nmod:appos">55</dep>
-    <dep name="nsubj">23131</dep>
-    <dep name="nsubj:pass">6798</dep>
-    <dep name="nummod">1404</dep>
-    <dep name="obj">12504</dep>
-    <dep name="obl">21412</dep>
+    <dep name="nmod:appos">54</dep>
+    <dep name="nsubj">23113</dep>
+    <dep name="nsubj:pass">6800</dep>
+    <dep name="nummod">1347</dep>
+    <dep name="obj">12478</dep>
+    <dep name="obl">21804</dep>
     <dep name="obl:arg">5417</dep>
-    <dep name="orphan">2193</dep>
-    <dep name="parataxis">146</dep>
-    <dep name="punct">48535</dep>
+    <dep name="orphan">2164</dep>
+    <dep name="parataxis">122</dep>
+    <dep name="punct">48540</dep>
     <dep name="root">21011</dep>
     <dep name="vocative">19</dep>
-    <dep name="xcomp">5379</dep>
+    <dep name="xcomp">5576</dep>
   </deps>
 </treebank>
