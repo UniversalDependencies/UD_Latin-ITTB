@@ -5,13 +5,13 @@ Latin data from the _Index Thomisticus_ Treebank. Data are taken from the _Index
 
 # History of the Releases
 
-The UD_Latin-ITTB dataset results from the automated conversion of the _Index Thomisticus_ Treebank from the Prague dependency treebank (PDT) style into the Universal Dependencies (UD) style. 
+The UD_Latin-ITTB dataset results from the automated conversion of the _Index Thomisticus_ Treebank from the Prague dependency treebank (PDT) style into the Universal Dependencies (UD) style.
 
-Its first version was part of HamleDT and as such made use of the PDT style, which was later automatically converted to the UD style as part of HamleDT 3.0 in 2015. That same year in November UD v1.2 was released, including for the first time the IT-TB, with almost identical dependency relations and morphological features as those in HamleDT 3.0, all the while improving its part-of-speech tagging. 
+Its first version was part of HamleDT and as such made use of the PDT style, which was later automatically converted to the UD style as part of HamleDT 3.0 in 2015. That same year in November UD v1.2 was released, including for the first time the IT-TB, with almost identical dependency relations and morphological features as those in HamleDT 3.0, all the while improving its part-of-speech tagging.
 
 The original part-of-speech classification of the _Index Thomisticus_ is tripartite, in that solely the pure inflectional behaviour of words is taken into account, thus distinguishing only between nominal inflection (adjectives, nouns, pronouns, numerals, with a subclass for verbal nominal inflection, such as participles), verbal inflection and absence of inflection (adverbs, prepositions, conjunctions,...). In HamleDT 3.0, all nominally inflecting words had been tagged NOUN. In UD v1.2 a first differentiation was implemented: separated lexicons for adjectives (corresponding to PoS ADJ or NUM), nouns (NOUN) and pronouns (PRON and DET) were obtained by means of the Latin lemmatiser LEMLAT, and unrecognized words were manually disambiguated by Berta González Saavedra and Marco Passarotti. This way, tagging nominally inflecting words became possible, also for later versions, and at the same time invariable words, previously generically treated as PART, were reanalyzed as ADV, ADP, CCONJ, SCONJ or INTJ.
 
-The release of UD v2.3 sees a major update and revision of the conversion scripts for the _Index Thomisticus_ Treebank into the UD style, significantly improving the overall conversion quality, both in terms of _deprel_'s and subtree structures, as of part-of-speech tagging and lemmatisation. Guidelines for a common annotation style of the three current Latin UD treebanks have also been put into effect.   
+The release of UD v2.3 sees a major update and revision of the conversion scripts for the _Index Thomisticus_ Treebank into the UD style, significantly improving the overall conversion quality, both in terms of _deprel_'s and subtree structures, as of part-of-speech tagging and lemmatisation. Guidelines for a common annotation style of the three current Latin UD treebanks have also been put into effect.
 
 # Acknowledgments
 
@@ -24,7 +24,7 @@ The release of UD v2.3 sees a major update and revision of the conversion script
 <pre>
 @article{lait-ud,
   author    = {Cecchini, Flavio Massimiliano and Passarotti, Marco and Marongiu, Paola and Zeman, Daniel},
-  title     = {{Challenges in Converting the \emph{Index Thomisticus} treebank into Universal Dependencies}},
+  title     = {Challenges in Converting the \emph{Index Thomisticus} treebank into Universal Dependencies},
   journal   = {Proceedings of the Universal Dependencies Workshop 2018 (UDW 2018)},
   year      = {2018},
   address = {Brussels, Belgium}
@@ -62,20 +62,20 @@ The release of UD v2.3 sees a major update and revision of the conversion script
     * INTJ PoS removed;
     * introduction of relation subtype advmod for verbal attributes (often corresponding to PDT _afun_ AtvV);
     * many other minor corrections, additions and improvements.
-  * Applied common guidelines for Latin treebanks. The major points: 
+  * Applied common guidelines for Latin treebanks. The major points:
     * adverbs always get their positive degree as lemma;
-    * the part-of-speech DET has been removed and retained only for the proto-article _ly_; 
+    * the part-of-speech DET has been removed and retained only for the proto-article _ly_;
     * pronouns in an attributive function receive _deprel_ det;
     * possessive pronouns in an attributive function receive PoS ADJ and _deprel_ amod;
     * some lemmas were harmonised to a common standard.
   * Manual corrections of annotation errors in the original data (mostly regarding co-ordinations and appositions)
   * New split of dev/test/train data: dev and test contain the first 2101+2101 sentences in the _Summa contra gentiles_, while train all the remaining ones, including the concordances of the word _forma_ in the work of Thomas Aquinas.
-    
+
 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
   * Reconsidered PRON vs. DET distinction.
   * Improved advmod vs. obl distinction.
-  
+
 2016-05-15 v1.3
   * Fixed adverbs that were attached as nmod; correct: advmod.
   * Improved conversion of AuxY.
