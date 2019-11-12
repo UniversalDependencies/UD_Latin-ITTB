@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Latin-ITTB:
-commit e329d2645911c37fa344456e10ff4cf983b9ae1b
-Merge: 1a870e3 cd3183e
+commit 014e6b93166f30d0cbdd2ac10c244bbf8eff2373
+Merge: b3d2f8b 00bd039
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 353035 of 353035 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.7331344043198.
@@ -23,12 +23,48 @@ Udapi: found 124742 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 353035 words.
 Genres: found 1 out of 17 known.
 validate.py --lang la --max-err=10 UD_Latin-ITTB/la_ittb-ud-dev.conllu
-*** PASSED ***
+[Line 575 Sent ittb-scg-s33 Node 17]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [19]
+[Line 594 Sent ittb-scg-s34 Node 11]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [15]
+[Line 4496 Sent ittb-scg-s222 Node 24]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [26]
+[Line 5157 Sent ittb-scg-s252 Node 20]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [19]
+[Line 5157 Sent ittb-scg-s252 Node 20]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [21]
+[Line 6133 Sent ittb-scg-s310 Node 12]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [3]
+[Line 6133 Sent ittb-scg-s310 Node 12]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3]
+[Line 7546 Sent ittb-scg-s392 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [5]
+[Line 7546 Sent ittb-scg-s392 Node 7]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [5]
+...suppressing further errors regarding Syntax
+Syntax errors: 44
+*** FAILED *** with 44 errors
+Exit code: 1
 validate.py --lang la --max-err=10 UD_Latin-ITTB/la_ittb-ud-test.conllu
-*** PASSED ***
+[Line 1001 Sent ittb-scg-s2172 Node 10]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [5, 6, 7, 8]
+[Line 1613 Sent ittb-scg-s2212 Node 6]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [2]
+[Line 1613 Sent ittb-scg-s2212 Node 6]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [2]
+[Line 1860 Sent ittb-scg-s2226 Node 4]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [2]
+[Line 1860 Sent ittb-scg-s2226 Node 4]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [2]
+[Line 3232 Sent ittb-scg-s2310 Node 8]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [2]
+[Line 3232 Sent ittb-scg-s2310 Node 8]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [2, 4, 5, 6]
+[Line 3564 Sent ittb-scg-s2327 Node 12]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [3]
+[Line 3564 Sent ittb-scg-s2327 Node 12]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3]
+...suppressing further errors regarding Syntax
+Syntax errors: 54
+*** FAILED *** with 54 errors
+Exit code: 1
 validate.py --lang la --max-err=10 UD_Latin-ITTB/la_ittb-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 103 Sent ittb-scg-s4208 Node 12]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [2]
+[Line 103 Sent ittb-scg-s4208 Node 12]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [2]
+[Line 1226 Sent ittb-scg-s4280 Node 34]: [L3 Syntax leaf-punct] 'punct' not expected to have children (34:,:punct --> 29:sunt:acl)
+[Line 1232 Sent ittb-scg-s4280 Node 34]: [L3 Syntax leaf-punct] 'punct' not expected to have children (34:,:punct --> 35:bona:nmod)
+[Line 2924 Sent ittb-scg-s4373 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [2]
+[Line 2924 Sent ittb-scg-s4373 Node 7]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [2]
+[Line 3120 Sent ittb-scg-s4381 Node 8]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [3]
+[Line 3120 Sent ittb-scg-s4381 Node 8]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3]
+[Line 3377 Sent ittb-scg-s4394 Node 27]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'CCONJ'
+...suppressing further errors regarding Syntax
+Syntax errors: 795
+*** FAILED *** with 795 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -37,6 +73,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.658823529411765) = 0.0506787330316742
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.500297769259624) * (availability=1) * (validity=1) = 0.500297769259624
-STARS = 2.5
-UD_Latin-ITTB	0.500297769259624	2.5
+(TOTAL score=0.500297769259624) * (availability=1) * (validity=0.01) = 0.00500297769259624
+STARS = 0
+UD_Latin-ITTB	0.00500297769259624	0
