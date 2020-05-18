@@ -47,6 +47,7 @@ The release of UD v2.3 sees a major update and revision of the conversion script
     * All non-projective punctuations solved by means of Udapi's FixPunct module
     * Major manual corrections of some problematic structures (ellipses and/or co-ordinations) in some sentences
     * Minor occasional manual corrections of annotation or conversion errors (punctuation having dependencies, wrong parts of speech, etc)
+        * Improvement of the morphological layer by automatic addition of new features (Aspect, Number[psor], etc)
     * Added the distinction between sentence reference in the sets (e.g. dev1) and reference in the corpus (e.g. ittb-scg-s1) 
 
 2019-5-15 v2.4
