@@ -48,6 +48,7 @@ The release of UD v2.3 sees a major update and revision of the conversion script
     * Major manual corrections of some problematic structures (ellipses and/or co-ordinations) in some sentences
     * Minor occasional manual corrections of annotation or conversion errors (punctuation having dependencies, wrong parts of speech, etc)
     * Added the distinction between sentence reference in the sets (e.g. dev1) and reference in the corpus (e.g. ittb-scg-s1) 
+
 2019-5-15 v2.4
   * The new UD validation script has prompted further improvements to the conversion routine:
     * parts of speech PART and DET (for the lemma _plerusque_), that continued to appear in the conversion, have been changed to ADV and ADJ respectively;
