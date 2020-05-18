@@ -42,6 +42,12 @@ The release of UD v2.3 sees a major update and revision of the conversion script
 
 # Changelog
 
+2020-5-18 v2.6
+  * Update to meet new validation standards:
+    * All non-projective punctuations solved by means of Udapi's FixPunct module
+    * Major manual corrections of some problematic structures (ellipses and/or co-ordinations) in some sentences
+    * Minor occasional manual corrections of annotation or conversion errors (punctuation having dependencies, wrong parts of speech, etc)
+    * Added the distinction between sentence reference in the sets (e.g. dev1) and reference in the corpus (e.g. ittb-scg-s1) 
 2019-5-15 v2.4
   * The new UD validation script has prompted further improvements to the conversion routine:
     * parts of speech PART and DET (for the lemma _plerusque_), that continued to appear in the conversion, have been changed to ADV and ADJ respectively;
@@ -99,7 +105,7 @@ Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
-Relations: converted from manual
+Relations: converted with corrections
 Contributors: Passarotti, Marco; Zeman, Daniel; González Saavedra, Berta; Cecchini, Flavio Massimiliano
 Contributing: elsewhere
 Contact: zeman@ufal.mff.cuni.cz
