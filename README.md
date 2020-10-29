@@ -52,7 +52,7 @@ The release of UD v2.3 sees a major update and revision of the conversion script
       * SCG3: from `train` 5658 to `train` 13 519
       * SCG4: from `train` 16 810 to `train` 22 775
       * Concordances of _forma_ in the IT-TB (various authors): from `train` 13520 to `train` 16 809
-    * The issue of this update follows the same pipeline as the previous one and focus only on the SCG4; already existing tokens have not been modified
+    * The issue of this update follows the same pipeline as the previous one and focuses only on the SCG4; already existing tokens have not been modified
       * As in the last update, some minor and limited manual corrections have been necessary for problematic constructions
       * Following improved standards, there are some very limited updates to the annotation style, which will be extended to the rest of the treebank in a future release
       * At the moment, the treatment of some token categories is somewhat inconsistent (e.g. NOUN/PROPN distinction, abbreviations, etc.), and this will be also addressed in a future release 
