@@ -42,6 +42,21 @@ The release of UD v2.3 sees a major update and revision of the conversion script
 
 # Changelog
 
+2020-11-1 v2.7
+  * Addition of the fourth book of the _Summa contra gentiles_ by Thomas Aquinas to the treebank
+    * 97 480 new tokens, for a total of 450 515 annotated tokens in the IT-TB
+    * All the new sentences have been added to the `train` dataset, which now amounts to 390 785 tokens
+    * The documents are split in the following way:
+      * Aquinas's _Summa contra gentiles_ book I (SCG1): the whole `dev` and `test` sets, up to sentence 104 in the `train` set
+      * SCG2: from `train` 105 to `train` 5657
+      * SCG3: from `train` 5658 to `train` 13 519
+      * SCG4: from `train` 16 810 to `train` 22 775
+      * Concordances of _forma_ in the IT-TB (various authors): from `train` 13520 to `train` 16 809
+    * The issue of this update follows the same pipeline as the previous one and focus only on the SCG4; already existing tokens have not been modified
+      * As in the last update, some minor and limited manual corrections have been necessary for problematic constructions
+      * Following improved standards, there are some very limited updates to the annotation style, which will be extended to the rest of the treebank in a future release
+      * At the moment, the treatment of some token categories is somewhat inconsistent (e.g. NOUN/PROPN distinction, abbreviations, etc.), and this will be also addressed in a future release 
+
 2020-5-18 v2.6
   * Update to meet new validation standards:
     * All non-projective punctuations solved by means of Udapi's FixPunct module
