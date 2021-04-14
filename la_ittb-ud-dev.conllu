@@ -221,7 +221,7 @@
 8	,	,	PUNCT	Punc	_	11	punct	_	_
 9	quasi	quasi	ADV	O4	_	10	advmod:emph	_	_
 10	principales	principalis	ADJ	C1|grn1|casJ|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_
-11	artes	ars	NOUN	C1|grn1|casJ|gen2	Case=Nom|Gender=Fem|Number=Plur	6	nmod:appos	_	SpaceAfter=No
+11	artes	ars	NOUN	C1|grn1|casJ|gen2	Case=Nom|Gender=Fem|Number=Plur	6	conj:expl	_	SpaceAfter=No
 12	:	:	PUNCT	Punc	_	7	punct	_	_
 
 # sent_id = dev-s14
@@ -598,7 +598,7 @@
 7	est	sum	AUX	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
 8	ueritas	ueritas	NOUN	C1|grn1|casA|gen2|vgr1	Case=Nom|Gender=Fem|Number=Sing	2	acl:relcl	_	SpaceAfter=No
 9	,	,	PUNCT	Punc	_	10	punct	_	_
-10	meditatam	meditor	VERB	J2|modM|tem4|grp1|casD|gen2	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	nmod:advmod	_	_
+10	meditatam	meditor	VERB	J2|modM|tem4|grp1|casD|gen2	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	advcl:cmpr	_	_
 11	eloqui	eloquor	VERB	L3|modQ|tem1	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Pass	0	root	_	SpaceAfter=No
 12	,	,	PUNCT	Punc	_	14	punct	_	_
 13	quod	qui	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	14	obj	_	_
@@ -1774,7 +1774,7 @@
 3	omnia	omnis	PRON	C1|grn1|casM|gen3	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	13	obj	_	_
 4	quae	qui	PRON	F1|grn1|casM|gen3|vgr1	Case=Acc|Gender=Neut|Number=Plur|PronType=Rel	8	obj	_	_
 5	in	in	ADP	S4	AdpType=Prep	6	case	_	_
-6	seipso	seipse	PRON	F1|grn1|casF|gen1	Case=Abl|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	8	obl	_	_
+6	seipso	seipsum	PRON	F1|grn1|casF|gen1	Case=Abl|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	8	obl	_	_
 7	deus	deus	PROPN	F1|grn1|casA|gen1	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 8	intelligit	intellego	VERB	L3|modA|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	SpaceAfter=No
 9	,	,	PUNCT	Punc	_	3	punct	_	_
@@ -3170,7 +3170,7 @@
 5	praesumptione	praesumptio	NOUN	C1|grn1|casF|gen2|comH	Case=Abl|Gender=Fem|Number=Sing	8	obl:arg	_	_
 6	humanus	humanus	ADJ	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
 7	animus	animus	NOUN	B1|grn1|casA|gen1	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
-8	liberatus	libero	VERB	J2|modM|tem4|grp1|casA|gen1	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	nmod:advmod	_	_
+8	liberatus	libero	VERB	J2|modM|tem4|grp1|casA|gen1	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	advcl:cmpr	_	_
 9	ad	ad	ADP	S4	AdpType=Prep	11	case	_	_
 10	modestam	modestus	ADJ	A1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
 11	inquisitionem	inquisitio	NOUN	C1|grn1|casD|gen2	Case=Acc|Gender=Fem|Number=Sing	13	obl:arg	_	_
@@ -3335,7 +3335,7 @@
 7	rebus	res	NOUN	E1|grn1|casO|gen2	Case=Abl|Gender=Fem|Number=Plur	11	nmod	_	_
 8	nobilissimis	nobilis	ADJ	A1|grn3|casO|gen2	Case=Abl|Degree=Abs|Gender=Fem|Number=Plur	7	amod	_	_
 9	quantumcumque	quantumcumque	ADV	B1|grn1|casG|vgr2	Degree=Pos	10	advmod:emph	_	_
-10	imperfecta	imperfectus	ADJ	A1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod:advmod	_	_
+10	imperfecta	imperfectus	ADJ	A1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	advcl:pred	_	_
 11	cognitio	cognitio	NOUN	C1|grn1|casA|gen2|vgr1	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
 12	maximam	magnus	ADJ	A1|grn3|casD|gen2	Case=Acc|Degree=Abs|Gender=Fem|Number=Sing	13	amod	_	_
 13	perfectionem	perfectio	NOUN	C1|grn1|casD|gen2|vgr1	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
@@ -3574,7 +3574,7 @@
 16	dono	donum	NOUN	B1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing	19	obl	_	_
 17	spiritus	spiritus	NOUN	D1|grn1|casB|gen1	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
 18	sancti	sanctus	ADJ	B1|grn1|casB|gen1	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
-19	repleti	repleo	VERB	K2|modM|tem4|grp1|casJ|gen1	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	nmod:advmod	_	SpaceAfter=No
+19	repleti	repleo	VERB	K2|modM|tem4|grp1|casJ|gen1	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	advcl:cmpr	_	SpaceAfter=No
 20	,	,	PUNCT	Punc	_	12	punct	_	_
 21	summam	summus	ADJ	A1|grn1|casD|gen2	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
 22	sapientiam	sapientia	NOUN	A1|grn1|casD|gen2|vgr1	Case=Acc|Gender=Fem|Number=Sing	27	obj	_	_
@@ -3722,7 +3722,7 @@
 40	nostrae	noster	DET	A1|grn1|casC|gen2|vgr1	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	41	det	_	_
 41	fidei	fides	NOUN	E1|grn1|casC|gen2	Case=Dat|Gender=Fem|Number=Sing	43	obl:arg	_	_
 42	testimonium	testimonium	NOUN	B1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing	43	obj	_	_
-43	adhibentes	adhibeo	VERB	K2|modD|tem1|grp1|casJ|gen1	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	32	nmod:advmod	_	SpaceAfter=No
+43	adhibentes	adhibeo	VERB	K2|modD|tem1|grp1|casJ|gen1	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	32	advcl:cmpr	_	SpaceAfter=No
 44	.	.	PUNCT	Punc	_	16	punct	_	_
 
 # sent_id = dev-s170
@@ -4718,7 +4718,7 @@
 24	,	,	PUNCT	Punc	_	25	punct	_	_
 25	ita	ita	ADV	O4	_	27	advmod:emph	_	_
 26	tamen	tamen	ADV	O4	_	23	advmod	_	_
-27	imperfectum	imperfectus	ADJ	B1|grn1|casD|gen3|vgr1	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	amod:advmod	_	_
+27	imperfectum	imperfectus	ADJ	B1|grn1|casD|gen3|vgr1	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	advcl:pred	_	_
 28	quod	quod	SCONJ	O4	_	36	mark	_	_
 29	ad	ad	ADP	S4	AdpType=Prep	30	mark	_	_
 30	declarandam	declaro	VERB	J2|modO|grp1|casD|gen2	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Gdv|Voice=Pass	35	advcl	_	_
@@ -5349,7 +5349,7 @@
 23	quae	qui	PRON	F1|grn1|casJ|gen3|vgr1	Case=Nom|Gender=Neut|Number=Plur|PronType=Rel	27	nsubj	_	_
 24	deo	deus	PROPN	F1|grn1|casC|gen1	Case=Dat|Gender=Masc|Number=Sing	27	obl:arg	_	_
 25	secundum	secundum	ADP	S4	AdpType=Prep	26	case	_	_
-26	seipsum	seipse	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	27	obl	_	_
+26	seipsum	seipsum	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	27	obl	_	_
 27	conueniunt	conuenio	VERB	M3|modA|tem1|gen9|vgr1	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	acl:relcl	_	SpaceAfter=No
 28	;	;	PUNCT	Punc	_	19	punct	_	_
 
@@ -5394,7 +5394,7 @@
 5	de	de	ADP	S4	AdpType=Prep	6	case	_	_
 6	deo	deus	PROPN	F1|grn1|casF|gen1	Case=Abl|Gender=Masc|Number=Sing	9	obl	_	_
 7	secundum	secundum	ADP	S4	AdpType=Prep	8	case	_	_
-8	seipsum	seipse	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	9	obl	_	_
+8	seipsum	seipsum	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	9	obl	_	_
 9	consideranda	considero	VERB	J2|modO|grp1|casJ|gen3	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|VerbForm=Gdv|Voice=Pass	2	acl:relcl	_	_
 10	sunt	sum	AUX	N3|modA|tem1|gen9	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	SpaceAfter=No
 11	,	,	PUNCT	Punc	_	9	punct	_	_
@@ -5405,7 +5405,7 @@
 16	totius	totus	DET	F1|grn1|casB|gen3|vgr1	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	17	det	_	_
 17	operis	opus	NOUN	C1|grn1|casB|gen3	Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
 18	necessarium	necessarius	ADJ	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
-19	fundamentum	fundamentum	NOUN	B1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing	21	nmod:advmod	_	SpaceAfter=No
+19	fundamentum	fundamentum	NOUN	B1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing	21	advcl:cmpr	_	SpaceAfter=No
 20	,	,	PUNCT	Punc	_	19	punct	_	_
 21	consideratio	consideratio	NOUN	C1|grn1|casA|gen2	Case=Nom|Gender=Fem|Number=Sing	12	nsubj:pass	_	_
 22	qua	qui	PRON	F1|grn1|casF|gen2|varA	Case=Abl|Gender=Fem|Number=Sing|PronType=Rel	23	obl	_	_
@@ -5771,7 +5771,7 @@
 7	quibus	qui	PRON	F1|grn1|casO|gen2	Case=Abl|Gender=Fem|Number=Plur|PronType=Rel	11	obl	_	_
 8	idem	idem	PRON	F1|grn1|casA|gen3|vgr1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj:pass	_	_
 9	de	de	ADP	S4	AdpType=Prep	10	case	_	_
-10	seipso	seipse	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	11	obl:arg	_	_
+10	seipso	seipsum	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	11	obl:arg	_	_
 11	praedicatur	praedico	VERB	J3|modJ|tem1|gen6|vgr1	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	1	acl:relcl	_	SpaceAfter=No
 12	,	,	PUNCT	Punc	_	13	punct	_	_
 13	ut	ut	SCONJ	O4|vgr1	_	17	mark	_	SpaceAfter=No
@@ -6606,7 +6606,7 @@
 10	non	non	PART	O4	Polarity=Neg	13	advmod	_	_
 11	potest	possum	VERB	N3|modA|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	5	acl	_	_
 12	per	per	ADP	S4	AdpType=Prep	13	case	_	_
-13	seipsum	seipse	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	11	obl	_	SpaceAfter=No
+13	seipsum	seipsum	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	11	obl	_	SpaceAfter=No
 14	,	,	PUNCT	Punc	_	17	punct	_	_
 15	sed	sed	CCONJ	O4|vgr1	_	17	cc	_	_
 16	ex	ex	ADP	S4|vgr2	AdpType=Prep	17	case	_	_
@@ -6690,7 +6690,7 @@
 12	cognoscendum	cognosco	VERB	L2|modE|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|Voice=Act	21	advcl:arg	_	_
 13	non	non	PART	O4	Polarity=Neg	15	advmod	_	_
 14	per	per	ADP	S4	AdpType=Prep	15	case	_	_
-15	seipsum	seipse	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	21	obl	_	SpaceAfter=No
+15	seipsum	seipsum	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	21	obl	_	SpaceAfter=No
 16	,	,	PUNCT	Punc	_	20	punct	_	_
 17	sed	sed	CCONJ	O4|vgr1	_	20	cc	_	_
 18	per	per	ADP	S4	AdpType=Prep	20	case	_	_
@@ -7265,7 +7265,7 @@
 6	quo	qui	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Rel	10	obl	_	_
 7	deus	deus	PROPN	F1|grn1|casA|gen1	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 8	in	in	ADP	S4	AdpType=Prep	9	case	_	_
-9	seipso	seipse	PRON	F1|grn1|casF|gen1	Case=Abl|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	10	obl	_	_
+9	seipso	seipsum	PRON	F1|grn1|casF|gen1	Case=Abl|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	10	obl	_	_
 10	subsistit	subsisto	VERB	L3|modA|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	SpaceAfter=No
 11	,	,	PUNCT	Punc	_	16	punct	_	_
 12	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	14	nsubj	_	_
@@ -7744,7 +7744,7 @@
 1	si	si	SCONJ	O4	_	3	mark	_	_
 2	aliquid	aliquis	PRON	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	3	nsubj	_	_
 3	mouet	moueo	VERB	K3|modA|tem1|gen6|vgr1	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
-4	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	3	obj	_	SpaceAfter=No
+4	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	3	obj	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	3	punct	_	_
 6	oportet	oportet	VERB	K3|modA|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 7	quod	quod	SCONJ	O4	_	10	mark	_	_
@@ -7870,7 +7870,7 @@
 1	hoc	hic	PRON	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj:pass	_	_
 2	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	5	nsubj:pass	_	_
 3	a	ab	ADP	S4|vgr1	AdpType=Prep	4	case	_	_
-4	seipso	seipse	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	6	obl:arg	_	_
+4	seipso	seipsum	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	6	obl:arg	_	_
 5	ponitur	pono	VERB	L3|modJ|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	1	acl:relcl	_	_
 6	moueri	moueo	VERB	K3|modQ|tem1|vgr1	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Pass	5	xcomp	_	SpaceAfter=No
 7	,	,	PUNCT	Punc	_	1	punct	_	_
@@ -7938,7 +7938,7 @@
 7	,	,	PUNCT	Punc	_	5	punct	_	_
 8	mouetur	moueo	VERB	K3|modJ|tem1|gen6|vgr1	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 9	a	ab	ADP	S4|vgr1	AdpType=Prep	10	case	_	_
-10	seipso	seipse	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	8	obl:arg	_	SpaceAfter=No
+10	seipso	seipsum	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	8	obl:arg	_	SpaceAfter=No
 11	:	:	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id = dev-s393
@@ -7969,7 +7969,7 @@
 3	non	non	PART	O4	Polarity=Neg	4	advmod	_	_
 4	mouetur	moueo	VERB	K3|modJ|tem1|gen6|vgr1	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 5	a	ab	ADP	S4|vgr1	AdpType=Prep	6	case	_	_
-6	seipso	seipse	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	4	obl:arg	_	SpaceAfter=No
+6	seipso	seipsum	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	4	obl:arg	_	SpaceAfter=No
 7	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = dev-s395
@@ -7980,13 +7980,13 @@
 3	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	4	nsubj:pass	_	_
 4	ponebatur	pono	VERB	L3|modJ|tem2|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	2	acl:relcl	_	_
 5	a	ab	ADP	S4|vgr1	AdpType=Prep	6	case	_	_
-6	seipso	seipse	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	7	obl:arg	_	_
+6	seipso	seipsum	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	7	obl:arg	_	_
 7	moueri	moueo	VERB	K3|modQ|tem1|vgr1	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Pass	4	xcomp	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	2	punct	_	_
 9	non	non	PART	O4	Polarity=Neg	10	advmod	_	_
 10	mouetur	moueo	VERB	K3|modJ|tem1|gen6|vgr1	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 11	a	ab	ADP	S4|vgr1	AdpType=Prep	12	case	_	_
-12	seipso	seipse	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	10	obl:arg	_	SpaceAfter=No
+12	seipso	seipsum	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	10	obl:arg	_	SpaceAfter=No
 13	.	.	PUNCT	Punc	_	10	punct	_	_
 
 # sent_id = dev-s396
@@ -8021,7 +8021,7 @@
 12	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	13	nsubj:pass	_	_
 13	ponitur	pono	VERB	L3|modJ|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	acl:relcl	_	_
 14	mouere	moueo	VERB	K3|modH|tem1|vgr1	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Act	13	xcomp	_	_
-15	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	14	obj	_	SpaceAfter=No
+15	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	14	obj	_	SpaceAfter=No
 16	,	,	PUNCT	Punc	_	11	punct	_	_
 17	pars	pars	NOUN	C1|grn1|casA|gen2	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
 18	non	non	PART	O4	Polarity=Neg	19	advmod	_	_
@@ -8068,7 +8068,7 @@
 9	,	,	PUNCT	Punc	_	8	punct	_	_
 10	si	si	SCONJ	O4	_	13	mark	_	_
 11	aliquid	aliquis	PRON	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	13	nsubj	_	_
-12	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	13	obj	_	_
+12	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	13	obj	_	_
 13	moueat	moueo	VERB	K3|modB|tem1|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	advcl	_	_
 14	primo	primo	ADV	B1|grn1|casG	Degree=Pos	13	advmod	_	_
 15	et	et	CCONJ	O4	_	17	cc	_	_
@@ -8114,7 +8114,7 @@
 2	sic	sic	ADV	O4	_	4	advmod	_	_
 3	non	non	PART	O4	Polarity=Neg	4	advmod	_	_
 4	potest	possum	VERB	N3|modA|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	0	root	_	_
-5	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	6	obj	_	_
+5	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	6	obj	_	_
 6	mouere	moueo	VERB	K3|modH|tem1|vgr1	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Act	4	xcomp	_	_
 7	primo	primo	ADV	B1|grn1|casG	Degree=Pos	6	advmod	_	_
 8	et	et	CCONJ	O4	_	10	cc	_	_
@@ -8136,7 +8136,7 @@
 9	supponatur	suppono	VERB	L3|modK|tem1|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	csubj:pass	_	_
 10	partem	pars	NOUN	C1|grn1|casD|gen2	Case=Acc|Gender=Fem|Number=Sing	13	nsubj	_	_
 11	mouentis	moueo	VERB	K2|modD|tem1|grp1|casB|gen3	Aspect=Imp|Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	acl	_	_
-12	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	11	obj	_	_
+12	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	11	obj	_	_
 13	quiescere	quiesco	VERB	L3|modH|tem1	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Act	9	csubj:pass	_	_
 14	quasi	quasi	SCONJ	O4	_	15	mark	_	_
 15	quoddam	quidam	NOUN	F1|grn1|casA|gen3|varA	Case=Nom|Gender=Neut|Number=Sing	13	advcl	_	_
@@ -8222,7 +8222,7 @@
 7	non	non	PART	O4	Polarity=Neg	8	advmod	_	_
 8	mouetur	moueo	VERB	K3|modJ|tem1|gen6|vgr1	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 9	a	ab	ADP	S4|vgr1	AdpType=Prep	10	case	_	_
-10	seipso	seipse	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	8	obl:arg	_	SpaceAfter=No
+10	seipso	seipsum	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	8	obl:arg	_	SpaceAfter=No
 11	.	.	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id = dev-s409
@@ -8483,7 +8483,7 @@
 2	sic	sic	ADV	O4	_	4	advmod	_	_
 3	nihil	nihil	PRON	G1|casA|gen3|vgr1	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	4	nsubj	_	_
 4	mouet	moueo	VERB	K3|modA|tem1|gen6|vgr1	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-5	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	4	obj	_	SpaceAfter=No
+5	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	4	obj	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = dev-s427
@@ -8552,7 +8552,7 @@
 2	platonem	plato	PROPN	C1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 3	autem	autem	CCONJ	O4	_	8	cc	_	_
 4	mouens	moueo	VERB	K2|modD|tem1|grp1|casA|gen3|vgr1	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	csubj	_	_
-5	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	4	obj	_	_
+5	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	4	obj	_	_
 6	non	non	PART	O4	Polarity=Neg	8	advmod	_	_
 7	est	sum	AUX	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
 8	corpus	corpus	NOUN	C1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
@@ -8602,7 +8602,7 @@
 4	dicebat	dico	VERB	N3|modA|tem2|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	primum	primus	ADJ	B1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	6	amod	_	_
 6	mouens	moueo	VERB	K2|modD|tem1|grp1|casD|gen3|vgr1	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	csubj	_	_
-7	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	8	obj	_	_
+7	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	8	obj	_	_
 8	mouere	moueo	VERB	K3|modH|tem1|vgr1	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Act	4	ccomp	_	_
 9	quod	quod	SCONJ	O4	_	10	mark	_	_
 10	intelligit	intellego	VERB	L3|modA|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	_
@@ -9838,7 +9838,7 @@
 6	primum	primus	ADJ	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	5	amod	_	_
 7	moueatur	moueo	VERB	K3|modK|tem1|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	advcl	_	_
 8	a	ab	ADP	S4|vgr1	AdpType=Prep	9	case	_	_
-9	seipso	seipse	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	7	obl:arg	_	SpaceAfter=No
+9	seipso	seipsum	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	7	obl:arg	_	SpaceAfter=No
 10	.	.	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = dev-s504
@@ -9881,7 +9881,7 @@
 7	rationabile	rationabilis	ADJ	C1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 8	est	sum	AUX	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 9	per	per	ADP	S4	AdpType=Prep	10	case	_	_
-10	seipsum	seipse	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	11	obl	_	_
+10	seipsum	seipsum	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	11	obl	_	_
 11	moueri	moueo	VERB	K3|modQ|tem1|vgr1	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Pass	7	csubj	_	SpaceAfter=No
 12	,	,	PUNCT	Punc	_	13	punct	_	_
 13	non	non	PART	O4	Polarity=Neg	11	conj	_	_
@@ -9911,7 +9911,7 @@
 4	dici	dico	VERB	N3|modQ|tem1	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Pass	3	xcomp	_	_
 5	quod	quod	SCONJ	O4	_	9	mark	_	_
 6	mouens	moueo	VERB	K2|modD|tem1|grp1|casA|gen3|vgr1	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	csubj:pass	_	_
-7	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	6	obj	_	_
+7	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	6	obj	_	_
 8	totum	totus	DET	F1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	7	det	_	_
 9	moueatur	moueo	VERB	K3|modK|tem1|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	csubj	_	_
 10	a	ab	ADP	S4|vgr1	AdpType=Prep	11	case	_	_
@@ -10037,7 +10037,7 @@
 3	una	unus	NUM	F1|grn1|casA|gen2	Case=Nom|Gender=Fem|Number=Sing|NumType=Card	4	nummod	_	_
 4	pars	pars	NOUN	C1|grn1|casA|gen2	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 5	moueat	moueo	VERB	K3|modB|tem1|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-6	seipsam	seipse	PRON	F1|grn1|casD|gen2	Case=Acc|Gender=Fem|Number=Sing|PronType=Prs|Reflex=Yes	5	obj	_	_
+6	seipsam	seipsum	PRON	F1|grn1|casD|gen2	Case=Acc|Gender=Fem|Number=Sing|PronType=Prs|Reflex=Yes	5	obj	_	_
 7	et	et	CCONJ	O4	_	8	cc	_	_
 8	moueat	moueo	VERB	K3|modB|tem1|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
 9	alteram	alter	PRON	F1|grn1|casD|gen2	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	8	obj	_	SpaceAfter=No
@@ -10122,7 +10122,7 @@
 2	ergo	ergo	ADV	O4	_	1	advmod	_	_
 3	quod	quod	SCONJ	O4	_	6	mark	_	_
 4	mouentis	moueo	VERB	K2|modD|tem1|grp1|casB|gen3	Aspect=Imp|Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	acl	_	_
-5	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	4	obj	_	_
+5	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	4	obj	_	_
 6	oportet	oportet	VERB	K3|modA|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj:pass	_	_
 7	unam	unus	NUM	F1|grn1|casD|gen2	Case=Acc|Gender=Fem|Number=Sing|NumType=Card	8	nummod	_	_
 8	partem	pars	NOUN	C1|grn1|casD|gen2	Case=Acc|Gender=Fem|Number=Sing	10	nsubj	_	_
@@ -10177,7 +10177,7 @@
 3	quod	quod	SCONJ	O4	_	10	mark	_	_
 4	primi	primus	ADJ	B1|grn1|casB|gen3	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	5	amod	_	_
 5	mouentis	moueo	VERB	K2|modD|tem1|grp1|casB|gen3	Aspect=Imp|Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	acl	_	_
-6	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	5	obj	_	_
+6	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	5	obj	_	_
 7	pars	pars	NOUN	C1|grn1|casA|gen2	Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 8	mouens	moueo	VERB	K2|modD|tem1|grp1|casA|gen2|vgr1	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	acl	_	_
 9	non	non	PART	O4	Polarity=Neg	10	advmod	_	_
@@ -10248,7 +10248,7 @@
 6	esse	sum	VERB	N3|modH|tem1	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Act	2	csubj	_	_
 7	alicuius	aliqui	DET	F1|grn1|casB|gen3|vgr2	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	8	det	_	_
 8	mouentis	moueo	VERB	K2|modD|tem1|grp1|casB|gen3	Aspect=Imp|Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	acl	_	_
-9	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	8	obj	_	_
+9	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	8	obj	_	_
 10	qui	qui	PRON	F1|grn1|casA|gen1	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	17	nsubj:pass	_	_
 11	neque	neque	CCONJ	O4	_	13	mark	_	_
 12	per	per	ADP	S4	AdpType=Prep	13	case	_	_
@@ -10297,7 +10297,7 @@
 12	quod	quod	SCONJ	O4	_	23	mark	_	_
 13	generatio	generatio	NOUN	C1|grn1|casA|gen2|vgr1	Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
 14	mouentium	moueo	VERB	K2|modD|tem1|grp1|casK|gen3	Aspect=Imp|Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	13	acl:relcl	_	_
-15	seipsa	seipse	PRON	F1|grn1|casM|gen3	Case=Acc|Gender=Neut|Number=Plur|PronType=Prs|Reflex=Yes	14	obj	_	_
+15	seipsa	seipsum	PRON	F1|grn1|casM|gen3	Case=Acc|Gender=Neut|Number=Plur|PronType=Prs|Reflex=Yes	14	obj	_	_
 16	quae	qui	PRON	F1|grn1|casJ|gen3|vgr1	Case=Nom|Gender=Neut|Number=Plur|PronType=Rel	18	nsubj	_	_
 17	sunt	sum	AUX	N3|modA|tem1|gen9	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	_
 18	generabilia	generabilis	ADJ	C1|grn1|casJ|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	14	acl:relcl	_	_
@@ -10370,7 +10370,7 @@
 5	esse	sum	VERB	N3|modH|tem1	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Act	4	csubj	_	_
 6	aliquod	aliqui	DET	F1|grn1|casD|gen3|varA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	7	det	_	_
 7	mouens	moueo	VERB	K2|modD|tem1|grp1|casD|gen3|vgr1	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	csubj	_	_
-8	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	7	obj	_	_
+8	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	7	obj	_	_
 9	perpetuum	perpetuus	ADJ	B1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	SpaceAfter=No
 10	,	,	PUNCT	Punc	_	12	punct	_	_
 11	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	12	nsubj	_	_
@@ -10423,7 +10423,7 @@
 17	non	non	PART	O4	Polarity=Neg	18	advmod	_	_
 18	mouetur	moueo	VERB	K3|modJ|tem1|gen6|vgr1	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	acl:relcl	_	_
 19	a	ab	ADP	S4|vgr1	AdpType=Prep	20	case	_	_
-20	seipso	seipse	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	18	obl:arg	_	_
+20	seipso	seipsum	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	18	obl:arg	_	_
 21	animal	animal	NOUN	C1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing	18	nsubj:pass	_	SpaceAfter=No
 22	,	,	PUNCT	Punc	_	24	punct	_	_
 23	sicut	sicut	SCONJ	O4|vgr1	_	24	mark	_	_
@@ -10443,7 +10443,7 @@
 4	ipse	ipse	DET	F1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem,Prs	5	det	_	_
 5	motor	motor	NOUN	C1|grn1|casA|gen1	Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 6	mouens	moueo	VERB	K2|modD|tem1|grp1|casA|gen1|vgr1	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	acl	_	_
-7	seipsum	seipse	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	6	obj	_	_
+7	seipsum	seipsum	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	6	obj	_	_
 8	mouetur	moueo	VERB	K3|modJ|tem1|gen6|vgr1	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 9	per	per	ADP	S4	AdpType=Prep	10	case	_	_
 10	accidens	accidens	NOUN	C1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
@@ -10459,7 +10459,7 @@
 5	quod	quod	SCONJ	O4	_	9	mark	_	_
 6	nullum	nullus	DET	F1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	7	det	_	_
 7	mouens	moueo	VERB	K2|modD|tem1|grp1|casA|gen3|vgr1	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	csubj:pass	_	_
-8	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	7	obj	_	_
+8	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	7	obj	_	_
 9	mouetur	moueo	VERB	K3|modJ|tem1|gen6|vgr1	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	csubj	_	_
 10	semper	semper	ADV	O4	_	9	advmod	_	_
 11	cuius	qui	PRON	F1|grn1|casB|gen3|vgr2	Case=Gen|Gender=Neut|Number=Sing|PronType=Rel	12	nmod	_	_
@@ -10478,7 +10478,7 @@
 1	sed	sed	CCONJ	O4|vgr1	_	5	cc	_	_
 2	primum	primus	ADJ	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	3	amod	_	_
 3	mouens	moueo	VERB	K2|modD|tem1|grp1|casA|gen3|vgr1	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	csubj:pass	_	_
-4	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	3	obj	_	_
+4	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	3	obj	_	_
 5	mouetur	moueo	VERB	K3|modJ|tem1|gen6|vgr1	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 6	semper	semper	ADV	O4	_	5	advmod	_	SpaceAfter=No
 7	:	:	PUNCT	Punc	_	5	punct	_	_
@@ -10501,7 +10501,7 @@
 13	motu	motus	NOUN	D1|grn1|casF|gen1	Case=Abl|Gender=Masc|Number=Sing	17	obl:arg	_	_
 14	primi	primus	ADJ	B1|grn1|casB|gen3	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	15	amod	_	_
 15	mouentis	moueo	VERB	K2|modD|tem1|grp1|casB|gen3	Aspect=Imp|Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	13	acl	_	_
-16	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	15	obj	_	_
+16	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	15	obj	_	_
 17	causetur	causo	VERB	J3|modK|tem1|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	advcl	_	SpaceAfter=No
 18	.	.	PUNCT	Punc	_	3	punct	_	_
 
@@ -10513,7 +10513,7 @@
 3	quod	quod	SCONJ	O4	_	7	mark	_	_
 4	primum	primus	ADJ	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	5	amod	_	_
 5	mouens	moueo	VERB	K2|modD|tem1|grp1|casA|gen3|vgr1	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	csubj:pass	_	_
-6	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	5	obj	_	_
+6	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	5	obj	_	_
 7	mouetur	moueo	VERB	K3|modJ|tem1|gen6|vgr1	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	1	csubj:pass	_	_
 8	a	ab	ADP	S4|vgr1	AdpType=Prep	9	case	_	_
 9	motore	motor	NOUN	C1|grn1|casF|gen1	Case=Abl|Gender=Masc|Number=Sing	7	obl:arg	_	_
@@ -10588,7 +10588,7 @@
 6	pars	pars	NOUN	C1|grn1|casA|gen2	Case=Nom|Gender=Fem|Number=Sing	18	advcl	_	_
 7	alicuius	aliqui	DET	F1|grn1|casB|gen3|vgr2	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	8	det	_	_
 8	mouentis	moueo	VERB	K2|modD|tem1|grp1|casB|gen3	Aspect=Imp|Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	acl	_	_
-9	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	8	obj	_	SpaceAfter=No
+9	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	8	obj	_	SpaceAfter=No
 10	,	,	PUNCT	Punc	_	6	punct	_	_
 11	ulterius	ultra	ADV	C1|grn2|casG	Degree=Cmp	18	advmod	_	_
 12	aristoteles	aristoteles	PROPN	C1|grn1|casA|gen1|vgr1	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No
@@ -10605,7 +10605,7 @@
 23	est	sum	AUX	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	cop	_	_
 24	pars	pars	NOUN	C1|grn1|casA|gen2	Case=Nom|Gender=Fem|Number=Sing	21	acl:relcl	_	_
 25	mouentis	moueo	VERB	K2|modD|tem1|grp1|casB|gen3	Aspect=Imp|Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	24	acl	_	_
-26	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	25	obj	_	SpaceAfter=No
+26	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	25	obj	_	SpaceAfter=No
 27	,	,	PUNCT	Punc	_	29	punct	_	_
 28	alium	alius	DET	F1|grn1|casD|gen1	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Ind	29	det	_	_
 29	motorem	motor	NOUN	C1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
@@ -10624,7 +10624,7 @@
 2	enim	enim	ADV	O4	_	10	advmod	_	_
 3	omne	omnis	DET	C1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	4	det	_	_
 4	mouens	moueo	VERB	K2|modD|tem1|grp1|casA|gen3|vgr1	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	csubj:pass	_	_
-5	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	4	obj	_	_
+5	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	4	obj	_	_
 6	moueatur	moueo	VERB	K3|modK|tem1|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	advcl	_	_
 7	per	per	ADP	S4	AdpType=Prep	8	case	_	_
 8	appetitum	appetitus	NOUN	D1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
@@ -10636,7 +10636,7 @@
 14	est	sum	AUX	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	_
 15	pars	pars	NOUN	C1|grn1|casA|gen2	Case=Nom|Gender=Fem|Number=Sing	12	acl:relcl	_	_
 16	mouentis	moueo	VERB	K2|modD|tem1|grp1|casB|gen3	Aspect=Imp|Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	acl	_	_
-17	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	16	obj	_	SpaceAfter=No
+17	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	16	obj	_	SpaceAfter=No
 18	,	,	PUNCT	Punc	_	12	punct	_	_
 19	moueat	moueo	VERB	K3|modB|tem1|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	csubj	_	_
 20	propter	propter	ADP	S4	AdpType=Prep	21	case	_	_
@@ -10934,7 +10934,7 @@
 13	uel	uel	CCONJ	O4|vgr1	_	4	fixed	_	_
 14	ad	ad	ADP	S4	AdpType=Prep	15	mark	_	_
 15	mouens	moueo	VERB	K2|modD|tem1|grp1|casD|gen3|vgr1	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	ccomp	_	_
-16	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	15	obj	_	SpaceAfter=No
+16	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	15	obj	_	SpaceAfter=No
 17	,	,	PUNCT	Punc	_	21	punct	_	_
 18	ex	ex	ADP	S4|vgr2	AdpType=Prep	19	case	_	_
 19	quo	qui	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Rel	21	obl	_	_
@@ -11497,7 +11497,7 @@
 3	res	res	NOUN	E1|grn1|casA|gen2	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
 4	unaquaeque	unusquisque	DET	F1|grn1|casA|gen2|vgr1	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
 5	in	in	ADP	S4	AdpType=Prep	6	case	_	_
-6	seipsa	seipse	PRON	F1|grn1|casF|gen2	Case=Abl|Gender=Fem|Number=Sing|PronType=Prs|Reflex=Yes	1	obl	_	_
+6	seipsa	seipsum	PRON	F1|grn1|casF|gen2	Case=Abl|Gender=Fem|Number=Sing|PronType=Prs|Reflex=Yes	1	obl	_	_
 7	esse	esse	NOUN	G1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
 8	proprium	proprius	ADJ	B1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
 9	ab	ab	ADP	S4|vgr2	AdpType=Prep	12	case	_	_
@@ -12066,7 +12066,7 @@
 # reference = ittb-scg-s630
 1	non	non	PART	O4	Polarity=Neg	0	root	_	_
 2	a	ab	ADP	S4|vgr1	AdpType=Prep	1	case	_	_
-3	seipso	seipse	NOUN	F1|grn1|casF|gen1	Case=Abl|Gender=Masc|Number=Sing	1	advcl	_	SpaceAfter=No
+3	seipso	seipsum	NOUN	F1|grn1|casF|gen1	Case=Abl|Gender=Masc|Number=Sing	1	advcl	_	SpaceAfter=No
 4	:	:	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = dev-s631
@@ -12272,7 +12272,7 @@
 14	sed	sed	CCONJ	O4|vgr1	_	18	cc	_	_
 15	est	sum	AUX	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	_
 16	per	per	ADP	S4	AdpType=Prep	17	case	_	_
-17	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	18	obl	_	_
+17	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	18	obl	_	_
 18	necessarium	necessarius	ADJ	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No
 19	.	.	PUNCT	Punc	_	5	punct	_	_
 
@@ -12308,7 +12308,7 @@
 8	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	12	nsubj	_	_
 9	est	sum	AUX	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	_
 10	per	per	ADP	S4	AdpType=Prep	11	case	_	_
-11	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	12	obl	_	_
+11	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	12	obl	_	_
 12	necessarium	necessarius	ADJ	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	acl:relcl	_	SpaceAfter=No
 13	.	.	PUNCT	Punc	_	2	punct	_	_
 
@@ -12833,7 +12833,7 @@
 2	igitur	igitur	ADV	O4	_	11	advmod	_	_
 3	non	non	PART	O4	Polarity=Neg	6	advmod	_	_
 4	est	sum	AUX	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
-5	totus	totus	PRON	F1|grn1|casA|gen1	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	6	nmod:advmod	_	_
+5	totus	totus	PRON	F1|grn1|casA|gen1	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	6	advcl:cmpr	_	_
 6	actus	actus	NOUN	D1|grn1|casA|gen1	Case=Nom|Gender=Masc|Number=Sing	11	csubj	_	SpaceAfter=No
 7	,	,	PUNCT	Punc	_	6	punct	_	_
 8	non	non	PART	O4	Polarity=Neg	10	advmod	_	_
@@ -13524,7 +13524,7 @@
 13	differant	differo	VERB	N3|modB|tem1|gen9	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	csubj:pass	_	SpaceAfter=No
 14	,	,	PUNCT	Punc	_	17	punct	_	_
 15	sed	sed	CCONJ	O4|vgr1	_	17	cc	_	_
-16	seipsis	seipse	PRON	F1|grn1|casO|gen3	Case=Abl|Gender=Neut|Number=Plur|PronType=Prs|Reflex=Yes	17	obl	_	_
+16	seipsis	seipsum	PRON	F1|grn1|casO|gen3	Case=Abl|Gender=Neut|Number=Plur|PronType=Prs|Reflex=Yes	17	obl	_	_
 17	diuersa	diuersus	ADJ	B1|grn1|casJ|gen3|vgr1	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	11	conj	_	_
 18	sunt	sum	AUX	N3|modA|tem1|gen9	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	SpaceAfter=No
 19	.	.	PUNCT	Punc	_	11	punct	_	_
@@ -13550,7 +13550,7 @@
 3	participant	participo	VERB	J3|modA|tem1|gen9	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	genus	genus	NOUN	C1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
 5	quasi	quasi	ADV	O4	_	6	advmod	_	_
-6	partem	pars	NOUN	C1|grn1|casD|gen2	Case=Acc|Gender=Fem|Number=Sing	4	nmod:advmod	_	_
+6	partem	pars	NOUN	C1|grn1|casD|gen2	Case=Acc|Gender=Fem|Number=Sing	4	advcl:cmpr	_	_
 7	suae	suus	DET	A1|grn1|casB|gen2|vgr1	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	_
 8	essentiae	essentia	NOUN	A1|grn1|casB|gen2|vgr1	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
 9	:	:	PUNCT	Punc	_	3	punct	_	_
@@ -13566,7 +13566,7 @@
 6	quibus	qui	PRON	F1|grn1|casO|gen3	Case=Abl|Gender=Neut|Number=Plur|PronType=Rel	7	obl	_	_
 7	differant	differo	VERB	N3|modB|tem1|gen9	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	csubj:pass	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	11	punct	_	_
-9	seipsis	seipse	PRON	F1|grn1|casO|gen3	Case=Abl|Gender=Neut|Number=Plur|PronType=Prs|Reflex=Yes	11	obl	_	_
+9	seipsis	seipsum	PRON	F1|grn1|casO|gen3	Case=Abl|Gender=Neut|Number=Plur|PronType=Prs|Reflex=Yes	11	obl	_	_
 10	enim	enim	ADV	O4	_	11	advmod	_	_
 11	diuersa	diuersus	ADJ	B1|grn1|casJ|gen3|vgr1	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	5	conj	_	_
 12	sunt	sum	AUX	N3|modA|tem1|gen9	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	SpaceAfter=No
@@ -13915,7 +13915,7 @@
 1	non	non	PART	O4	Polarity=Neg	6	advmod	_	_
 2	enim	enim	ADV	O4	_	6	advmod	_	_
 3	ipse	ipse	PRON	F1|grn1|casA|gen1	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Prs	6	nsubj	_	_
-4	seipsum	seipse	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	5	obj	_	_
+4	seipsum	seipsum	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	5	obj	_	_
 5	componere	compono	VERB	L3|modH|tem1	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Act	6	xcomp	_	_
 6	posset	possum	VERB	N3|modB|tem2|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbType=Mod|Voice=Act	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	Punc	_	11	punct	_	_
@@ -13933,7 +13933,7 @@
 1	esset	sum	AUX	N3|modB|tem2|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
 2	enim	enim	ADV	O4	_	3	advmod	_	_
 3	prius	prior	ADJ	C1|grn2|casA|gen3	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing|NumType=Ord	0	root	_	_
-4	seipso	seipse	PRON	F1|grn1|casF|gen1	Case=Abl|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	3	obl	_	SpaceAfter=No
+4	seipso	seipsum	PRON	F1|grn1|casF|gen1	Case=Abl|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	3	obl	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	8	punct	_	_
 6	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	8	nsubj	_	_
 7	est	sum	AUX	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
@@ -14413,7 +14413,7 @@
 10	sed	sed	CCONJ	O4|vgr1	_	14	cc	_	_
 11	est	sum	AUX	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
 12	per	per	ADP	S4	AdpType=Prep	13	case	_	_
-13	seipsum	seipse	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	14	obl	_	_
+13	seipsum	seipsum	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	14	obl	_	_
 14	necessarium	necessarius	ADJ	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No
 15	,	,	PUNCT	Punc	_	17	punct	_	_
 16	et	et	CCONJ	O4	_	17	cc	_	_
@@ -18664,7 +18664,7 @@
 23	singulariter	singulariter	ADV	C1|grn1|casG	Degree=Pos	24	advmod	_	_
 24	subsistunt	subsisto	VERB	L3|modA|tem1|gen9	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_
 25	in	in	ADP	S4	AdpType=Prep	26	case	_	_
-26	seipsis	seipse	PRON	F1|grn1|casO|gen2	Case=Abl|Gender=Fem|Number=Plur|PronType=Prs|Reflex=Yes	27	obl	_	_
+26	seipsis	seipsum	PRON	F1|grn1|casO|gen2	Case=Abl|Gender=Fem|Number=Plur|PronType=Prs|Reflex=Yes	27	obl	_	_
 27	indiuiduatae	indiuiduo	VERB	J2|modM|tem4|grp1|casJ|gen2	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	24	xcomp	_	SpaceAfter=No
 28	.	.	PUNCT	Punc	_	18	punct	_	_
 
@@ -18800,7 +18800,7 @@
 8	existens	exsisto	VERB	L2|modD|tem1|grp1|casA|gen2|vgr1	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
 9	et	et	CCONJ	O4	_	12	cc	_	_
 10	in	in	ADP	S4	AdpType=Prep	11	case	_	_
-11	seipsa	seipse	PRON	F1|grn1|casF|gen2	Case=Abl|Gender=Fem|Number=Sing|PronType=Prs|Reflex=Yes	12	obl	_	_
+11	seipsa	seipsum	PRON	F1|grn1|casF|gen2	Case=Abl|Gender=Fem|Number=Sing|PronType=Prs|Reflex=Yes	12	obl	_	_
 12	indiuiduata	indiuiduo	VERB	J2|modM|tem4|grp1|casA|gen2	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	conj	_	SpaceAfter=No
 13	:	:	PUNCT	Punc	_	16	punct	_	_
 14	cum	cum	SCONJ	S4|vgr1	_	16	mark	_	_
@@ -20690,7 +20690,7 @@
 17	secundum	secundum	ADP	S4	AdpType=Prep	18	case	_	_
 18	idem	idem	PRON	F1|grn1|casD|gen3|vgr1	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	19	obl	_	_
 19	faceret	facio	VERB	N3|modB|tem2|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	_
-20	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	19	obj	_	_
+20	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	19	obj	_	_
 21	in	in	ADP	S4	AdpType=Prep	22	case	_	_
 22	actu	actus	NOUN	D1|grn1|casF|gen1	Case=Abl|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
 23	;	;	PUNCT	Punc	_	1	punct	_	_
@@ -24043,7 +24043,7 @@
 23	esse	sum	AUX	N3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	22	cop	_	SpaceAfter=No
 24	,	,	PUNCT	Punc	_	26	punct	_	_
 25	quasi	quasi	ADV	O4	_	26	advmod	_	_
-26	simplicissimum	simplex	ADJ	B1|grn3|casD|gen3	Case=Acc|Degree=Abs|Gender=Neut|Number=Sing	22	amod:advmod	_	SpaceAfter=No
+26	simplicissimum	simplex	ADJ	B1|grn3|casD|gen3	Case=Acc|Degree=Abs|Gender=Neut|Number=Sing	22	advcl:pred	_	SpaceAfter=No
 27	:	:	PUNCT	Punc	_	9	punct	_	_
 
 # sent_id = dev-s1313
@@ -24468,7 +24468,7 @@
 14	compositum	compositum	NOUN	B1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
 15	erit	sum	AUX	N3|modA|tem3|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	16	cop	_	_
 16	mouens	moueo	VERB	K2|modD|tem1|grp1|casA|gen3|vgr1	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
-17	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	16	obj	_	SpaceAfter=No
+17	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	16	obj	_	SpaceAfter=No
 18	.	.	PUNCT	Punc	_	16	punct	_	_
 
 # sent_id = dev-s1339
@@ -24476,7 +24476,7 @@
 # reference = ittb-scg-s1339
 1	sed	sed	CCONJ	O4|vgr1	_	4	cc	_	_
 2	mouens	moueo	VERB	K2|modD|tem1|grp1|casA|gen3|vgr1	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	csubj	_	_
-3	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	2	obj	_	_
+3	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	2	obj	_	_
 4	potest	possum	VERB	N3|modA|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	0	root	_	_
 5	moueri	moueo	VERB	K3|modQ|tem1|vgr1	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Pass	4	xcomp	_	_
 6	et	et	CCONJ	O4	_	8	cc	_	_
@@ -24507,7 +24507,7 @@
 8	motus	motus	NOUN	D1|grn1|casB|gen1	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
 9	indeficientiam	indeficientia	NOUN	A1|grn1|casD|gen2	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
 10	ex	ex	ADP	S4|vgr2	AdpType=Prep	11	case	_	_
-11	seipso	seipse	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	7	obl	_	SpaceAfter=No
+11	seipso	seipsum	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	7	obl	_	SpaceAfter=No
 12	.	.	PUNCT	Punc	_	7	punct	_	_
 
 # sent_id = dev-s1342
@@ -24517,7 +24517,7 @@
 2	igitur	igitur	ADV	O4	_	1	advmod	_	_
 3	supra	supra	ADP	S4	AdpType=Prep	4	mark	_	_
 4	mouens	moueo	VERB	K2|modD|tem1|grp1|casD|gen3|vgr1	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	advcl	_	_
-5	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	4	obj	_	_
+5	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	4	obj	_	_
 6	ponere	pono	VERB	L3|modH|tem1	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Act	1	csubj	_	_
 7	aliud	alius	DET	F1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	9	det	_	_
 8	primum	primus	ADJ	B1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	9	amod	_	_
@@ -24547,7 +24547,7 @@
 12	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 13	corporis	corpus	NOUN	C1|grn1|casB|gen3	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
 14	mouentis	moueo	VERB	K2|modD|tem1|grp1|casB|gen3	Aspect=Imp|Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	13	acl	_	_
-15	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	14	obj	_	SpaceAfter=No
+15	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	14	obj	_	SpaceAfter=No
 16	.	.	PUNCT	Punc	_	12	punct	_	_
 
 # sent_id = dev-s1344
@@ -24586,7 +24586,7 @@
 1	sicut	sicut	SCONJ	O4|vgr1	_	5	mark	_	_
 2	enim	enim	ADV	O4	_	11	advmod	_	_
 3	mouens	moueo	VERB	K2|modD|tem1|grp1|casA|gen3|vgr1	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	csubj	_	_
-4	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	3	obj	_	_
+4	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	3	obj	_	_
 5	potest	possum	VERB	N3|modA|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	10	advcl	_	_
 6	quiescere	quiesco	VERB	L3|modH|tem1	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Act	5	xcomp	_	_
 7	et	et	CCONJ	O4	_	8	cc	_	_
@@ -24622,10 +24622,10 @@
 17	pars	pars	NOUN	C1|grn1|casA|gen2	Case=Nom|Gender=Fem|Number=Sing	9	acl:relcl	_	_
 18	corporis	corpus	NOUN	C1|grn1|casB|gen3	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
 19	mouentis	moueo	VERB	K2|modD|tem1|grp1|casB|gen3	Aspect=Imp|Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	18	acl	_	_
-20	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	19	obj	_	_
+20	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	19	obj	_	_
 21	quasi	quasi	ADV	O4	_	23	advmod	_	_
 22	aliqua	aliqui	DET	F1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	23	det	_	_
-23	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Gender=Fem|Number=Sing	17	nmod:advmod	_	_
+23	forma	forma	NOUN	A1|grn1|casA|gen2	Case=Nom|Gender=Fem|Number=Sing	17	advcl:cmpr	_	_
 24	eius	is	PRON	F1|grn1|casB|gen3|vgr2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem,Prs	23	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	Punc	_	6	punct	_	_
 
@@ -24771,13 +24771,13 @@
 # sent_id = dev-s1356
 # text = commentator etiam dicit, in xi metaphys., quod hic locus fuit lapsus sapientum gentis zabiorum, idest idolatrarum quia scilicet posuerunt deum esse formam caeli.
 # reference = ittb-scg-s1356
-1	commentator	commentator	PROPN	C1|grn1|casA|gen1	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+1	commentator	commentator	NOUN	C1|grn1|casA|gen1	Case=Nom|Gender=Masc|Number=Sing|Proper=Yes	3	nsubj	_	_
 2	etiam	etiam	ADV	O4|vgr1	_	3	advmod:emph	_	_
 3	dicit	dico	VERB	N3|modA|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Punc	_	6	punct	_	_
 5	in	in	ADP	S4	AdpType=Prep	6	case	_	_
 6	xi	num._rom.	NUM	G5|vgr1	NumForm=Digit	3	obl	_	_
-7	metaphys.	metaphys.	NOUN	5	Abbr=Yes	6	nmod	_	SpaceAfter=No
+7	metaphys.	metaphys.	ADJ	5	Abbr=Yes|Proper=Yes	6	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	13	punct	_	_
 9	quod	quod	SCONJ	O4	_	13	mark	_	_
 10	hic	hic	DET	F1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
@@ -24786,12 +24786,12 @@
 13	lapsus	lapsus	NOUN	D1|grn1|casA|gen1	Case=Nom|Gender=Masc|Number=Sing	3	ccomp	_	_
 14	sapientum	sapio	VERB	L2|modD|tem1|grp1|casK|gen1|vgr2	Aspect=Imp|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	13	acl	_	_
 15	gentis	gens	NOUN	C1|grn1|casB|gen2	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
-16	zabiorum	zabius	PROPN	B1|grn1|casK|gen1	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+16	zabiorum	zabius	ADJ	B1|grn1|casK|gen1	Case=Gen|Gender=Masc|NameType=Nat|Number=Plur	15	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	Punc	_	19	punct	_	_
-18	idest	idest	ADV	O4	_	19	advmod:cc	_	_
-19	idolatrarum	idololatra	NOUN	A1|grn1|casK|gen1|vgr2	Case=Gen|Gender=Masc|Number=Plur	14	appos	_	_
+18	idest	idest	CCONJ	O4	Compound=Yes|ConjType=Expl|VerbForm=Fin	19	cc	_	_
+19	idolatrarum	idololatra	NOUN	A1|grn1|casK|gen1|vgr2	Case=Gen|Gender=Masc|Number=Plur	14	conj:expl	_	_
 20	quia	quia	SCONJ	O4	_	22	mark	_	_
-21	scilicet	scilicet	CCONJ	O4	_	22	cc	_	_
+21	scilicet	scilicet	CCONJ	O4	Compound=Yes|ConjType=Expl|VerbForm=Fin	22	cc	_	_
 22	posuerunt	pono	VERB	L3|modA|tem4|gen9	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	conj:expl	_	_
 23	deum	deus	PROPN	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing	25	nsubj	_	_
 24	esse	sum	AUX	N3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	25	cop	_	_
@@ -25675,7 +25675,7 @@
 12	totum	totus	DET	F1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	13	det	_	_
 13	esse	esse	NOUN	G1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing	9	nmod	_	_
 14	in	in	ADP	S4	AdpType=Prep	15	case	_	_
-15	seipso	seipse	PRON	F1|grn1|casF|gen1	Case=Abl|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	9	obl	_	_
+15	seipso	seipsum	PRON	F1|grn1|casF|gen1	Case=Abl|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	9	obl	_	_
 16	accepit	accipio	VERB	L3|modA|tem4|gen6	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
 17	et	et	CCONJ	O4	_	18	cc	_	_
 18	praeaccepit	praeaccipio	VERB	L3|modA|tem4|gen6	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	SpaceAfter=No
@@ -25793,7 +25793,7 @@
 12	peruenit	peruenio	VERB	M3|modA|tem1|gen6|vgr1	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	csubj:pass	_	_
 13	ad	ad	ADP	S4	AdpType=Prep	14	case	_	_
 14	actum	actus	NOUN	D1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing	12	obl:arg	_	_
-15	completum	completus	ADJ	B1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod:advmod	_	SpaceAfter=No
+15	completum	completus	ADJ	B1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	advcl:pred	_	SpaceAfter=No
 16	,	,	PUNCT	Punc	_	18	punct	_	_
 17	sed	sed	CCONJ	O4|vgr1	_	18	cc	_	_
 18	id	is	PRON	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Prs	12	conj	_	_
@@ -27348,7 +27348,7 @@
 3	lapis	lapis	NOUN	C1|grn1|casA|gen1	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	deum	deus	PROPN	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
 5	ut	ut	ADV	O4|vgr1	_	6	advmod	_	_
-6	causam	causa	NOUN	A1|grn1|casD|gen2|vgr1	Case=Acc|Gender=Fem|Number=Sing	4	nmod:advmod	_	_
+6	causam	causa	NOUN	A1|grn1|casD|gen2|vgr1	Case=Acc|Gender=Fem|Number=Sing	4	advcl:cmpr	_	_
 7	secundum	secundum	ADP	S4	AdpType=Prep	8	case	_	_
 8	esse	esse	NOUN	G1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No
 9	,	,	PUNCT	Punc	_	11	punct	_	_
@@ -27476,7 +27476,7 @@
 17	,	,	PUNCT	Punc	_	15	punct	_	_
 18	immo	immo	ADV	O4|vgr1	_	20	advmod:emph	_	_
 19	multo	multo	ADV	B1|grn1|casG	Degree=Pos	20	advmod:emph	_	_
-20	minorem	paruus	ADJ	C1|grn2|casD|gen2	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	14	amod:advmod	_	SpaceAfter=No
+20	minorem	paruus	ADJ	C1|grn2|casD|gen2	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	14	advcl:pred	_	SpaceAfter=No
 21	,	,	PUNCT	Punc	_	20	punct	_	_
 22	per	per	ADP	S4	AdpType=Prep	23	case	_	_
 23	quaedam	quidam	PRON	F1|grn1|casM|gen3|vgr1	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	25	obl	_	_
@@ -27887,7 +27887,7 @@
 4	nihil	nihil	PRON	G1|casA|gen3|vgr1	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	5	nsubj:pass	_	_
 5	praedicatur	praedico	VERB	J3|modJ|tem1|gen6|vgr1	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 6	ut	ut	ADV	O4|vgr1	_	7	advmod	_	_
-7	genus	genus	NOUN	C1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing	4	nmod:advmod	_	_
+7	genus	genus	NOUN	C1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing	4	advcl:cmpr	_	_
 8	nec	nec	CCONJ	O4	_	10	cc	_	_
 9	ut	ut	ADV	O4|vgr1	_	10	advmod	_	_
 10	differentia	differentia	NOUN	A1|grn1|casA|gen2|vgr1	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
@@ -27938,7 +27938,7 @@
 17	praedicatur	praedico	VERB	J3|modJ|tem1|gen6|vgr1	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	conj	_	_
 18	neque	neque	CCONJ	O4	_	20	mark	_	_
 19	ut	ut	ADV	O4|vgr1	_	20	advmod	_	_
-20	accidens	accidens	NOUN	C1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing	14	nmod:advmod	_	_
+20	accidens	accidens	NOUN	C1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing	14	advcl:cmpr	_	_
 21	neque	neque	CCONJ	O4	Polarity=Neg	23	cc	_	_
 22	ut	ut	ADV	O4|vgr1	_	23	advmod	_	_
 23	proprium	proprius	ADJ	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	20	conj	_	SpaceAfter=No
@@ -28232,13 +28232,13 @@
 27	ens	ens	NOUN	C1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing	25	xcomp	_	_
 28	quasi	quasi	ADV	O4	_	30	advmod	_	_
 29	ipsa	ipse	DET	F1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem,Prs	30	det	_	_
-30	essentia	essentia	NOUN	A1|grn1|casA|gen2|vgr1	Case=Nom|Gender=Fem|Number=Sing	27	nmod:advmod	_	SpaceAfter=No
+30	essentia	essentia	NOUN	A1|grn1|casA|gen2|vgr1	Case=Nom|Gender=Fem|Number=Sing	27	advcl:cmpr	_	SpaceAfter=No
 31	,	,	PUNCT	Punc	_	33	punct	_	_
 32	et	et	CCONJ	O4	_	33	cc	_	_
 33	bonus	bonus	ADJ	B1|grn1|casA|gen1	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	conj	_	_
 34	quasi	quasi	ADV	O4	_	36	advmod	_	_
 35	ipsa	ipse	DET	F1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem,Prs	36	det	_	_
-36	bonitas	bonitas	NOUN	C1|grn1|casA|gen2	Case=Nom|Gender=Fem|Number=Sing	33	nmod:advmod	_	SpaceAfter=No
+36	bonitas	bonitas	NOUN	C1|grn1|casA|gen2	Case=Nom|Gender=Fem|Number=Sing	33	advcl:cmpr	_	SpaceAfter=No
 37	;	;	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id = dev-s1522
@@ -28873,20 +28873,20 @@
 21	sanum	sanus	ADJ	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	20	xcomp	_	_
 22	ut	ut	ADV	O4|vgr1	_	24	advmod	_	_
 23	eius	is	PRON	F1|grn1|casB|gen2|vgr2	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem,Prs	24	nmod	_	_
-24	subiectum	subicio	NOUN	B1|grn1|casA|gen3|vgr2	Case=Nom|Gender=Neut|Number=Sing	21	nmod:advmod	_	SpaceAfter=No
+24	subiectum	subicio	NOUN	B1|grn1|casA|gen3|vgr2	Case=Nom|Gender=Neut|Number=Sing	21	advcl:cmpr	_	SpaceAfter=No
 25	,	,	PUNCT	Punc	_	26	punct	_	_
 26	medicina	medicina	NOUN	A1|grn1|casA|gen2	Case=Nom|Gender=Fem|Number=Sing	21	conj	_	_
 27	ut	ut	ADV	O4|vgr1	_	29	advmod	_	_
 28	eius	is	PRON	F1|grn1|casB|gen2|vgr2	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem,Prs	29	nmod	_	_
-29	effectiuum	effectiuus	ADJ	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	26	amod:advmod	_	SpaceAfter=No
+29	effectiuum	effectiuus	ADJ	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	26	advcl:pred	_	SpaceAfter=No
 30	,	,	PUNCT	Punc	_	31	punct	_	_
 31	cibus	cibus	NOUN	B1|grn1|casA|gen1	Case=Nom|Gender=Masc|Number=Sing	21	conj	_	_
 32	ut	ut	ADV	O4|vgr1	_	33	advmod	_	_
-33	conseruatiuum	conseruatiuus	ADJ	B1|grn1|casA|gen3|vgr1	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	31	amod:advmod	_	SpaceAfter=No
+33	conseruatiuum	conseruatiuus	ADJ	B1|grn1|casA|gen3|vgr1	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	31	advcl:pred	_	SpaceAfter=No
 34	,	,	PUNCT	Punc	_	35	punct	_	_
 35	urina	urina	NOUN	A1|grn1|casA|gen2	Case=Nom|Gender=Fem|Number=Sing	21	conj	_	_
 36	ut	ut	ADV	O4|vgr1	_	37	advmod	_	_
-37	signum	signum	NOUN	B1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing	35	nmod:advmod	_	SpaceAfter=No
+37	signum	signum	NOUN	B1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing	35	advcl:cmpr	_	SpaceAfter=No
 38	.	.	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = dev-s1554
@@ -29850,7 +29850,7 @@
 4	non	non	PART	O4	Polarity=Neg	7	advmod	_	_
 5	mouet	moueo	VERB	K3|modA|tem1|gen6|vgr1	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	per	per	ADP	S4	AdpType=Prep	7	case	_	_
-7	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	5	obl	_	SpaceAfter=No
+7	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	5	obl	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	12	punct	_	_
 9	sed	sed	CCONJ	O4|vgr1	_	12	cc	_	_
 10	secundum	secundum	ADP	S4	AdpType=Prep	12	mark	_	_
@@ -29868,7 +29868,7 @@
 2	uero	uero	ADV	B1|grn1|casG|vgr1	Degree=Pos	3	advmod	_	_
 3	mouet	moueo	VERB	K3|modA|tem1|gen6|vgr1	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	per	per	ADP	S4	AdpType=Prep	5	case	_	_
-5	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	3	obl	_	SpaceAfter=No
+5	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	3	obl	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	3	punct	_	_
 
 # sent_id = dev-s1596
@@ -30350,7 +30350,7 @@
 14	quia	quia	SCONJ	O4	_	18	mark	_	_
 15	ipsum	ipse	PRON	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Prs	18	nsubj	_	_
 16	secundum	secundum	ADP	S4	AdpType=Prep	17	case	_	_
-17	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	18	obl	_	_
+17	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	18	obl	_	_
 18	perfectum	perfectus	ADJ	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	conj	_	_
 19	est	sum	AUX	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	SpaceAfter=No
 20	,	,	PUNCT	Punc	_	23	punct	_	_
@@ -32622,7 +32622,7 @@
 14	ordinem	ordo	NOUN	C1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
 15	intenderent	intendo	VERB	L3|modB|tem2|gen9	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	csubj	_	_
 16	ex	ex	ADP	S4|vgr2	AdpType=Prep	17	case	_	_
-17	seipsis	seipse	PRON	F1|grn1|casO|gen1	Case=Abl|Gender=Masc|Number=Plur|PronType=Prs|Reflex=Yes	15	obl	_	_
+17	seipsis	seipsum	PRON	F1|grn1|casO|gen1	Case=Abl|Gender=Masc|Number=Plur|PronType=Prs|Reflex=Yes	15	obl	_	_
 18	secundum	secundum	ADP	S4	AdpType=Prep	21	mark	_	_
 19	quod	quod	SCONJ	O4	_	18	fixed	_	_
 20	sunt	sum	AUX	N3|modA|tem1|gen9	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	_	_
@@ -32832,7 +32832,7 @@
 5	necesse-esse	sum	VERB	N3|grn8|modH|tem1|comZ	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Act	4	ccomp	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	8	punct	_	_
 7	per	per	ADP	S4	AdpType=Prep	8	case	_	_
-8	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	5	obl	_	SpaceAfter=No
+8	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	5	obl	_	SpaceAfter=No
 9	,	,	PUNCT	Punc	_	12	punct	_	_
 10	sicut	sicut	SCONJ	O4|vgr1	_	12	mark	_	_
 11	supra	supra	ADV	S4	_	12	advmod	_	_
@@ -33097,7 +33097,7 @@
 4	est	sum	VERB	N3|modA|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	necesse-esse	sum	VERB	N3|grn8|modH|tem1|comZ	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Act	4	ccomp	_	_
 6	per	per	ADP	S4	AdpType=Prep	7	case	_	_
-7	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	5	obl	_	SpaceAfter=No
+7	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	5	obl	_	SpaceAfter=No
 8	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = dev-s1803
@@ -33359,7 +33359,7 @@
 9	sit	sum	VERB	N3|modB|tem1|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
 10	necesse-esse	sum	VERB	N3|grn8|modH|tem1|comZ	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Act	9	ccomp	_	_
 11	per	per	ADP	S4	AdpType=Prep	12	case	_	_
-12	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	10	obl	_	SpaceAfter=No
+12	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	10	obl	_	SpaceAfter=No
 13	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = dev-s1815
@@ -33803,7 +33803,7 @@
 6	aut	aut	CCONJ	O4	_	10	mark	_	_
 7	est	sum	AUX	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
 8	per	per	ADP	S4	AdpType=Prep	9	case	_	_
-9	seipsam	seipse	PRON	F1|grn1|casD|gen2	Case=Acc|Gender=Fem|Number=Sing|PronType=Prs|Reflex=Yes	10	obl	_	_
+9	seipsam	seipsum	PRON	F1|grn1|casD|gen2	Case=Acc|Gender=Fem|Number=Sing|PronType=Prs|Reflex=Yes	10	obl	_	_
 10	indiuiduata	indiuiduo	VERB	J2|modM|tem4|grp1|casA|gen2	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 11	in	in	ADP	S4	AdpType=Prep	13	case	_	_
 12	hoc	hic	DET	F1|grn1|casF|gen1	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
@@ -33833,7 +33833,7 @@
 # reference = ittb-scg-s1844
 1	si	si	SCONJ	O4	_	3	mark	_	_
 2	per	per	ADP	S4	AdpType=Prep	3	case	_	_
-3	seipsam	seipse	NOUN	F1|grn1|casD|gen2	Case=Acc|Gender=Fem|Number=Sing	6	advcl	_	SpaceAfter=No
+3	seipsam	seipsum	NOUN	F1|grn1|casD|gen2	Case=Acc|Gender=Fem|Number=Sing	6	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	Punc	_	3	punct	_	_
 5	ergo	ergo	ADV	O4	_	6	advmod	_	_
 6	impossibile	impossibilis	ADJ	C1|grn1|casA|gen3|vgr1	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
@@ -35299,7 +35299,7 @@
 12	est	sum	AUX	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	_
 13	necesse	necesse	ADJ	G1	_	5	advcl	_	_
 14	per	per	ADP	S4	AdpType=Prep	15	case	_	_
-15	seipsum	seipse	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	13	obl	_	SpaceAfter=No
+15	seipsum	seipsum	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	13	obl	_	SpaceAfter=No
 16	.	.	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = dev-s1930
@@ -36062,7 +36062,7 @@
 8	sui	suus	DET	F1|grn1|casB|gen3	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	_
 9	esse	esse	NOUN	G1|casB|gen3	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
 10	praeter	praeter	ADP	S4|vgr1	AdpType=Prep	11	case	_	_
-11	seipsum	seipse	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	4	obl	_	SpaceAfter=No
+11	seipsum	seipsum	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	4	obl	_	SpaceAfter=No
 12	,	,	PUNCT	Punc	_	4	punct	_	_
 13	oportet	oportet	VERB	K3|modA|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 14	ipsum	ipse	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem,Prs	16	nsubj	_	_
@@ -36301,7 +36301,7 @@
 28	unum	unus	NUM	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|NumType=Card	21	obl:arg	_	_
 29	primum	primus	ADJ	B1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	28	amod	_	_
 30	mouens	moueo	VERB	K2|modD|tem1|grp1|casD|gen3|vgr1	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	28	acl	_	_
-31	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	30	obj	_	SpaceAfter=No
+31	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	30	obj	_	SpaceAfter=No
 32	.	.	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = dev-s1983
@@ -36309,7 +36309,7 @@
 # reference = ittb-scg-s1983
 1	mouens	moueo	VERB	K2|modD|tem1|grp1|casA|gen3|vgr1	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	csubj	_	_
 2	autem	autem	CCONJ	O4	_	5	cc	_	_
-3	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	1	obj	_	_
+3	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	1	obj	_	_
 4	se	se	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	5	obj	_	_
 5	mouet	moueo	VERB	K3|modA|tem1|gen6|vgr1	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	per	per	ADP	S4	AdpType=Prep	7	case	_	_
@@ -36325,7 +36325,7 @@
 2	enim	enim	ADV	O4	_	4	advmod	_	_
 3	huiusmodi	huiusmodi	ADV	O4|vgr2	_	1	advmod	_	_
 4	inueniuntur	inuenio	VERB	M3|modJ|tem1|gen9|vgr1	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-5	seipsa	seipse	PRON	F1|grn1|casM|gen3	Case=Acc|Gender=Neut|Number=Plur|PronType=Prs|Reflex=Yes	6	obj	_	_
+5	seipsa	seipsum	PRON	F1|grn1|casM|gen3	Case=Acc|Gender=Neut|Number=Plur|PronType=Prs|Reflex=Yes	6	obj	_	_
 6	mouere	moueo	VERB	K3|modH|tem1|vgr1	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Act	4	xcomp	_	SpaceAfter=No
 7	,	,	PUNCT	Punc	_	11	punct	_	_
 8	utpote	utpote	SCONJ	O4	_	11	mark	_	_
@@ -36347,7 +36347,7 @@
 4	in	in	ADP	S4	AdpType=Prep	6	mark	_	_
 5	primo	primus	ADJ	B1|grn1|casF|gen3	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	6	amod	_	_
 6	mouente	moueo	VERB	K2|modD|tem1|grp1|casF|gen3	Aspect=Imp|Case=Abl|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	advcl	_	_
-7	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	6	obj	_	_
+7	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	6	obj	_	_
 8	oportet	oportet	VERB	K3|modA|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 9	et	et	CCONJ	O4	_	12	mark	_	_
 10	quod	quod	SCONJ	O4	_	12	mark	_	_
@@ -36418,7 +36418,7 @@
 26	est	sum	AUX	N3|modA|tem1|gen6	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	cop	_	_
 27	pars	pars	NOUN	C1|grn1|casA|gen2	Case=Nom|Gender=Fem|Number=Sing	24	acl:relcl	_	_
 28	mouentis	moueo	VERB	K2|modD|tem1|grp1|casB|gen3	Aspect=Imp|Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	27	acl	_	_
-29	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	28	obj	_	_
+29	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	28	obj	_	_
 30	sicut	sicut	SCONJ	O4|vgr1	_	31	mark	_	_
 31	appetibile	appetibilis	NOUN	C1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing	22	advcl	_	_
 32	ad	ad	ADP	S4	AdpType=Prep	33	mark	_	_
@@ -36498,7 +36498,7 @@
 5	esse	sum	AUX	N3|modH|tem1	Tense=Pres|VerbForm=Inf|Voice=Act	6	cop	_	_
 6	appetibile	appetibilis	ADJ	C1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	csubj	_	_
 7	ut	ut	ADV	O4|vgr1	_	8	advmod	_	_
-8	intellectum	intellego	VERB	L2|modM|tem4|grp1|casD|gen3	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	nmod:advmod	_	SpaceAfter=No
+8	intellectum	intellego	VERB	L2|modM|tem4|grp1|casD|gen3	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	advcl:cmpr	_	SpaceAfter=No
 9	.	.	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = dev-s1992
@@ -36540,7 +36540,7 @@
 19	quod	quod	SCONJ	O4	_	23	mark	_	_
 20	ei	is	PRON	F1|grn1|casC|gen3	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem,Prs	23	obl:arg	_	_
 21	tamquam	tamquam	ADV	O4|vgr2	_	22	advmod	_	_
-22	intelligibili	intelligibilis	ADJ	C1|grn1|casC|gen3	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	20	amod:advmod	_	_
+22	intelligibili	intelligibilis	ADJ	C1|grn1|casC|gen3	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	20	advcl:pred	_	_
 23	unitur	unio	VERB	M3|modJ|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	acl	_	SpaceAfter=No
 24	.	.	PUNCT	Punc	_	9	punct	_	_
 
@@ -36558,7 +36558,7 @@
 9	primum	primus	ADJ	B1|grn1|casA|gen3	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	10	amod	_	_
 10	motum	moueo	VERB	K2|modM|tem4|grp1|casA|gen3	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	csubj	_	_
 11	moueat	moueo	VERB	K3|modB|tem1|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl	_	_
-12	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	11	obj	_	SpaceAfter=No
+12	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	11	obj	_	SpaceAfter=No
 13	,	,	PUNCT	Punc	_	16	punct	_	_
 14	ut	ut	SCONJ	O4|vgr1	_	16	mark	_	_
 15	philosophi	philosophus	NOUN	B1|grn1|casJ|gen1	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
@@ -36587,7 +36587,7 @@
 11	aliquod	aliqui	DET	F1|grn1|casD|gen3|varA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	13	det	_	_
 12	primum	primus	ADJ	B1|grn1|casD|gen3	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	13	amod	_	_
 13	mouens	moueo	VERB	K2|modD|tem1|grp1|casD|gen3|vgr1	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	acl	_	_
-14	seipsum	seipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	13	obj	_	SpaceAfter=No
+14	seipsum	seipsum	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	13	obj	_	SpaceAfter=No
 15	,	,	PUNCT	Punc	_	18	punct	_	_
 16	sed	sed	CCONJ	O4|vgr1	_	18	cc	_	_
 17	in	in	ADP	S4	AdpType=Prep	18	mark	_	_
@@ -36993,7 +36993,7 @@
 7	finem	finis	NOUN	C1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing	3	obl:arg	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	1	punct	_	_
 9	aut	aut	CCONJ	O4	_	11	mark	_	_
-10	ipsum	ipse	PRON	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Prs	1	nmod:advmod	_	_
+10	ipsum	ipse	PRON	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Prs	1	advcl:cmpr	_	_
 11	praestituit	praestituo	VERB	L3|modA|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 12	sibi	se	PRON	F1|grn1|casC|gen3	Case=Dat|Gender=Neut|Number=Sing|PronType=Prs|Reflex=Yes	11	obl:arg	_	_
 13	finem	finis	NOUN	C1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
@@ -37114,7 +37114,7 @@
 9	et	et	CCONJ	O4	_	10	cc	_	_
 10	est	sum	VERB	N3|modA|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
 11	per	per	ADP	S4	AdpType=Prep	12	case	_	_
-12	seipsum	seipse	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	13	obl	_	_
+12	seipsum	seipsum	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	13	obl	_	_
 13	necesse-esse	sum	VERB	N3|grn8|modH|tem1|comZ	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Act	10	ccomp	_	SpaceAfter=No
 14	,	,	PUNCT	Punc	_	17	punct	_	_
 15	quem	qui	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	17	obj	_	_
@@ -38083,7 +38083,7 @@
 8	intelligibili	intelligibilis	ADJ	C1|grn1|casF|gen2	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
 9	intelligeret	intellego	VERB	L3|modB|tem2|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	advcl	_	_
 10	quam	quam	SCONJ	O4	_	11	mark	_	_
-11	seipso	seipse	NOUN	F1|grn1|casF|gen1	Case=Abl|Gender=Masc|Number=Sing	6	advcl	_	SpaceAfter=No
+11	seipso	seipsum	NOUN	F1|grn1|casF|gen1	Case=Abl|Gender=Masc|Number=Sing	6	advcl	_	SpaceAfter=No
 12	,	,	PUNCT	Punc	_	9	punct	_	_
 13	esset	sum	VERB	N3|modB|tem2|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 14	in	in	ADP	S4	AdpType=Prep	15	case	_	_
@@ -38246,7 +38246,7 @@
 14	esset	sum	AUX	N3|modB|tem2|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	_	_
 15	intelligibilis	intelligibilis	ADJ	C1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	advcl	_	_
 16	per	per	ADP	S4	AdpType=Prep	17	case	_	_
-17	seipsam	seipse	PRON	F1|grn1|casD|gen2	Case=Acc|Gender=Fem|Number=Sing|PronType=Prs|Reflex=Yes	15	obl	_	SpaceAfter=No
+17	seipsam	seipsum	PRON	F1|grn1|casD|gen2	Case=Acc|Gender=Fem|Number=Sing|PronType=Prs|Reflex=Yes	15	obl	_	SpaceAfter=No
 18	,	,	PUNCT	Punc	_	22	punct	_	_
 19	sed	sed	CCONJ	O4|vgr1	_	22	cc	_	_
 20	illa	ille	DET	F1|grn1|casA|gen2	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
