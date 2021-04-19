@@ -1,8 +1,0 @@
-Queste sono le ultime versioni corrette a posteriori dell'ITTB e soddisfacenti la validazione della versione 2.6. NB: alcune di queste si basano su interventi a mano per gestire gli orphan, per evitare di codificare innumerevoli regole ad hoc ed estremamente complesse. 
-
-Non possono essere caricate in dev prima del 15/5/20. Così vanno bene, ma prima di novembre ci sarà auspicabilmente un miglioramento basato su un nuovo processo di conversione.
-- Campa cavallo...
-
-Cosa va fatto ancora: una ridistribuzione di dev, train, test, facendo attenzione ai diversi sottodocumenti, ed esplicitando i riferimenti all'interno del corpus (i.e. SCG 1,2,...)
-
-18/5/20: Effetuato il caricamento in dev delle versioni aggiornate (nessun cambiamento nella tripartizione del corpus).
