@@ -3235,7 +3235,7 @@
 7	hoc	hic	PRON	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	_
 8	sufficeret	sufficio	VERB	L3|modB|tem2|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 9	ad	ad	ADP	S4	AdpType=Prep	10	mark	_	_
-10	ponendum	pono	VERB	L2|modE|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|Voice=Act	8	advcl:arg	_	_
+10	ponendum	pono	VERB	L2|modE|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|Voice=Act	8	advcl	_	_
 11	deum	deus	PROPN	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing	12	nsubj	_	_
 12	intelligere	intellego	VERB	L3|modH|tem1	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Act	10	ccomp	_	_
 13	multitudinem	multitudo	NOUN	C1|grn1|casD|gen2	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
@@ -3744,7 +3744,7 @@
 9	aliquis	aliqui	DET	F1|grn1|casA|gen1|varA	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
 10	intellectus	intellectus	NOUN	D1|grn1|casA|gen1	Case=Nom|Gender=Masc|Number=Sing	13	nsubj:pass	_	_
 11	ad	ad	ADP	S4	AdpType=Prep	12	mark	_	_
-12	operandum	operor	VERB	J2|modN|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|Voice=Pass	13	advcl:arg	_	_
+12	operandum	operor	VERB	J2|modN|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|Voice=Pass	13	advcl	_	_
 13	disponitur	dispono	VERB	L3|modJ|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	acl	_	SpaceAfter=No
 14	,	,	PUNCT	Punc	_	7	punct	_	_
 15	alius	alius	PRON	F1|grn1|casA|gen1	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	18	nsubj	_	_
@@ -7102,7 +7102,7 @@
 10	et	et	CCONJ	O4	_	16	cc	_	_
 11	ad	ad	ADP	S4	AdpType=Prep	13	mark	_	_
 12	ipsum	ipse	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Prs	13	obj	_	_
-13	cognoscendum	cognosco	VERB	L2|modE|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|Voice=Act	16	advcl:arg	_	_
+13	cognoscendum	cognosco	VERB	L2|modE|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|Voice=Act	16	advcl	_	_
 14	natura	natura	NOUN	A1|grn1|casA|gen2	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
 15	cognoscentis	cognosco	VERB	L2|modD|tem1|grp1|casB|gen3	Aspect=Imp|Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	acl	_	_
 16	sufficit	sufficio	VERB	L3|modA|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
@@ -7166,7 +7166,7 @@
 4	discurrit	discurro	VERB	L3|modA|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	ad	ad	ADP	S4	AdpType=Prep	7	mark	_	_
 6	lapidem	lapis	NOUN	C1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
-7	cognoscendum	cognosco	VERB	L2|modE|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|Voice=Act	4	advcl:arg	_	_
+7	cognoscendum	cognosco	VERB	L2|modE|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|Voice=Act	4	advcl	_	_
 8	cuius	qui	PRON	F1|grn1|casB|gen1|vgr2	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	9	nmod	_	_
 9	similitudo	similitudo	NOUN	C1|grn1|casA|gen2	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
 10	in	in	ADP	S4	AdpType=Prep	11	case	_	_
@@ -7198,7 +7198,7 @@
 3	procedit	procedo	VERB	L3|modA|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	ad	ad	ADP	S4	AdpType=Prep	6	mark	_	_
 5	aliquid	aliquis	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	6	obj	_	_
-6	cognoscendum	cognosco	VERB	L2|modE|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|Voice=Act	3	advcl:arg	_	_
+6	cognoscendum	cognosco	VERB	L2|modE|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|Voice=Act	3	advcl	_	_
 7	per	per	ADP	S4	AdpType=Prep	9	case	_	_
 8	rationis	ratio	NOUN	C1|grn1|casB|gen2|vgr1	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
 9	discursum	discursus	NOUN	D1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
@@ -10293,7 +10293,7 @@
 1	ad	ad	ADP	S4	AdpType=Prep	4	mark	_	_
 2	quod	qui	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	4	obj	_	_
 3	quidem	quidem	ADV	O4	_	7	advmod	_	_
-4	confirmandum	confirmo	VERB	J2|modE|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|Voice=Act	7	advcl:arg	_	_
+4	confirmandum	confirmo	VERB	J2|modE|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|Voice=Act	7	advcl	_	_
 5	septem	septem	NUM	G1	NumType=Card	6	nummod	_	_
 6	uiis	uia	NOUN	A1|grn1|casO|gen2	Case=Abl|Gender=Fem|Number=Plur	7	obl	_	_
 7	procedunt	procedo	VERB	L3|modA|tem1|gen9	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
@@ -20541,7 +20541,7 @@
 23	mouetur	moueo	VERB	K3|modJ|tem1|gen6|vgr1	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	19	acl:relcl	_	_
 24	aliquis	aliquis	PRON	F1|grn1|casA|gen1|varA	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	23	nsubj:pass	_	_
 25	ad	ad	ADP	S4	AdpType=Prep	26	mark	_	_
-26	agendum	ago	VERB	L2|modE|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|Voice=Act	23	advcl:arg	_	SpaceAfter=No
+26	agendum	ago	VERB	L2|modE|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|Voice=Act	23	advcl	_	SpaceAfter=No
 27	.	.	PUNCT	Punc	_	6	punct	_	_
 
 # sent_id = test-s1130
@@ -26533,7 +26533,7 @@
 38	idem	idem	DET	F1|grn1|casD|gen3|vgr1	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	39	det	_	_
 39	opus	opus	NOUN	C1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing	41	obj	_	_
 40	aequaliter	aequaliter	ADV	C1|grn1|casG|vgr1	Degree=Pos	41	advmod	_	_
-41	perficiendum	perficio	VERB	L2|modE|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|Voice=Act	35	advcl:arg	_	SpaceAfter=No
+41	perficiendum	perficio	VERB	L2|modE|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|Voice=Act	35	advcl	_	SpaceAfter=No
 42	.	.	PUNCT	Punc	_	9	punct	_	_
 
 # sent_id = test-s1451
@@ -26865,7 +26865,7 @@
 20	aut	aut	CCONJ	O4	_	27	cc	_	_
 21	quod	quod	SCONJ	O4	_	27	mark	_	_
 22	ad	ad	ADP	S4	AdpType=Prep	23	mark	_	_
-23	uolendum	uolo	VERB	N2|modE|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|VerbType=Mod|Voice=Act	27	advcl:arg	_	_
+23	uolendum	uolo	VERB	N2|modE|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|VerbType=Mod|Voice=Act	27	advcl	_	_
 24	ab	ab	ADP	S4|vgr2	AdpType=Prep	25	case	_	_
 25	aliquo	aliquis	PRON	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing|PronType=Ind	27	obl:arg	_	_
 26	exteriori	exterior	ADJ	C1|grn2|casF|gen3	Case=Abl|Degree=Cmp|Gender=Neut|Number=Sing	25	amod	_	_
@@ -26906,7 +26906,7 @@
 29	dei	deus	PROPN	F1|grn1|casB|gen1	Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
 30	ad	ad	ADP	S4	AdpType=Prep	32	mark	_	_
 31	aliquid	aliquis	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	32	obj	_	_
-32	uolendum	uolo	VERB	N2|modE|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|VerbType=Mod|Voice=Act	37	advcl:arg	_	_
+32	uolendum	uolo	VERB	N2|modE|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|VerbType=Mod|Voice=Act	37	advcl	_	_
 33	per	per	ADP	S4	AdpType=Prep	36	case	_	_
 34	sui	suus	DET	B1|grn1|casB|gen1	Case=Gen|Gender=Masc|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	35	det	_	_
 35	intellectus	intellectus	NOUN	D1|grn1|casB|gen1	Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
@@ -29364,7 +29364,7 @@
 11	habere	habeo	VERB	K3|modH|tem1	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Act	5	xcomp	_	_
 12	quod	quod	SCONJ	O4	_	17	mark	_	_
 13	ad	ad	ADP	S4	AdpType=Prep	14	mark	_	_
-14	uolendum	uolo	VERB	N2|modE|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|VerbType=Mod|Voice=Act	17	advcl:arg	_	_
+14	uolendum	uolo	VERB	N2|modE|grp1|casD	Aspect=Perf|Case=Acc|Degree=Pos|Number=Sing|VerbForm=Ger|VerbType=Mod|Voice=Act	17	advcl	_	_
 15	iudicio	iudicium	NOUN	B1|grn1|casF|gen3|vgr1	Case=Abl|Gender=Neut|Number=Sing	17	obl	_	_
 16	rationis	ratio	NOUN	C1|grn1|casB|gen2|vgr1	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
 17	inclinatur	inclino	VERB	J3|modJ|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	advcl	_	SpaceAfter=No
