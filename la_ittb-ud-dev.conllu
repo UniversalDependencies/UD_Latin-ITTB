@@ -2563,7 +2563,7 @@
 5	inuestigationi	inuestigatio	NOUN	C1|grn1|casC|gen2	Case=Dat|Gender=Fem|Number=Sing	10	obl:arg	_	_
 6	rationis	ratio	NOUN	C1|grn1|casB|gen2|vgr1	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
 7	humanae	humanus	ADJ	A1|grn1|casB|gen2	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
-8	plerumque	plerusque	DET	B1|grn1|casA|gen3|comH	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	10	obl	_	_
+8	plerumque	plerusque	DET	B1|grn1|casA|gen3|comH	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing|PronType=Ind	10	obl	_	_
 9	falsitas	falsitas	NOUN	C1|grn1|casA|gen2	Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 10	admiscetur	admisceo	VERB	K3|modJ|tem1|gen6|vgr1	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	xcomp	_	SpaceAfter=No
 11	,	,	PUNCT	Punc	_	13	punct	_	_
@@ -14849,9 +14849,9 @@
 3	de	de	ADP	S4	AdpType=Prep	4	case	_	_
 4	corpore	corpus	NOUN	C1|grn1|casF|gen3	Case=Abl|Gender=Neut|Number=Sing	9	obl	_	_
 5	circulari	circularis	ADJ	C1|grn1|casF|gen3	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
-6	quam	quam	SCONJ	5|gen1	Abbr=Yes|Gender=Masc	8	mark	_	_
+6	quam	quam	SCONJ	5|gen1	ConjType=Cmpr	8	mark	_	_
 7	de	de	ADP	S4	AdpType=Prep	8	mark	_	_
-8	recto	rego	VERB	B1|grn1|casF|gen3	Aspect=Perf|Case=Abl|Degree=Pos|Gender=Neut|Number=Sing	4	advcl:cmpr	_	_
+8	recto	rego	VERB	B1|grn1|casF|gen3	Aspect=Perf|Case=Abl|Degree=Pos|Gender=Neut|Number=Sing	9	advcl:cmpr	_	_
 9	probatur	probo	VERB	J3|modJ|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 10	in	in	ADP	S4	AdpType=Prep	11	case	_	_
 11	i	i	NUM	G5|vgr1	NumForm=Digit	9	obl	_	_
