@@ -25,7 +25,7 @@
 # sent_id = dev-s3
 # text = prou. 8-7.
 # reference = ittb-scg-s3
-1	prou.	prouerbium	NOUN	5	Abbr=Yes|NameType=Let|Proper=Yes	0	root	_	_
+1	prou.	prouerbium	NOUN	5	Abbr=Yes|NameType=Lit|Proper=Yes	0	root	_	_
 2	8-7	8-7	NUM	G5	InflClass=Ind|NumForm=Digit	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	Punc	_	1	punct	_	_
 
@@ -30217,7 +30217,7 @@
 # text = et thren. 3-25 dicitur:
 # reference = ittb-scg-s1620
 1	et	et	CCONJ	O4	_	4	cc	_	_
-2	thren.	threnos	NOUN	5	Abbr=Yes|NameType=Let|Proper=Yes	4	obl	_	_
+2	thren.	threnos	NOUN	5	Abbr=Yes|NameType=Lit|Proper=Yes	4	obl	_	_
 3	3-25	3-25	NUM	G5	InflClass=Ind|NumForm=Digit	2	nummod	_	_
 4	dicitur	dico	VERB	N3|modJ|tem1|gen6	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 5	:	:	PUNCT	Punc	_	4	punct	_	_
@@ -34271,7 +34271,7 @@
 # text = nam deut. 6-4 dicitur:
 # reference = ittb-scg-s1873
 1	nam	nam	ADV	O4	_	4	advmod	_	_
-2	deut.	deuteronomium	NOUN	5	Abbr=Yes|NameType=Let|Proper=Yes	4	obl	_	_
+2	deut.	deuteronomium	NOUN	5	Abbr=Yes|NameType=Lit|Proper=Yes	4	obl	_	_
 3	6-4	6-4	NUM	G5	InflClass=Ind|NumForm=Digit	2	nummod	_	_
 4	dicitur	dico	VERB	N3|modJ|tem1|gen6	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 5	:	:	PUNCT	Punc	_	4	punct	_	_

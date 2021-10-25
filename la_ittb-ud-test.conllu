@@ -15740,7 +15740,7 @@
 # sent_id = test-s862
 # text = prou. 15-11:
 # reference = ittb-scg-s2963
-1	prou.	prouerbium	NOUN	5	Abbr=Yes|NameType=Let|Proper=Yes	0	root	_	_
+1	prou.	prouerbium	NOUN	5	Abbr=Yes|NameType=Lit|Proper=Yes	0	root	_	_
 2	15-11	15-11	NUM	G5	InflClass=Ind|NumForm=Digit	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	Punc	_	1	punct	_	_
 
@@ -19181,7 +19181,7 @@
 # sent_id = test-s1058
 # text = prou. 15-11 dicitur:
 # reference = ittb-scg-s3159
-1	prou.	prouerbium	NOUN	5	Abbr=Yes|NameType=Let|Proper=Yes	3	obl	_	_
+1	prou.	prouerbium	NOUN	5	Abbr=Yes|NameType=Lit|Proper=Yes	3	obl	_	_
 2	15-11	15-11	NUM	G5	InflClass=Ind|NumForm=Digit	1	nummod	_	_
 3	dicitur	dico	VERB	N3|modJ|tem1|gen6	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 4	:	:	PUNCT	Punc	_	3	punct	_	_
@@ -32533,7 +32533,7 @@
 # sent_id = test-s1758
 # text = prou. 9: delectabar singulos dies ludens coram eo, dicit diuina sapientia, quae deus est, ut ostensum est.
 # reference = ittb-scg-s3859
-1	prou.	prouerbium	NOUN	5	Abbr=Yes|NameType=Let|Proper=Yes	11	obl	_	_
+1	prou.	prouerbium	NOUN	5	Abbr=Yes|NameType=Lit|Proper=Yes	11	obl	_	_
 2	9	9	NUM	G5	InflClass=Ind|NumForm=Digit	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	Punc	_	1	punct	_	_
 4	delectabar	delecto	VERB	J3|modJ|tem2|gen4	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	11	ccomp	_	_
@@ -32603,7 +32603,7 @@
 4	scriptura	scriptura	NOUN	A1|grn1|casA|gen2	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	5	nsubj	_	_
 5	commemorat	commemoro	VERB	J3|modA|tem1|gen6	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	7	punct	_	_
-7	deut.	deuteronomium	NOUN	5	Abbr=Yes|NameType=Let|Proper=Yes	5	obl	_	_
+7	deut.	deuteronomium	NOUN	5	Abbr=Yes|NameType=Lit|Proper=Yes	5	obl	_	_
 8	33-3	33-3	NUM	G5	InflClass=Ind|NumForm=Digit	7	nummod	_	SpaceAfter=No
 9	:	:	PUNCT	Punc	_	5	punct	_	_
 
@@ -36068,7 +36068,7 @@
 3	est	sum	AUX	N3|modA|tem1|gen6	InflClass=LatAnom|Number=Sing|VerbForm=Fin	0	root	_	_
 4	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	5	nsubj:pass	_	_
 5	dicitur	dico	VERB	N3|modJ|tem1|gen6	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	ccomp	_	_
-6	deut.	deuteronomium	NOUN	5	Abbr=Yes|NameType=Let|Proper=Yes	5	obl	_	_
+6	deut.	deuteronomium	NOUN	5	Abbr=Yes|NameType=Lit|Proper=Yes	5	obl	_	_
 7	32-4	32-4	NUM	G5	InflClass=Ind|NumForm=Digit	6	nummod	_	SpaceAfter=No
 8	:	:	PUNCT	Punc	_	3	punct	_	_
 
@@ -37238,7 +37238,7 @@
 # reference = ittb-scg-s4134
 1	dicitur	dico	VERB	N3|modJ|tem1|gen6	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	enim	enim	ADV	O4	_	1	advmod	_	_
-3	deut.	deuteronomium	NOUN	5	Abbr=Yes|NameType=Let|Proper=Yes	1	obl	_	_
+3	deut.	deuteronomium	NOUN	5	Abbr=Yes|NameType=Lit|Proper=Yes	1	obl	_	_
 4	32-40	32-40	NUM	G5	InflClass=Ind|NumForm=Digit	3	nummod	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	7	punct	_	_
 6	ex	ex	ADP	S4|vgr2	AdpType=Prep	7	case	_	_
@@ -38039,7 +38039,7 @@
 2	est	sum	AUX	N3|modA|tem1|gen6	InflClass=LatAnom|Number=Sing|VerbForm=Fin	0	root	_	_
 3	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	4	nsubj:pass	_	_
 4	dicitur	dico	VERB	N3|modJ|tem1|gen6	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	csubj	_	_
-5	deut.	deuteronomium	NOUN	5	Abbr=Yes|NameType=Let|Proper=Yes	4	obl	_	_
+5	deut.	deuteronomium	NOUN	5	Abbr=Yes|NameType=Lit|Proper=Yes	4	obl	_	_
 6	32-40	32-40	NUM	G5	InflClass=Ind|NumForm=Digit	5	nummod	_	SpaceAfter=No
 7	,	,	PUNCT	Punc	_	9	punct	_	_
 8	ex	ex	ADP	S4|vgr2	AdpType=Prep	9	case	_	_
