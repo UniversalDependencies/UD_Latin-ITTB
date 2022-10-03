@@ -10419,13 +10419,13 @@
 # text = secunda est quod singularia non semper sunt.
 # reference = ittb-scg-s2690
 1	secunda	secundus	ADJ	A1|grn1|casA|gen2	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Ord	0	root	_	_
-2	est	sum	AUX	N3|modA|tem1|gen6	InflClass=LatAnom|Number=Sing|VerbForm=Fin	1	parataxis	_	_
-3	quod	quod	SCONJ	O4	_	7	mark	_	_
-4	singularia	singularis	ADJ	C1|grn1|casJ|gen3	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur	7	nsubj	_	_
+2	est	sum	AUX	N3|modA|tem1|gen6	InflClass=LatAnom|Number=Sing|VerbForm=Fin	1	cop	_	_
+3	quod	quod	SCONJ	O4	_	4	mark	_	_
+4	singularia	singularis	ADJ	C1|grn1|casJ|gen3	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur	1	csubj	_	_
 5	non	non	PART	O4	Polarity=Neg	6	advmod:neg	_	_
-6	semper	semper	ADV	O4	_	7	advmod	_	_
-7	sunt	sum	AUX	N3|modA|tem1|gen9	InflClass=LatAnom|Number=Plur|VerbForm=Fin	2	csubj	_	SpaceAfter=No
-8	.	.	PUNCT	Punc	_	2	punct	_	_
+6	semper	semper	ADV	O4	_	4	advmod	_	_
+7	sunt	sum	AUX	N3|modA|tem1|gen9	InflClass=LatAnom|Number=Plur|VerbForm=Fin	4	cop	_	SpaceAfter=No
+8	.	.	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = test-s590
 # text = aut igitur semper scientur a deo: aut quandoque scientur et quandoque non scientur.
