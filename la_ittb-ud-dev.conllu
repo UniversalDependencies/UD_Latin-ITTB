@@ -17073,12 +17073,12 @@
 # reference = ittb-scg-s938
 1	et	et	CCONJ	O4	_	2	cc	_	_
 2	sic	sic	ADV	O4	_	0	root	_	_
-3	nec	nec	ADV	O4	_	2	conj	_	_
+3	nec	nec	CCONJ	O4	Polarity=Neg	2	orphan	_	_
 4	quod	quod	SCONJ	O4	_	8	mark	_	_
 5	in	in	ADP	S4	AdpType=Prep	7	case	_	_
 6	perpetuo	perpetuus	ADJ	B1|grn1|casF|gen3	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	7	amod	_	_
 7	tempore	tempus	NOUN	C1|grn1|casF|gen3	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	8	obl	_	_
-8	moueat	moueo	VERB	K3|modB|tem1|gen6	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No
+8	moueat	moueo	VERB	K3|modB|tem1|gen6	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	SpaceAfter=No
 9	.	.	PUNCT	Punc	_	2	punct	_	_
 
 # sent_id = dev-s939
