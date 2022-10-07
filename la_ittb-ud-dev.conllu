@@ -17052,20 +17052,20 @@
 # text = et quod possibile est non moueri, non habet de se ut perpetuo tempore moueatur.
 # reference = ittb-scg-s937
 1	et	et	CCONJ	O4	_	9	cc	_	_
-2	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	3	nsubj	_	_
-3	possibile	possibilis	ADJ	C1|grn1|casA|gen3	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	9	csubj	_	_
+2	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	9	nsubj	_	_
+3	possibile	possibilis	ADJ	C1|grn1|casA|gen3	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	2	acl:relcl	_	_
 4	est	sum	AUX	N3|modA|tem1|gen6	InflClass=LatAnom|Number=Sing|VerbForm=Fin	3	cop	_	_
 5	non	non	PART	O4	Polarity=Neg	6	advmod:neg	_	_
 6	moueri	moueo	VERB	K3|modQ|tem1|vgr1	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatE|InflClass[nominal]=Ind|Number=Sing|VerbForm=Inf|Voice=Pass	3	xcomp	_	SpaceAfter=No
-7	,	,	PUNCT	Punc	_	3	punct	_	_
+7	,	,	PUNCT	Punc	_	2	punct	_	_
 8	non	non	PART	O4	Polarity=Neg	9	advmod:neg	_	_
 9	habet	habeo	VERB	K3|modA|tem1|gen6	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 10	de	de	ADP	S4	AdpType=Prep	11	case	_	_
 11	se	se	PRON	F1|grn1|casF|gen3	Case=Abl|InflClass=LatAnom|PronType=Prs|Reflex=Yes	9	obl	_	_
-12	ut	ut	ADV	O4|vgr1	_	9	advmod	_	_
+12	ut	ut	SCONJ	O4|vgr1	_	15	mark	_	_
 13	perpetuo	perpetuus	ADJ	B1|grn1|casF|gen3	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	14	amod	_	_
-14	tempore	tempus	NOUN	C1|grn1|casF|gen3	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	15	obl	_	_
-15	moueatur	moueo	VERB	K3|modK|tem1|gen6	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	ccomp	_	SpaceAfter=No
+14	tempore	tempus	NOUN	C1|grn1|casF|gen3	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	15	obl:tmod	_	_
+15	moueatur	moueo	VERB	K3|modK|tem1|gen6	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	advcl	_	SpaceAfter=No
 16	.	.	PUNCT	Punc	_	9	punct	_	_
 
 # sent_id = dev-s938
