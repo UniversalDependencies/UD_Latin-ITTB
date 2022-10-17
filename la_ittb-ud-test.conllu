@@ -8023,7 +8023,7 @@
 15	indiuisibiliter	indiuisibilis	NOUN	C1|grn1|casG|vgr1	Case=Loc|Number=Sing	8	conj	_	_
 16	diuisibilia	diuisibilis	NOUN	C1|grn1|casM|gen3	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	8	conj	_	_
 17	et	et	CCONJ	O4	_	18	cc	_	_
-18	multa	multus	NOUN	B1|grn1|casM|gen3	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|NumType=Card	8	conj	_	_
+18	multa	multus	DET	B1|grn1|casM|gen3	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|NumType=Card	8	conj	_	_
 19	unitiue	unitiuus	NOUN	B1|grn1|casG|comH	Case=Loc|Number=Sing	8	conj	_	SpaceAfter=No
 20	.	.	PUNCT	Punc	_	8	punct	_	_
 
@@ -23255,7 +23255,7 @@
 11	materialia	materialis	NOUN	C1|grn1|casJ|gen3	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur	15	orphan	_	_
 12	immaterialiter	immaterialis	NOUN	C1|grn1|casG	Case=Loc|Number=Sing	15	orphan	_	_
 13	et	et	CCONJ	O4	_	15	mark	_	_
-14	multa	multus	NOUN	B1|grn1|casJ|gen3	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur|NumType=Card	15	orphan	_	_
+14	multa	multus	DET	B1|grn1|casJ|gen3	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur|NumType=Card	15	orphan	_	_
 15	unite	unio	VERB	M2|modM|tem4|grp1|casG	Aspect=Perf|Case=Loc|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	Lilaflcat=LatI|SpaceAfter=No
 16	,	,	PUNCT	Punc	_	17	punct	_	_
 17	ut	ut	SCONJ	O4|vgr1	PronType=Rel	15	mark	_	_

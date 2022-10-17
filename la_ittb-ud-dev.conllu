@@ -2450,7 +2450,7 @@
 1	tum	tum	CCONJ	O4	_	2	cc	_	_
 2	etiam	etiam	ADV	O4|vgr1	_	0	root	_	_
 3	propter	propter	ADP	S4	_	4	case	_	_
-4	multa	multus	NOUN	B1|grn1|casM|gen3	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|NumType=Card	2	conj	_	_
+4	multa	multus	DET	B1|grn1|casM|gen3	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|NumType=Card	2	conj	_	_
 5	quae	qui	PRON	F1|grn1|casJ|gen3|vgr1	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	6	nsubj:pass	_	_
 6	praeexiguntur	praeexigo	VERB	L3|modJ|tem1|gen9	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	acl:relcl	_	SpaceAfter=No
 7	,	,	PUNCT	Punc	_	9	punct	_	_
@@ -27431,7 +27431,7 @@
 21	pertingit	pertingo	VERB	L3|modA|tem1|gen6	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl	_	_
 22	nisi	nisi	SCONJ	O4	_	24	mark	_	_
 23	per	per	ADP	S4	_	24	case	_	_
-24	multa	multus	NOUN	A1|grn1|casM|gen3	Case=Acc|Gender=Neut|InflClass=IndEurA|Number=Plur|NumType=Card	21	advcl	_	SpaceAfter=No
+24	multa	multus	DET	A1|grn1|casM|gen3	Case=Acc|Gender=Neut|InflClass=IndEurA|Number=Plur|NumType=Card	21	advcl	_	SpaceAfter=No
 25	.	.	PUNCT	Punc	_	6	punct	_	_
 
 # sent_id = dev-s1481
@@ -32172,7 +32172,7 @@
 11	fieri	facio	VERB	N3|modQ|tem1	Aspect=Imp|InflClass=LatI2|VerbForm=Vnoun|Voice=Pass	7	csubj	_	_
 12	quam	quam	SCONJ	O4	_	14	mark	_	_
 13	per	per	ADP	S4	_	14	case	_	_
-14	multa	multus	NOUN	B1|grn1|casM|gen3	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|NumType=Card	7	advcl	_	SpaceAfter=No
+14	multa	multus	DET	B1|grn1|casM|gen3	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|NumType=Card	7	advcl	_	SpaceAfter=No
 15	.	.	PUNCT	Punc	_	7	punct	_	_
 
 # sent_id = dev-s1751
