@@ -46,7 +46,7 @@ The release of UD v2.3 sees a major update and revision of the conversion script
     * Implementations of the [amendment](https://universaldependencies.org/changes.html#multiple-subjects) for clausal non-verbal copular constructions and corrections regarding multiple subjects and introduction of the `:outer` subtype for subjects and copulas
     * Implementation of the [amendment for reported speech](https://universaldependencies.org/changes.html#reported-speech), with the introduction of the `:reported` and `:reporting` subtypes
     * Implementation of the proposal of [`VerbForm`](la-feat/VerbForm) reform as for (Cecchini, 2021; see documentation entry for `VerbForm`)
-        * at the same time, introduction of the `Traditional` feature in `MISC` to take into account traditional denominations  
+        * at the same time, introduction of the `TraditionalMood` and `TraditionalTense` features in `MISC` to take into account traditional denominations  
     * Double-pronoun constructions, also called free relatives, have been highlighted semi-automatically by means of the the newly introduced `:relcl` subtype
     * Many "small words" (especially particles) and their features have started being standardised among treebanks. For example, *is*/*ea*/*id* is now always a `PRON` with `PronType=Prs`, *nam* always a `PART`, `AdvType` has been added to many "adverbs"...
         * *et*, *nec* etc. now stay `CCONJ` even when acting as focalisers
