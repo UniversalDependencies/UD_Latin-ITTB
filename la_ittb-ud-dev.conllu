@@ -14551,7 +14551,7 @@
 5	principium	principium	NOUN	B1|grn1|casA|gen3	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	7	nsubj	_	_
 6	est	sum	AUX	N3|modA|tem1|gen6	InflClass=LatAnom|Number=Sing|VerbForm=Fin	7	cop	_	_
 7	extra	extra	ADV	S4	_	2	csubj:cleft	_	_
-8	nil	nihil	PRON	G1|casD|gen3|vgr1	Polarity=Neg|PronType=Ind	9	advmod	_	_
+8	nil	nihil	ADV	G1|casD|gen3|vgr1	Polarity=Neg|PronType=Ind	9	advmod	_	_
 9	conferente	confero	VERB	N2|modD|tem1|grp1|casF|gen3	Aspect=Imp|Case=Abl|Gender=Neut|InflClass=LatAnom|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	7	advcl:abs	_	TraditionalMood=Participium|TraditionalTense=Praesens
 10	uim	uis	NOUN	F1|grn1|casD|gen2|vgr1	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing	9	obj	_	_
 11	passo	patior	VERB	L2|modM|tem4|grp1|casF|gen3	Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	9	nsubj	_	SpaceAfter=No|TraditionalMood=Participium|TraditionalTense=Perfectum
