@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Latin-ITTB:
-commit 0dd4dbcbc616594cec6757b366113f93dd1576da
-Merge: 9ec74b5 5cc8705
+commit 61a554fef009c06fdc8c87dee08fa799fe0d4256
+Merge: 1582bfb c2e6ecb
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 450515 of 450515 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.220782745663.
@@ -15,7 +15,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 280365 out of 450515 total words have one or more features.
+Features: 280371 out of 450515 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
@@ -24,11 +24,11 @@ Udapi:
 Udapi: found 24299 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 450515 words.
 Genres: found 1 out of 17 known.
-validate.py --lang la --max-err=10 UD_Latin-ITTB/la_ittb-ud-dev.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-ITTB/la_ittb-ud-dev.conllu
 *** PASSED ***
-validate.py --lang la --max-err=10 UD_Latin-ITTB/la_ittb-ud-test.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-ITTB/la_ittb-ud-test.conllu
 *** PASSED ***
-validate.py --lang la --max-err=10 UD_Latin-ITTB/la_ittb-ud-train.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-ITTB/la_ittb-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
