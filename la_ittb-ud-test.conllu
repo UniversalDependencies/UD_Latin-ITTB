@@ -3449,7 +3449,7 @@
 16	in	in	ADP	S4	_	17	case	_	_
 17	sensu	sensus	NOUN	D1|grn1|casF|gen1	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing	18	obl	_	_
 18	patet	pateo	VERB	K3|modA|tem1|gen6	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl:cmp	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
-19	:	:	PUNCT	Punc	_	9	punct	_	_
+19	:	:	PUNCT	Punc	_	12	punct	_	_
 
 # sent_id = test-s210
 # text = nam neque uisus est uidens actu, neque uisibile uidetur actu, nisi cum uisus informatur uisibilis specie, ut sic ex uisu et uisibili unum fiat.
