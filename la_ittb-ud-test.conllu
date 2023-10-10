@@ -3431,24 +3431,24 @@
 # sent_id = test-s209
 # text = secundum uero quod intelligibile ab intellectu distinguitur, est utrumque in potentia, sicut et in sensu patet:
 # reference = ittb-scg-s2310
-1	secundum	secundum	ADP	S4	_	7	mark	_	_
-2	uero	uero	ADV	B1|grn1|casG|vgr1	_	9	discourse	_	_
-3	quod	quod	SCONJ	O4	_	1	fixed	_	_
+1	secundum	secundum	ADP	S4	_	3	case	_	_
+2	uero	uero	ADV	B1|grn1|casG|vgr1	_	12	discourse	_	_
+3	quod	qui	PRON	O4	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	7	obl	_	_
 4	intelligibile	intelligibilis	ADJ	C1|grn1|casA|gen3|vgr1	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	7	nsubj:pass	_	_
 5	ab	ab	ADP	S4|vgr2	_	6	case	_	_
-6	intellectu	intellectus	NOUN	D1|grn1|casF|gen1	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing	7	obl:arg	_	_
-7	distinguitur	distinguo	VERB	L3|modJ|tem1|gen6	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	acl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+6	intellectu	intellectus	NOUN	D1|grn1|casF|gen1	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing	7	obl:agent	_	_
+7	distinguitur	distinguo	VERB	L3|modJ|tem1|gen6	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	advcl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 8	,	,	PUNCT	Punc	_	7	punct	_	_
-9	est	sum	AUX	N3|modA|tem1|gen6	InflClass=LatAnom|Number=Sing|VerbForm=Fin	0	root	_	_
-10	utrumque	uterque	DET	F1|grn1|casA|gen3|comH|vgr2	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con	9	nsubj	_	_
+9	est	sum	AUX	N3|modA|tem1|gen6	InflClass=LatAnom|Number=Sing|VerbForm=Fin	12	cop	_	_
+10	utrumque	uterque	DET	F1|grn1|casA|gen3|comH|vgr2	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con	12	nsubj	_	_
 11	in	in	ADP	S4	_	12	case	_	_
-12	potentia	potentia	NOUN	A1|grn1|casF|gen2|vgr1	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	9	obl	_	SpaceAfter=No
+12	potentia	potentia	NOUN	A1|grn1|casF|gen2|vgr1	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	Punc	_	18	punct	_	_
 14	sicut	sicut	SCONJ	O4|vgr1	_	18	mark	_	_
 15	et	et	CCONJ	O4	_	17	advmod:emph	_	_
 16	in	in	ADP	S4	_	17	case	_	_
 17	sensu	sensus	NOUN	D1|grn1|casF|gen1	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing	18	obl	_	_
-18	patet	pateo	VERB	K3|modA|tem1|gen6	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+18	patet	pateo	VERB	K3|modA|tem1|gen6	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl:cmp	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 19	:	:	PUNCT	Punc	_	9	punct	_	_
 
 # sent_id = test-s210
@@ -4355,13 +4355,13 @@
 # sent_id = test-s247
 # text = secundum uero quod diuersa aliquid commune habent, nihil prohibet ea similitudinem unam habere, sicut homo et asinus inquantum sunt animalia.
 # reference = ittb-scg-s2348
-1	secundum	secundum	ADP	S4	_	7	mark	_	_
+1	secundum	secundum	ADP	S4	_	3	case	_	_
 2	uero	uero	ADV	B1|grn1|casG|vgr1	_	10	discourse	_	_
-3	quod	quod	SCONJ	O4	_	1	fixed	_	_
+3	quod	qui	PRON	O4	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	7	obl	_	_
 4	diuersa	diuersus	ADJ	B1|grn1|casJ|gen3|vgr1	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	7	nsubj	_	_
 5	aliquid	aliquis	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	7	obj	_	_
 6	commune	communis	ADJ	C1|grn1|casD|gen3	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	5	amod	_	_
-7	habent	habeo	VERB	K3|modA|tem1|gen9	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+7	habent	habeo	VERB	K3|modA|tem1|gen9	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 8	,	,	PUNCT	Punc	_	7	punct	_	_
 9	nihil	nihil	PRON	G1|casA|gen3|vgr1	Polarity=Neg|PronType=Ind	10	nsubj	_	_
 10	prohibet	prohibeo	VERB	K3|modA|tem1|gen6	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
@@ -35222,13 +35222,13 @@
 # sent_id = test-s1915
 # text = secundum tamen quod ad res humanas contrahuntur, ex his quodammodo speciem sumunt: sicut curuum in naso facit speciem simi.
 # reference = ittb-scg-s4016
-1	secundum	secundum	ADP	S4	_	7	mark	_	_
+1	secundum	secundum	ADP	S4	_	3	case	_	_
 2	tamen	tamen	ADV	O4	Form=Emp	13	advmod	_	_
-3	quod	quod	SCONJ	O4	_	1	fixed	_	_
+3	quod	qui	PRON	O4	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	7	obl	_	_
 4	ad	ad	ADP	S4	_	5	case	_	_
 5	res	res	NOUN	E1|grn1|casM|gen2	Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Plur	7	obl:arg	_	_
 6	humanas	humanus	ADJ	A1|grn1|casM|gen2	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	5	amod	_	_
-7	contrahuntur	contraho	VERB	L3|modJ|tem1|gen9	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	advcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+7	contrahuntur	contraho	VERB	L3|modJ|tem1|gen9	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	advcl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 8	,	,	PUNCT	Punc	_	7	punct	_	_
 9	ex	ex	ADP	S4|vgr2	_	10	case	_	_
 10	his	hic	DET	F1|grn1|casO|gen2|vgr1	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem	13	obl	_	_
@@ -35290,15 +35290,15 @@
 # sent_id = test-s1918
 # text = secundum uero quod actiones praedictae in sua communitate accipiuntur, possunt etiam rebus diuinis aptari.
 # reference = ittb-scg-s4019
-1	secundum	secundum	ADP	S4	_	9	mark	_	_
+1	secundum	secundum	ADP	S4	_	3	case	_	_
 2	uero	uero	ADV	B1|grn1|casG|vgr1	_	11	discourse	_	_
-3	quod	quod	SCONJ	O4	_	1	fixed	_	_
+3	quod	qui	PRON	O4	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	9	obl	_	_
 4	actiones	actio	NOUN	C1|grn1|casJ|gen2|vgr1	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Plur	9	nsubj:pass	_	_
 5	praedictae	praedico	VERB	N2|modM|tem4|grp1|casJ|gen2	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass	4	acl	_	TraditionalMood=Participium|TraditionalTense=Perfectum
 6	in	in	ADP	S4	_	8	case	_	_
 7	sua	suus	DET	A1|grn1|casF|gen2	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	_
 8	communitate	communitas	NOUN	C1|grn1|casF|gen2	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	9	obl	_	_
-9	accipiuntur	accipio	VERB	L3|modJ|tem1|gen9	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	advcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+9	accipiuntur	accipio	VERB	L3|modJ|tem1|gen9	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	advcl:cmp	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 10	,	,	PUNCT	Punc	_	9	punct	_	_
 11	possunt	possum	VERB	N3|modA|tem1|gen9	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 12	etiam	etiam	ADV	O4|vgr1	_	13	advmod:emph	_	_
