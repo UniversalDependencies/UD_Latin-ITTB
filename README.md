@@ -29,7 +29,8 @@ Release UD v2.13 mainly see the realisation in IT-TB of a harmonisation effort b
   title     = {Latin Morphology through the Centuries: Ensuring Consistency for Better Language Processing},
   journal   = {Proceedings of the Ancient Language Processing Workshop associated with the 14th International Conference on Recent Advances in Natural Language Processing RANLP 2023},
   year      = {2023},
-  address = {Varna, Bulgaria}
+  address = {Varna, Bulgaria},
+url = {https://ufal.mff.cuni.cz/biblio/attachments/2023-gamba-p3787387064232511302.pdf}
 }
 
 @article{harmo,
