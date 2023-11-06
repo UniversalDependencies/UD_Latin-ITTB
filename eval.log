@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Latin-ITTB:
-commit 61a554fef009c06fdc8c87dee08fa799fe0d4256
-Merge: 1582bfb c2e6ecb
+commit b80256c4af42c1e61f604044d8d17f11359d8fe5
+Merge: e854e92 7831b32
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 450515 of 450515 words (nodes).
-Size: min(0, log((N/1000)**2)) = 12.220782745663.
+Size: counted 450517 of 450517 words (nodes).
+Size: min(0, log((N/1000)**2)) = 12.2207916243709.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,30 +15,32 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 280371 out of 450515 total words have one or more features.
+Features: 291552 out of 450517 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
-Universal relations: 32 out of 37 found in the corpus.
+Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
 Udapi:
-               TOTAL      24299
-Udapi: found 24299 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 450515 words.
+               TOTAL       2640
+Udapi: found 2640 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 450517 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-ITTB/la_ittb-ud-dev.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-ITTB/la_ittb-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-ITTB/la_ittb-ud-train.conllu
+[Line 442261 Sent train-s20864 Node 19]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+Warnings: 1
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.884569751829983) = 0.226812756879483
+(weight=0.256410256410256) * (score{size}=0.884570394492296) = 0.226812921664691
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
-(weight=0.307692307692308) * (score{udapi}=0.460639490361031) = 0.141735227803394
-(weight=0.0769230769230769) * (score{udeprels}=0.778378378378378) = 0.0598752598752599
-(TOTAL score=0.661605748328876) * (availability=1) * (validity=1) = 0.661605748328876
-STARS = 3.5
-UD_Latin-ITTB	0.661605748328876	3.5
+(weight=0.307692307692308) * (score{udapi}=0.941400657466866) = 0.289661740759036
+(weight=0.0769230769230769) * (score{udeprels}=0.754054054054054) = 0.058004158004158
+(TOTAL score=0.807661324198624) * (availability=1) * (validity=1) = 0.807661324198624
+STARS = 4
+UD_Latin-ITTB	0.807661324198624	4
