@@ -13,15 +13,35 @@ The original part-of-speech classification of the _Index Thomisticus_ is tripart
 
 The release of UD v2.3 sees a major update and revision of the conversion scripts for the _Index Thomisticus_ Treebank into the UD style, significantly improving the overall conversion quality, both in terms of _deprel_'s and subtree structures, as of part-of-speech tagging and lemmatisation. Guidelines for a common annotation style of the three current Latin UD treebanks have also been put into effect.
 
+Release UD v2.13 mainly see the realisation in IT-TB of a harmonisation effort between Latin UD treebanks following (Gamba & Zeman 2023a) and (Gamba & Zeman 2023b), bringing all of them closer to being based on the same standard, despite their different origins and conversion processes.
+
 # Acknowledgments
 
-* https://lila-erc.eu/ ... The LiLa project (Linking Latin) will include also the _Index Thomisticus_ and its UD version
+* https://lila-erc.eu/ ... The LiLa project (Linking Latin) also includes the _Index Thomisticus_ and its UD version
 * http://itreebank.marginalia.it/ ... Index Thomisticus Treebank
 * http://ufal.mff.cuni.cz/hamledt ... HamleDT
 * http://ufal.mff.cuni.cz/treex ... Treex is the software used for conversion
 * http://ufal.mff.cuni.cz/interset ... Interset is used to convert PoS tags and features
 
 <pre>
+@article{morpharmo,
+  author    = {Gamba, Federica and Zeman, Daniel},
+  title     = {Latin Morphology through the Centuries: Ensuring Consistency for Better Language Processing},
+  journal   = {Proceedings of the Ancient Language Processing Workshop associated with the 14th International Conference on Recent Advances in Natural Language Processing RANLP 2023},
+  year      = {2023},
+  address = {Varna, Bulgaria},
+url = {https://ufal.mff.cuni.cz/biblio/attachments/2023-gamba-p3787387064232511302.pdf}
+}
+
+@article{harmo,
+  author    = {Gamba, Federica and Zeman, Daniel},
+  title     = {Universalising Latin Universal Dependencies: a harmonisation of Latin treebanks in UD},
+  journal   = {Proceedings of the Sixth Workshop on Universal Dependencies (UDW, GURT/SyntaxFest 2023)}},
+  year      = {2023},
+  address = {Washington, DC, USA},
+  url = {https://aclanthology.org/2023.udw-1.2/}
+}
+
 @article{lait-ud,
   author    = {Cecchini, Flavio Massimiliano and Passarotti, Marco and Marongiu, Paola and Zeman, Daniel},
   title     = {Challenges in Converting the \emph{Index Thomisticus} treebank into Universal Dependencies},
@@ -42,12 +62,22 @@ The release of UD v2.3 sees a major update and revision of the conversion script
 
 # Changelog
 
+* 2023-11-15 v2.13
+    * Implementation of overall syntactic and morphologic harmonisation following (Gamba & Zeman 2023a) and (Gamba & Zeman 2023b), though excluding multi-word treatment (splitting) of some tokens (e.g. *inquantum*, *respublica*,...)
+        * most notable is the general restructuring of copular constructions, now having the `AUX` *sum* regularly depending as a functional element 
+    * Enrichment through heuristics with additional [`obl:agent`]() (agent arguments in passive constructions) and [`advcl:abs`]() (so-called ablativus absolutus) subrelations (totally absent in previous releases)
+    * Improvement of annotation for foreign terms/names and "proper nouns" in general
+    * General further rationalisation and/or correction of some lemmas and morphological features (e.g. *procul+dubius* > *proculdubio*, *semetipse* > *semetipsum*, regular treatment of *inuicem* as a reciprocal `PRON`, missing features for *sum*, etc.) 
+    * Stark reduction of the use of the [`fixed`]() relation
+        * complete re-annotation of 86 "gapping" (i.e. non/projective) `fixed` constructions, some of which now treated by means of [`reparandum`]()
+        * down from 921 to 111 occurrences for all other contiguous `fixed` constructions, including phrases such as *secundum quod*, *usque ad*, *etiam si*, etc. 
+    * Orthographic univerbation of the conjunctional clitics *que* (34) and *ue* (1), introducing multi-word tokens   
 * 2022-11-15 v2.11
     * Implementations of the [amendment](https://universaldependencies.org/changes.html#multiple-subjects) for clausal non-verbal copular constructions and corrections regarding multiple subjects and introduction of the `:outer` subtype for subjects and copulas
     * Implementation of the [amendment for reported speech](https://universaldependencies.org/changes.html#reported-speech), with the introduction of the `:reported` and `:reporting` subtypes
     * Implementation of the proposal of [`VerbForm`](la-feat/VerbForm) reform as for (Cecchini, 2021; see documentation entry for `VerbForm`)
         * at the same time, introduction of the `TraditionalMood` and `TraditionalTense` features in `MISC` to take into account traditional denominations  
-    * Double-pronoun constructions, also called free relatives, have been highlighted semi-automatically by means of the the newly introduced `:relcl` subtype
+    * Double-pronoun constructions, also called free relatives, have been highlighted semi-automatically by means of the newly introduced `:relcl` subtype
     * Many "small words" (especially particles) and their features have started being standardised among treebanks. For example, *is*/*ea*/*id* is now always a `PRON` with `PronType=Prs`, *nam* always a `PART`, `AdvType` has been added to many "adverbs"...
         * *et*, *nec* etc. now stay `CCONJ` even when acting as focalisers
         * *unus* is uniformed to a determiner (`DET`) with both cardinal numeral type and indefinite pronoun type, and numeric value `1`
