@@ -63,7 +63,7 @@
     <feat name="InflClass" value="IndEurU" upos="NOUN,PROPN">8238</feat><!-- intellectus, actu, actus, effectus, motus, intellectum, intellectu, spiritus, actum, effectum -->
     <feat name="InflClass" value="IndEurX" upos="ADJ,DET,NOUN,PRON,PROPN">34057</feat><!-- homo, corpus, hominis, corporis, ratio, ratione, uirtus, rationem, corpore, uirtute -->
     <feat name="InflClass" value="LatA" upos="VERB">11108</feat><!-- separatae, probatum, separata, operatur, ordinatur, separatas, ordinantur, creata, repugnat, considerandum -->
-    <feat name="InflClass" value="LatAnom" upos="AUX,PRON,VERB">28769</feat><!-- est, sit, sunt, potest, se, esset, sint, nobis, erit, sibi -->
+    <feat name="InflClass" value="LatAnom" upos="AUX,PRON,VERB">31900</feat><!-- est, esse, sit, sunt, potest, se, esset, sint, nobis, erit -->
     <feat name="InflClass" value="LatE" upos="VERB">10869</feat><!-- oportet, habet, patet, uidetur, habent, apparet, habeat, habere, mouens, mouetur -->
     <feat name="InflClass" value="LatI" upos="VERB">909</feat><!-- fit, fieri, fiat, fiunt, fieret, fiant, oritur, fiet, fierent, conuenientior -->
     <feat name="InflClass" value="LatI2" upos="VERB">1144</feat><!-- facit, facere, facta, factum, factus, faciens, faciat, fecit, facti, faceret -->
@@ -115,10 +115,10 @@
     <feat name="PronType" value="Tot" upos="DET">3939</feat><!-- omnia, omnes, omnis, omne, omnibus, omnium, totum, totius, unumquodque, omni -->
     <feat name="Proper" value="Yes" upos="ADJ,NOUN">925</feat><!-- cor., rom., gen., metaph., philipp., sap., hebr., commentator, physic., eccli. -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">4690</feat><!-- se, suam, sua, suum, sibi, suae, sui, seipsum, suo, suis -->
-    <feat name="Tense" value="Fut" upos="AUX,VERB">1725</feat><!-- erit, poterit, erunt, sequetur, fuerit, oportebit, dicetur, habebit, ostendetur, remanebit -->
-    <feat name="Tense" value="Past" upos="AUX,VERB">5428</feat><!-- esset, fuit, posset, erat, essent, fuisse, dixit, fuerit, posuerunt, sequeretur -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">1720</feat><!-- erit, poterit, erunt, sequetur, fuerit, oportebit, dicetur, habebit, ostendetur, remanebit -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">5216</feat><!-- esset, fuit, posset, erat, essent, dixit, fuerit, posuerunt, sequeretur, oportuit -->
     <feat name="Tense" value="Pqp" upos="AUX,VERB">220</feat><!-- fuisset, dixerat, fecerat, fuerat, accepisset, assumpsisset, dixisset, fuissent, habuisset, oportuisset -->
-    <feat name="Tense" value="Pres" upos="AUX,VERB">59471</feat><!-- est, esse, sit, sunt, potest, oportet, dicitur, habet, patet, dicit -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">50235</feat><!-- est, sit, sunt, potest, oportet, dicitur, habet, patet, dicit, uidetur -->
     <feat name="Variant" value="Greek" upos="ADJ,NOUN,PROPN">40</feat><!-- isaias, salomon, ebion, satanas, anania, anaxagoras, daemon, ionas, iuda, anagogen -->
     <feat name="VerbForm" value="Fin" upos="ADV,AUX,CCONJ,SCONJ,VERB">57650</feat><!-- est, sit, sunt, potest, oportet, dicitur, habet, patet, dicit, uidetur -->
     <feat name="VerbForm" value="Inf" upos="AUX,NOUN,VERB">9494</feat><!-- esse, intelligere, dici, fieri, habere, facere, dicere, uelle, agere, intelligi -->
@@ -127,16 +127,16 @@
     <feat name="Voice" value="Pass" upos="VERB">26070</feat><!-- dicitur, ostensum, uidetur, dicendum, sequitur, dictum, dici, inuenitur, fieri, dicuntur -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="60">
+  <deps unique="61">
     <dep name="acl">7614</dep>
-    <dep name="acl:relcl">8684</dep>
+    <dep name="acl:relcl">8683</dep>
     <dep name="advcl">12796</dep>
     <dep name="advcl:abs">916</dep>
-    <dep name="advcl:cmp">2956</dep>
-    <dep name="advcl:pred">320</dep>
+    <dep name="advcl:cmp">2955</dep>
+    <dep name="advcl:pred">322</dep>
     <dep name="advcl:relcl">963</dep>
-    <dep name="advmod">10888</dep>
-    <dep name="advmod:emph">5119</dep>
+    <dep name="advmod">10890</dep>
+    <dep name="advmod:emph">5117</dep>
     <dep name="advmod:lmod">1464</dep>
     <dep name="advmod:neg">8994</dep>
     <dep name="advmod:tmod">967</dep>
@@ -150,11 +150,11 @@
     <dep name="ccomp:relcl">346</dep>
     <dep name="ccomp:reported">4</dep>
     <dep name="compound">21</dep>
-    <dep name="conj">16091</dep>
+    <dep name="conj">16090</dep>
     <dep name="conj:expl">717</dep>
-    <dep name="cop">16721</dep>
+    <dep name="cop">16723</dep>
     <dep name="cop:outer">47</dep>
-    <dep name="csubj">5280</dep>
+    <dep name="csubj">5279</dep>
     <dep name="csubj:cleft">13</dep>
     <dep name="csubj:pass">1654</dep>
     <dep name="csubj:relcl">1270</dep>
@@ -175,12 +175,13 @@
     <dep name="nsubj:pass">8938</dep>
     <dep name="nummod">1401</dep>
     <dep name="obj">12241</dep>
-    <dep name="obl">26595</dep>
+    <dep name="obl">26593</dep>
     <dep name="obl:agent">1540</dep>
     <dep name="obl:arg">10268</dep>
+    <dep name="obl:cmp">1</dep>
     <dep name="obl:lmod">6</dep>
     <dep name="obl:tmod">2</dep>
-    <dep name="orphan">1290</dep>
+    <dep name="orphan">1291</dep>
     <dep name="parataxis">157</dep>
     <dep name="parataxis:rep">2</dep>
     <dep name="punct">62409</dep>
