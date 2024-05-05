@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Latin-ITTB:
-commit b80256c4af42c1e61f604044d8d17f11359d8fe5
-Merge: e854e92 7831b32
+commit 93460dfbfecfc9ca2231ef8ed204675a45e83b89
+Merge: c278c93 2a11256
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 450517 of 450517 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.2207916243709.
