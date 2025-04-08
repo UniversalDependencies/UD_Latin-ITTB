@@ -5477,7 +5477,7 @@
 24	notum	notus	ADJ	L2|modM|tem4|grp1|casA|gen3	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	18	ccomp	_	TraditionalMood=Participium|TraditionalTense=Perfectum
 25	est	sum	AUX	N3|modA|tem1|gen6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 26	,	,	PUNCT	Punc	_	33	punct	_	_
-27	ita	ita	ADV	O4	_	33	mark	_	_
+27	ita	ita	ADV	O4	ExtPos=SCONJ	33	mark	_	_
 28	quod	quod	SCONJ	O4	_	27	fixed	_	_
 29	eius	is	PRON	F1|grn1|casB|gen3|vgr2	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	30	nmod	_	_
 30	contrarium	contrarius	ADJ	B1|grn1|casA|gen3	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	33	nsubj	_	_
@@ -6812,7 +6812,7 @@
 7	cognoscuntur	cognosco	VERB	L3|modJ|tem1|gen9	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	acl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 8	,	,	PUNCT	Punc	_	9	punct	_	_
 9	non	non	PART	O4	Polarity=Neg	7	advmod:neg	_	_
-10	ita	ita	ADV	O4	_	9	mark	_	_
+10	ita	ita	ADV	O4	ExtPos=SCONJ	9	mark	_	_
 11	quod	quod	SCONJ	O4	_	10	fixed	_	_
 12	alia	alius	DET	F1|grn1|casJ|gen3	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Con	14	nsubj:pass	_	_
 13	non	non	PART	O4	Polarity=Neg	14	advmod:neg	_	_
@@ -8568,7 +8568,7 @@
 5	qualibet	quilibet	DET	F1|grn1|casF|gen2	Case=Abl|Compound=Yes|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Ind	6	det	_	_
 6	operatione	operatio	NOUN	C1|grn1|casF|gen2|comH|vgr1	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	1	obl	_	SpaceAfter=No
 7	,	,	PUNCT	Punc	_	15	punct	_	_
-8	ita	ita	ADV	O4	_	15	mark	_	_
+8	ita	ita	ADV	O4	ExtPos=SCONJ	15	mark	_	_
 9	quod	quod	SCONJ	O4	_	8	fixed	_	_
 10	intelligere	intellego	VERB	L3|modH|tem1	Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Act	15	csubj	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 11	et	et	CCONJ	O4	_	12	cc	_	_
@@ -9795,7 +9795,7 @@
 1	uno	unus	DET	F1|grn1|casF|gen1	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|NumType=Card|NumValue=1|PronType=Ind	2	det	_	_
 2	modo	modus	NOUN	B1|grn1|casF|gen1	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	10	punct	_	_
-4	ita	ita	ADV	O4	_	10	mark	_	_
+4	ita	ita	ADV	O4	ExtPos=SCONJ	10	mark	_	_
 5	quod	quod	SCONJ	O4	_	4	fixed	_	_
 6	illud	ille	DET	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	10	nsubj	_	_
 7	primum	primus	ADJ	B1|grn1|casA|gen3	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing|NumType=Ord	6	amod	_	_
@@ -10022,7 +10022,7 @@
 7	pars	pars	NOUN	C1|grn1|casA|gen2	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	8	nsubj:pass	_	_
 8	moueatur	moueo	VERB	K3|modK|tem1|gen6	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	csubj	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Praesens
 9	,	,	PUNCT	Punc	_	12	punct	_	_
-10	ita	ita	ADV	O4	_	12	mark	_	_
+10	ita	ita	ADV	O4	ExtPos=SCONJ	12	mark	_	_
 11	quod	quod	SCONJ	O4	_	10	fixed	_	_
 12	una	unus	DET	F1|grn1|casA|gen2	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|NumType=Card|NumValue=1|PronType=Ind	8	advcl	_	_
 13	ab	ab	ADP	S4|vgr2	_	14	case	_	_
@@ -18944,7 +18944,7 @@
 6	significatur	significo	VERB	J3|modJ|tem1|gen6	Aspect=Imp|Compound=Yes|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 7	essentia	essentia	NOUN	A1|grn1|casA|gen2|vgr1	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	6	nsubj:pass	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	9	punct	_	_
-9	ut	ut	SCONJ	O4|vgr1	PronType=Rel	12	mark	_	_
+9	ut	ut	SCONJ	O4|vgr1	ExtPos=ADV|PronType=Rel	12	mark	_	_
 10	puta	puta	ADV	J3|modC|tem1|gen5	VerbForm=Fin	9	fixed	_	SpaceAfter=No
 11	,	,	PUNCT	Punc	_	9	punct	_	_
 12	humanitas	humanitas	NOUN	C1|grn1|casA|gen2	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	7	nmod	_	SpaceAfter=No
@@ -19380,7 +19380,7 @@
 3	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	4	nsubj	_	_
 4	est	sum	AUX	N3|modA|tem1|gen6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 5	per	per	ADP	S4	_	7	case	_	_
-6	per	per	ADP	S4	_	5	fixed	_	_
+6	per	per	ADP	S4	_	7	case	_	_
 7	se	sui	PRON	F1|grn1|casD|gen3	Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	8	obl	_	_
 8	necesse-esse	necesse-esse	NOUN	N3|grn8|modH|tem1|comZ	VerbForm=Inf	4	ccomp	_	SpaceAfter=No
 9	,	,	PUNCT	Punc	_	4	punct	_	_
@@ -22813,7 +22813,7 @@
 16	differentias	differentia	NOUN	A1|grn1|casM|gen2|vgr1	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	13	obl	_	_
 17	additas	addo	VERB	L2|modM|tem4|grp1|casM|gen2	Aspect=Perf|Case=Acc|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass	16	acl	_	SpaceAfter=No|TraditionalMood=Participium|TraditionalTense=Perfectum
 18	,	,	PUNCT	Punc	_	25	punct	_	_
-19	ita	ita	ADV	O4	_	25	mark	_	_
+19	ita	ita	ADV	O4	ExtPos=SCONJ	25	mark	_	_
 20	quod	quod	SCONJ	O4	_	19	fixed	_	_
 21	rebus	res	NOUN	E1|grn1|casC|gen2	Case=Dat|Gender=Fem|InflClass=IndEurE|Number=Sing	25	obl:arg	_	_
 22	diuersis	diuersus	ADJ	A1|grn1|casC|gen2|vgr1	Case=Dat|Gender=Fem|InflClass=IndEurA|Number=Sing	21	amod	_	_
@@ -26822,8 +26822,8 @@
 4	simplex	simplex	NOUN	C1|grn1|casD|gen3	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	1	advcl:cmp	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	4	punct	_	_
 6	significat	significo	VERB	J3|modA|tem1|gen6	Aspect=Imp|Compound=Yes|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
-7	non	non	PART	O4	Polarity=Neg	10	mark	_	_
-8	ut	ut	SCONJ	O4|vgr1	PronType=Rel	7	fixed	_	_
+7	non	non	PART	O4	Polarity=Neg	10	advmod:neg	_	_
+8	ut	ut	SCONJ	O4|vgr1	PronType=Rel	9	mark	_	_
 9	quod	qui	PRON	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	10	nsubj	_	_
 10	est	sum	AUX	N3|modA|tem1|gen6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 11	,	,	PUNCT	Punc	_	14	punct	_	_
@@ -29541,7 +29541,7 @@
 21	uel	uel	CCONJ	O4|vgr1	_	22	cc	_	_
 22	bonitas	bonitas	NOUN	C1|grn1|casA|gen2	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	20	conj	_	SpaceAfter=No
 23	:	:	PUNCT	Punc	_	24	punct	_	_
-24	ita	ita	ADV	O4	_	35	mark	_	_
+24	ita	ita	ADV	O4	ExtPos=SCONJ	35	mark	_	_
 25	quod	quod	SCONJ	O4	_	24	fixed	_	_
 26	si	si	SCONJ	O4	_	30	mark	_	_
 27	qua	qui	PRON	F1|grn1|casA|gen2|varA	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	28	det	_	_
