@@ -4735,7 +4735,7 @@
 9	animalis	animal	NOUN	C1|grn1|casB|gen3	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Sing	8	nmod	_	_
 10	irrationalis	irrationalis	ADJ	C1|grn1|casB|gen3	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Sing	9	amod	_	_
 11	inquantum	in+quantum	SCONJ	O4|grn8|comZ	_	12	mark	_	_
-12	huiusmodi	huiusmodi	DET	O4|vgr2	Compound=Yes|PronType=Dem	10	det	_	SpaceAfter=No
+12	huiusmodi	huiusmodi	DET	O4|vgr2	Compound=Yes|PronType=Dem	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	Punc	_	16	punct	_	_
 14	et	et	CCONJ	O4	_	16	cc	_	_
 15	singularum	singulus	ADJ	A1|grn1|casK|gen2	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Plur|NumType=Dist	16	amod	_	_
