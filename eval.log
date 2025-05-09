@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Latin-ITTB:
-commit 46f5d90df14cee3bcfc025aa2c183637e46a2040
+commit 266308940862fa3e9a7582a0dd1d88b0819b3aec
+Merge: 9991421 0eb839c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:00:44 2024 +0200
 Size: counted 450517 of 450517 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.2207916243709.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,62 +15,30 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 291552 out of 450517 total words have one or more features.
+Features: 291640 out of 450517 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
 Udapi:
-               TOTAL       2640
-Udapi: found 2640 bugs.
+               TOTAL       2083
+Udapi: found 2083 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 450517 words.
-Genres: found 1 out of 17 known.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-ITTB/la_ittb-ud-dev.conllu
-[Line 20623 Sent dev-s1128 Node 27]: [L3 Warning leaf-det] 'det' not expected to have children (27:aliud:det --> 30:facere:advcl)
-[Line 22712 Sent dev-s1250 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:aliud:det --> 14:esse:advcl)
-[Line 37835 Sent dev-s2075 Node 15]: [L3 Warning leaf-det] 'det' not expected to have children (15:aliud:det --> 17:se:nmod)
-[Line 37935 Sent dev-s2079 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:aliud:det --> 10:essentiam:advcl)
-[Line 37961 Sent dev-s2080 Node 15]: [L3 Warning leaf-det] 'det' not expected to have children (15:alia:det --> 21:essentia:advcl)
-[Line 38020 Sent dev-s2083 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:alia:det --> 16:essentia:advcl)
-[Line 38089 Sent dev-s2088 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:alia:det --> 11:seipso:advcl)
-Warnings: 7
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-ITTB/la_ittb-ud-test.conllu
-[Line 831 Sent test-s54 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:aliud:det --> 11:essentia:advcl)
-[Line 853 Sent test-s55 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:aliud:det --> 13:ipsemet:advcl)
-[Line 1176 Sent test-s78 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:aliud:det --> 6:deo:nmod)
-[Line 1299 Sent test-s85 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:aliud:det --> 20:substantia:advcl)
-[Line 1604 Sent test-s102 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:alias:det --> 6:se:nmod)
-[Line 2718 Sent test-s166 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:aliis:det --> 7:se:nmod)
-[Line 4188 Sent test-s240 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:alia:det --> 9:essentia:advcl)
-[Line 4737 Sent test-s265 Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:huiusmodi:det --> 11:inquantum:mark)
-[Line 10823 Sent test-s611 Node 14]: [L3 Warning leaf-det] 'det' not expected to have children (14:aliud:det --> 18:certificatio:advcl)
-[Line 11260 Sent test-s638 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:alias:det --> 7:se:nmod)
-...suppressing further errors regarding Warning
-Warnings: 23
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-ITTB/la_ittb-ud-train.conllu
-[Line 1217 Sent train-s73 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:alius:det --> 8:ipso:nmod)
-[Line 3350 Sent train-s182 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:aliis:det --> 20:deo:advcl)
-[Line 3414 Sent train-s184 Node 35]: [L3 Warning leaf-det] 'det' not expected to have children (35:omnes:det --> 34:uel:mark)
-[Line 8635 Sent train-s460 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:aliud:det --> 6:ipso:nmod)
-[Line 10546 Sent train-s567 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:aliud:det --> 13:producere:advcl)
-[Line 11296 Sent train-s605 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:alia:det --> 9:creatura:advcl)
-[Line 14789 Sent train-s777 Node 18]: [L3 Warning leaf-det] 'det' not expected to have children (18:huiusmodi:det --> 17:inquantum:mark)
-[Line 19915 Sent train-s1061 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:suum:det --> 7:quod:nsubj)
-[Line 19917 Sent train-s1061 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:suum:det --> 9:est:cop)
-[Line 36817 Sent train-s1867 Node 13]: [L3 Warning leaf-det] 'det' not expected to have children (13:alios:det --> 15:se:nmod)
-...suppressing further errors regarding Warning
-Warnings: 175
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.884570394492296) = 0.226812921664691
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
-(weight=0.307692307692308) * (score{udapi}=0.941400657466866) = 0.289661740759036
+(weight=0.307692307692308) * (score{udapi}=0.953764230872531) = 0.293465917191548
 (weight=0.0769230769230769) * (score{udeprels}=0.754054054054054) = 0.058004158004158
-(TOTAL score=0.807661324198624) * (availability=1) * (validity=1) = 0.807661324198624
+(TOTAL score=0.811214118026813) * (availability=1) * (validity=1) = 0.811214118026813
 STARS = 4
-UD_Latin-ITTB	0.807661324198624	4
+UD_Latin-ITTB	0.811214118026813	4
