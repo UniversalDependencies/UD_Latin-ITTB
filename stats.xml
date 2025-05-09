@@ -32,7 +32,7 @@
     <tag name="X">36</tag><!-- etcetera, co, licet, se -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="92">
+  <feats unique="95">
     <feat name="Abbr" value="Yes" upos="ADJ,ADV,NOUN,PART,PROPN,VERB,X">1310</feat><!-- ioan., cor., matth., rom., gen., ult., metaph., philipp., sap., cap. -->
     <feat name="AdvType" value="Loc" upos="ADV">2651</feat><!-- unde, ergo, hinc, ibi, inde, hic, ubi, ibidem, ubique, ubicumque -->
     <feat name="AdvType" value="Tim" upos="ADV">1772</feat><!-- adhuc, semper, iam, quandoque, nunc, iterum, prius, tunc, postea, ante -->
@@ -51,6 +51,9 @@
     <feat name="Degree" value="Abs" upos="ADJ,ADV,DET,VERB">1444</feat><!-- primo, maxime, ultimum, ultimus, ultima, ultimo, ultimam, optimum, perfectissimum, ultimi -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET,VERB">3515</feat><!-- amplius, prius, minus, plures, ulterius, inferioribus, superioribus, pluribus, plura, melius -->
     <feat name="Degree" value="Dim" upos="ADJ,NOUN">76</feat><!-- art., circuli, circulo, quaestiunc., stillam, articulo, capillos, circulum, circulus, cultellus -->
+    <feat name="ExtPos" value="ADV" upos="ADV,CCONJ,SCONJ">11</feat><!-- ut, puta, scilicet, tunc -->
+    <feat name="ExtPos" value="CCONJ" upos="PRON">1</feat><!-- id -->
+    <feat name="ExtPos" value="SCONJ" upos="ADP,ADV,CCONJ,PRON,SCONJ">93</feat><!-- ita, simul, quod, sic, etiam, in, propterea, statim, utpote, si -->
     <feat name="Foreign" value="Yes" upos="NOUN,PROPN,VERB">152</feat><!-- iob, israel, dauid, ierusalem, pascha, iacob, abraham, amos, abba, esau -->
     <feat name="Form" value="Emp" upos="ADV,DET,PART">4186</feat><!-- tamen, ipsum, ipsa, ipse, ipsius, ipso, idem, eadem, eodem, ipsam -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">78971</feat><!-- forma, quae, formam, formae, materia, anima, potentia, diuina, causa, natura -->
@@ -128,29 +131,29 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="61">
-    <dep name="acl">7614</dep>
+    <dep name="acl">7615</dep>
     <dep name="acl:relcl">8683</dep>
     <dep name="advcl">12796</dep>
     <dep name="advcl:abs">916</dep>
     <dep name="advcl:cmp">2955</dep>
     <dep name="advcl:pred">322</dep>
     <dep name="advcl:relcl">963</dep>
-    <dep name="advmod">10890</dep>
+    <dep name="advmod">10891</dep>
     <dep name="advmod:emph">5117</dep>
     <dep name="advmod:lmod">1464</dep>
-    <dep name="advmod:neg">8994</dep>
+    <dep name="advmod:neg">8995</dep>
     <dep name="advmod:tmod">967</dep>
-    <dep name="amod">16003</dep>
+    <dep name="amod">16501</dep>
     <dep name="appos">29</dep>
     <dep name="aux">555</dep>
     <dep name="aux:pass">3685</dep>
-    <dep name="case">39529</dep>
+    <dep name="case">39530</dep>
     <dep name="cc">17062</dep>
-    <dep name="ccomp">2517</dep>
+    <dep name="ccomp">2527</dep>
     <dep name="ccomp:relcl">346</dep>
     <dep name="ccomp:reported">4</dep>
     <dep name="compound">21</dep>
-    <dep name="conj">16090</dep>
+    <dep name="conj">16092</dep>
     <dep name="conj:expl">717</dep>
     <dep name="cop">16723</dep>
     <dep name="cop:outer">47</dep>
@@ -159,17 +162,17 @@
     <dep name="csubj:pass">1654</dep>
     <dep name="csubj:relcl">1270</dep>
     <dep name="csubj:reported">1</dep>
-    <dep name="det">16197</dep>
+    <dep name="det">15678</dep>
     <dep name="discourse">14534</dep>
     <dep name="dislocated:advcl">1</dep>
     <dep name="dislocated:ccomp">1</dep>
-    <dep name="dislocated:csubj">3</dep>
+    <dep name="dislocated:csubj">2</dep>
     <dep name="dislocated:nsubj">4</dep>
     <dep name="dislocated:obl">1</dep>
-    <dep name="fixed">111</dep>
+    <dep name="fixed">108</dep>
     <dep name="flat">102</dep>
     <dep name="mark">24292</dep>
-    <dep name="nmod">23920</dep>
+    <dep name="nmod">23928</dep>
     <dep name="nsubj">28869</dep>
     <dep name="nsubj:outer">163</dep>
     <dep name="nsubj:pass">8938</dep>
@@ -181,7 +184,7 @@
     <dep name="obl:cmp">1</dep>
     <dep name="obl:lmod">6</dep>
     <dep name="obl:tmod">2</dep>
-    <dep name="orphan">1291</dep>
+    <dep name="orphan">1292</dep>
     <dep name="parataxis">157</dep>
     <dep name="parataxis:rep">2</dep>
     <dep name="punct">62409</dep>
