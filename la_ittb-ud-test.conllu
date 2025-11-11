@@ -34264,7 +34264,7 @@
 1	omnium	omnis	DET	C1|grn1|casK|gen3	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot	2	nmod	_	_
 2	artifex	artifex	NOUN	C1|grn1|casA|gen1	Case=Nom|Compound=Yes|Gender=Masc|InflClass=IndEurX|Number=Sing	3	nsubj	_	_
 3	docuit	doceo	VERB	K3|modA|tem4|gen6	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
-4	me	ego	PRON	F1|grn1|casD|gen1	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+4	me	ego	PRON	F1|grn1|casD|gen1	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
 5	sapientiam	sapientia	NOUN	A1|grn1|casD|gen2|vgr1	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	3	obj	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	3	punct	_	_
 

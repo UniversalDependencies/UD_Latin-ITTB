@@ -161,6 +161,7 @@ url = {https://ufal.mff.cuni.cz/biblio/attachments/2023-gamba-p37873870642325113
 Data available since: UD v1.2
 License: CC BY-NC-SA 3.0
 Includes text: yes
+Parallel: no
 Genre: nonfiction
 Lemmas: converted from manual
 UPOS: converted from manual
