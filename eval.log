@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Latin-ITTB:
-commit 266308940862fa3e9a7582a0dd1d88b0819b3aec
-Merge: 9991421 0eb839c
+commit 2cc655974f12ea08cd6f386fc0011458e303f90c
+Merge: 457fd4a 9d01db4
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'la_ittb'
+Language code (from CoNLL-U file name) = 'la'
+Found the following data files: la_ittb-ud-dev.conllu, la_ittb-ud-test.conllu, la_ittb-ud-train.conllu
 Size: counted 450517 of 450517 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.2207916243709.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -17,28 +21,59 @@ Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
 Features: 291640 out of 450517 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
-Universal relations: 31 out of 37 found in the corpus.
+Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
-Udapi:
-               TOTAL       2083
-Udapi: found 2083 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 450517 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-ITTB/la_ittb-ud-dev.conllu
+[Line 1360 Sent dev-s65]: [L3 Warning verbform-fin-without-mood] Finite verb 'puta' lacks the 'Mood' feature
+[Line 3204 Sent dev-s150]: [L3 Warning obl-should-be-nmod] The parent (node [6] 'dictis') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 4882 Sent dev-s228]: [L3 Warning obl-should-be-nmod] The parent (node [12] 'libro') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 12856 Sent dev-s682]: [L3 Warning obl-should-be-nmod] The parent (node [5] 'se') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 18621 Sent dev-s1017]: [L3 Warning obl-should-be-nmod] The parent (node [7] 'essentiam') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 18948 Sent dev-s1035]: [L3 Warning verbform-fin-without-mood] Finite verb 'puta' lacks the 'Mood' feature
+[Line 23710 Sent dev-s1300]: [L3 Warning obl-should-be-nmod] The parent (node [21] 'similitudo') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 23917 Sent dev-s1307]: [L3 Warning obl-should-be-nmod] The parent (node [10] 'cogitatione') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 24792 Sent dev-s1356]: [L3 Warning verbform-fin-without-mood] Finite verb 'idest' lacks the 'Mood' feature
+[Line 24795 Sent dev-s1356]: [L3 Warning verbform-fin-without-mood] Finite verb 'scilicet' lacks the 'Mood' feature
+...suppressing further errors regarding Warning
+Warnings: 15
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-ITTB/la_ittb-ud-test.conllu
+[Line 3685 Sent test-s222]: [L3 Warning obl-should-be-nmod] The parent (node [4] 'esse') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 8432 Sent test-s470]: [L3 Warning obl-should-be-nmod] The parent (node [55] 'partium') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 10118 Sent test-s572]: [L3 Warning obl-should-be-nmod] The parent (node [12] 'generis') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 15645 Sent test-s856]: [L3 Warning verbform-fin-without-mood] Finite verb 'puta' lacks the 'Mood' feature
+[Line 19108 Sent test-s1054]: [L3 Warning verbform-fin-without-mood] Finite verb 'idest' lacks the 'Mood' feature
+[Line 20578 Sent test-s1131]: [L3 Warning obl-should-be-nmod] The parent (node [7] 'motus') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 23589 Sent test-s1302]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'respectu') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 23806 Sent test-s1314]: [L3 Warning obl-should-be-nmod] The parent (node [15] 'partes') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 25343 Sent test-s1391]: [L3 Warning obl-should-be-nmod] The parent (node [9] 'uoluntatis') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 29688 Sent test-s1613]: [L3 Warning verbform-fin-without-mood] Finite verb 'puta' lacks the 'Mood' feature
+...suppressing further errors regarding Warning
+Warnings: 11
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-ITTB/la_ittb-ud-train.conllu
+[Line 3451 Sent train-s186]: [L3 Warning obl-should-be-nmod] The parent (node [4] 'iob') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3557 Sent train-s192]: [L3 Warning obl-should-be-nmod] The parent (node [14] 'ierem.') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 4063 Sent train-s213]: [L3 Warning verbform-fin-without-mood] Finite verb 'puta' lacks the 'Mood' feature
+[Line 8335 Sent train-s444]: [L3 Warning obl-should-be-nmod] The parent (node [47] 'regiminis') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 17247 Sent train-s916]: [L3 Warning obl-should-be-nmod] The parent (node [3] 'habitudines') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 17308 Sent train-s919]: [L3 Warning obl-should-be-nmod] The parent (node [9] 'ordinem') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 18787 Sent train-s1005]: [L3 Warning obl-should-be-nmod] The parent (node [2] 'uoluntas') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 23355 Sent train-s1212]: [L3 Warning obl-should-be-nmod] The parent (node [10] 'agente') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 31847 Sent train-s1608]: [L3 Warning obl-should-be-nmod] The parent (node [25] 'rationibus') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 33357 Sent train-s1689]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'ordine') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further errors regarding Warning
+Warnings: 318
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.884570394492296) = 0.226812921664691
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
-(weight=0.307692307692308) * (score{udapi}=0.953764230872531) = 0.293465917191548
-(weight=0.0769230769230769) * (score{udeprels}=0.754054054054054) = 0.058004158004158
-(TOTAL score=0.811214118026813) * (availability=1) * (validity=1) = 0.811214118026813
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
+(weight=0.37037037037037) * (score{size}=0.884570394492296) = 0.327618664626776
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.705882352941177) = 0.0784313725490196
+(weight=0.111111111111111) * (score{udeprels}=0.778378378378378) = 0.0864864864864865
+(TOTAL score=0.750561215020307) * (availability=1) * (validity=1) = 0.750561215020307
 STARS = 4
-UD_Latin-ITTB	0.811214118026813	4
+UD_Latin-ITTB	0.750561215020307	4
