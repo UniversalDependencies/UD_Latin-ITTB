@@ -39,8 +39,8 @@
     <feat name="Aspect" value="Imp" upos="AUX,VERB">68682</feat><!-- est, esse, sit, sunt, potest, oportet, dicitur, habet, patet, dicit -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">11853</feat><!-- ostensum, fuit, dictum, separatae, dictis, probatum, separata, fuerit, praedicta, praemissis -->
     <feat name="Aspect" value="Prosp" upos="AUX,VERB">2823</feat><!-- dicendum, essendi, considerandum, intelligendum, agendo, intelligendo, sciendum, cognoscendo, agendum, ostendendum -->
-    <feat name="Case" value="Abl" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">34724</feat><!-- deo, hoc, quo, actu, forma, eo, modo, materia, potentia, quibus -->
-    <feat name="Case" value="Acc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">46138</feat><!-- hoc, se, formam, quod, finem, deum, quam, aliquid, suam, naturam -->
+    <feat name="Case" value="Abl" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">34725</feat><!-- deo, hoc, quo, actu, forma, eo, modo, materia, potentia, quibus -->
+    <feat name="Case" value="Acc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">46137</feat><!-- hoc, se, formam, quod, finem, deum, quam, aliquid, suam, naturam -->
     <feat name="Case" value="Acc,Nom" upos="ADJ,NOUN">12</feat><!-- necesse, opus, eidos, enchiridion -->
     <feat name="Case" value="Dat" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">7028</feat><!-- ei, sibi, deo, corpori, homini, nobis, alicui, eis, cui, formae -->
     <feat name="Case" value="Gen" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">28552</feat><!-- eius, dei, hominis, formae, rerum, corporis, naturae, intellectus, eorum, rei -->
@@ -130,7 +130,7 @@
     <feat name="Voice" value="Pass" upos="VERB">26070</feat><!-- dicitur, ostensum, uidetur, dicendum, sequitur, dictum, dici, inuenitur, fieri, dicuntur -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="61">
+  <deps unique="62">
     <dep name="acl">7615</dep>
     <dep name="acl:relcl">8683</dep>
     <dep name="advcl">12796</dep>
@@ -149,7 +149,7 @@
     <dep name="aux:pass">3685</dep>
     <dep name="case">39530</dep>
     <dep name="cc">17062</dep>
-    <dep name="ccomp">2527</dep>
+    <dep name="ccomp">2528</dep>
     <dep name="ccomp:relcl">346</dep>
     <dep name="ccomp:reported">4</dep>
     <dep name="compound">21</dep>
@@ -171,17 +171,18 @@
     <dep name="dislocated:obl">1</dep>
     <dep name="fixed">108</dep>
     <dep name="flat">102</dep>
+    <dep name="iobj">6</dep>
     <dep name="mark">24292</dep>
     <dep name="nmod">23928</dep>
-    <dep name="nsubj">28869</dep>
+    <dep name="nsubj">28871</dep>
     <dep name="nsubj:outer">163</dep>
     <dep name="nsubj:pass">8938</dep>
     <dep name="nummod">1401</dep>
-    <dep name="obj">12241</dep>
-    <dep name="obl">26593</dep>
+    <dep name="obj">12217</dep>
+    <dep name="obl">26594</dep>
     <dep name="obl:agent">1540</dep>
     <dep name="obl:arg">10268</dep>
-    <dep name="obl:cmp">1</dep>
+    <dep name="obl:cmp">2</dep>
     <dep name="obl:lmod">6</dep>
     <dep name="obl:tmod">2</dep>
     <dep name="orphan">1292</dep>
@@ -191,6 +192,6 @@
     <dep name="reparandum">32</dep>
     <dep name="root">26977</dep>
     <dep name="vocative">30</dep>
-    <dep name="xcomp">7205</dep>
+    <dep name="xcomp">7218</dep>
   </deps>
 </treebank>
