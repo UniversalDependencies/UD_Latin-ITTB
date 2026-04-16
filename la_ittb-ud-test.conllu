@@ -23803,7 +23803,7 @@
 15	partes	pars	NOUN	C1|grn1|casM|gen2	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Plur	11	nmod	_	_
 16	suas	suus	DET	A1|grn1|casM|gen2	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	15	det	_	_
 17	ad	ad	ADV	S4	_	18	case	_	_
-18	inuicem	inuicem	PRON	O4|vgr1	Compound=Yes|Number=Plur|PronType=Rcp	15	obl	_	SpaceAfter=No
+18	inuicem	inuicem	PRON	O4|vgr1	Compound=Yes|Number=Plur|PronType=Rcp	15	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	Punc	_	1	punct	_	_
 
 # sent_id = test-s1315
