@@ -3682,7 +3682,7 @@
 5	praedictorum	praedico	VERB	N2|modM|tem4|grp1|casK|gen3|vgr1	Aspect=Perf|Case=Gen|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	6	acl	_	TraditionalMood=Participium|TraditionalTense=Perfectum
 6	intelligibilium	intelligibilis	ADJ	C1|grn1|casK|gen3	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Plur	4	nmod	_	_
 7	in	in	ADP	S4	_	8	case	_	_
-8	aliquo	aliquis	PRON	F1|grn1|casF|gen3	Case=Abl|Compound=Yes|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	4	obl	_	_
+8	aliquo	aliquis	PRON	F1|grn1|casF|gen3	Case=Abl|Compound=Yes|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	4	nmod	_	_
 9	posteriorum	posterus	ADJ	C1|grn2|casK|gen3	Case=Gen|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Plur	10	amod	_	_
 10	intellectuum	intellego	VERB	L2|modM|tem4|grp1|casK|gen3	Aspect=Perf|Case=Gen|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	8	acl	_	TraditionalMood=Participium|TraditionalTense=Perfectum
 11	praeexigitur	praeexigo	VERB	L3|modJ|tem1|gen6	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
