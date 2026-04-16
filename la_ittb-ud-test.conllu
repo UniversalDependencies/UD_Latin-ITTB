@@ -8429,7 +8429,7 @@
 55	partium	pars	NOUN	C1|grn1|casK|gen2|vgr1	Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Plur	52	nmod	_	_
 56	definitionis	definitio	NOUN	C1|grn1|casB|gen2|vgr1	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	55	nmod	_	_
 57	ad	ad	ADV	S4	_	58	case	_	_
-58	inuicem	inuicem	PRON	O4|vgr1	Compound=Yes|Number=Plur|PronType=Rcp	55	obl	_	SpaceAfter=No
+58	inuicem	inuicem	PRON	O4|vgr1	Compound=Yes|Number=Plur|PronType=Rcp	55	nmod	_	SpaceAfter=No
 59	,	,	PUNCT	Punc	_	62	punct	_	_
 60	uel	uel	CCONJ	O4|vgr1	_	62	cc	_	_
 61	totius	totus	DET	F1|grn1|casB|gen2|vgr1	Case=Gen|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Tot	62	det	_	_
