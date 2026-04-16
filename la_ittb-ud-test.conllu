@@ -25340,7 +25340,7 @@
 10	quam	qui	PRON	F1|grn1|casD|gen2	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	11	obj	_	_
 11	habet	habeo	VERB	K3|modA|tem1|gen6	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 12	de	de	ADP	S4	_	13	case	_	_
-13	sanando	sano	VERB	J2|modE|grp1|casF	Aspect=Prosp|Case=Abl|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	9	obl	_	SpaceAfter=No|TraditionalMood=Gerundium
+13	sanando	sano	VERB	J2|modE|grp1|casF	Aspect=Prosp|Case=Abl|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	9	nmod	_	SpaceAfter=No|TraditionalMood=Gerundium
 14	,	,	PUNCT	Punc	_	17	punct	_	_
 15	illa	ille	DET	F1|grn1|casM|gen3	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem	16	det	_	_
 16	medicamenta	medicamentum	NOUN	B1|grn1|casM|gen3	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	17	obj	_	_
