@@ -10115,7 +10115,7 @@
 8	,	,	PUNCT	Punc	_	1	punct	_	_
 9	est	sum	AUX	N3|modA|tem1|gen6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 10	perfectissimum	perfectus	ADJ	B1|grn3|casA|gen3	Case=Nom|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing	0	root	_	_
-11	illius	ille	DET	F1|grn1|casB|gen3	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	12	obl	_	_
+11	illius	ille	DET	F1|grn1|casB|gen3	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	12	det	_	_
 12	generis	genus	NOUN	C1|grn1|casB|gen3	Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing	10	nmod	_	SpaceAfter=No
 13	:	:	PUNCT	Punc	_	10	punct	_	_
 
