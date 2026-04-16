@@ -18618,7 +18618,7 @@
 5	eo	is	PRON	F1|grn1|casF|gen1	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	0	root	_	_
 6	praeter	praeter	ADP	S4|vgr1	_	7	case	_	_
 7	essentiam	essentia	NOUN	A1|grn1|casD|gen2|vgr1	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	5	obl	_	_
-8	eius	is	PRON	F1|grn1|casB|gen1|vgr2	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No
+8	eius	is	PRON	F1|grn1|casB|gen1|vgr2	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	7	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = dev-s1018
