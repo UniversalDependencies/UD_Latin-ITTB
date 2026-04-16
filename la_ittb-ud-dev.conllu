@@ -26271,7 +26271,7 @@
 11	rebus	res	NOUN	E1|grn1|casO|gen2	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Plur	17	obl	_	_
 12	aliis	alius	DET	F1|grn1|casO|gen2|vgr1	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Con	11	det	_	_
 13	per	per	ADP	S4	_	16	case	_	_
-14	quandam	quidam	DET	F1|grn1|casD|gen2|vgr1	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Ind	16	obl	_	_
+14	quandam	quidam	DET	F1|grn1|casD|gen2|vgr1	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Ind	16	det	_	_
 15	deficientem	deficio	VERB	L2|modD|tem1|grp1|casD|gen2	Aspect=Imp|Case=Acc|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	16	acl	_	TraditionalMood=Participium|TraditionalTense=Praesens
 16	participationem	participatio	NOUN	C1|grn1|casD|gen2|vgr1	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	17	obl	_	_
 17	inuenitur	inuenio	VERB	M3|modJ|tem1|gen6|vgr1	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	25	advcl	_	Lilaflcat=LatI|SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
