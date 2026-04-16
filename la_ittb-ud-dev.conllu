@@ -32640,7 +32640,7 @@
 4	ordo	ordo	NOUN	C1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	10	nsubj	_	_
 5	multorum	multus	DET	B1|grn1|casK|gen3	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur|NumType=Card|PronType=Ind	4	nmod	_	_
 6	ad	ad	ADV	S4	_	7	case	_	_
-7	inuicem	inuicem	PRON	O4|vgr1	Compound=Yes|Number=Plur|PronType=Rcp	4	obl	_	_
+7	inuicem	inuicem	PRON	O4|vgr1	Compound=Yes|Number=Plur|PronType=Rcp	4	nmod	_	_
 8	est	sum	AUX	N3|modA|tem1|gen6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 9	per	per	ADP	S4	_	10	case	_	_
 10	accidens	accidens	NOUN	C1|grn1|casD|gen3	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	0	root	_	SpaceAfter=No
