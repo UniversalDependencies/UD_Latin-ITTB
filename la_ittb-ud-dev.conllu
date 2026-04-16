@@ -4879,7 +4879,7 @@
 11	in	in	ADP	S4	_	12	case	_	_
 12	libro	liber	NOUN	B1|grn1|casF|gen1	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	10	obl	_	Disambiguation=volumen
 13	de	de	ADP	S4	_	14	case	_	_
-14	trin.	trinitas	NOUN	5	Abbr=Yes|Proper=Yes	12	obl	_	SpaceAfter=No
+14	trin.	trinitas	NOUN	5	Abbr=Yes|Proper=Yes	12	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	Punc	_	16	punct	_	_
 16	loquens	loquor	VERB	L2|modM|tem1|grp1|casA|gen1	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	10	advcl	_	TraditionalMood=Participium|TraditionalTense=Praesens
 17	de	de	ADP	S4	_	19	case	_	_
