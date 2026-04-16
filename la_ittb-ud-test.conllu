@@ -34545,7 +34545,7 @@
 26	philosophum	philosophus	NOUN	B1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	24	obl	_	SpaceAfter=No
 27	,	,	PUNCT	Punc	_	29	punct	_	_
 28	in	in	ADP	S4	_	29	case	_	_
-29	iu	iu	NUM	G5|vgr1	_	26	obl	_	_
+29	iu	iu	NUM	G5|vgr1	_	26	nmod	_	_
 30	ethicorum	ethici	NOUN	B1|grn1|casK|gen1	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	29	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	Punc	_	20	punct	_	_
 
