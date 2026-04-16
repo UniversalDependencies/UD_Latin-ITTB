@@ -23911,10 +23911,10 @@
 15	rerum	res	NOUN	E1|grn1|casK|gen2	Case=Gen|Gender=Fem|InflClass=IndEurE|Number=Plur	16	nmod	_	_
 16	natura	natura	NOUN	A1|grn1|casF|gen2	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	10	conj	_	SpaceAfter=No
 17	:	:	PUNCT	Punc	_	18	punct	_	_
-18	nec	nec	CCONJ	O4	_	10	mark	_	_
+18	nec	nec	CCONJ	O4	_	21	cc	_	_
 19	solum	solum	ADV	B1|grn1|casG	PronType=Con	21	advmod	_	_
 20	absque	absque	ADP	S4|comH	_	21	case	_	_
-21	additione	additio	NOUN	C1|grn1|casF|gen2|comH	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	10	obl	_	SpaceAfter=No
+21	additione	additio	NOUN	C1|grn1|casF|gen2|comH	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	10	conj	_	SpaceAfter=No
 22	,	,	PUNCT	Punc	_	26	punct	_	_
 23	sed	sed	CCONJ	O4|vgr1	_	26	cc	_	_
 24	etiam	etiam	ADV	O4|vgr1	Compound=Yes	26	advmod:emph	_	_
