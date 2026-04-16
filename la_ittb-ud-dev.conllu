@@ -36912,7 +36912,7 @@
 6	in	in	ADP	S4	_	8	case	_	_
 7	aliquo	aliqui	DET	F1|grn1|casF|gen3	Case=Abl|Compound=Yes|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	8	det	_	_
 8	genere	genus	NOUN	C1|grn1|casF|gen3	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	10	obl	_	_
-9	entium	ens	NOUN	C1|grn1|casK|gen3	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Plur	8	obl	_	_
+9	entium	ens	NOUN	C1|grn1|casK|gen3	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Plur	8	nmod	_	_
 10	inueniatur	inuenio	VERB	M3|modK|tem1|gen6|vgr1	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	acl:relcl	_	Lilaflcat=LatI|SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Praesens
 11	,	,	PUNCT	Punc	_	14	punct	_	_
 12	ut	ut	SCONJ	O4|vgr1	PronType=Rel	14	mark	_	_
