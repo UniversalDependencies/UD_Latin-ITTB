@@ -3201,7 +3201,7 @@
 6	dictis	dictum	NOUN	B1|grn1|casO|gen3	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	1	obl	_	_
 7	philosophi	philosophus	NOUN	B1|grn1|casB|gen1	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	6	nmod	_	_
 8	in	in	ADP	S4	_	9	case	_	_
-9	x	x	NUM	G5	_	6	obl	_	_
+9	x	x	NUM	G5	_	6	nmod	_	_
 10	ethicor.	ethicus	ADJ	5	Abbr=Yes|Proper=Yes	9	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	Punc	_	1	punct	_	_
 
