@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Latin-ITTB:
-commit 146522924d8973e0c6dbb4e621e03f05b6e081f2
-Merge: 6e34125 50140a4
+commit d4da3a0689b59a49ae8d3b9c4db63f99d0ebca81
+Merge: b19bcbd 99da4ce
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'la_ittb'
@@ -19,38 +19,16 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 291640 out of 450517 total words have one or more features.
+Features: 291518 out of 450517 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-ITTB/la_ittb-ud-dev.conllu
-[Line 1360 Sent dev-s65]: [L3 WARNING verbform-fin-without-mood] Finite verb 'puta' lacks the 'Mood' feature
-[Line 18948 Sent dev-s1035]: [L3 WARNING verbform-fin-without-mood] Finite verb 'puta' lacks the 'Mood' feature
-[Line 24792 Sent dev-s1356]: [L3 WARNING verbform-fin-without-mood] Finite verb 'idest' lacks the 'Mood' feature
-[Line 24795 Sent dev-s1356]: [L3 WARNING verbform-fin-without-mood] Finite verb 'scilicet' lacks the 'Mood' feature
-[Line 34971 Sent dev-s1913]: [L3 WARNING verbform-fin-without-mood] Finite verb 'puta' lacks the 'Mood' feature
-Warnings: 5
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-ITTB/la_ittb-ud-test.conllu
-[Line 15645 Sent test-s856]: [L3 WARNING verbform-fin-without-mood] Finite verb 'puta' lacks the 'Mood' feature
-[Line 19108 Sent test-s1054]: [L3 WARNING verbform-fin-without-mood] Finite verb 'idest' lacks the 'Mood' feature
-[Line 29688 Sent test-s1613]: [L3 WARNING verbform-fin-without-mood] Finite verb 'puta' lacks the 'Mood' feature
-Warnings: 3
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-ITTB/la_ittb-ud-train.conllu
-[Line 4063 Sent train-s213]: [L3 WARNING verbform-fin-without-mood] Finite verb 'puta' lacks the 'Mood' feature
-[Line 38029 Sent train-s1930]: [L3 WARNING pron-det-without-prontype] The word 'cuiusmodi' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 54672 Sent train-s2819]: [L3 WARNING verbform-fin-without-mood] Finite verb 'puta' lacks the 'Mood' feature
-[Line 66092 Sent train-s3422]: [L3 WARNING verbform-fin-without-mood] Finite verb 'idest' lacks the 'Mood' feature
-[Line 70457 Sent train-s3618]: [L3 WARNING verbform-fin-without-mood] Finite verb 'puta' lacks the 'Mood' feature
-[Line 80295 Sent train-s4065]: [L3 WARNING verbform-fin-without-mood] Finite verb 'idest' lacks the 'Mood' feature
-[Line 82023 Sent train-s4144]: [L3 WARNING verbform-fin-without-mood] Finite verb 'idest' lacks the 'Mood' feature
-[Line 84835 Sent train-s4297]: [L3 WARNING verbform-fin-without-mood] Finite verb 'idest' lacks the 'Mood' feature
-[Line 87087 Sent train-s4406]: [L3 WARNING verbform-fin-without-mood] Finite verb 'idest' lacks the 'Mood' feature
-[Line 94389 Sent train-s4784]: [L3 WARNING verbform-fin-without-mood] Finite verb 'idest' lacks the 'Mood' feature
-...suppressing further messages regarding WARNING/MORPHO
-Warnings: 255
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
