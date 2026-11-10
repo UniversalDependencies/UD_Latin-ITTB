@@ -17,10 +17,10 @@
   <tags unique="15">
     <tag name="ADJ">28802</tag><!-- diuinus, primus, humanus, naturalis, christus, proprius, possibilis, ultimus, intelligibilis, intellectualis -->
     <tag name="ADP">39718</tag><!-- in, ad, per, ex, ab, secundum, de, propter, cum, sub -->
-    <tag name="ADV">22680</tag><!-- etiam, unde, sic, ergo, tamen, uero, supra, ita, magis, solum -->
+    <tag name="ADV">22681</tag><!-- etiam, unde, sic, ergo, tamen, uero, supra, ita, magis, solum -->
     <tag name="AUX">23592</tag><!-- sum -->
     <tag name="CCONJ">19149</tag><!-- et, sed, uel, nec, scilicet, neque, aut, siue, idest, atque -->
-    <tag name="DET">28682</tag><!-- hic, omnis, ipse, alius, suus, aliqui, ille, unus, quidam, idem -->
+    <tag name="DET">28681</tag><!-- hic, omnis, ipse, alius, suus, aliqui, ille, unus, quidam, idem -->
     <tag name="NOUN">93421</tag><!-- forma, deus, homo, corpus, res, intellectus, anima, materia, natura, substantia -->
     <tag name="NUM">2074</tag><!-- duo, i, tres, ii, iii, 1, 2, uii, uiii, iu -->
     <tag name="PART">22174</tag><!-- non, autem, igitur, enim, nam, quidem, ecce, an, itaque, o -->
@@ -49,7 +49,7 @@
     <feat name="Case" value="Voc" upos="ADJ,DET,NOUN,VERB">46</feat><!-- domine, deus, pater, praecipue, anania, expresse, male, maxime, omnes, altitudo -->
     <feat name="Compound" value="Yes" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,NUM,PART,PRON,SCONJ,VERB,X">17481</feat><!-- sicut, etiam, nisi, aliquid, aliqua, huiusmodi, scilicet, quasi, praeterea, ideo -->
     <feat name="Degree" value="Abs" upos="ADJ,ADV,DET,VERB">1444</feat><!-- primo, maxime, ultimum, ultimus, ultima, ultimo, ultimam, optimum, perfectissimum, ultimi -->
-    <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET,VERB">3515</feat><!-- amplius, prius, minus, plures, ulterius, inferioribus, superioribus, pluribus, plura, melius -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET,VERB">3516</feat><!-- amplius, prius, minus, plures, ulterius, inferioribus, superioribus, pluribus, plura, melius -->
     <feat name="Degree" value="Dim" upos="ADJ,NOUN">76</feat><!-- art., circuli, circulo, quaestiunc., stillam, articulo, capillos, circulum, circulus, cultellus -->
     <feat name="ExtPos" value="ADV" upos="ADV,CCONJ,SCONJ">11</feat><!-- ut, puta, scilicet, tunc -->
     <feat name="ExtPos" value="CCONJ" upos="PRON">1</feat><!-- id -->
@@ -109,7 +109,7 @@
     <feat name="Poss" value="Yes" upos="DET">2933</feat><!-- suam, sua, suum, suae, sui, suo, nostra, noster, suis, nostrae -->
     <feat name="PronType" value="Art" upos="DET">8</feat><!-- ly -->
     <feat name="PronType" value="Con" upos="ADV,DET">4260</feat><!-- solum, alia, aliud, aliis, alio, alterius, aliam, alii, sola, aliorum -->
-    <feat name="PronType" value="Dem" upos="ADV,DET,PART">12097</feat><!-- hoc, huiusmodi, ipsum, haec, illud, his, tantum, ipsa, ipse, ipsius -->
+    <feat name="PronType" value="Dem" upos="ADV,DET,PART">12100</feat><!-- hoc, huiusmodi, ipsum, haec, illud, his, tantum, ipsa, ipse, ipsius -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">9127</feat><!-- aliquid, aliqua, unum, nihil, quaedam, aliquam, una, aliquis, alicuius, aliquo -->
     <feat name="PronType" value="Int" upos="ADV,PRON">364</feat><!-- quid, quis, numquid, nunquid, cui, quem, quo -->
     <feat name="PronType" value="Prs" upos="DET,PRON">11402</feat><!-- se, eius, eo, ea, suam, sua, ei, id, nobis, eorum -->
@@ -123,9 +123,9 @@
     <feat name="Tense" value="Pqp" upos="AUX,VERB">220</feat><!-- fuisset, dixerat, fecerat, fuerat, accepisset, assumpsisset, dixisset, fuissent, habuisset, oportuisset -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">50235</feat><!-- est, sit, sunt, potest, oportet, dicitur, habet, patet, dicit, uidetur -->
     <feat name="Variant" value="Greek" upos="ADJ,NOUN,PROPN">40</feat><!-- isaias, salomon, ebion, satanas, anania, anaxagoras, daemon, ionas, iuda, anagogen -->
-    <feat name="VerbForm" value="Fin" upos="ADV,AUX,CCONJ,SCONJ,VERB">57650</feat><!-- est, sit, sunt, potest, oportet, dicitur, habet, patet, dicit, uidetur -->
-    <feat name="VerbForm" value="Inf" upos="AUX,NOUN,VERB">9494</feat><!-- esse, intelligere, dici, fieri, habere, facere, dicere, uelle, agere, intelligi -->
-    <feat name="VerbForm" value="Part" upos="ADJ,AUX,NOUN,VERB">16586</feat><!-- ostensum, dicendum, dictum, mouens, separatae, dictis, consequens, agens, probatum, essendi -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">57391</feat><!-- est, sit, sunt, potest, oportet, dicitur, habet, patet, dicit, uidetur -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">9459</feat><!-- esse, intelligere, dici, fieri, habere, facere, dicere, uelle, agere, intelligi -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">16506</feat><!-- ostensum, dicendum, dictum, mouens, separatae, dictis, consequens, probatum, essendi, agens -->
     <feat name="Voice" value="Act" upos="VERB">33696</feat><!-- potest, oportet, habet, patet, dicit, fit, possunt, habent, intelligere, possit -->
     <feat name="Voice" value="Pass" upos="VERB">26070</feat><!-- dicitur, ostensum, uidetur, dicendum, sequitur, dictum, dici, inuenitur, fieri, dicuntur -->
   </feats>
